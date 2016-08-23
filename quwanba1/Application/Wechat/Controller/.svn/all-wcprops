@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/quwanba/!svn/ver/2598/Application/Wechat/Controller
+END
+AllianceShopController.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/quwanba/!svn/ver/2302/Application/Wechat/Controller/AllianceShopController.class.php
+END
+CollectController.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/quwanba/!svn/ver/2464/Application/Wechat/Controller/CollectController.class.php
+END
+WechatPayController.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/quwanba/!svn/ver/2564/Application/Wechat/Controller/WechatPayController.class.php
+END
+IndexController.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/quwanba/!svn/ver/2434/Application/Wechat/Controller/IndexController.class.php
+END
+CommonController.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/quwanba/!svn/ver/2555/Application/Wechat/Controller/CommonController.class.php
+END
+ShopController.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/quwanba/!svn/ver/2458/Application/Wechat/Controller/ShopController.class.php
+END
+OrderController.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/quwanba/!svn/ver/2569/Application/Wechat/Controller/OrderController.class.php
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/quwanba/!svn/ver/1/Application/Wechat/Controller/index.html
+END
+AlipayController.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/quwanba/!svn/ver/2327/Application/Wechat/Controller/AlipayController.class.php
+END
+SpokesmanController.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/quwanba/!svn/ver/2598/Application/Wechat/Controller/SpokesmanController.class.php
+END

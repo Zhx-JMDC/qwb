@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html;charset=utf-8">
+	<title>我的收藏</title>
+	<link rel="stylesheet" type="text/css" href="css/css.css">
+	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="js/js.js"></script>
+</head>
+<body style="background-color: #f5f5f5">
+	<div id="top">
+		<!-- <p class="topBar">
+			<span class="top_left"><img src="images/top_left.png"><a href="">返回</a>&nbsp;&nbsp;<a href="">关闭</a></span>
+			我的收藏
+			<span class="top_right"><img src="images/top_dot.png"></span>
+		</p> -->
+	</div>
+	<div id="content">
+		<div class="friendsBar mycollectBar">
+			<ul>
+				<li class="friendsBar-clicked">商城收藏</li>
+				<li>联盟商家收藏</li>
+			</ul>
+		</div>
+		<div class="mycollectMain">
+			<ul>
+				<li>
+					<p class="myorderPic_01">
+					<img src="images/order_temp.png">
+					<i><a href="#"><img src="images/mycollect_delete.png"></a></i>
+					</p>
+					<p class="mycollectMain_02"><a href="#">大罗山盘云谷别墅套房</a></p>
+					<p class="mycollectMain_03">趣玩吧价格</p>
+					<p class="mycollectMain_04">￥300 <span>￥420</span></p>
+					<p class="mycollectMain_06 mycollectMain_06_state_01"><span>返</span>￥20</p>
+					<p class="mycollectMain_05 mycollectMain_05_state_01"><span><img src="images/clock_light.png"></span>
+						正在抢购<br>ING...</p>
+				</li>
+				<li>
+					<p class="myorderPic_01">
+					<img src="images/order_temp.png">
+					<i><a href="#"><img src="images/mycollect_delete.png"></a></i>
+					</p>
+					<p class="mycollectMain_02"><a href="#">大罗山盘云谷别墅套房</a></p>
+					<p class="mycollectMain_03">趣玩吧价格</p>
+					<p class="mycollectMain_04">￥300 <span>￥420</span></p>
+					<p class="mycollectMain_06 mycollectMain_06_state_02"><span>返</span>￥20</p>
+					<p class="mycollectMain_05 mycollectMain_05_state_02"><span><img src="images/clock_light.png"></span>
+						正在抢购<br>ING...</p>
+				</li>
+				<li>
+					<p class="myorderPic_01">
+					<img src="images/order_temp.png">
+					<i><a href="#"><img src="images/mycollect_delete.png"></a></i>
+					</p>
+					<p class="mycollectMain_02"><a href="#">大罗山盘云谷别墅套房</a></p>
+					<p class="mycollectMain_03">趣玩吧价格</p>
+					<p class="mycollectMain_04">￥300 <span>￥420</span></p>
+					<p class="mycollectMain_06 mycollectMain_06_state_03"><span>返</span>￥20</p>
+					<p class="mycollectMain_05 mycollectMain_05_state_03"><span><img src="images/clock_light.png"></span>
+						正在抢购<br>ING...</p>
+				</li>
+			</ul>
+		</div>
+		<div class="mycollectHind">
+			<p>已到最后一页</p>
+		</div>
+	</div>
+	<div id="footer">
+		<ul>
+			<li><a href="#">
+				<p class="footer_botton_p1"><img src="images/bottom_01.png"></p>
+				<p class="footer_botton_p2">商城首页</p></a>
+			</li>
+			<li><a href="#">
+				<p class="footer_botton_p1"><img src="images/bottom_02.png"></p>
+				<p class="footer_botton_p2">联盟商家</p></a>
+			</li>
+			<li><a href="#">
+				<p class="footer_botton_p1"><img src="images/bottom_03.png"></p>
+				<p class="footer_botton_p2">我的收藏</p></a>
+			</li>
+			<li><a href="#">
+				<p class="footer_botton_p1"><img src="images/bottom_04.png"></p>
+				<p class="footer_botton_p2">我的订单</p></a>
+			</li>
+			<li><a href="#">
+				<p class="footer_botton_p1"><img src="images/bottom_05.png"></p>
+				<p class="footer_botton_p2">我是代言人</p></a>
+			</li>
+		</ul>
+	</div>
+</body>
+</html>

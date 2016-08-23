@@ -1,0 +1,63 @@
+<extend name="Public/base2" />
+<block name="title">我是旅行家</block>
+<block name="body">
+	<div id="content">
+		<div class="buycardTop">
+			<p class="buycard_01"><img src="{$user.headimgurl}"></p>
+			<p class="buycard_02">{$user.nickname}</p>
+			<p class="buycard_03">ID：{$user.qwb_id}</p>
+			<p class="buycard_04 currentVip">
+				<if condition="$rank eq vip_letter">您还不是旅行家
+					<else />当前等级<img src="__IMG__/{$rank}.png">
+				</if>
+			</p>
+			<p class="buycard_letter">
+				<a href="{:U('Spokesman/app_message')}"><img src="__IMG__/message_top_right.png">
+					<if condition="$message_count eq 0"><else /><span>{$message_count}</span></if>
+				</a>
+			</p>
+		</div>
+		<div class="persetMain">
+			<!--<div class="persetMain_01"><p>饭票提取账户管理<span></span>-->
+				<!--<ul>-->
+					<!--<li><span>支付宝账号：</span><input type="text"></li>-->
+					<!--<li><span>姓名：</span><input type="text"></li>-->
+					<!--<li>保存设置</li>-->
+				<!--</ul>-->
+			<!--</div>-->
+			<div class="persetMain_02" onclick="clearCache()">清除缓存<span id="cache">{$cache}M</span></div>
+			<div class="persetMain_03">关于我们<span></span></div>
+			<div class="persetMain_04" onclick="quit();"><a>退出当前账号</a></div>
+		</div>
+	</div>
+</block>
+<block name="script">
+	<script>
+		var ua = navigator.userAgent;
+		var appInstall = {
+			isChrome: ua.match(/Chrome\/([\d.]+)/) || ua.match(/CriOS\/([\d.]+)/),
+			isAndroid: ua.match(/(Android);?[\s\/]+([\d.]+)?/),
+			isIphone: (ua.match(/iPad/i) != null || (navigator.userAgent.match(/iPhone/i) != null) || (navigator.userAgent.match(/iPod/i) != null)),
+			isWeixin: ua.match(/MicroMessenger/i) != null,
+			isUC: ua.match(/UCBrowser/i) != null,
+			isQQ: ua.match(/QQBrowser/i) != null
+		}
+
+		function clearCache(){
+			if (appInstall.isAndroid) {
+				androidPay.androidCleanCache();
+			} else if (appInstall.isIphone){
+				clearMemory();
+			}
+			$('#cache').html('0M');
+		}
+
+		function quit(){
+			if (appInstall.isAndroid) {
+				androidPay.androidLogout();
+			} else if (appInstall.isIphone){
+				quitToLogin();
+			}
+		}
+	</script>
+</block>

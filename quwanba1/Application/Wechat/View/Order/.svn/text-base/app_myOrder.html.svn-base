@@ -1,0 +1,60 @@
+<extend name="Public/base2" />
+<block name="title">我的订单</block>
+<block name="body">
+	<div id="top">
+		<!-- <p class="topBar">
+			<span class="top_left"><img src="__IMG__/top_left.png"><a href="">返回</a>&nbsp;&nbsp;<a href="">关闭</a></span>
+			订单详情
+			<span class="top_right"><img src="__IMG__/top_dot.png"></span>
+		</p> -->
+	</div>
+	<div id="content">
+		<div class="myorderPic">
+			<ul>
+				<foreach name="order" item="v">
+				<li>
+					<p class="myorderPic_01"><a href="{:U('Order/app_order_intro',array('id'=>$v['id']))}"><img src="{$v.pic}"></a></p>
+					<div class="myorderPicLeft">
+						<p onclick="code('{$v.id}')" class="myorderPic_img">
+							<switch name="v.status" >
+								<case value="0">
+									<img src="__IMG__/order_code_small.png">
+									<div id="code{$v.id}" class="myorder_code_big myorder_big codeAll">
+										<img onclick="code('{$v.id}')" src="{$v.qr_code}">
+										<p>扫描二维码确定订单消费</p>
+
+									</div>
+								</case>
+								<default />
+							</switch>
+						</p>
+					</div>
+
+					<div class="myorderPicRight">
+						<p class="myorderPic_02">{$v.name}<span>￥{$v.price}</span></p>
+						<p class="myorderPic_03">订单日期：<?php echo date('Y/m/d h:i:s',strtotime($v['buy_time']));?>
+							<switch name="v.status" >
+								<case value="1"><span>消费完成</span></case>
+								<case value="2"><span>等待退款</span></case>
+								<case value="3"><span>已退款</span></case>
+								<default /><span>已预定订单</span>
+							</switch>
+						</p>
+					</div>
+				</li>
+				</foreach>
+			</ul>
+		</div>
+	</div>
+</block>
+<block name="script">
+	<script>
+		function code(id){
+			if($('#code'+id).is(':hidden')){
+				$('#code'+id).css('display','block');
+			}else{
+				$('#code'+id).css('display','none');
+			}
+		}
+	</script>
+</block>

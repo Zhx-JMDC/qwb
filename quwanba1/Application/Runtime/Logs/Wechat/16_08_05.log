@@ -1,0 +1,376 @@
+[ 2016-08-05T15:36:11+08:00 ] ::1 /quwanba1/index.php/Wechat/Index/get_QRCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000964s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001321s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0672s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0089s ]
+ERR: 参数错误或者未定义:id
+
+[ 2016-08-05T15:36:19+08:00 ] ::1 /quwanba1/index.php/Wechat/Index/get_QRCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0221s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0786s ]
+ERR: 参数错误或者未定义:id
+
+[ 2016-08-05T22:39:42+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/shop_intro
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000157s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000981s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0081s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0107s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `qwb_shop` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0122s ]
+SQL: SHOW COLUMNS FROM `qwb_shop_detail` [ RunTime:0.0095s ]
+SQL: SELECT `address`,`contact`,`introduce` FROM `qwb_shop_detail` WHERE ( 1=1 AND shop_id='4' ) LIMIT 1   [ RunTime:0.0074s ]
+SQL: SHOW COLUMNS FROM `qwb_shop_price` [ RunTime:0.0076s ]
+SQL: SELECT `original_value`,`selling_value`,`name` FROM `qwb_shop_price` WHERE ( 1=1 AND shop_id='4' )  [ RunTime:0.0079s ]
+SQL: SHOW COLUMNS FROM `qwb_shop_play` [ RunTime:0.0078s ]
+SQL: SELECT `path` FROM `qwb_shop_play` WHERE ( 1=1 AND shop_id='4' )  [ RunTime:0.0095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002031s ]
+
+[ 2016-08-05T22:40:09+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/shop_intro
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001053s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0074s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0103s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `qwb_shop` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `qwb_shop_detail` [ RunTime:0.0077s ]
+SQL: SELECT `address`,`contact`,`introduce` FROM `qwb_shop_detail` WHERE ( 1=1 AND shop_id='4' ) LIMIT 1   [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `qwb_shop_price` [ RunTime:0.0077s ]
+SQL: SELECT `original_value`,`selling_value`,`name` FROM `qwb_shop_price` WHERE ( 1=1 AND shop_id='4' )  [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `qwb_shop_play` [ RunTime:0.0085s ]
+SQL: SELECT `path` FROM `qwb_shop_play` WHERE ( 1=1 AND shop_id='4' )  [ RunTime:0.0075s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001209s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001796s ]
+
+[ 2016-08-05T22:40:10+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/shop_intro
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000974s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001065s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0076s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `qwb_shop` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0076s ]
+SQL: SHOW COLUMNS FROM `qwb_shop_detail` [ RunTime:0.0070s ]
+SQL: SELECT `address`,`contact`,`introduce` FROM `qwb_shop_detail` WHERE ( 1=1 AND shop_id='4' ) LIMIT 1   [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `qwb_shop_price` [ RunTime:0.0078s ]
+SQL: SELECT `original_value`,`selling_value`,`name` FROM `qwb_shop_price` WHERE ( 1=1 AND shop_id='4' )  [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `qwb_shop_play` [ RunTime:0.0076s ]
+SQL: SELECT `path` FROM `qwb_shop_play` WHERE ( 1=1 AND shop_id='4' )  [ RunTime:0.0155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000974s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001542s ]
+
+[ 2016-08-05T22:40:12+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/shop_intro
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000942s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001114s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0079s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0077s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `qwb_shop` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `qwb_shop_detail` [ RunTime:0.0066s ]
+SQL: SELECT `address`,`contact`,`introduce` FROM `qwb_shop_detail` WHERE ( 1=1 AND shop_id='4' ) LIMIT 1   [ RunTime:0.0067s ]
+SQL: SHOW COLUMNS FROM `qwb_shop_price` [ RunTime:0.0091s ]
+SQL: SELECT `original_value`,`selling_value`,`name` FROM `qwb_shop_price` WHERE ( 1=1 AND shop_id='4' )  [ RunTime:0.0067s ]
+SQL: SHOW COLUMNS FROM `qwb_shop_play` [ RunTime:0.0070s ]
+SQL: SELECT `path` FROM `qwb_shop_play` WHERE ( 1=1 AND shop_id='4' )  [ RunTime:0.0065s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001103s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001682s ]
+
+[ 2016-08-05T22:40:13+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/shop_intro
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000833s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000982s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0096s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0076s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `qwb_shop` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0076s ]
+SQL: SHOW COLUMNS FROM `qwb_shop_detail` [ RunTime:0.0078s ]
+SQL: SELECT `address`,`contact`,`introduce` FROM `qwb_shop_detail` WHERE ( 1=1 AND shop_id='4' ) LIMIT 1   [ RunTime:0.0069s ]
+SQL: SHOW COLUMNS FROM `qwb_shop_price` [ RunTime:0.0073s ]
+SQL: SELECT `original_value`,`selling_value`,`name` FROM `qwb_shop_price` WHERE ( 1=1 AND shop_id='4' )  [ RunTime:0.0069s ]
+SQL: SHOW COLUMNS FROM `qwb_shop_play` [ RunTime:0.0071s ]
+SQL: SELECT `path` FROM `qwb_shop_play` WHERE ( 1=1 AND shop_id='4' )  [ RunTime:1.0444s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000931s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001397s ]
+
+[ 2016-08-05T22:40:13+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/shop_intro
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000142s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001030s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0102s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0069s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `qwb_shop` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `qwb_shop_detail` [ RunTime:0.0067s ]
+SQL: SELECT `address`,`contact`,`introduce` FROM `qwb_shop_detail` WHERE ( 1=1 AND shop_id='4' ) LIMIT 1   [ RunTime:0.0062s ]
+SQL: SHOW COLUMNS FROM `qwb_shop_price` [ RunTime:0.0071s ]
+SQL: SELECT `original_value`,`selling_value`,`name` FROM `qwb_shop_price` WHERE ( 1=1 AND shop_id='4' )  [ RunTime:0.0088s ]
+SQL: SHOW COLUMNS FROM `qwb_shop_play` [ RunTime:0.0068s ]
+SQL: SELECT `path` FROM `qwb_shop_play` WHERE ( 1=1 AND shop_id='4' )  [ RunTime:0.0063s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000984s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001474s ]
+
+[ 2016-08-05T22:40:14+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/shop_intro
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000768s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000982s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0083s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0082s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `qwb_shop` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0237s ]
+SQL: SHOW COLUMNS FROM `qwb_shop_detail` [ RunTime:0.0079s ]
+SQL: SELECT `address`,`contact`,`introduce` FROM `qwb_shop_detail` WHERE ( 1=1 AND shop_id='4' ) LIMIT 1   [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `qwb_shop_price` [ RunTime:0.0089s ]
+SQL: SELECT `original_value`,`selling_value`,`name` FROM `qwb_shop_price` WHERE ( 1=1 AND shop_id='4' )  [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `qwb_shop_play` [ RunTime:0.0074s ]
+SQL: SELECT `path` FROM `qwb_shop_play` WHERE ( 1=1 AND shop_id='4' )  [ RunTime:0.0072s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000958s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001349s ]
+
+[ 2016-08-05T22:40:14+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/shop_intro
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001040s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0074s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `qwb_shop` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0087s ]
+SQL: SHOW COLUMNS FROM `qwb_shop_detail` [ RunTime:0.0079s ]
+SQL: SELECT `address`,`contact`,`introduce` FROM `qwb_shop_detail` WHERE ( 1=1 AND shop_id='4' ) LIMIT 1   [ RunTime:0.0099s ]
+SQL: SHOW COLUMNS FROM `qwb_shop_price` [ RunTime:0.0085s ]
+SQL: SELECT `original_value`,`selling_value`,`name` FROM `qwb_shop_price` WHERE ( 1=1 AND shop_id='4' )  [ RunTime:0.0069s ]
+SQL: SHOW COLUMNS FROM `qwb_shop_play` [ RunTime:0.0079s ]
+SQL: SELECT `path` FROM `qwb_shop_play` WHERE ( 1=1 AND shop_id='4' )  [ RunTime:0.0072s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002878s ]
+
+[ 2016-08-05T22:43:11+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/shop_intro
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000735s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000973s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0082s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0082s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `qwb_shop` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0084s ]
+SQL: SHOW COLUMNS FROM `qwb_shop_detail` [ RunTime:0.0078s ]
+SQL: SELECT `address`,`contact`,`introduce` FROM `qwb_shop_detail` WHERE ( 1=1 AND shop_id='4' ) LIMIT 1   [ RunTime:0.0081s ]
+SQL: SHOW COLUMNS FROM `qwb_shop_price` [ RunTime:0.0083s ]
+SQL: SELECT `original_value`,`selling_value`,`name` FROM `qwb_shop_price` WHERE ( 1=1 AND shop_id='4' )  [ RunTime:0.0077s ]
+SQL: SHOW COLUMNS FROM `qwb_shop_play` [ RunTime:0.0082s ]
+SQL: SELECT `path` FROM `qwb_shop_play` WHERE ( 1=1 AND shop_id='4' )  [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `qwb_collect` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `qwb_collect` WHERE `uid` = 123 AND `collect_id` = 4 AND `type` = 1 LIMIT 1   [ RunTime:0.0074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001096s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001558s ]
+
+[ 2016-08-05T22:43:12+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/shop_intro
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000920s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0083s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0092s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `qwb_shop` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0069s ]
+SQL: SHOW COLUMNS FROM `qwb_shop_detail` [ RunTime:0.0070s ]
+SQL: SELECT `address`,`contact`,`introduce` FROM `qwb_shop_detail` WHERE ( 1=1 AND shop_id='4' ) LIMIT 1   [ RunTime:0.0067s ]
+SQL: SHOW COLUMNS FROM `qwb_shop_price` [ RunTime:0.0101s ]
+SQL: SELECT `original_value`,`selling_value`,`name` FROM `qwb_shop_price` WHERE ( 1=1 AND shop_id='4' )  [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `qwb_shop_play` [ RunTime:0.0070s ]
+SQL: SELECT `path` FROM `qwb_shop_play` WHERE ( 1=1 AND shop_id='4' )  [ RunTime:0.0066s ]
+SQL: SHOW COLUMNS FROM `qwb_collect` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `qwb_collect` WHERE `uid` = 123 AND `collect_id` = 4 AND `type` = 1 LIMIT 1   [ RunTime:0.0071s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000752s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001125s ]
+
+[ 2016-08-05T22:46:24+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/shop_intro
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000781s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000889s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0107s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `qwb_shop` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: discount_img /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Controller/AllianceShopController.class.php 第 294 行.
+NOTIC: [8] Undefined index: introduce /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Controller/AllianceShopController.class.php 第 297 行.
+NOTIC: [8] Undefined index: shop_play /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Controller/AllianceShopController.class.php 第 300 行.
+NOTIC: [2] Invalid argument supplied for foreach() /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Controller/AllianceShopController.class.php 第 300 行.
+NOTIC: [8] Undefined index: buy_url /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Controller/AllianceShopController.class.php 第 305 行.
+SQL: SHOW COLUMNS FROM `qwb_collect` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `qwb_collect` WHERE `uid` = 123 AND `collect_id` = 0 AND `type` = 1 LIMIT 1   [ RunTime:0.0068s ]
+NOTIC: [8] Undefined index: shop_play /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Controller/AllianceShopController.class.php 第 321 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000273s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000652s ]
+NOTIC: [8] Undefined index: name /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Runtime/Cache/Wechat/5c794bd75f06f92390922c303d47aa1a.php 第 6 行.
+NOTIC: [8] Undefined index: shop_play /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Runtime/Cache/Wechat/5c794bd75f06f92390922c303d47aa1a.php 第 20 行.
+NOTIC: [8] Undefined index: shop_play /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Runtime/Cache/Wechat/5c794bd75f06f92390922c303d47aa1a.php 第 26 行.
+NOTIC: [8] Undefined index: shop_name /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Runtime/Cache/Wechat/5c794bd75f06f92390922c303d47aa1a.php 第 34 行.
+NOTIC: [8] Undefined index: shop_price /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Runtime/Cache/Wechat/5c794bd75f06f92390922c303d47aa1a.php 第 38 行.
+NOTIC: [8] Undefined index: address /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Runtime/Cache/Wechat/5c794bd75f06f92390922c303d47aa1a.php 第 44 行.
+NOTIC: [8] Undefined index: contact /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Runtime/Cache/Wechat/5c794bd75f06f92390922c303d47aa1a.php 第 48 行.
+NOTIC: [8] Undefined index: shop_name /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Runtime/Cache/Wechat/5c794bd75f06f92390922c303d47aa1a.php 第 53 行.
+NOTIC: [8] Undefined index: id /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Runtime/Cache/Wechat/5c794bd75f06f92390922c303d47aa1a.php 第 65 行.
+NOTIC: [8] Undefined index: can_buy /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Runtime/Cache/Wechat/5c794bd75f06f92390922c303d47aa1a.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028343s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028853s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000785s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001179s ]
+
+[ 2016-08-05T22:46:26+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/shop_intro
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001240s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0104s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0319s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `qwb_shop` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0077s ]
+NOTIC: [8] Undefined index: discount_img /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Controller/AllianceShopController.class.php 第 294 行.
+NOTIC: [8] Undefined index: introduce /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Controller/AllianceShopController.class.php 第 297 行.
+NOTIC: [8] Undefined index: shop_play /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Controller/AllianceShopController.class.php 第 300 行.
+NOTIC: [2] Invalid argument supplied for foreach() /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Controller/AllianceShopController.class.php 第 300 行.
+NOTIC: [8] Undefined index: buy_url /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Controller/AllianceShopController.class.php 第 305 行.
+SQL: SHOW COLUMNS FROM `qwb_collect` [ RunTime:0.0222s ]
+SQL: SELECT * FROM `qwb_collect` WHERE `uid` = 123 AND `collect_id` = 0 AND `type` = 1 LIMIT 1   [ RunTime:0.0075s ]
+NOTIC: [8] Undefined index: shop_play /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Controller/AllianceShopController.class.php 第 321 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000232s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000593s ]
+NOTIC: [8] Undefined index: name /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Runtime/Cache/Wechat/5c794bd75f06f92390922c303d47aa1a.php 第 6 行.
+NOTIC: [8] Undefined index: shop_play /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Runtime/Cache/Wechat/5c794bd75f06f92390922c303d47aa1a.php 第 20 行.
+NOTIC: [8] Undefined index: shop_play /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Runtime/Cache/Wechat/5c794bd75f06f92390922c303d47aa1a.php 第 26 行.
+NOTIC: [8] Undefined index: shop_name /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Runtime/Cache/Wechat/5c794bd75f06f92390922c303d47aa1a.php 第 34 行.
+NOTIC: [8] Undefined index: shop_price /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Runtime/Cache/Wechat/5c794bd75f06f92390922c303d47aa1a.php 第 38 行.
+NOTIC: [8] Undefined index: address /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Runtime/Cache/Wechat/5c794bd75f06f92390922c303d47aa1a.php 第 44 行.
+NOTIC: [8] Undefined index: contact /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Runtime/Cache/Wechat/5c794bd75f06f92390922c303d47aa1a.php 第 48 行.
+NOTIC: [8] Undefined index: shop_name /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Runtime/Cache/Wechat/5c794bd75f06f92390922c303d47aa1a.php 第 53 行.
+NOTIC: [8] Undefined index: id /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Runtime/Cache/Wechat/5c794bd75f06f92390922c303d47aa1a.php 第 65 行.
+NOTIC: [8] Undefined index: can_buy /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Runtime/Cache/Wechat/5c794bd75f06f92390922c303d47aa1a.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028206s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028638s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000717s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000918s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001424s ]
+
+[ 2016-08-05T22:49:49+08:00 ] ::1 /quwanba1/index.php/Wechat/Collect/collect.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000818s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001121s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0143s ]
+SQL: SHOW COLUMNS FROM `qwb_collect` [ RunTime:0.0097s ]
+SQL: SHOW COLUMNS FROM `qwb_collect` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `qwb_collect` WHERE `uid` = 123 AND `collect_id` = 0 AND `type` = 1 LIMIT 1   [ RunTime:0.0110s ]
+SQL: INSERT INTO `qwb_collect` (`type`,`collect_id`,`uid`,`time`) VALUES ('1','0','123','2016-08-05 22:49:49') [ RunTime:0.0097s ]
+NOTIC: [8] Use of undefined constant flase - assumed 'flase' /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Controller/CollectController.class.php 第 81 行.
+
+[ 2016-08-05T22:50:04+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/shop_intro
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000731s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001004s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0079s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `qwb_shop` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0076s ]
+NOTIC: [8] Undefined index: discount_img /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Controller/AllianceShopController.class.php 第 294 行.
+NOTIC: [8] Undefined index: introduce /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Controller/AllianceShopController.class.php 第 297 行.
+NOTIC: [8] Undefined index: shop_play /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Controller/AllianceShopController.class.php 第 300 行.
+NOTIC: [2] Invalid argument supplied for foreach() /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Controller/AllianceShopController.class.php 第 300 行.
+NOTIC: [8] Undefined index: buy_url /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Controller/AllianceShopController.class.php 第 305 行.
+SQL: SHOW COLUMNS FROM `qwb_collect` [ RunTime:0.0188s ]
+SQL: SELECT * FROM `qwb_collect` WHERE `uid` = 123 AND `collect_id` = 0 AND `type` = 1 LIMIT 1   [ RunTime:0.0077s ]
+NOTIC: [8] Undefined index: shop_play /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Controller/AllianceShopController.class.php 第 321 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000346s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000778s ]
+NOTIC: [8] Undefined index: name /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Runtime/Cache/Wechat/5c794bd75f06f92390922c303d47aa1a.php 第 6 行.
+NOTIC: [8] Undefined index: shop_play /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Runtime/Cache/Wechat/5c794bd75f06f92390922c303d47aa1a.php 第 20 行.
+NOTIC: [8] Undefined index: shop_play /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Runtime/Cache/Wechat/5c794bd75f06f92390922c303d47aa1a.php 第 26 行.
+NOTIC: [8] Undefined index: shop_name /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Runtime/Cache/Wechat/5c794bd75f06f92390922c303d47aa1a.php 第 34 行.
+NOTIC: [8] Undefined index: shop_price /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Runtime/Cache/Wechat/5c794bd75f06f92390922c303d47aa1a.php 第 38 行.
+NOTIC: [8] Undefined index: address /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Runtime/Cache/Wechat/5c794bd75f06f92390922c303d47aa1a.php 第 44 行.
+NOTIC: [8] Undefined index: contact /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Runtime/Cache/Wechat/5c794bd75f06f92390922c303d47aa1a.php 第 48 行.
+NOTIC: [8] Undefined index: shop_name /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Runtime/Cache/Wechat/5c794bd75f06f92390922c303d47aa1a.php 第 53 行.
+NOTIC: [8] Undefined index: id /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Runtime/Cache/Wechat/5c794bd75f06f92390922c303d47aa1a.php 第 65 行.
+NOTIC: [8] Undefined index: can_buy /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Runtime/Cache/Wechat/5c794bd75f06f92390922c303d47aa1a.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028891s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029603s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001221s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001852s ]
+

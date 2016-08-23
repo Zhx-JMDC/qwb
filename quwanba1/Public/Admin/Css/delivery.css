@@ -1,0 +1,65 @@
+body{
+
+}
+.area-wrap{
+    height: auto;
+    border: 1px solid #e5e5e5;
+    margin: 0;
+    padding: 0;
+}
+.area-wrap-contain{
+    height: 100%;
+}
+.area-wrap .area-editor-header{
+    background: #f6f6f6;
+    border: 1px solid #e5e5e5;
+    margin: 0;
+    padding: 10px;
+}
+.area-wrap .area-editor-list{
+    margin: 0;
+    padding:0;
+    height: 300px;
+}
+.area-wrap .depth0{
+    overflow: auto;
+}
+.area-editor-content{
+}
+
+.area-editor-list .area-editor-list-title{
+    margin: 0;
+    padding-left: 15px;
+
+}
+.area-editor-list .area-editor-list-title-content{
+    height: 40px;
+    padding-left: 20px;
+    line-height: 43px;
+    position: relative;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+.area-editor-list-title-content > .prefix{
+    position: absolute;
+    top: 13px;
+    width: 15px;/*设置了radius属性 height 无效。。*/
+    line-height: 15px;
+    left: 0px;
+    border-radius: 50%;
+    text-align: center;
+    color: #FFFFFF;
+    background: #d7d7d7;
+}
+.selected > .area-editor-list-title-content > .prefix{
+    background: #FFFFFF;
+    color:#d7d7d7;
+}
+
+.area-editor-list .selected{
+    background: #d7d7d7;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}

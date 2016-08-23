@@ -1,0 +1,51 @@
+<extend name="Public/base" />
+<block name="scriptTop">
+	<script type="text/javascript">
+		//调用微信JS api 支付
+		function jsApiCall()
+		{
+			WeixinJSBridge.invoke(
+					'getBrandWCPayRequest',
+					{$jsApiParameters},
+					function(res){
+						WeixinJSBridge.log(res.err_msg);
+						switch (res.err_msg){
+							case 'get_brand_wcpay_request:cancel':break;
+							case 'get_brand_wcpay_request:fail':break;
+							case 'get_brand_wcpay_request:ok':location.href="{:U('Spokesman/represent_v')}";break;
+						}
+					}
+			);
+		}
+
+		function callpay()
+		{
+			if (typeof WeixinJSBridge == "undefined"){
+				if( document.addEventListener ){
+					document.addEventListener('WeixinJSBridgeReady', jsApiCall, false);
+				}else if (document.attachEvent){
+					document.attachEvent('WeixinJSBridgeReady', jsApiCall);
+					document.attachEvent('onWeixinJSBridgeReady', jsApiCall);
+				}
+			}else{
+				jsApiCall();
+			}
+		}
+	</script>
+</block>
+<block name="body">
+	<div id="content">
+		<div class="cardforTop">
+			<switch name="type" >
+				<case value="0"><p><img src="__IMG__/buycard_S.png"></p></case>
+				<case value="1"><p><img src="__IMG__/buycard_V.png"></p></case>
+				<default />
+			</switch>
+		</div>
+		<div class="cardforMain">
+			<div class="cardforMain_buttom" style="padding-top:450px;"><p style="color:#fff;" onclick="callpay()">确认并支付</p></div>
+		</div>
+	</div>
+</block>
+<block name="script">
+</block>

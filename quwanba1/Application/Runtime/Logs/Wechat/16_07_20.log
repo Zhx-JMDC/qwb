@@ -1,0 +1,183 @@
+[ 2016-07-20T18:12:09+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/shop_index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000917s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001415s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0076s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0066s ]
+ERR: 非法操作:shop_index
+
+[ 2016-07-20T18:12:09+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000137s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001764s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0103s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0074s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-07-20T18:12:22+08:00 ] ::1 /quwanba1/index.php/Wechat/WechatPay/notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000118s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001122s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001239s ]
+SQL: SHOW COLUMNS FROM `qwb_card_history` [ RunTime:0.0119s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0082s ]
+SQL: SHOW COLUMNS FROM `qwb_card_history` [ RunTime:0.0079s ]
+SQL: SELECT `status` FROM `qwb_card_history` WHERE ( id = 106 ) LIMIT 1   [ RunTime:0.0079s ]
+NOTIC: [2] require_once(WxPay.Api.php): failed to open stream: No such file or directory /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Vendor/wxpay/example/notify.php 第 5 行.
+
+[ 2016-07-20T18:12:23+08:00 ] ::1 /quwanba1/index.php/Wechat/WechatPay/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000742s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000953s ]
+SQL: SHOW COLUMNS FROM `qwb_card_history` [ RunTime:0.0101s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0094s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-07-20T18:12:49+08:00 ] ::1 /quwanba1/index.php/Wechat/WechatPay/notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000787s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001193s ]
+SQL: SHOW COLUMNS FROM `qwb_card_history` [ RunTime:0.0085s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0172s ]
+SQL: SHOW COLUMNS FROM `qwb_card_history` [ RunTime:0.0092s ]
+SQL: SELECT `status` FROM `qwb_card_history` WHERE ( id = 106 ) LIMIT 1   [ RunTime:0.0085s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001588s ]
+
+[ 2016-07-20T18:12:49+08:00 ] ::1 /quwanba1/index.php/Wechat/WechatPay/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000824s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000965s ]
+SQL: SHOW COLUMNS FROM `qwb_card_history` [ RunTime:0.0099s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0089s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-07-20T18:12:50+08:00 ] ::1 /quwanba1/index.php/Wechat/WechatPay/notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000760s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+SQL: SHOW COLUMNS FROM `qwb_card_history` [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `qwb_card_history` [ RunTime:0.0202s ]
+SQL: SELECT `status` FROM `qwb_card_history` WHERE ( id = 106 ) LIMIT 1   [ RunTime:0.0096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001582s ]
+
+[ 2016-07-20T18:12:50+08:00 ] ::1 /quwanba1/index.php/Wechat/WechatPay/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `qwb_card_history` [ RunTime:0.0107s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0327s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-07-20T18:13:04+08:00 ] ::1 /quwanba1/index.php/Wechat/WechatPay/notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000957s ]
+SQL: SHOW COLUMNS FROM `qwb_card_history` [ RunTime:0.0097s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `qwb_card_history` [ RunTime:0.0073s ]
+SQL: SELECT `status` FROM `qwb_card_history` WHERE ( id = 106 ) LIMIT 1   [ RunTime:0.0068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001263s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001966s ]
+
+[ 2016-07-20T18:13:04+08:00 ] ::1 /quwanba1/index.php/Wechat/WechatPay/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000759s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000967s ]
+SQL: SHOW COLUMNS FROM `qwb_card_history` [ RunTime:0.0093s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0130s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-07-20T18:13:04+08:00 ] ::1 /quwanba1/index.php/Wechat/WechatPay/notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000744s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001013s ]
+SQL: SHOW COLUMNS FROM `qwb_card_history` [ RunTime:0.0162s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0154s ]
+SQL: SHOW COLUMNS FROM `qwb_card_history` [ RunTime:0.0098s ]
+SQL: SELECT `status` FROM `qwb_card_history` WHERE ( id = 106 ) LIMIT 1   [ RunTime:0.0155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001646s ]
+
+[ 2016-07-20T18:13:04+08:00 ] ::1 /quwanba1/index.php/Wechat/WechatPay/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000161s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002007s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001282s ]
+SQL: SHOW COLUMNS FROM `qwb_card_history` [ RunTime:0.0111s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0320s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-07-20T21:37:39+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/shop_index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000106s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001447s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0085s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0128s ]
+ERR: 非法操作:shop_index
+
+[ 2016-07-20T23:55:22+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/shop_index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001256s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0081s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0079s ]
+ERR: 非法操作:shop_index
+
+[ 2016-07-20T23:55:23+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001030s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0069s ]
+ERR: 非法操作:index.js.map
+

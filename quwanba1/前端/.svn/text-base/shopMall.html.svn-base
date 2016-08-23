@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html;charset=utf-8">
+	<title>趣玩商城</title>
+	<link rel="stylesheet" type="text/css" href="css/css.css">
+	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="js/jquery.touchSlider.js"></script>
+	<script type="text/javascript" src="js/js.js"></script>
+</head>
+<body>
+	<div id="top">
+		<!-- <p class="topBar">
+			<span class="top_left"><img src="images/top_left.png"><a href="">返回</a>&nbsp;&nbsp;<a href="">关闭</a></span>
+			订单详情
+			<span class="top_right"><img src="images/top_dot.png"></span>
+		</p> -->
+	</div>
+	<div id="content">
+		<div class="shopllBar">
+			<ul>
+				<li class="friendsBar-clicked">
+					<p><a href="#"><img src="images/clock_dark.png">&nbsp;超值疯抢</a></p></li>
+				<li>
+					<p><a href="#"><img src="images/shop_new_dark.png">&nbsp;最新推荐</a></p></li>
+				<li>
+					<p><a href="#"><img src="images/shop_hot_dark.png">&nbsp;当季热门</a></p></li>
+				<!-- <li style="border-bottom:#fff 4px solid;">
+					<p><a href="#"><img src="images/shop_select_dark.png"></a></p>
+				</li> -->
+			</ul>
+		</div>
+		<div class="shopinGroup">
+			<div class="main_visual">
+				<div class="flicking_con">
+					<a href="#">&nbsp;</a>
+					<a href="#">&nbsp;</a>
+					<a href="#">&nbsp;</a>
+					<a href="#">&nbsp;</a>
+					<a href="#">&nbsp;</a>
+				</div>
+				<div class="main_image">
+					<ul>
+						<li><img src="images/shop_top_bc.png"></li>
+						<li><img src="images/shop_top_bc.png"></li>
+						<li><img src="images/s
+						hop_top_bc.png"></li>
+						<li><img src="images/shop_top_bc.png"></li>
+						<li><img src="images/shop_top_bc.png"></li>
+					</ul>
+					<a href="javascript:;" id="btn_prev"></a>
+					<a href="javascript:;" id="btn_next"></a>
+				</div>
+			</div>
+		</div>
+		<div class="shopllAd">
+			<!-- 购卡广告，待定 -->
+			<p><img src="images/buycard_V.png"></p>
+		</div>
+		<!-- 商品列表 -->
+		<div class="mycollectMain">
+			<ul>
+				<!-- 超值疯抢 -->
+				<li class="shopllMainBar">
+					<p class="shopll_main_title"><img src="images/shop_clock_dark_big.png"></p>
+					<p class="shopll_main_sub">不定时发放/数量有限/抢完为止</p>
+				</li>
+				<li>
+					<p class="myorderPic_01">
+					<img src="images/order_temp.png">
+					</p>
+					<p class="mycollectMain_02"><a href="#">大罗山盘云谷别墅套房</a></p>
+					<p class="mycollectMain_03">趣玩吧价格</p>
+					<p class="mycollectMain_04">￥300 <span>￥420</span></p>
+					<p class="mycollectMain_06 mycollectMain_06_state_01"><span>返</span>￥20</p>
+					<div class="mycollectMain_05 mycollectMain_05_state_01"><span><img src="images/clock_light.png"></span>
+						正在抢购<br>ING...</div>
+				</li>
+				<!-- 最新推荐 -->
+				<li class="shopllMainBar">
+					<p class="shopll_main_title"><img src="images/shop_new_dark_big.png"></p>
+					<p class="shopll_main_sub">不定时发放/数量有限/抢完为止</p>
+				</li>
+				<li>
+					<p class="myorderPic_01">
+					<img src="images/order_temp.png">
+					</p>
+					<p class="mycollectMain_02"><a href="#">大罗山盘云谷别墅套房</a></p>
+					<p class="mycollectMain_03">趣玩吧价格</p>
+					<p class="mycollectMain_04">￥300 <span>￥420</span></p>
+					<p class="mycollectMain_06 mycollectMain_06_state_02"><span>返</span>￥20</p>
+					<div class="mycollectMain_05 mycollectMain_05_state_02"><span><img src="images/clock_light.png"></span>
+						正在抢购<br>ING...</div>
+				</li>
+				<!-- 当季热门 -->
+				<li class="shopllMainBar">
+					<p class="shopll_main_title"><img src="images/shop_hot_dark_big.png"></p>
+					<p class="shopll_main_sub">不定时发放/数量有限/抢完为止</p>
+				</li>
+				<li>
+					<p class="myorderPic_01">
+					<img src="images/order_temp.png">
+					</p>
+					<p class="mycollectMain_02"><a href="#">大罗山盘云谷别墅套房</a></p>
+					<p class="mycollectMain_03">趣玩吧价格</p>
+					<p class="mycollectMain_04">￥300 <span>￥420</span></p>
+					<p class="mycollectMain_06 mycollectMain_06_state_03"><span>返</span>￥20</p>
+					<p class="mycollectMain_05 mycollectMain_05_state_03"><span><img src="images/clock_light.png"></span>
+						正在抢购<br>ING...</p>
+				</li>
+				<!-- 联盟商家折扣 -->
+				
+			</ul>
+
+			<div class="shopllMainCut">
+				<p ><img src="images/shop_top_bc.png"></p>
+			</div>
+
+			<ul>
+				<li>
+					<p class="myorderPic_01">
+					<img src="images/order_temp.png">
+					</p>
+					<p class="mycollectMain_02"><a href="#">大罗山盘云谷别墅套房</a></p>
+					<p class="mycollectMain_03">趣玩吧价格</p>
+					<p class="mycollectMain_04">￥300 <span>￥420</span></p>
+					<p class="mycollectMain_06 mycollectMain_06_state_01"><span>返</span>￥20</p>
+					<p class="mycollectMain_05 mycollectMain_05_state_01"><span><img src="images/clock_light.png"></span>
+						正在抢购<br>ING...</p>
+				</li>
+			</ul>
+		</div>
+		<div class="mycollectHind">
+			<p>已到最后一页</p>
+		</div>
+	</div>
+	<div id="footer">
+		<ul>
+			<li><a href="#">
+				<p class="footer_botton_p1"><img src="images/bottom_01.png"></p>
+				<p class="footer_botton_p2">商城首页</p></a>
+			</li>
+			<li><a href="#">
+				<p class="footer_botton_p1"><img src="images/bottom_02.png"></p>
+				<p class="footer_botton_p2">联盟商家</p></a>
+			</li>
+			<li><a href="#">
+				<p class="footer_botton_p1"><img src="images/bottom_03.png"></p>
+				<p class="footer_botton_p2">我的收藏</p></a>
+			</li>
+			<li><a href="#">
+				<p class="footer_botton_p1"><img src="images/bottom_04.png"></p>
+				<p class="footer_botton_p2">我的订单</p></a>
+			</li>
+			<li><a href="#">
+				<p class="footer_botton_p1"><img src="images/bottom_05.png"></p>
+				<p class="footer_botton_p2">我是代言人</p></a>
+			</li>
+		</ul>
+	</div>
+</body>
+<script type="text/javascript">
+$(document).ready(function(){
+
+	$(".main_visual").hover(function(){
+		$("#btn_prev,#btn_next").fadeIn()
+	},function(){
+		$("#btn_prev,#btn_next").fadeOut()
+	});
+	
+	$dragBln = false;
+	
+	$(".main_image").touchSlider({
+		flexible : true,
+		speed : 200,
+		btn_prev : $("#btn_prev"),
+		btn_next : $("#btn_next"),
+		paging : $(".flicking_con a"),
+		counter : function (e){
+			$(".flicking_con a").removeClass("on").eq(e.current-1).addClass("on");
+		}
+	});
+	
+	$(".main_image").bind("mousedown", function() {
+		$dragBln = false;
+	});
+	
+	$(".main_image").bind("dragstart", function() {
+		$dragBln = true;
+	});
+	
+	$(".main_image a").click(function(){
+		if($dragBln) {
+			return false;
+		}
+	});
+	
+	timer = setInterval(function(){
+		$("#btn_next").click();
+	}, 5000);
+	
+	$(".main_visual").hover(function(){
+		clearInterval(timer);
+	},function(){
+		timer = setInterval(function(){
+			$("#btn_next").click();
+		},5000);
+	});
+	
+	$(".main_image").bind("touchstart",function(){
+		clearInterval(timer);
+	}).bind("touchend", function(){
+		timer = setInterval(function(){
+			$("#btn_next").click();
+		}, 5000);
+	});
+	
+});
+</script>
+</html>

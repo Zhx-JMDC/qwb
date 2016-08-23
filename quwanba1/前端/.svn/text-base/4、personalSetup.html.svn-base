@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html;charset=utf-8">
+	<title>我是代言人</title>
+	<link rel="stylesheet" type="text/css" href="css/css.css">
+	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="js/js.js"></script>
+</head>
+<body>
+	<div id="top">
+		<!-- <p class="topBar">
+			<span class="top_left"><img src="images/top_left.png"><a href="">返回</a>&nbsp;&nbsp;<a href="">关闭</a></span>
+			订单详情
+			<span class="top_right"><img src="images/top_dot.png"></span>
+		</p> -->
+	</div>
+	<div id="content">
+		<div class="buycardTop">
+			<p class="buycard_01"><img src="images/buycard_temp.png"></p>
+			<p class="buycard_02">趣玩吧旅行</p>
+			<p class="buycard_03">ID：43853434</p>
+			<p class="buycard_04">您还不是代言人</p>
+			<p class="buycard_04 currentVip">当前等级<img src="images/vip_letter_v.png"></p>
+			<p class="buycard_04">当前等级<img src="images/vip_letter_s.png"></p>
+		</div>
+		<div class="persetMain">
+			<div class="persetMain_01"><p>饭票提取账户管理<span></span>
+				<ul>
+					<li><span>支付宝账号：</span><input type="text"></li>
+					<li><span>姓名：</span><input type="text"></li>
+					<li>保存设置</li>
+				</ul>
+			</div>
+			<div class="persetMain_02">清除缓存<span>12.5M</span></div>
+			<div class="persetMain_03">关于我们<span></span></div>
+			<div class="persetMain_04"><a href="#">退出当前账号</a></div>
+		</div>
+	</div>
+	<div id="footer">
+		<ul>
+			<li><a href="#">
+				<p class="footer_botton_p1"><img src="images/bottom_01.png"></p>
+				<p class="footer_botton_p2">商城首页</p></a>
+			</li>
+			<li><a href="#">
+				<p class="footer_botton_p1"><img src="images/bottom_02.png"></p>
+				<p class="footer_botton_p2">联盟商家</p></a>
+			</li>
+			<li><a href="#">
+				<p class="footer_botton_p1"><img src="images/bottom_03.png"></p>
+				<p class="footer_botton_p2">我的收藏</p></a>
+			</li>
+			<li><a href="#">
+				<p class="footer_botton_p1"><img src="images/bottom_04.png"></p>
+				<p class="footer_botton_p2">我的订单</p></a>
+			</li>
+			<li><a href="#">
+				<p class="footer_botton_p1"><img src="images/bottom_05.png"></p>
+				<p class="footer_botton_p2">我是代言人</p></a>
+			</li>
+		</ul>
+	</div>
+</body>
+ <script>
+    var hour = 12, min = 30, se=00,
+        interval;
+    window.onload = function() {
+        var d = new Date("1111/1/1,"+ hour + ":" + min + ":" + se);
+        interval = setInterval(function() {
+            var h = d.getHours();
+            var m = d.getMinutes();
+            var s = d.getSeconds();
+            h = h < 10 ? "0" + h : h;
+            m = m < 10 ? "0" + m : m;
+            s = s < 10 ? "0" + s : s;
+            myTime.innerHTML = h + ":" + m + ":" + s;
+            if (h==0 && m == 0 && s == 0) {
+                clearInterval(interval);
+                return;
+            }
+            d.setSeconds(s - 1);
+        }, 1000);
+    }
+</script>
+</html>

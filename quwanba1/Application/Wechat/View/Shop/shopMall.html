@@ -1,0 +1,224 @@
+<extend name="Public/base" />
+<block name="title">趣玩商城</block>
+<block name="body">
+	<div id="content">
+		<div class="shopllBar">
+			<ul>
+				<li class="friendsBar-clicked">
+					<p><a href="#shopllMainBar_1"><img src="__IMG__/clock_dark.png">&nbsp;超值疯抢</a></p></li>
+				<li>
+					<p><a href="#shopllMainBar_2"><img src="__IMG__/shop_new_dark.png">&nbsp;最新推荐</a></p></li>
+				<li>
+					<p><a href="#shopllMainBar_3"><img src="__IMG__/shop_hot_dark.png">&nbsp;当季热门</a></p></li>
+				<!-- <li style="border-bottom:#fff 4px solid;">
+                    <p><a href="#"><img src="__IMG__/shop_select_dark.png"></a></p>
+                </li> -->
+			</ul>
+		</div>
+		<div class="shopinGroup">
+			<div class="main_visual">
+				<div class="flicking_con">
+					<a>&nbsp;</a>
+					<a>&nbsp;</a>
+					<a>&nbsp;</a>
+					<a>&nbsp;</a>
+					<a>&nbsp;</a>
+				</div>
+				<div class="main_image">
+					<ul>
+						<foreach name="ad" item="v">
+							<div onclick="window.location.href='{$v.skip_url}'" style="height: 100%;"><li class="clickImg"><img src="{$v.path}"></li></div>
+						</foreach>
+					</ul>
+					<!--<a href="javascript:;" id="btn_prev"></a>-->
+					<!--<a href="javascript:;" id="btn_next"></a>-->
+				</div>
+			</div>
+			<div class="shopinGroupBottom">kkkk</div>
+		</div>
+		<div class="shopllAd">
+			<!-- 购卡广告，待定 -->
+			<foreach name="ad_card" item="v">
+				<p ><a href="{:U('Spokesman/buy_card')}"><img src="{$v.path}"></a></p>
+			</foreach>
+		</div>
+		<!-- 商品列表 -->
+		<div class="mycollectMain">
+			<ul>
+				<volist name="goods" id="vo">
+					<!-- 超值疯抢 -->
+					<li class="shopllMainBar">
+						<p class="shopll_main_title"><img src="{$vo.icon}" id="shopllMainBar_{$vo.id}"></p>
+						<!-- <p class="shopll_main_sub">不定时发放/数量有限/抢完为止</p> -->
+					</li>
+					<volist name="vo['goods']" id="v">
+						<li>
+							<p class="myorderPic_01">
+								<a href="{:U('Shop/shop_mall_intro',array('id'=>$v['id']))}"><img class="lazy" data-original="{$v.pic}"></a>
+							</p>
+							<p class="mycollectMain_02">{$v.name}</p>
+							<p class="mycollectMain_03">趣玩吧价格</p>
+							<p class="mycollectMain_04">￥{$v.selling_price} <span>￥{$v.original_price}</span></p>
+							<switch name="v.status" >
+								<case value="1">
+									<if condition="$v.rebate eq 0 ">
+										<else /><p class="mycollectMain_06 mycollectMain_06_state_02"><span class="f-icon"><span class="f-value">F</span></span>￥{$v.rebate}</p>
+									</if>
+									<p class="mycollectMain_05 mycollectMain_05_state_02"><span><img src="__IMG__/clock_light.png"></span>
+										正在抢购<br>ING...</p></case>
+								<case value="2">
+									<if condition="$v.rebate eq 0 ">
+										<else /><p class="mycollectMain_06 mycollectMain_06_state_03"><span class="f-icon"><span class="f-value">F</span></span>￥{$v.rebate}</p>
+									</if>
+									<p class="mycollectMain_05 mycollectMain_05_state_03"><span><img src="__IMG__/clock_light.png"></span>
+										抢购结束<br>over</p></case>
+								<default />
+								<if condition="$v.rebate eq 0 ">
+									<else /><p class="mycollectMain_06 mycollectMain_06_state_01"><span class="f-icon"><span class="f-value">F</span></span>￥{$v.rebate}</p>
+								</if>
+							</switch>
+						</li>
+					</volist>
+				</volist>
+			</ul>
+
+			<div class="shopllMainCut">
+				<foreach name="ad_bottom" item="v">
+					<p ><a href="{:U('Spokesman/buy_card')}"><img class="lazy" data-original="{$v.path}"></a></p>
+				</foreach>
+
+			</div>
+
+			<ul>
+				<foreach name="goods_data" item="v">
+					<li>
+						<p class="myorderPic_01">
+							<a href="{:U('Shop/shop_mall_intro',array('id'=>$v['id']))}"><img src="{$v.pic}"></a>
+						</p>
+						<p class="mycollectMain_02">{$v.name}</p>
+						<p class="mycollectMain_03">趣玩吧价格</p>
+						<p class="mycollectMain_04">￥{$v.selling_price} <span>￥{$v.original_price}</span></p>
+						<if condition="$v.rebate eq 0 ">
+							<else /><p class="mycollectMain_06 mycollectMain_06_state_01"><span class="f-icon"><span class="f-value">F</span></span>￥{$v.rebate}</p>
+						</if>
+					</li>
+				</foreach>
+			</ul>
+		</div>
+		<div class="mycollectHind">
+			<p>已到最后一页</p>
+		</div>
+	</div>
+</block>
+<block name="script">
+	<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=o3icfVSFoj4EdWaACMXGLll8TiA02UYB"></script>
+	<script>
+		wx.config({
+			debug:     false,
+			appId:     '{$signPackage.appId}',
+			timestamp: '{$signPackage.timestamp}',
+			nonceStr:  '{$signPackage.nonceStr}',
+			signature: '{$signPackage.signature}',
+			jsApiList: [
+				// 所有要调用的 API 都要加到这个列表中
+				'checkJsApi',
+				'openLocation',
+				'getLocation'
+			]
+		});
+		wx.ready(function () {
+			// 在这里调用 API
+			wx.checkJsApi({
+				jsApiList: [
+					'getLocation'
+				],
+				success: function (res) {
+					if (res.checkResult.getLocation == false) {
+						alert('你的微信版本太低，不支持微信JS接口，请升级到最新的微信版本！');
+						return;
+					}
+				}
+			});
+			wx.getLocation({
+				success: function (res) {
+					var latitude  = res.latitude;  // 纬度，浮点数，范围为90 ~ -90
+					var longitude = res.longitude; // 经度，浮点数，范围为180 ~ -180。
+
+					var myGeo=new BMap.Geocoder();
+					myGeo.getLocation(new BMap.Point(longitude,latitude),function(result){
+						var city = result.addressComponents.city;
+						$.ajax({
+							url: "{:U('AllianceShop/get_city')}",
+							type: 'post',
+							data: {
+								'province': result.addressComponents.province,
+								'city': city,
+								'latitude':latitude,
+								'longitude':longitude
+							},
+							success: function (data) {}
+						});
+					});
+				},
+				cancel: function (res) {
+					alert('用户拒绝授权获取地理位置');
+				}
+			});
+		});
+
+
+		$(".main_visual").hover(function(){
+			$("#btn_prev,#btn_next").fadeIn()
+		},function(){
+			$("#btn_prev,#btn_next").fadeOut()
+		});
+
+		$dragBln = false;
+
+		$(".main_image").touchSlider({
+			flexible : true,
+			speed : 200,
+			btn_prev : $("#btn_prev"),
+			btn_next : $("#btn_next"),
+			paging : $(".flicking_con a"),
+			counter : function (e){
+				$(".flicking_con a").removeClass("on").eq(e.current-1).addClass("on");
+			}
+		});
+
+		$(".main_image").bind("mousedown", function() {
+			$dragBln = false;
+		});
+
+		$(".main_image").bind("dragstart", function() {
+			$dragBln = true;
+		});
+
+		$(".main_image a").click(function(){
+			if($dragBln) {
+				return false;
+			}
+		});
+
+		timer = setInterval(function(){
+			$("#btn_next").click();
+		}, 5000);
+
+		$(".main_visual").hover(function(){
+			clearInterval(timer);
+		},function(){
+			timer = setInterval(function(){
+				$("#btn_next").click();
+			},5000);
+		});
+
+		$(".main_image").bind("touchstart",function(){
+			clearInterval(timer);
+		}).bind("touchend", function(){
+			timer = setInterval(function(){
+				$("#btn_next").click();
+			}, 5000);
+		});
+	</script>
+</block>

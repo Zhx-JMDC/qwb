@@ -1,0 +1,181 @@
+<extend name="Public/base" />
+
+<block name="body">
+	<!-- 标题栏 -->
+	<div class="panel panel-default">
+		<div class="panel-heading main-title">
+			<h2>当季热门</h2>
+
+		</div><!--		panel-heading		-->
+		<div class="panel-body">
+			 <!-- 高级搜索 -->
+			<div class="well">
+				<div class="row">
+					<div class="col-sm-3">
+						<div class="form-group">
+							<label class="control-label" for="input-shopname">商户名</label>
+							<input type="text" name="shop_name" value="{$shop_name}" placeholder="商户名" id="input-shopname" class="form-control">
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="form-group">
+							<label class="control-label" for="input-shopname">商品名称</label>
+							<input type="text" name="name" value="{$name}" placeholder="商户名" id="input-goodsname" class="form-control">
+						</div>
+					</div>
+					<div class="col-sm-1">
+						<div class="form-group">
+							<label class="control-label">最高/低价</label>
+							<select id="price" name="price" class="form-control">
+								<option value=""></option>
+								<option value="1">价格降序</option>
+								<option value="0">价格升序</option>
+							</select>
+						</div>
+					</div>
+					<div class="col-sm-1">
+						<div class="form-group">
+							<label class="control-label">省</label>
+							<select name="province_id" class="form-control" id="province" onchange="getCity()">
+								<option value=""></option>
+								<foreach name="_province" item="v">
+									<option value="{$v.id}">{$v.name}</option>
+								</foreach>
+							</select>
+						</div>
+					</div>
+					<div class="col-sm-2">
+						<div class="form-group">
+							<label class="control-label">市</label>
+							<select name="city_id" class="form-control" id="city" onchange="getDistrict()">
+								<option value=""></option>
+							</select>
+						</div>
+					</div>
+					<div class="col-sm-2">
+						<div class="form-group">
+							<label class="control-label">区</label>
+							<select name="district_id" id="district" class="form-control">
+								<option value=""></option>
+							</select>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<a><button class="btn btn-primary pull-right" style="margin-right: 10px;" onclick='window.location.href="{:U('Shop/goods_export')}?type=3"'>导出</button></a>
+						<button type="submit" id="button-filter" class="btn btn-primary pull-right" style="margin-right: 10px;"><i class="fa fa-search"></i>筛选</button>
+					</div>
+				</div>
+			</div>
+		    <!-- 数据列表 -->
+		    <div class="data-table table-striped">
+			<table class="table">
+		    <thead>
+		        <tr>
+					<th>序号</th>
+					<th>商户名</th>
+                    <th>区域</th>
+		        	<th>商品名称</th>
+		        	<th>活动类型</th>
+					<th>完成订单数</th>
+					<th>退订订单数</th>
+					<th>库存</th>
+					<th>价格</th>
+					<th>审核状态</th>
+					<th>操作</th>
+					<th>位置</th>
+				</tr>
+		    </thead>
+		    <tbody>
+				<notempty name="_list">
+				<volist name="_list" id="vo">
+				<tr>
+					<td id="user_id">{$vo.id} </td>
+					<td>{$vo.shop_name}</td>
+                    <td>{$vo.province}&nbsp;{$vo.city}&nbsp;{$vo.district}</td>
+					<td>{$vo.name}</td>
+					<td>{$vo.type_name}</td>
+					<td>{$vo.complete}单</td>
+					<td>{$vo.countermand}单</td>
+					<td>
+						<volist name="vo.goods_price" id="v">
+							{$v.name}&nbsp;:{$v.inventory}</br>
+						</volist>
+					</td>
+					<td>{$vo.selling_price}</td>
+					<td><if condition="$vo.conditions eq 1">上架<else/>已下架</if></td>
+					<td>
+						<a href="{:U('Shop/goods_detail',array('id'=>$vo['id']))}">查看</a>
+						<a onclick="shopDel('{$vo.id}')">移除</a>
+					</td>
+					<td>{$vo.order}</td>
+				</tr>
+				</volist>
+				<else/>
+				<td colspan="10" class="text-center"> aOh! 暂时还没有内容! </td>
+				</notempty>
+			</tbody>
+		    </table>
+			</div>
+		    <div class="page">
+		        {$_page}
+		    </div>
+	    </div>
+    </div><!--		panel 		-->
+</block>
+
+<block name="script">
+	<script src="__JS__/thinkbox/jquery.thinkbox.js"></script>
+	<script>
+		$('#button-filter').on('click', function() {
+			debugger
+			var url = Think.APP+'/Admin/ShopHot/index?token=lalala';
+
+			var name = $('input[name=\'name\']').val();
+			if (name) {
+				url += '&name=' + encodeURIComponent(name);
+			}
+
+			var shop_name = $('input[name=\'shop_name\']').val();
+			if (shop_name) {
+				url += '&shop_name=' + encodeURIComponent(shop_name);
+			}
+
+			var price = $('#price option:selected') .val();
+			if (price) {
+				url += '&price=' + encodeURIComponent(price);
+			}
+
+			var province_id = $('#province option:selected') .val();
+			if (province_id) {
+				url += '&province_id=' + encodeURIComponent(province_id);
+			}
+
+			var city_id = $('#city option:selected') .val();
+			if (city_id) {
+				url += '&city_id=' + encodeURIComponent(city_id);
+			}
+
+			var district_id = $('#district option:selected') .val();
+			if (district_id) {
+				url += '&district_id=' + encodeURIComponent(district_id);
+			}
+			location = url;
+		});
+
+		$("#price  option[value='{$price}']").attr("selected",true);
+		function shopDel(id){
+			if (confirm("你确定删除吗？")) {
+				$.ajax({
+					url: "{:U('Shop/goods_del')}",
+					type: 'post',
+					data: {'id': id},
+					success: function (data) {
+						window.location.href = "{:U('Shop/index')}";
+					}
+				});
+			}
+		}
+	</script>
+</block>

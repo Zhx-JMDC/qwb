@@ -1,0 +1,658 @@
+[ 2016-07-26T15:42:27+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000834s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001537s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0107s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0097s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0098s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0094s ]
+ERR: 1054:Unknown column 'order_num' in 'where clause'
+ [ SQL语句 ] : SELECT `wechat_num` FROM `qwb_order` left join qwb_shop on qwb_order.shop_id = qwb_shop.id  WHERE `order_num` = 'F726172179913713' LIMIT 1  
+ERR: 1054:Unknown column 'order_num' in 'where clause'
+ [ SQL语句 ] : SELECT `wechat_num` FROM `qwb_order` left join qwb_shop on qwb_order.shop_id = qwb_shop.id  WHERE `order_num` = 'F726172179913713' LIMIT 1  
+
+[ 2016-07-26T15:44:56+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000937s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0106s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0084s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0094s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0083s ]
+ERR: 1054:Unknown column 'wechat_num' in 'field list'
+ [ SQL语句 ] : SELECT `wechat_num` FROM `qwb_order` left join qwb_order_detail on qwb_order_detail.order_id = qwb_shop.id  WHERE `order_num` = 'F726172179913713' LIMIT 1  
+ERR: 1054:Unknown column 'wechat_num' in 'field list'
+ [ SQL语句 ] : SELECT `wechat_num` FROM `qwb_order` left join qwb_order_detail on qwb_order_detail.order_id = qwb_shop.id  WHERE `order_num` = 'F726172179913713' LIMIT 1  
+
+[ 2016-07-26T15:44:57+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000144s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001216s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0106s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0081s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0091s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0101s ]
+ERR: 1054:Unknown column 'wechat_num' in 'field list'
+ [ SQL语句 ] : SELECT `wechat_num` FROM `qwb_order` left join qwb_order_detail on qwb_order_detail.order_id = qwb_shop.id  WHERE `order_num` = 'F726172179913713' LIMIT 1  
+ERR: 1054:Unknown column 'wechat_num' in 'field list'
+ [ SQL语句 ] : SELECT `wechat_num` FROM `qwb_order` left join qwb_order_detail on qwb_order_detail.order_id = qwb_shop.id  WHERE `order_num` = 'F726172179913713' LIMIT 1  
+
+[ 2016-07-26T15:44:57+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001231s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0105s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0106s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0096s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0100s ]
+ERR: 1054:Unknown column 'wechat_num' in 'field list'
+ [ SQL语句 ] : SELECT `wechat_num` FROM `qwb_order` left join qwb_order_detail on qwb_order_detail.order_id = qwb_shop.id  WHERE `order_num` = 'F726172179913713' LIMIT 1  
+ERR: 1054:Unknown column 'wechat_num' in 'field list'
+ [ SQL语句 ] : SELECT `wechat_num` FROM `qwb_order` left join qwb_order_detail on qwb_order_detail.order_id = qwb_shop.id  WHERE `order_num` = 'F726172179913713' LIMIT 1  
+
+[ 2016-07-26T15:44:58+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001190s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0153s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0121s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0107s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0114s ]
+ERR: 1054:Unknown column 'wechat_num' in 'field list'
+ [ SQL语句 ] : SELECT `wechat_num` FROM `qwb_order` left join qwb_order_detail on qwb_order_detail.order_id = qwb_shop.id  WHERE `order_num` = 'F726172179913713' LIMIT 1  
+ERR: 1054:Unknown column 'wechat_num' in 'field list'
+ [ SQL语句 ] : SELECT `wechat_num` FROM `qwb_order` left join qwb_order_detail on qwb_order_detail.order_id = qwb_shop.id  WHERE `order_num` = 'F726172179913713' LIMIT 1  
+
+[ 2016-07-26T15:44:58+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000964s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0131s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0123s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0157s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0200s ]
+ERR: 1054:Unknown column 'wechat_num' in 'field list'
+ [ SQL语句 ] : SELECT `wechat_num` FROM `qwb_order` left join qwb_order_detail on qwb_order_detail.order_id = qwb_shop.id  WHERE `order_num` = 'F726172179913713' LIMIT 1  
+ERR: 1054:Unknown column 'wechat_num' in 'field list'
+ [ SQL语句 ] : SELECT `wechat_num` FROM `qwb_order` left join qwb_order_detail on qwb_order_detail.order_id = qwb_shop.id  WHERE `order_num` = 'F726172179913713' LIMIT 1  
+
+[ 2016-07-26T15:45:06+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000913s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0121s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0129s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0130s ]
+ERR: 1054:Unknown column 'qwb_shop.id' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM `qwb_order` left join qwb_order_detail on qwb_order_detail.order_id = qwb_shop.id  WHERE `order_num` = 'F726172179913713' LIMIT 1  
+ERR: 1054:Unknown column 'qwb_shop.id' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM `qwb_order` left join qwb_order_detail on qwb_order_detail.order_id = qwb_shop.id  WHERE `order_num` = 'F726172179913713' LIMIT 1  
+
+[ 2016-07-26T15:45:07+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001159s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0105s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0139s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0114s ]
+ERR: 1054:Unknown column 'qwb_shop.id' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM `qwb_order` left join qwb_order_detail on qwb_order_detail.order_id = qwb_shop.id  WHERE `order_num` = 'F726172179913713' LIMIT 1  
+ERR: 1054:Unknown column 'qwb_shop.id' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM `qwb_order` left join qwb_order_detail on qwb_order_detail.order_id = qwb_shop.id  WHERE `order_num` = 'F726172179913713' LIMIT 1  
+
+[ 2016-07-26T15:45:08+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001128s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0134s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0129s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0132s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0105s ]
+ERR: 1054:Unknown column 'qwb_shop.id' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM `qwb_order` left join qwb_order_detail on qwb_order_detail.order_id = qwb_shop.id  WHERE `order_num` = 'F726172179913713' LIMIT 1  
+ERR: 1054:Unknown column 'qwb_shop.id' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM `qwb_order` left join qwb_order_detail on qwb_order_detail.order_id = qwb_shop.id  WHERE `order_num` = 'F726172179913713' LIMIT 1  
+
+[ 2016-07-26T15:45:08+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000734s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001075s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0126s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0091s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0084s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0092s ]
+ERR: 1054:Unknown column 'qwb_shop.id' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM `qwb_order` left join qwb_order_detail on qwb_order_detail.order_id = qwb_shop.id  WHERE `order_num` = 'F726172179913713' LIMIT 1  
+ERR: 1054:Unknown column 'qwb_shop.id' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM `qwb_order` left join qwb_order_detail on qwb_order_detail.order_id = qwb_shop.id  WHERE `order_num` = 'F726172179913713' LIMIT 1  
+
+[ 2016-07-26T15:45:17+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000734s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001073s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0248s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0148s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0087s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `qwb_order` left join qwb_order_detail on qwb_order_detail.order_id = qwb_order.id  WHERE `order_num` = 'F726172179913713' LIMIT 1   [ RunTime:0.0097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001584s ]
+
+[ 2016-07-26T15:45:18+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000813s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000926s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0122s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0097s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0174s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `qwb_order` left join qwb_order_detail on qwb_order_detail.order_id = qwb_order.id  WHERE `order_num` = 'F726172179913713' LIMIT 1   [ RunTime:0.0118s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001288s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001824s ]
+
+[ 2016-07-26T15:45:26+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000913s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0135s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0093s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `qwb_order` left join qwb_order_detail on qwb_order_detail.order_id = qwb_order.id left join qwb_shop on qwb_order.shop_id = qwb_shop.id  WHERE `order_num` = 'F726172179913713' LIMIT 1   [ RunTime:0.0125s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000753s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001122s ]
+
+[ 2016-07-26T15:45:27+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001121s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0106s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0136s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0112s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `qwb_order` left join qwb_order_detail on qwb_order_detail.order_id = qwb_order.id left join qwb_shop on qwb_order.shop_id = qwb_shop.id  WHERE `order_num` = 'F726172179913713' LIMIT 1   [ RunTime:0.0243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000995s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001475s ]
+
+[ 2016-07-26T15:45:58+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000694s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001155s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0103s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0104s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0092s ]
+SQL: SELECT `wechat_num` FROM `qwb_order` left join qwb_order_detail on qwb_order_detail.order_id = qwb_order.id left join qwb_shop on qwb_order.shop_id = qwb_shop.id  WHERE `order_num` = 'F726172179913713' LIMIT 1   [ RunTime:0.0089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001261s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001923s ]
+
+[ 2016-07-26T15:45:59+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001006s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0175s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0092s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0102s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0148s ]
+SQL: SELECT `wechat_num` FROM `qwb_order` left join qwb_order_detail on qwb_order_detail.order_id = qwb_order.id left join qwb_shop on qwb_order.shop_id = qwb_shop.id  WHERE `order_num` = 'F726172179913713' LIMIT 1   [ RunTime:0.0103s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001264s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001920s ]
+
+[ 2016-07-26T15:45:59+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001544s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0121s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0108s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0095s ]
+SQL: SELECT `wechat_num` FROM `qwb_order` left join qwb_order_detail on qwb_order_detail.order_id = qwb_order.id left join qwb_shop on qwb_order.shop_id = qwb_shop.id  WHERE `order_num` = 'F726172179913713' LIMIT 1   [ RunTime:0.0169s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000745s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001220s ]
+
+[ 2016-07-26T15:45:59+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000117s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001253s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0105s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0117s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0127s ]
+SQL: SELECT `wechat_num` FROM `qwb_order` left join qwb_order_detail on qwb_order_detail.order_id = qwb_order.id left join qwb_shop on qwb_order.shop_id = qwb_shop.id  WHERE `order_num` = 'F726172179913713' LIMIT 1   [ RunTime:0.0081s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001534s ]
+
+[ 2016-07-26T16:03:38+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001899s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:2.1800s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0126s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0139s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0121s ]
+SQL: SELECT `wechat_num` FROM `qwb_order` left join qwb_order_detail on qwb_order_detail.order_id = qwb_order.id left join qwb_shop on qwb_order.shop_id = qwb_shop.id  WHERE `order_num` = 'F726194653675217' LIMIT 1   [ RunTime:0.0125s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001363s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002264s ]
+
+[ 2016-07-26T16:03:39+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0143s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0119s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0096s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0098s ]
+SQL: SELECT `wechat_num` FROM `qwb_order` left join qwb_order_detail on qwb_order_detail.order_id = qwb_order.id left join qwb_shop on qwb_order.shop_id = qwb_shop.id  WHERE `order_num` = 'F726194653675217' LIMIT 1   [ RunTime:0.0103s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000795s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001190s ]
+
+[ 2016-07-26T16:03:40+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000758s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001278s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0107s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0111s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0105s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0138s ]
+SQL: SELECT `wechat_num` FROM `qwb_order` left join qwb_order_detail on qwb_order_detail.order_id = qwb_order.id left join qwb_shop on qwb_order.shop_id = qwb_shop.id  WHERE `order_num` = 'F726194653675217' LIMIT 1   [ RunTime:0.0096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001260s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001916s ]
+
+[ 2016-07-26T16:03:43+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000782s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0099s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0083s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0102s ]
+SQL: SELECT `wechat_num` FROM `qwb_order` left join qwb_order_detail on qwb_order_detail.order_id = qwb_order.id left join qwb_shop on qwb_order.shop_id = qwb_shop.id  WHERE `order_num` = 'F726194653675217' LIMIT 1   [ RunTime:0.0094s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001100s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001623s ]
+
+[ 2016-07-26T16:03:43+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000807s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000919s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0108s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0113s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0093s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0092s ]
+SQL: SELECT `wechat_num` FROM `qwb_order` left join qwb_order_detail on qwb_order_detail.order_id = qwb_order.id left join qwb_shop on qwb_order.shop_id = qwb_shop.id  WHERE `order_num` = 'F726194653675217' LIMIT 1   [ RunTime:0.0092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001553s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002373s ]
+
+[ 2016-07-26T16:03:43+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000973s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0122s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0112s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0185s ]
+SQL: SELECT `wechat_num` FROM `qwb_order` left join qwb_order_detail on qwb_order_detail.order_id = qwb_order.id left join qwb_shop on qwb_order.shop_id = qwb_shop.id  WHERE `order_num` = 'F726194653675217' LIMIT 1   [ RunTime:0.0103s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001683s ]
+
+[ 2016-07-26T16:50:20+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000922s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001309s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0088s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0098s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0085s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001011s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001531s ]
+
+[ 2016-07-26T16:50:21+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000858s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000930s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0114s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0103s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0094s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000874s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001381s ]
+
+[ 2016-07-26T16:50:22+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000910s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0135s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0117s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001587s ]
+
+[ 2016-07-26T16:50:22+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000913s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0139s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0104s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000918s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001415s ]
+
+[ 2016-07-26T16:50:43+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000939s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0142s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0111s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0113s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000775s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001172s ]
+
+[ 2016-07-26T16:50:43+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000985s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001031s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0147s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0113s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0112s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000926s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001435s ]
+
+[ 2016-07-26T16:50:44+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000169s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000997s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001106s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0097s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000800s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001224s ]
+
+[ 2016-07-26T16:50:44+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000757s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001015s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0091s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0079s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0099s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000819s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001245s ]
+
+[ 2016-07-26T16:50:51+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000836s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000920s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0121s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0093s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0086s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000880s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001342s ]
+
+[ 2016-07-26T16:50:51+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000148s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0128s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0103s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000781s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001156s ]
+
+[ 2016-07-26T16:50:52+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000747s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000935s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0116s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0124s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000843s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001300s ]
+
+[ 2016-07-26T17:16:59+08:00 ] ::1 /quwanba1/index.php/Wechat/Common/send_text
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000877s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001090s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0111s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001508s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002242s ]
+
+[ 2016-07-26T17:17:37+08:00 ] ::1 /quwanba1/index.php/Wechat/Common/send_text
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000798s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001786s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001236s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002009s ]
+
+[ 2016-07-26T17:17:37+08:00 ] ::1 /quwanba1/index.php/Wechat/Common/send_text
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000815s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001167s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0113s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001493s ]
+
+[ 2016-07-26T17:17:38+08:00 ] ::1 /quwanba1/index.php/Wechat/Common/send_text
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000911s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001042s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0118s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001166s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001745s ]
+
+[ 2016-07-26T17:17:39+08:00 ] ::1 /quwanba1/index.php/Wechat/Common/send_text
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001165s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001103s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001679s ]
+
+[ 2016-07-26T17:17:40+08:00 ] ::1 /quwanba1/index.php/Wechat/Common/send_text
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000745s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001025s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001004s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001547s ]
+
+[ 2016-07-26T17:17:53+08:00 ] ::1 /quwanba1/index.php/Wechat/Common/send_text
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000900s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001081s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001698s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002484s ]
+
+[ 2016-07-26T17:17:54+08:00 ] ::1 /quwanba1/index.php/Wechat/Common/send_text
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001328s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0106s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000916s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001390s ]
+
+[ 2016-07-26T17:17:55+08:00 ] ::1 /quwanba1/index.php/Wechat/Common/send_text
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000142s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001232s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0134s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001772s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002576s ]
+
+[ 2016-07-26T17:17:55+08:00 ] ::1 /quwanba1/index.php/Wechat/Common/send_text
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0108s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001008s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001522s ]
+

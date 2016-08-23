@@ -1,0 +1,60 @@
+<extend name="Public/base" />
+<block name="title">订单详情</block>
+<block name="css">
+	<style>
+		#footer{
+			display:none;
+		}
+	</style>
+</block>
+<block name="body">
+<div id="content">
+	<div class="orderPic">
+		<p class="orderPic_01"><img src="{$order.pic}"></p>
+	</div>
+	<div class="orderDescribe">
+		<ul>
+			<li><p>大罗山盘云谷别墅套房</p></li>
+			<li><p><span>订单号：       </span>{$order.order_num}</p></li>
+			<li><p><span>订单金额：     </span>{$order.price}</p></li>
+			<li><p><span>购买数量       </span>{$order.count}</p></li>
+			<li><p><span>预定用户：     </span>{$order.buyer}</p></li>
+			<li><p><span>用户手机号：   </span>{$order.mobile}</p></li>
+			<li><p><span>购买日期：     </span>{$order.buy_time}</p></li>
+			<li><p><span>体验日期：     </span>{$order.experience_time}</p></li>
+			<li><p><span>您的留言备注： </span>{$order.message}</p></li>
+		</ul>
+	</div>
+</div>
+<div><p class="footerSureBuy" onclick="callpay()">点击确认支付</p></div>
+</block>
+<block name="script">
+	<script>
+		var ua = navigator.userAgent;
+		var appInstall = {
+			isChrome: ua.match(/Chrome\/([\d.]+)/) || ua.match(/CriOS\/([\d.]+)/),
+			isAndroid: ua.match(/(Android);?[\s\/]+([\d.]+)?/),
+			isIphone: (ua.match(/iPad/i) != null || (navigator.userAgent.match(/iPhone/i) != null) || (navigator.userAgent.match(/iPod/i) != null)),
+			isWeixin: ua.match(/MicroMessenger/i) != null,
+			isUC: ua.match(/UCBrowser/i) != null,
+			isQQ: ua.match(/QQBrowser/i) != null
+		}
+
+		function callpay(){
+			var id = '{$id}';
+			if('{$buyTicket_select}' == 1){
+				if (appInstall.isAndroid) {
+					androidPay.callAndroidPay(id);
+				} else if (appInstall.isIphone){
+					callIOSPay(id);
+				}
+			}else{
+				if (appInstall.isAndroid) {
+					androidPay.callAndroidWeiXinPay(id);
+				} else if (appInstall.isIphone){
+					callIOSWXPay(id);
+				}
+			}
+		}
+	</script>
+</block>

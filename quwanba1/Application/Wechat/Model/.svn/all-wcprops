@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/quwanba/!svn/ver/2556/Application/Wechat/Model
+END
+CollectModel.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/quwanba/!svn/ver/2463/Application/Wechat/Model/CollectModel.class.php
+END
+ShopModel.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/quwanba/!svn/ver/1953/Application/Wechat/Model/ShopModel.class.php
+END
+IncomeModel.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/quwanba/!svn/ver/2556/Application/Wechat/Model/IncomeModel.class.php
+END
+CardHistoryModel.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/quwanba/!svn/ver/2087/Application/Wechat/Model/CardHistoryModel.class.php
+END
+GoodsModel.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/quwanba/!svn/ver/2535/Application/Wechat/Model/GoodsModel.class.php
+END
+OrderModel.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/quwanba/!svn/ver/2266/Application/Wechat/Model/OrderModel.class.php
+END
+GoodsTypeModel.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/quwanba/!svn/ver/2440/Application/Wechat/Model/GoodsTypeModel.class.php
+END
+UserModel.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/quwanba/!svn/ver/2260/Application/Wechat/Model/UserModel.class.php
+END
+AlipayModel.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/quwanba/!svn/ver/1650/Application/Wechat/Model/AlipayModel.class.php
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/quwanba/!svn/ver/1/Application/Wechat/Model/index.html
+END

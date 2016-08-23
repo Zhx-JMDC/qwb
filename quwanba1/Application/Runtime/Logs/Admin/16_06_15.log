@@ -1,0 +1,21 @@
+[ 2016-06-15T17:24:00+08:00 ] ::1 /common/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001064s ]
+
+[ 2016-06-15T17:24:00+08:00 ] ::1 /common/index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+
+[ 2016-06-15T17:24:01+08:00 ] ::1 /common/index.php/Admin/Public/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-06-15T17:24:01+08:00 ] ::1 /common/index.php/Admin/Public/images/favicon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000923s ]
+

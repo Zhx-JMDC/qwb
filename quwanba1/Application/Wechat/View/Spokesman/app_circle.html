@@ -1,0 +1,66 @@
+<extend name="Public/base2" />
+<block name="title">我的饭圈</block>
+<block name="body">
+	<div id="content">
+		<div class="friendsBar">
+			<ul>
+				<a href="{:U('Spokesman/app_firends')}"><li>饭友（{$friend_count}）</li></a>
+				<a href="{:U('Spokesman/app_circle')}"><li class="friendsBar-clicked">饭圈（{$circle_count}）</li></a>
+			</ul>
+		</div>
+		<div class="firendsList">
+			<ul>
+				<foreach name="circle" item="v">
+				<li>
+					<p class="firends_01"><img src="{$v.headimgurl}"></p>
+					<p class="firends_02">{$v.nickname}</p>
+					<p class="firends_03">ID:{$v.qwb_id} <span><?php echo date('Y/m/d:h:i:s',$v['subscribe_time']);?>关注</span></p>
+				</li>
+				</foreach>
+			</ul>
+		</div>
+	</div>
+</block>
+<block name="script">
+<script type="text/javascript">
+	$(function(){
+		var page = {$page}+1;
+		function loadMeinv(){
+			var count = 3;
+			if(({$circle_count}+count-1)/count >= page){
+				$.ajax({
+					url: "{:U('Spokesman/circle_more')}",
+					type: 'post',
+					data: {'page': page},
+					success: function (data) {
+						var html = "";
+						$.each(data, function (k, v) {
+							html += '<li><p class="firends_01"><img src="' + v.headimgurl + '"></p><p class="firends_02">' + v.nickname + '</p><p class="firends_03">ID:' + v.qwb_id + ' <span>2016/05/05-11:11:11关注</span></p></li>';
+						})
+						$minUl = getMinUl();
+						$minUl.append(html);
+					}
+				});
+			}
+			page++;
+		}
+		loadMeinv();
+		$(window).on("scroll",function(){
+			$minUl = getMinUl();
+			if($minUl.height() <= $(window).scrollTop()+$(window).height()){
+				loadMeinv();
+			}
+		})
+		function getMinUl(){
+			var $arrUl = $(".firendsList ul");
+			var $minUl =$arrUl.eq(0);
+			$arrUl.each(function(index,elem){
+				if($(elem).height()<$minUl.height()){
+					$minUl = $(elem);
+				}
+			});
+			return $minUl;
+		}
+    })
+</script>
+</block>

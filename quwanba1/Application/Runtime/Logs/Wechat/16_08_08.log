@@ -1,0 +1,1283 @@
+[ 2016-08-08T10:27:15+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/page_accreditss
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001297s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0243s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0092s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0096s ]
+NOTIC: [8] Undefined index: code /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Controller/OrderController.class.php 第 273 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000296s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000705s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014359s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014795s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000872s ]
+NOTIC: [8] Undefined index: state /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Controller/OrderController.class.php 第 277 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Common/function.php 第 51 行.
+NOTIC: [8] Undefined index: openid /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Controller/OrderController.class.php 第 285 行.
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0175s ]
+SQL: SELECT `status`,`wechat_num`,`experience_time`,`price`,`name`,`pay_status` FROM `qwb_order` left join qwb_order_detail on qwb_order_detail.order_id = qwb_order.id left join qwb_shop on qwb_order.shop_id = qwb_shop.id  WHERE `order_num` = null LIMIT 1   [ RunTime:0.0107s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000297s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.195878s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006105s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.190191s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000122s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.196079s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/View.class.php:95) /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/View.class.php:95) /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/View.class.php:95) /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001203s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001650s ]
+
+[ 2016-08-08T10:28:09+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/page_accreditss
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000825s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001425s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0174s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0835s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0410s ]
+NOTIC: [8] Undefined index: code /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Controller/OrderController.class.php 第 273 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000313s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000765s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011803s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012237s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000663s ]
+NOTIC: [8] Undefined index: state /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Controller/OrderController.class.php 第 277 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Common/function.php 第 51 行.
+NOTIC: [8] Undefined index: openid /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Controller/OrderController.class.php 第 285 行.
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0223s ]
+SQL: SELECT `status`,`wechat_num`,`experience_time`,`price`,`name`,`pay_status` FROM `qwb_order` left join qwb_order_detail on qwb_order_detail.order_id = qwb_order.id left join qwb_shop on qwb_order.shop_id = qwb_shop.id  WHERE `order_num` = null LIMIT 1   [ RunTime:0.0113s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000285s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.192006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005354s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.187011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.192260s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/View.class.php:95) /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/View.class.php:95) /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/View.class.php:95) /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000803s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001218s ]
+
+[ 2016-08-08T10:28:09+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/css/css.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001950s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0137s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0145s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0111s ]
+ERR: 非法操作:css
+
+[ 2016-08-08T10:28:11+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/page_accreditss
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000892s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0232s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0259s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0125s ]
+NOTIC: [8] Undefined index: code /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Controller/OrderController.class.php 第 273 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000243s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000642s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010304s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010800s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000601s ]
+NOTIC: [8] Undefined index: state /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Controller/OrderController.class.php 第 277 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Common/function.php 第 51 行.
+NOTIC: [8] Undefined index: openid /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Controller/OrderController.class.php 第 285 行.
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0211s ]
+SQL: SELECT `status`,`wechat_num`,`experience_time`,`price`,`name`,`pay_status` FROM `qwb_order` left join qwb_order_detail on qwb_order_detail.order_id = qwb_order.id left join qwb_shop on qwb_order.shop_id = qwb_shop.id  WHERE `order_num` = null LIMIT 1   [ RunTime:0.0124s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000285s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.215921s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005577s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.210916s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.216457s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/View.class.php:95) /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/View.class.php:95) /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/View.class.php:95) /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000805s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001227s ]
+
+[ 2016-08-08T10:28:12+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/css/css.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001099s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0144s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0217s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0169s ]
+ERR: 非法操作:css
+
+[ 2016-08-08T10:28:13+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/page_accreditss
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001346s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0329s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0349s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0270s ]
+NOTIC: [8] Undefined index: code /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Controller/OrderController.class.php 第 273 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000236s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000609s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010038s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010496s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000566s ]
+NOTIC: [8] Undefined index: state /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Controller/OrderController.class.php 第 277 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Common/function.php 第 51 行.
+NOTIC: [8] Undefined index: openid /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Controller/OrderController.class.php 第 285 行.
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0200s ]
+SQL: SELECT `status`,`wechat_num`,`experience_time`,`price`,`name`,`pay_status` FROM `qwb_order` left join qwb_order_detail on qwb_order_detail.order_id = qwb_order.id left join qwb_shop on qwb_order.shop_id = qwb_shop.id  WHERE `order_num` = null LIMIT 1   [ RunTime:0.0184s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000286s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.236965s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005794s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.231750s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.237539s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/View.class.php:95) /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/View.class.php:95) /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/View.class.php:95) /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001230s ]
+
+[ 2016-08-08T10:28:13+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/css/css.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000823s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000950s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0236s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0358s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0121s ]
+ERR: 非法操作:css
+
+[ 2016-08-08T10:29:03+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/page_accreditss
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000867s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001084s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0138s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0218s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0237s ]
+NOTIC: [8] Undefined index: code /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Controller/OrderController.class.php 第 273 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000241s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000607s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011512s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000615s ]
+
+[ 2016-08-08T13:48:14+08:00 ] ::1 /quwanba1/index.php/Wechat/Common/get_user_message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000883s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000938s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0094s ]
+SQL: SHOW COLUMNS FROM `qwb_system` [ RunTime:0.0092s ]
+SQL: SELECT `value` FROM `qwb_system` WHERE `past_time` >= 1470635294 AND `name` = 'access_token' LIMIT 1   [ RunTime:0.0088s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Common/function.php 第 51 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001249s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001957s ]
+
+[ 2016-08-08T13:48:34+08:00 ] ::1 /quwanba1/index.php/Wechat/Common/get_user_message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000876s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000946s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0095s ]
+SQL: SHOW COLUMNS FROM `qwb_system` [ RunTime:0.0088s ]
+SQL: SELECT `value` FROM `qwb_system` WHERE `past_time` >= 1470635314 AND `name` = 'access_token' LIMIT 1   [ RunTime:0.0083s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Common/function.php 第 51 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001315s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002027s ]
+
+[ 2016-08-08T13:57:05+08:00 ] ::1 /quwanba1/index.php/Wechat/Common/get_user_message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000863s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001186s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0099s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Controller/CommonController.class.php 第 399 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Common/function.php 第 51 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001363s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002092s ]
+
+[ 2016-08-08T14:19:46+08:00 ] ::1 /quwanba1/index.php/Wechat/Common/get_user_message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000126s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0110s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Controller/CommonController.class.php 第 399 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Common/function.php 第 51 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000788s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001239s ]
+
+[ 2016-08-08T15:24:20+08:00 ] ::1 /quwanba1/index.php/Wechat/Common/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000824s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001448s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0096s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0091s ]
+SQL: SELECT `id` FROM `qwb_user` WHERE `unionid` = 'oaBDDwMStjNnGH4zMNxw7rPBmDFA' LIMIT 1   [ RunTime:0.0156s ]
+SQL: UPDATE `qwb_user` SET `login_time`='2016-08-08 15:24:20' WHERE `unionid` = 'oaBDDwMStjNnGH4zMNxw7rPBmDFA' [ RunTime:0.0081s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002675s ]
+
+[ 2016-08-08T15:24:38+08:00 ] ::1 /quwanba1/index.php/Wechat/Common/get_user_message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000803s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001753s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0111s ]
+ERR: 参数错误或者未定义:openid
+
+[ 2016-08-08T15:24:40+08:00 ] ::1 /quwanba1/index.php/Wechat/Common/get_user_message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0105s ]
+ERR: 参数错误或者未定义:openid
+
+[ 2016-08-08T15:24:44+08:00 ] ::1 /quwanba1/index.php/Wechat/Common/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000183s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001124s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0115s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0111s ]
+SQL: SELECT `id` FROM `qwb_user` WHERE `unionid` = 'oaBDDwMStjNnGH4zMNxw7rPBmDFA' LIMIT 1   [ RunTime:0.0089s ]
+SQL: UPDATE `qwb_user` SET `login_time`='2016-08-08 15:24:44' WHERE `unionid` = 'oaBDDwMStjNnGH4zMNxw7rPBmDFA' [ RunTime:0.0095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000930s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001371s ]
+
+[ 2016-08-08T15:25:06+08:00 ] ::1 /quwanba1/index.php/Wechat/Common/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000151s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001060s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0103s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0109s ]
+SQL: SELECT `id` FROM `qwb_user` WHERE `unionid` = 'ssBDDwMStjNnGH4zMNxw7rPBmDFA' LIMIT 1   [ RunTime:0.0095s ]
+SQL: INSERT INTO `qwb_user` (`headimgurl`,`unionid`,`login_time`) VALUES ('123','ssBDDwMStjNnGH4zMNxw7rPBmDFA','2016-08-08 15:25:06') [ RunTime:0.0089s ]
+SQL: UPDATE `qwb_user` SET `headimgurl`='123',`unionid`='ssBDDwMStjNnGH4zMNxw7rPBmDFA',`login_time`='2016-08-08 15:25:06',`qwb_id`='8008050' WHERE `unionid` = 'ssBDDwMStjNnGH4zMNxw7rPBmDFA' [ RunTime:0.0321s ]
+NOTIC: [2] Illegal string offset 'id' /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Model/UserModel.class.php 第 66 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001011s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001619s ]
+
+[ 2016-08-08T15:27:15+08:00 ] ::1 /quwanba1/index.php/Wechat/Common/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001447s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0102s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0092s ]
+SQL: SELECT `id` FROM `qwb_user` WHERE `unionid` = 'ssBDDwMStjNnGH4zMNxw7rPBmDFA' LIMIT 1   [ RunTime:0.0082s ]
+SQL: UPDATE `qwb_user` SET `login_time`='2016-08-08 15:27:15' WHERE `unionid` = 'ssBDDwMStjNnGH4zMNxw7rPBmDFA' [ RunTime:0.0081s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000868s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001381s ]
+
+[ 2016-08-08T15:27:16+08:00 ] ::1 /quwanba1/index.php/Wechat/Common/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000980s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001433s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0103s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0110s ]
+SQL: SELECT `id` FROM `qwb_user` WHERE `unionid` = 'ssBDDwMStjNnGH4zMNxw7rPBmDFA' LIMIT 1   [ RunTime:0.0084s ]
+SQL: UPDATE `qwb_user` SET `login_time`='2016-08-08 15:27:16' WHERE `unionid` = 'ssBDDwMStjNnGH4zMNxw7rPBmDFA' [ RunTime:0.0108s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001830s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002625s ]
+
+[ 2016-08-08T15:27:17+08:00 ] ::1 /quwanba1/index.php/Wechat/Common/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000947s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001558s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0102s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0107s ]
+SQL: SELECT `id` FROM `qwb_user` WHERE `unionid` = 'ssBDDwMStjNnGH4zMNxw7rPBmDFA' LIMIT 1   [ RunTime:0.0089s ]
+SQL: UPDATE `qwb_user` SET `login_time`='2016-08-08 15:27:17' WHERE `unionid` = 'ssBDDwMStjNnGH4zMNxw7rPBmDFA' [ RunTime:0.0105s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000973s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001555s ]
+
+[ 2016-08-08T15:27:24+08:00 ] ::1 /quwanba1/index.php/Wechat/Common/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000907s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001009s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0121s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0121s ]
+SQL: SELECT `id` FROM `qwb_user` WHERE `unionid` = 'ssaaBDDwMStjNnGH4zMNxw7rPBmDFA' LIMIT 1   [ RunTime:0.0103s ]
+SQL: INSERT INTO `qwb_user` (`headimgurl`,`unionid`,`login_time`) VALUES ('123','ssaaBDDwMStjNnGH4zMNxw7rPBmDFA','2016-08-08 15:27:24') [ RunTime:0.0104s ]
+SQL: UPDATE `qwb_user` SET `headimgurl`='123',`unionid`='ssaaBDDwMStjNnGH4zMNxw7rPBmDFA',`login_time`='2016-08-08 15:27:24',`qwb_id`='8008051' WHERE `unionid` = 'ssaaBDDwMStjNnGH4zMNxw7rPBmDFA' [ RunTime:0.0118s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002283s ]
+
+[ 2016-08-08T15:28:10+08:00 ] ::1 /quwanba1/index.php/Wechat/Common/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000895s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000967s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0099s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0091s ]
+SQL: SELECT `id` FROM `qwb_user` WHERE `unionid` = 'oaBDDwMStjNnGH4zMNxw7rPBmDFA' LIMIT 1   [ RunTime:0.0070s ]
+SQL: INSERT INTO `qwb_user` (`headimgurl`,`unionid`,`login_time`) VALUES ('http://wx.qlogo.cn/mmopen/rd6tZMY6qLhxK4JondKoQ9gfgN9I7okeptZQib1rwVbuNwGS5jvUu1yOPkgJAnsanUneA8Ek26iaBVBicuUtSSWKycUaZxGMmiaS/0','oaBDDwMStjNnGH4zMNxw7rPBmDFA','2016-08-08 15:28:10') [ RunTime:0.0081s ]
+SQL: UPDATE `qwb_user` SET `headimgurl`='http://wx.qlogo.cn/mmopen/rd6tZMY6qLhxK4JondKoQ9gfgN9I7okeptZQib1rwVbuNwGS5jvUu1yOPkgJAnsanUneA8Ek26iaBVBicuUtSSWKycUaZxGMmiaS/0',`unionid`='oaBDDwMStjNnGH4zMNxw7rPBmDFA',`login_time`='2016-08-08 15:28:10',`qwb_id`='8008052' WHERE `unionid` = 'oaBDDwMStjNnGH4zMNxw7rPBmDFA' [ RunTime:0.0091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002329s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003146s ]
+
+[ 2016-08-08T15:57:24+08:00 ] ::1 /quwanba1/index.php/Wechat/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000744s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001074s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0108s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0096s ]
+NOTIC: [8] Undefined index: echostr /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Controller/IndexController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `qwb_system` [ RunTime:0.0083s ]
+SQL: SELECT `value` FROM `qwb_system` WHERE `past_time` >= 1470643042 AND `name` = 'access_token' LIMIT 1   [ RunTime:0.0078s ]
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Controller/IndexController.class.php 第 38 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001094s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001616s ]
+
+[ 2016-08-08T15:57:52+08:00 ] ::1 /quwanba1/index.php/wechat/Shop/shop_mall?unionid=%E2%80%98123123%E2%80%99&headimgurl=%E2%80%98123%E2%80%99
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001206s ]
+
+[ 2016-08-08T15:58:39+08:00 ] ::1 /quwanba1/index.php/wechat/Shop/shop_mall?unionid=%E2%80%98123123%E2%80%99&headimgurl=%E2%80%98123%E2%80%99
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000898s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0113s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0112s ]
+SQL: SHOW COLUMNS FROM `qwb_goods_type` [ RunTime:0.0085s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0091s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0085s ]
+SQL: SHOW COLUMNS FROM `qwb_collect` [ RunTime:0.0096s ]
+SQL: SHOW COLUMNS FROM `qwb_goods_type` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `qwb_goods_type`  [ RunTime:0.0093s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0120s ]
+SQL: SELECT `id`,`rebate`,`pic`,`name`,`original_price`,`selling_price`,`status`,`order` FROM `qwb_goods` WHERE ( conditions = 1 AND type_id='1' )  [ RunTime:0.0098s ]
+SQL: SELECT `id`,`rebate`,`pic`,`name`,`original_price`,`selling_price`,`status`,`order` FROM `qwb_goods` WHERE ( conditions = 1 AND type_id='2' )  [ RunTime:0.0085s ]
+SQL: SELECT `id`,`rebate`,`pic`,`name`,`original_price`,`selling_price`,`status`,`order` FROM `qwb_goods` WHERE ( conditions = 1 AND type_id='3' )  [ RunTime:0.0082s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0087s ]
+SQL: SELECT `id`,`original_price`,`selling_price`,`name`,`pic`,`rebate` FROM `qwb_goods` WHERE `conditions` = 1 AND `type_id` = 0  [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `qwb_advertisement` [ RunTime:0.0079s ]
+SQL: SELECT `path`,`skip_url` FROM `qwb_advertisement` WHERE ( position = 1 )  [ RunTime:0.0081s ]
+SQL: SELECT `path` FROM `qwb_advertisement` WHERE `position` = 3  [ RunTime:0.0071s ]
+SQL: SELECT `path` FROM `qwb_advertisement` WHERE `position` = 2  [ RunTime:0.0077s ]
+SQL: SHOW COLUMNS FROM `qwb_ratio` [ RunTime:0.0099s ]
+SQL: SELECT `ratio` FROM `qwb_ratio` WHERE `type` = 0 LIMIT 1   [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000669s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001485s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055171s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055555s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000608s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Controller/CommonController.class.php:27) /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Controller/CommonController.class.php:27) /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Controller/CommonController.class.php:27) /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000590s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000907s ]
+
+[ 2016-08-08T15:59:04+08:00 ] ::1 /quwanba1/index.php/wechat/Shop/shop_mall?unionid=123123&headimgurl=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0107s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0111s ]
+SQL: SHOW COLUMNS FROM `qwb_goods_type` [ RunTime:0.0182s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0184s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0211s ]
+SQL: SHOW COLUMNS FROM `qwb_collect` [ RunTime:0.0283s ]
+SQL: SHOW COLUMNS FROM `qwb_goods_type` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `qwb_goods_type`  [ RunTime:0.0089s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0104s ]
+SQL: SELECT `id`,`rebate`,`pic`,`name`,`original_price`,`selling_price`,`status`,`order` FROM `qwb_goods` WHERE ( conditions = 1 AND type_id='1' )  [ RunTime:0.0097s ]
+SQL: SELECT `id`,`rebate`,`pic`,`name`,`original_price`,`selling_price`,`status`,`order` FROM `qwb_goods` WHERE ( conditions = 1 AND type_id='2' )  [ RunTime:0.0108s ]
+SQL: SELECT `id`,`rebate`,`pic`,`name`,`original_price`,`selling_price`,`status`,`order` FROM `qwb_goods` WHERE ( conditions = 1 AND type_id='3' )  [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0104s ]
+SQL: SELECT `id`,`original_price`,`selling_price`,`name`,`pic`,`rebate` FROM `qwb_goods` WHERE `conditions` = 1 AND `type_id` = 0  [ RunTime:0.0093s ]
+SQL: SHOW COLUMNS FROM `qwb_advertisement` [ RunTime:0.0099s ]
+SQL: SELECT `path`,`skip_url` FROM `qwb_advertisement` WHERE ( position = 1 )  [ RunTime:0.0102s ]
+SQL: SELECT `path` FROM `qwb_advertisement` WHERE `position` = 3  [ RunTime:0.0105s ]
+SQL: SELECT `path` FROM `qwb_advertisement` WHERE `position` = 2  [ RunTime:0.0084s ]
+SQL: SHOW COLUMNS FROM `qwb_ratio` [ RunTime:0.0093s ]
+SQL: SELECT `ratio` FROM `qwb_ratio` WHERE `type` = 0 LIMIT 1   [ RunTime:0.0101s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000352s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000927s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051286s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051758s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000896s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Controller/CommonController.class.php:27) /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Controller/CommonController.class.php:27) /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Controller/CommonController.class.php:27) /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000885s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001243s ]
+
+[ 2016-08-08T15:59:56+08:00 ] ::1 /quwanba1/index.php/Wechat/Shop/shop_mall_intro.html?id=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000826s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001049s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0095s ]
+SQL: SHOW COLUMNS FROM `qwb_goods_type` [ RunTime:0.0095s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0096s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0089s ]
+SQL: SHOW COLUMNS FROM `qwb_collect` [ RunTime:0.0101s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `qwb_goods` WHERE `id` = 0 AND `conditions` = 1 LIMIT 1   [ RunTime:0.0094s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Controller/ShopController.class.php 第 151 行.
+NOTIC: [8] Undefined index: content /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Controller/ShopController.class.php 第 161 行.
+NOTIC: [8] Undefined index: id /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Controller/ShopController.class.php 第 164 行.
+SQL: SHOW COLUMNS FROM `qwb_collect` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `qwb_collect` WHERE `uid` = 0 AND `collect_id` = null LIMIT 1   [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000500s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000963s ]
+NOTIC: [8] Undefined index: name /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Runtime/Cache/Wechat/c0933f528628da9ce4f0b55077bb534b.php 第 6 行.
+NOTIC: [8] Undefined index: goods_play /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Runtime/Cache/Wechat/c0933f528628da9ce4f0b55077bb534b.php 第 26 行.
+NOTIC: [8] Undefined index: goods_play /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Runtime/Cache/Wechat/c0933f528628da9ce4f0b55077bb534b.php 第 30 行.
+NOTIC: [8] Undefined index: name /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Runtime/Cache/Wechat/c0933f528628da9ce4f0b55077bb534b.php 第 38 行.
+NOTIC: [8] Undefined index: selling_price /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Runtime/Cache/Wechat/c0933f528628da9ce4f0b55077bb534b.php 第 41 行.
+NOTIC: [8] Undefined index: original_price /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Runtime/Cache/Wechat/c0933f528628da9ce4f0b55077bb534b.php 第 41 行.
+NOTIC: [8] Undefined index: id /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Runtime/Cache/Wechat/c0933f528628da9ce4f0b55077bb534b.php 第 46 行.
+NOTIC: [8] Undefined index: goods_price /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Runtime/Cache/Wechat/c0933f528628da9ce4f0b55077bb534b.php 第 47 行.
+NOTIC: [8] Undefined index: shop_name /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Runtime/Cache/Wechat/c0933f528628da9ce4f0b55077bb534b.php 第 51 行.
+NOTIC: [8] Undefined index: address /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Runtime/Cache/Wechat/c0933f528628da9ce4f0b55077bb534b.php 第 59 行.
+NOTIC: [8] Undefined index: contact /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Runtime/Cache/Wechat/c0933f528628da9ce4f0b55077bb534b.php 第 63 行.
+NOTIC: [8] Undefined index: name /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Runtime/Cache/Wechat/c0933f528628da9ce4f0b55077bb534b.php 第 69 行.
+NOTIC: [8] Undefined index: id /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Runtime/Cache/Wechat/c0933f528628da9ce4f0b55077bb534b.php 第 81 行.
+NOTIC: [8] Undefined index: selling_price /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Runtime/Cache/Wechat/c0933f528628da9ce4f0b55077bb534b.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037649s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038223s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001183s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001643s ]
+
+[ 2016-08-08T15:59:58+08:00 ] ::1 /quwanba1/index.php/wechat/Shop/shop_mall?unionid=123123&headimgurl=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000825s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001280s ]
+
+[ 2016-08-08T16:00:01+08:00 ] ::1 /quwanba1/index.php/wechat/Shop/shop_mall?unionid=123123&headimgurl=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000106s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000828s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001041s ]
+
+[ 2016-08-08T16:00:02+08:00 ] ::1 /quwanba1/index.php/wechat/Shop/shop_mall?unionid=123123&headimgurl=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000142s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001130s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001166s ]
+
+[ 2016-08-08T16:00:03+08:00 ] ::1 /quwanba1/index.php/wechat/Shop/shop_mall?unionid=123123&headimgurl=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000946s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001072s ]
+
+[ 2016-08-08T16:00:36+08:00 ] ::1 /quwanba1/index.php/wechat/Shop/shop_mall?unionid=123123&headimgurl=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000868s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001055s ]
+
+[ 2016-08-08T16:00:37+08:00 ] ::1 /quwanba1/index.php/wechat/Shop/shop_mall?unionid=123123&headimgurl=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000914s ]
+
+[ 2016-08-08T16:00:37+08:00 ] ::1 /quwanba1/index.php/wechat/Shop/shop_mall?unionid=123123&headimgurl=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000123s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000906s ]
+
+[ 2016-08-08T16:00:37+08:00 ] ::1 /quwanba1/index.php/wechat/Shop/shop_mall?unionid=123123&headimgurl=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000773s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000951s ]
+
+[ 2016-08-08T16:00:38+08:00 ] ::1 /quwanba1/index.php/wechat/Shop/shop_mall?unionid=123123&headimgurl=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001305s ]
+
+[ 2016-08-08T16:00:38+08:00 ] ::1 /quwanba1/index.php/wechat/Shop/shop_mall?unionid=123123&headimgurl=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000846s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001158s ]
+
+[ 2016-08-08T16:01:26+08:00 ] ::1 /quwanba1/index.php/wechat/Shop/shop_mall?unionid=123123&headimgurl=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000793s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001007s ]
+
+[ 2016-08-08T16:02:13+08:00 ] ::1 /quwanba1/index.php/wechat/Shop/shop_mall?unionid=123123&headimgurl=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000957s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001167s ]
+
+[ 2016-08-08T16:02:14+08:00 ] ::1 /quwanba1/index.php/wechat/Shop/shop_mall?unionid=123123&headimgurl=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000124s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001140s ]
+
+[ 2016-08-08T16:02:14+08:00 ] ::1 /quwanba1/index.php/wechat/Shop/shop_mall?unionid=123123&headimgurl=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000890s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001065s ]
+
+[ 2016-08-08T16:03:37+08:00 ] ::1 /quwanba1/index.php/wechat/Shop/shop_mall?unionid=123123&headimgurl=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000935s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000936s ]
+
+[ 2016-08-08T16:03:38+08:00 ] ::1 /quwanba1/index.php/wechat/Shop/shop_mall?unionid=123123&headimgurl=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001430s ]
+
+[ 2016-08-08T16:03:38+08:00 ] ::1 /quwanba1/index.php/wechat/Shop/shop_mall?unionid=123123&headimgurl=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000734s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001008s ]
+
+[ 2016-08-08T16:04:02+08:00 ] ::1 /quwanba1/index.php/wechat/Shop/shop_mall?unionid=123123&headimgurl=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000106s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001037s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001095s ]
+
+[ 2016-08-08T16:04:03+08:00 ] ::1 /quwanba1/index.php/wechat/Shop/shop_mall?unionid=123123&headimgurl=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000126s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000999s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001283s ]
+
+[ 2016-08-08T16:04:04+08:00 ] ::1 /quwanba1/index.php/wechat/Shop/shop_mall?unionid=123123&headimgurl=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001013s ]
+
+[ 2016-08-08T16:04:04+08:00 ] ::1 /quwanba1/index.php/wechat/Shop/shop_mall?unionid=123123&headimgurl=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001615s ]
+
+[ 2016-08-08T16:05:08+08:00 ] ::1 /quwanba1/index.php/wechat/Shop/shop_mall?unionid=123123&headimgurl=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000927s ]
+
+[ 2016-08-08T16:05:08+08:00 ] ::1 /quwanba1/index.php/wechat/Shop/shop_mall?unionid=123123&headimgurl=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000888s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001006s ]
+
+[ 2016-08-08T16:05:09+08:00 ] ::1 /quwanba1/index.php/wechat/Shop/shop_mall?unionid=123123&headimgurl=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001050s ]
+
+[ 2016-08-08T16:05:09+08:00 ] ::1 /quwanba1/index.php/wechat/Shop/shop_mall?unionid=123123&headimgurl=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000705s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001040s ]
+
+[ 2016-08-08T16:06:55+08:00 ] ::1 /quwanba1/index.php/wechat/Common/bb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000138s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001074s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001574s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002317s ]
+
+[ 2016-08-08T16:07:23+08:00 ] ::1 /quwanba1/index.php/wechat/Shop/shop_mall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001324s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0111s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0117s ]
+SQL: SHOW COLUMNS FROM `qwb_goods_type` [ RunTime:0.0101s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0112s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0107s ]
+SQL: SHOW COLUMNS FROM `qwb_collect` [ RunTime:0.0098s ]
+SQL: SHOW COLUMNS FROM `qwb_goods_type` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `qwb_goods_type`  [ RunTime:0.0101s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0106s ]
+SQL: SELECT `id`,`rebate`,`pic`,`name`,`original_price`,`selling_price`,`status`,`order` FROM `qwb_goods` WHERE ( conditions = 1 AND type_id='1' )  [ RunTime:0.0106s ]
+SQL: SELECT `id`,`rebate`,`pic`,`name`,`original_price`,`selling_price`,`status`,`order` FROM `qwb_goods` WHERE ( conditions = 1 AND type_id='2' )  [ RunTime:0.0101s ]
+SQL: SELECT `id`,`rebate`,`pic`,`name`,`original_price`,`selling_price`,`status`,`order` FROM `qwb_goods` WHERE ( conditions = 1 AND type_id='3' )  [ RunTime:0.0104s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0102s ]
+SQL: SELECT `id`,`original_price`,`selling_price`,`name`,`pic`,`rebate` FROM `qwb_goods` WHERE `conditions` = 1 AND `type_id` = 0  [ RunTime:0.0094s ]
+SQL: SHOW COLUMNS FROM `qwb_advertisement` [ RunTime:0.0104s ]
+SQL: SELECT `path`,`skip_url` FROM `qwb_advertisement` WHERE ( position = 1 )  [ RunTime:0.0084s ]
+SQL: SELECT `path` FROM `qwb_advertisement` WHERE `position` = 3  [ RunTime:0.0099s ]
+SQL: SELECT `path` FROM `qwb_advertisement` WHERE `position` = 2  [ RunTime:0.0089s ]
+SQL: SHOW COLUMNS FROM `qwb_ratio` [ RunTime:0.0123s ]
+SQL: SELECT `ratio` FROM `qwb_ratio` WHERE `type` = 0 LIMIT 1   [ RunTime:0.0091s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000315s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000714s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045793s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046197s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000802s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001323s ]
+
+[ 2016-08-08T16:07:34+08:00 ] ::1 /quwanba1/index.php/wechat/Common/bb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000118s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001825s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001017s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001522s ]
+
+[ 2016-08-08T16:08:33+08:00 ] ::1 /quwanba1/index.php/wechat/Common/bb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000825s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001147s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0109s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001218s ]
+
+[ 2016-08-08T16:08:34+08:00 ] ::1 /quwanba1/index.php/wechat/Common/bb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001134s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0128s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000884s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001279s ]
+
+[ 2016-08-08T16:08:35+08:00 ] ::1 /quwanba1/index.php/wechat/Common/bb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000753s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001371s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0102s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003308s ]
+
+[ 2016-08-08T16:08:35+08:00 ] ::1 /quwanba1/index.php/wechat/Common/bb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000162s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001393s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0104s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000761s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001126s ]
+
+[ 2016-08-08T16:08:51+08:00 ] ::1 /quwanba1/index.php/wechat/Common/bb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000968s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000943s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0111s ]
+NOTIC: [2] Missing argument 1 for Wechat\Model\UserModel::unionid_user_message(), called in /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Controller/CommonController.class.php on line 369 and defined /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Model/UserModel.class.php 第 39 行.
+NOTIC: [2] Missing argument 2 for Wechat\Model\UserModel::unionid_user_message(), called in /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Controller/CommonController.class.php on line 369 and defined /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Model/UserModel.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0098s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001070s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001537s ]
+
+[ 2016-08-08T16:08:52+08:00 ] ::1 /quwanba1/index.php/wechat/Common/bb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000876s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001357s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0107s ]
+NOTIC: [2] Missing argument 1 for Wechat\Model\UserModel::unionid_user_message(), called in /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Controller/CommonController.class.php on line 369 and defined /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Model/UserModel.class.php 第 39 行.
+NOTIC: [2] Missing argument 2 for Wechat\Model\UserModel::unionid_user_message(), called in /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Controller/CommonController.class.php on line 369 and defined /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Model/UserModel.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0118s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000798s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001182s ]
+
+[ 2016-08-08T16:08:53+08:00 ] ::1 /quwanba1/index.php/wechat/Common/bb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000962s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0112s ]
+NOTIC: [2] Missing argument 1 for Wechat\Model\UserModel::unionid_user_message(), called in /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Controller/CommonController.class.php on line 369 and defined /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Model/UserModel.class.php 第 39 行.
+NOTIC: [2] Missing argument 2 for Wechat\Model\UserModel::unionid_user_message(), called in /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Controller/CommonController.class.php on line 369 and defined /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Model/UserModel.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0113s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001009s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001613s ]
+
+[ 2016-08-08T16:08:53+08:00 ] ::1 /quwanba1/index.php/wechat/Common/bb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000141s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001128s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0109s ]
+NOTIC: [2] Missing argument 1 for Wechat\Model\UserModel::unionid_user_message(), called in /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Controller/CommonController.class.php on line 369 and defined /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Model/UserModel.class.php 第 39 行.
+NOTIC: [2] Missing argument 2 for Wechat\Model\UserModel::unionid_user_message(), called in /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Controller/CommonController.class.php on line 369 and defined /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Model/UserModel.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001015s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001411s ]
+
+[ 2016-08-08T16:09:10+08:00 ] ::1 /quwanba1/index.php/wechat/Common/bb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000133s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000901s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001022s ]
+
+[ 2016-08-08T16:11:37+08:00 ] ::1 /quwanba1/index.php/wechat/Shop/shop_mall?unionid=123123&headimgurl=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000117s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000946s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001116s ]
+
+[ 2016-08-08T16:11:50+08:00 ] ::1 /quwanba1/index.php/wechat/Shop/shop_mall?unionid=123123&headimgurl=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000921s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001054s ]
+
+[ 2016-08-08T16:11:52+08:00 ] ::1 /quwanba1/index.php/wechat/Shop/shop_mall?unionid=123123&headimgurl=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000173s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001253s ]
+
+[ 2016-08-08T16:11:59+08:00 ] ::1 /quwanba1/index.php/wechat/Shop/shop_mall?unionid=123123&headimgurl=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000944s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001205s ]
+
+[ 2016-08-08T16:12:25+08:00 ] ::1 /quwanba1/index.php/wechat/Shop/shop_mall?unionid=123123&headimgurl=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000161s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001341s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0109s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0126s ]
+SQL: SHOW COLUMNS FROM `qwb_goods_type` [ RunTime:0.0115s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0116s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `qwb_collect` [ RunTime:0.0223s ]
+SQL: SHOW COLUMNS FROM `qwb_goods_type` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `qwb_goods_type`  [ RunTime:0.0102s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0098s ]
+SQL: SELECT `id`,`rebate`,`pic`,`name`,`original_price`,`selling_price`,`status`,`order` FROM `qwb_goods` WHERE ( conditions = 1 AND type_id='1' )  [ RunTime:0.0091s ]
+SQL: SELECT `id`,`rebate`,`pic`,`name`,`original_price`,`selling_price`,`status`,`order` FROM `qwb_goods` WHERE ( conditions = 1 AND type_id='2' )  [ RunTime:0.0109s ]
+SQL: SELECT `id`,`rebate`,`pic`,`name`,`original_price`,`selling_price`,`status`,`order` FROM `qwb_goods` WHERE ( conditions = 1 AND type_id='3' )  [ RunTime:0.0133s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0119s ]
+SQL: SELECT `id`,`original_price`,`selling_price`,`name`,`pic`,`rebate` FROM `qwb_goods` WHERE `conditions` = 1 AND `type_id` = 0  [ RunTime:0.0106s ]
+SQL: SHOW COLUMNS FROM `qwb_advertisement` [ RunTime:0.0118s ]
+SQL: SELECT `path`,`skip_url` FROM `qwb_advertisement` WHERE ( position = 1 )  [ RunTime:0.0100s ]
+SQL: SELECT `path` FROM `qwb_advertisement` WHERE `position` = 3  [ RunTime:0.0105s ]
+SQL: SELECT `path` FROM `qwb_advertisement` WHERE `position` = 2  [ RunTime:0.0102s ]
+SQL: SHOW COLUMNS FROM `qwb_ratio` [ RunTime:0.0116s ]
+SQL: SELECT `ratio` FROM `qwb_ratio` WHERE `type` = 0 LIMIT 1   [ RunTime:0.0084s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000341s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000857s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056374s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056943s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000795s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Controller/CommonController.class.php:21) /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Controller/CommonController.class.php:21) /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Controller/CommonController.class.php:21) /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002586s ]
+
+[ 2016-08-08T16:15:22+08:00 ] ::1 /quwanba1/index.php/wechat/Common/bb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000793s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000978s ]
+
+[ 2016-08-08T16:15:23+08:00 ] ::1 /quwanba1/index.php/wechat/Common/bb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000958s ]
+
+[ 2016-08-08T16:15:23+08:00 ] ::1 /quwanba1/index.php/wechat/Common/bb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000969s ]
+
+[ 2016-08-08T16:15:24+08:00 ] ::1 /quwanba1/index.php/wechat/Common/bb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001339s ]
+
+[ 2016-08-08T16:19:08+08:00 ] ::1 /quwanba1/index.php/wechat/Shop/shop_mall?unionid=123123&headimgurl=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000873s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001040s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0101s ]
+SQL: SELECT `id` FROM `qwb_user` WHERE `unionid` = '123123' LIMIT 1   [ RunTime:0.0089s ]
+SQL: INSERT INTO `qwb_user` (`headimgurl`,`unionid`,`login_time`) VALUES ('123','123123','2016-08-08 16:19:08') [ RunTime:0.0100s ]
+SQL: UPDATE `qwb_user` SET `headimgurl`='123',`unionid`='123123',`login_time`='2016-08-08 16:19:08',`qwb_id`='8008054' WHERE `unionid` = '123123' [ RunTime:0.0326s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0125s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0112s ]
+SQL: SHOW COLUMNS FROM `qwb_goods_type` [ RunTime:0.0105s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0108s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0107s ]
+SQL: SHOW COLUMNS FROM `qwb_collect` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `qwb_goods_type` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `qwb_goods_type`  [ RunTime:0.0106s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0137s ]
+SQL: SELECT `id`,`rebate`,`pic`,`name`,`original_price`,`selling_price`,`status`,`order` FROM `qwb_goods` WHERE ( conditions = 1 AND type_id='1' )  [ RunTime:0.0092s ]
+SQL: SELECT `id`,`rebate`,`pic`,`name`,`original_price`,`selling_price`,`status`,`order` FROM `qwb_goods` WHERE ( conditions = 1 AND type_id='2' )  [ RunTime:0.0094s ]
+SQL: SELECT `id`,`rebate`,`pic`,`name`,`original_price`,`selling_price`,`status`,`order` FROM `qwb_goods` WHERE ( conditions = 1 AND type_id='3' )  [ RunTime:0.0101s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0098s ]
+SQL: SELECT `id`,`original_price`,`selling_price`,`name`,`pic`,`rebate` FROM `qwb_goods` WHERE `conditions` = 1 AND `type_id` = 0  [ RunTime:0.0093s ]
+SQL: SHOW COLUMNS FROM `qwb_advertisement` [ RunTime:0.0105s ]
+SQL: SELECT `path`,`skip_url` FROM `qwb_advertisement` WHERE ( position = 1 )  [ RunTime:0.0095s ]
+SQL: SELECT `path` FROM `qwb_advertisement` WHERE `position` = 3  [ RunTime:0.0091s ]
+SQL: SELECT `path` FROM `qwb_advertisement` WHERE `position` = 2  [ RunTime:0.0097s ]
+SQL: SHOW COLUMNS FROM `qwb_ratio` [ RunTime:0.0099s ]
+SQL: SELECT `ratio` FROM `qwb_ratio` WHERE `type` = 0 LIMIT 1   [ RunTime:0.0096s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000290s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000720s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048856s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049317s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000973s ]
+
+[ 2016-08-08T16:19:10+08:00 ] ::1 /quwanba1/index.php/wechat/Shop/shop_mall?unionid=123123&headimgurl=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000747s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001007s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0099s ]
+SQL: SELECT `id` FROM `qwb_user` WHERE `unionid` = '123123' LIMIT 1   [ RunTime:0.0076s ]
+SQL: UPDATE `qwb_user` SET `login_time`='2016-08-08 16:19:10' WHERE `unionid` = '123123' [ RunTime:0.0079s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0099s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0117s ]
+SQL: SHOW COLUMNS FROM `qwb_goods_type` [ RunTime:0.0096s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0088s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0097s ]
+SQL: SHOW COLUMNS FROM `qwb_collect` [ RunTime:0.0085s ]
+SQL: SHOW COLUMNS FROM `qwb_goods_type` [ RunTime:0.0277s ]
+SQL: SELECT * FROM `qwb_goods_type`  [ RunTime:0.0079s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0087s ]
+SQL: SELECT `id`,`rebate`,`pic`,`name`,`original_price`,`selling_price`,`status`,`order` FROM `qwb_goods` WHERE ( conditions = 1 AND type_id='1' )  [ RunTime:0.0075s ]
+SQL: SELECT `id`,`rebate`,`pic`,`name`,`original_price`,`selling_price`,`status`,`order` FROM `qwb_goods` WHERE ( conditions = 1 AND type_id='2' )  [ RunTime:0.0087s ]
+SQL: SELECT `id`,`rebate`,`pic`,`name`,`original_price`,`selling_price`,`status`,`order` FROM `qwb_goods` WHERE ( conditions = 1 AND type_id='3' )  [ RunTime:0.0086s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0090s ]
+SQL: SELECT `id`,`original_price`,`selling_price`,`name`,`pic`,`rebate` FROM `qwb_goods` WHERE `conditions` = 1 AND `type_id` = 0  [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `qwb_advertisement` [ RunTime:0.0084s ]
+SQL: SELECT `path`,`skip_url` FROM `qwb_advertisement` WHERE ( position = 1 )  [ RunTime:0.0082s ]
+SQL: SELECT `path` FROM `qwb_advertisement` WHERE `position` = 3  [ RunTime:0.0081s ]
+SQL: SELECT `path` FROM `qwb_advertisement` WHERE `position` = 2  [ RunTime:0.0069s ]
+SQL: SHOW COLUMNS FROM `qwb_ratio` [ RunTime:0.0100s ]
+SQL: SELECT `ratio` FROM `qwb_ratio` WHERE `type` = 0 LIMIT 1   [ RunTime:0.0071s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000270s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000644s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046361s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046773s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000713s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000637s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000964s ]
+
+[ 2016-08-08T16:19:11+08:00 ] ::1 /quwanba1/index.php/wechat/Shop/shop_mall?unionid=123123&headimgurl=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001149s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001547s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0188s ]
+SQL: SELECT `id` FROM `qwb_user` WHERE `unionid` = '123123' LIMIT 1   [ RunTime:0.0092s ]
+SQL: UPDATE `qwb_user` SET `login_time`='2016-08-08 16:19:11' WHERE `unionid` = '123123' [ RunTime:0.0108s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0092s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `qwb_goods_type` [ RunTime:0.0093s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0086s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0094s ]
+SQL: SHOW COLUMNS FROM `qwb_collect` [ RunTime:0.0081s ]
+SQL: SHOW COLUMNS FROM `qwb_goods_type` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `qwb_goods_type`  [ RunTime:0.0083s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0091s ]
+SQL: SELECT `id`,`rebate`,`pic`,`name`,`original_price`,`selling_price`,`status`,`order` FROM `qwb_goods` WHERE ( conditions = 1 AND type_id='1' )  [ RunTime:0.0082s ]
+SQL: SELECT `id`,`rebate`,`pic`,`name`,`original_price`,`selling_price`,`status`,`order` FROM `qwb_goods` WHERE ( conditions = 1 AND type_id='2' )  [ RunTime:0.0076s ]
+SQL: SELECT `id`,`rebate`,`pic`,`name`,`original_price`,`selling_price`,`status`,`order` FROM `qwb_goods` WHERE ( conditions = 1 AND type_id='3' )  [ RunTime:0.0086s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0096s ]
+SQL: SELECT `id`,`original_price`,`selling_price`,`name`,`pic`,`rebate` FROM `qwb_goods` WHERE `conditions` = 1 AND `type_id` = 0  [ RunTime:0.0084s ]
+SQL: SHOW COLUMNS FROM `qwb_advertisement` [ RunTime:0.0076s ]
+SQL: SELECT `path`,`skip_url` FROM `qwb_advertisement` WHERE ( position = 1 )  [ RunTime:0.0086s ]
+SQL: SELECT `path` FROM `qwb_advertisement` WHERE `position` = 3  [ RunTime:0.0075s ]
+SQL: SELECT `path` FROM `qwb_advertisement` WHERE `position` = 2  [ RunTime:0.0082s ]
+SQL: SHOW COLUMNS FROM `qwb_ratio` [ RunTime:0.0080s ]
+SQL: SELECT `ratio` FROM `qwb_ratio` WHERE `type` = 0 LIMIT 1   [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000328s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000781s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043221s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043716s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000889s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000862s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001312s ]
+
+[ 2016-08-08T16:19:23+08:00 ] ::1 /quwanba1/index.php/Wechat/Spokesman/represent_v.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000858s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001021s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0116s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0122s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0129s ]
+SQL: SELECT `gid`,`fid`,`income`,`headimgurl`,`nickname`,`qwb_id`,`rank` FROM `qwb_user` WHERE `id` = 54 LIMIT 1   [ RunTime:0.0128s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qwb_user` WHERE `fid` = 54 LIMIT 1   [ RunTime:0.0095s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qwb_user` WHERE `gid` = 54 LIMIT 1   [ RunTime:0.0097s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000266s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000625s ]
+NOTIC: [8] Use of undefined constant vip_letter - assumed 'vip_letter' /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Runtime/Cache/Wechat/fcf8f768fccf2371680585a5660ca318.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029740s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030433s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000660s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-08T16:19:23+08:00 ] ::1 /quwanba1/index.php/Wechat/Spokesman/123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000872s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001306s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0108s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0124s ]
+ERR: 非法操作:123
+
+[ 2016-08-08T23:22:10+08:00 ] ::1 /quwanba1/index.php/wechat/Collect/app_myCollect2?unionid=123123&headimgurl=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000928s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001250s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0093s ]
+SQL: SELECT `id` FROM `qwb_user` WHERE `unionid` = '123123' LIMIT 1   [ RunTime:0.0123s ]
+SQL: UPDATE `qwb_user` SET `login_time`='2016-08-08 23:22:10' WHERE `unionid` = '123123' [ RunTime:0.0098s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0085s ]
+SQL: SHOW COLUMNS FROM `qwb_collect` [ RunTime:0.0098s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000229s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000588s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015160s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000987s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000999s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001453s ]
+
+[ 2016-08-08T23:22:10+08:00 ] ::1 /quwanba1/index.php/wechat/Collect/js/jquery-2.1.4.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000939s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001004s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0087s ]
+SQL: SHOW COLUMNS FROM `qwb_collect` [ RunTime:0.0074s ]
+ERR: 非法操作:js
+
+[ 2016-08-08T23:22:10+08:00 ] ::1 /quwanba1/index.php/wechat/Collect/js/js.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000887s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001083s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0083s ]
+SQL: SHOW COLUMNS FROM `qwb_collect` [ RunTime:0.0078s ]
+ERR: 非法操作:js
+

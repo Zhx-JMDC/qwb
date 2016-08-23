@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/quwanba/!svn/ver/1773/ThinkPHP/Library/Vendor/wxpay/cert
+END
+apiclient_key.pem
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/quwanba/!svn/ver/772/ThinkPHP/Library/Vendor/wxpay/cert/apiclient_key.pem
+END
+apiclient_cert.pem
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/quwanba/!svn/ver/772/ThinkPHP/Library/Vendor/wxpay/cert/apiclient_cert.pem
+END
+apiclient_cert.p12
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/quwanba/!svn/ver/1773/ThinkPHP/Library/Vendor/wxpay/cert/apiclient_cert.p12
+END
+rootca.pem
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/quwanba/!svn/ver/1773/ThinkPHP/Library/Vendor/wxpay/cert/rootca.pem
+END

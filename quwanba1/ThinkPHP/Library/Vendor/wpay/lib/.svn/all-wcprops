@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/quwanba/!svn/ver/2561/ThinkPHP/Library/Vendor/wpay/lib
+END
+WxPay.Config.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/quwanba/!svn/ver/2561/ThinkPHP/Library/Vendor/wpay/lib/WxPay.Config.php
+END
+WxPay.Notify.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/quwanba/!svn/ver/2561/ThinkPHP/Library/Vendor/wpay/lib/WxPay.Notify.php
+END
+WxPay.Api.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/quwanba/!svn/ver/2561/ThinkPHP/Library/Vendor/wpay/lib/WxPay.Api.php
+END
+WxPay.Data.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/quwanba/!svn/ver/2561/ThinkPHP/Library/Vendor/wpay/lib/WxPay.Data.php
+END
+WxPay.Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/quwanba/!svn/ver/2561/ThinkPHP/Library/Vendor/wpay/lib/WxPay.Exception.php
+END

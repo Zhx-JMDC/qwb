@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html;charset=utf-8">
+	<title>联盟商家</title>
+	<link rel="stylesheet" type="text/css" href="css/css.css">
+	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="js/js.js"></script>
+</head>
+<body>
+	<div id="top">
+		<!-- <p class="topBar">
+			<span class="top_left"><img src="images/top_left.png"><a href="">返回</a>&nbsp;&nbsp;<a href="">关闭</a></span>
+			订单详情
+			<span class="top_right"><img src="images/top_dot.png"></span>
+		</p> -->
+	</div>
+	<div id="content">
+		<div class="shopinClass">
+			<ul>
+				<!-- 加了a标签，会刷新，效果看不到，点文字外面可以看到效果								 -->
+
+				<li class="shopinClass_Clicked">
+					<p class="shopinClass_p"><a href="">
+					<img class="shopinClass_img01" src="images/shop_list_logo.png"><img class="shopinClass_img02" src="images/shop_list_logo_bc.png">农家乐</a></p>
+					<p class="shopinClass_img"><img src="images/shop_letter_jia.png"></p></li>
+				<li>
+					<p class="shopinClass_p"><a href="">
+					<img class="shopinClass_img01" src="images/shop_list_logo.png"><img class="shopinClass_img02" src="images/shop_list_logo_bc.png">农家乐</a></p>
+					<p class="shopinClass_img"><img src="images/shop_letter_jia.png"></p></li>
+				<li>
+					<p class="shopinClass_p"><a href="">
+					<img class="shopinClass_img01" src="images/shop_list_logo.png"><img class="shopinClass_img02" src="images/shop_list_logo_bc.png">农家乐</a></p>
+					<p class="shopinClass_img"><img src="images/shop_letter_jia.png"></p></li>
+				<li>
+					<p class="shopinClass_p"><a href="">
+					<img class="shopinClass_img01" src="images/shop_list_logo.png"><img class="shopinClass_img02" src="images/shop_list_logo_bc.png">农家乐</a></p></li>
+
+				<li><p class="shopinClass_p"><a href="">
+					<img class="shopinClass_img01" src="images/shop_list_logo.png"><img class="shopinClass_img02" src="images/shop_list_logo_bc.png">农家乐</a></p></li>
+				<li><p class="shopinClass_p"><a href="">
+					<img class="shopinClass_img01" src="images/shop_list_logo.png"><img class="shopinClass_img02" src="images/shop_list_logo_bc.png">农家乐</a></p></li>
+				<li><p class="shopinClass_p"><a href="">
+					<img class="shopinClass_img01" src="images/shop_list_logo.png"><img class="shopinClass_img02" src="images/shop_list_logo_bc.png">农家乐</a></p></li>
+				<li><p class="shopinClass_p"><a href="">
+					<img class="shopinClass_img01" src="images/shop_list_logo.png"><img class="shopinClass_img02" src="images/shop_list_logo_bc.png">农家乐</a></p></li>
+			</ul>
+		</div>
+		<div class="shopinIntro">
+			<ul>
+				<li>
+					<p class="myorderPic_01"><img src="images/order_temp.png"></p>
+					<p class="shopinIntro_02"><a href="#">大罗山盘云谷别墅套房</a><span><a href="#"><img src="images/shop_address.png">42km</a></span></p>
+					<p class="shopinIntro_03"><img src="images/shop_sale.png"><span>5</span>折</p>
+				</li>
+
+			</ul>
+		</div>
+	</div>
+	<div id="footer">
+		<ul>
+			<li><a href="#">
+				<p class="footer_botton_p1"><img src="images/bottom_01.png"></p>
+				<p class="footer_botton_p2">商城首页</p></a>
+			</li>
+			<li><a href="#">
+				<p class="footer_botton_p1"><img src="images/bottom_02.png"></p>
+				<p class="footer_botton_p2">联盟商家</p></a>
+			</li>
+			<li><a href="#">
+				<p class="footer_botton_p1"><img src="images/bottom_03.png"></p>
+				<p class="footer_botton_p2">我的收藏</p></a>
+			</li>
+			<li><a href="#">
+				<p class="footer_botton_p1"><img src="images/bottom_04.png"></p>
+				<p class="footer_botton_p2">我的订单</p></a>
+			</li>
+			<li><a href="#">
+				<p class="footer_botton_p1"><img src="images/bottom_05.png"></p>
+				<p class="footer_botton_p2">我是代言人</p></a>
+			</li>
+		</ul>
+	</div>
+</body>
+<script type="text/javascript">
+	$(function(){
+	function loadMeinv(){
+		var data = 0;
+		for(var i=0;i<2;i++){
+			var html = "";
+			html = '<li><p class="myorderPic_01"><img src="images/order_temp.png"></p><p class="shopinIntro_02"><a href="#">大罗山盘云谷别墅套房</a><span><a href="#"><img src="images/shop_address.png">42km</a></span></p><p class="shopinIntro_03"><img src="images/shop_sale.png"><span>5</span>折</p></li>';
+			$minUl = getMinUl();
+			$minUl.append(html);
+		}
+	}
+	loadMeinv();
+	$(window).on("scroll",function(){
+		$minUl = getMinUl();
+		if($minUl.height() <= $(window).scrollTop()+$(window).height()){
+			loadMeinv();
+		}
+	})
+	function getMinUl(){
+		var $arrUl = $(".shopinIntro ul");
+		var $minUl =$arrUl.eq(0);
+		$arrUl.each(function(index,elem){
+			if($(elem).height()<$minUl.height()){
+				$minUl = $(elem);
+			}
+		});
+		return $minUl;
+	}
+})
+</script>
+</html>

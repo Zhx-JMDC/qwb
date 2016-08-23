@@ -1,0 +1,10 @@
+[ 2016-07-15T17:56:42+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/shop_index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000759s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001151s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0139s ]
+ERR: 非法操作:shop_index
+

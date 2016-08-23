@@ -1,0 +1,19 @@
+@CHARSET "UTF-8";
+
+.panel {
+ width: 320px;
+ min-height:568px
+}
+.panel-heading {
+}
+.panel-body {
+	
+	overflow-y: auto;
+}
+.panel-footer {
+	position: absolute;
+	bottom:0px;
+	width: 320px;
+	height:118px;
+	overflow-y: auto;
+}

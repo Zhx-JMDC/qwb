@@ -1,0 +1,249 @@
+<extend name="Public/base2" />
+<block name="title">趣玩商城</block>
+<block name="body">
+	<div id="content">
+		<div class="shopinClassApp">
+			<div id="shopinClassApp" class="shopClassApp_horizon">
+				<ul>
+					<foreach name="class" item="v">
+						<li><img src="{$v.icon}">
+						<p>{$v.name}</p></li>
+					</foreach>
+				</ul>
+			</div>
+		</div>
+		<div class="shopinHistoryApp">
+			<p class="shopinHistoryApp_01">搜索历史</p>
+			<ul id="keyword">
+				<foreach name="search" item="v">
+					<li><a href="{:U('Shop/app_search',array('keyword'=>$v['keyword']))}">{$v.keyword}</a></li>
+				</foreach>
+			</ul>
+			<p class="shopinHistoryApp_02" onclick=""><a onclick="searchClear()">清除</a></p>
+		</div>
+		<div class="shopinHindApp"><p>搜索内容将保留一个星期，过期后将自动刷新！</p></div>
+		<div class="orderPic orderPicApp">
+			<p class="orderPic_01"><a href="{:U('Spokesman/app_buy_card')}"><img src="{$ad.path}"></a></p>
+		</div>
+		<div class="shopinIntro shopinIntroApp appshopSelectApp">
+			<ul>
+				<foreach name="goods" item="v">
+					<li>
+						<p class="myorderPic_01">
+							<a href="{:U('Shop/app_shop_mall_intro',array('id'=>$v['id']))}"><img src="{$v.pic}"></a>
+						</p>
+						<p class="mycollectMain_02">{$v.name}</p>
+						<p class="mycollectMain_03">趣玩吧价格</p>
+						<p class="mycollectMain_04">￥{$v.selling_price} <span>￥{$v.original_price}</span></p>
+						<if condition="$v.type_id eq 1 ">
+							<switch name="v.status" >
+								<case value="1">
+									<if condition="$v.rebate eq 0 ">
+										<else /><p class="mycollectMain_06 mycollectMain_06_state_02"><span>F</span>￥{$v.rebate}</p>
+									</if>
+									<p class="mycollectMain_05 mycollectMain_05_state_02"><span><img src="__IMG__/clock_light.png"></span>
+										正在抢购<br>ING...</p></case>
+								<case value="2">
+									<if condition="$v.rebate eq 0 ">
+										<else /><p class="mycollectMain_06 mycollectMain_06_state_03"><span>F</span>￥{$v.rebate}</p>
+									</if>
+									<p class="mycollectMain_05 mycollectMain_05_state_03"><span><img src="__IMG__/clock_light.png"></span>
+										抢购结束<br>over</p></case>
+								<default />
+								<if condition="$v.rebate eq 0 ">
+									<else /><p class="mycollectMain_06 mycollectMain_06_state_01"><span>F</span>￥{$v.rebate}</p>
+								</if>
+							</switch>
+							<else />
+							<p class="mycollectMain_06 mycollectMain_06_state_02"><span>F</span>￥{$v.rebate}</p>
+						</if>
+					</li>
+				</foreach>
+				<foreach name="shop" item="v">
+					<li>
+						<p class="myorderPic_01">
+							<a href="{:U('AllianceShop/app_shop_intro',array('id'=>$v['id']))}"><img src="{$v.pic}"></a>
+						</p>
+						<p class="shopinIntro_02">
+							<a href="{:U('AllianceShop/app_shop_intro',array('id'=>$v['id']))}">{$v.shop_name}</a>
+							<span><img src="__IMG__/shop_address.png">{$v.distance}km</span>
+						</p>
+						<p class="shopinIntro_03"><img src="{$v.discount_img}"></p>
+					</li>
+				</foreach>
+			</ul>
+		</div>
+	</div>
+</block>
+<block name="script">
+<script type="text/javascript">
+	function searchClear(){
+		$.ajax({
+			url     : "{:U('Shop/app_search_clear',array('id'=>$id))}",
+			type    : 'post',
+			success : function(){
+				$('#keyword').html('');
+			}
+		});
+	}
+
+$(document).ready(function(){
+	$(".main_visual").hover(function(){
+		$("#btn_prev,#btn_next").fadeIn()
+	},function(){
+		$("#btn_prev,#btn_next").fadeOut()
+	});
+	
+	$dragBln = false;
+	
+	$(".main_image").touchSlider({
+		flexible : true,
+		speed : 200,
+		btn_prev : $("#btn_prev"),
+		btn_next : $("#btn_next"),
+		paging : $(".flicking_con a"),
+		counter : function (e){
+			$(".flicking_con a").removeClass("on").eq(e.current-1).addClass("on");
+		}
+	});
+	
+	$(".main_image").bind("mousedown", function() {
+		$dragBln = false;
+	});
+	
+	$(".main_image").bind("dragstart", function() {
+		$dragBln = true;
+	});
+	
+	$(".main_image a").click(function(){
+		if($dragBln) {
+			return false;
+		}
+	});
+	
+	timer = setInterval(function(){
+		$("#btn_next").click();
+	}, 5000);
+	
+	$(".main_visual").hover(function(){
+		clearInterval(timer);
+	},function(){
+		timer = setInterval(function(){
+			$("#btn_next").click();
+		},5000);
+	});
+	
+	$(".main_image").bind("touchstart",function(){
+		clearInterval(timer);
+	}).bind("touchend", function(){
+		timer = setInterval(function(){
+			$("#btn_next").click();
+		}, 5000);
+	});
+	
+});
+</script>
+<script type="text/javascript">
+	$(function(){
+		var page = 2;
+		function loadMeinv(){
+			var count = 3;
+			if(({$_count}+count-1)/count >= page){
+				var key = '{$keyword}';
+				$.ajax({
+					url: "{:U('Shop/app_search_more')}",
+					type: 'post',
+					data: {'page': page,'count':count,'keyword':key},
+					success: function (data) {
+						var html = "";
+						if(data.goods.length != 0){
+							$.each(data.goods, function (k, v) {
+								html += '<li>' +
+										'<p class="myorderPic_01">' +
+										'<a href="{:U(\'Shop/app_shop_mall_intro\')}?id='+v.id+'"><img src="'+v.pic+'"></a></p>'+
+										'<p class="mycollectMain_02">'+v.name+'</p>'+
+										'<p class="mycollectMain_03">趣玩吧价格</p>'+
+										'<p class="mycollectMain_04">￥'+v.selling_price+'<span>￥'+v.original_price+'</span></p>';
+								if(v.type_id == 1){
+									switch(v.status){
+										case '1':
+											if(v.rebate != 0){
+												html += '<p class="mycollectMain_06 mycollectMain_06_state_02"><span>F</span>￥'+v.rebate+'</p>';
+											}
+											html += '<p class="mycollectMain_05 mycollectMain_05_state_02"><span><img src="__IMG__/clock_light.png"></span>正在抢购<br>ING...</p></case>';
+											break;
+										case '2':
+											if(v.rebate != 0){
+												html += '<p class="mycollectMain_06 mycollectMain_06_state_03"><span>F</span>￥'+v.rebate+'</p>';
+											}
+											html += '<p class="mycollectMain_05 mycollectMain_05_state_03"><span><img src="__IMG__/clock_light.png"></span>抢购结束<br>over</p>';
+											break;
+										default:
+											if(v.rebate != 0){
+												html += '<p class="mycollectMain_06 mycollectMain_06_state_01"><span>F</span>￥'+v.rebate+'</p>';
+											}
+									}
+								}else{
+									html += '<p class="mycollectMain_06 mycollectMain_06_state_02"><span>F</span>￥'+v.rebate+'</p>';
+								}
+								html += '</li>';
+							});
+						}else if(data.shop != null){
+							$.each(data.shop, function (k, v) {
+								html += '<li><p class="myorderPic_01"><a href="{:U(\'AllianceShop/app_shop_intro\')}?id='+v.id+'"><img src="'+v.pic+'"></a></p><p class="shopinIntro_02">'+v.shop_name+'<span><a href="#"><img src="__IMG__/shop_address.png">'+v.distance+'km</a></span></p><p class="shopinIntro_03"><img src="'+v.discount_img+'"></p></li>';
+							});
+						}
+						$minUl = getMinUl();
+						$minUl.append(html);
+					}
+				});
+			}
+			page++;
+		}
+
+		loadMeinv();
+		$(window).on("scroll",function(){
+			$minUl = getMinUl();
+			if($minUl.height() <= $(window).scrollTop()+$(window).height()){
+				loadMeinv();
+			}
+		})
+		function getMinUl(){
+			var $arrUl = $(".shopinIntro ul");
+			var $minUl =$arrUl.eq(0);
+			$arrUl.each(function(index,elem){
+				if($(elem).height()<$minUl.height()){
+					$minUl = $(elem);
+				}
+			});
+			return $minUl;
+		}
+	})
+</script>
+<script type="text/javascript">
+	var phoneScroll;
+	function liresize(){
+		var w = $(".cirmyTopUl").width();
+		// $(".cirmyTopUl li img").width(w);
+		phoneScroll.refresh();
+	}
+
+	$(function(){
+		phoneScroll = new iScroll("shopinClassApp",{
+				snap: true,
+				momentum: false,
+				vScroll:false,
+				hScroll:true,
+				hScrollbar:false,
+			});
+		$(window).load(function(e) {
+			liresize();
+		});
+
+		$(window).resize(function(e) {
+			liresize();
+		});
+
+	});
+</script>
+</block>

@@ -1,0 +1,179 @@
+<extend name="Public/base2" />
+<block name="title">联盟商家</block>
+<block name="body">
+	<div id="content">
+		<div class="shopinGroup">
+			<div class="main_visual">
+				<div class="shopinGroupTop"></div>
+				<div class="flicking_con">
+					<a href="#">&nbsp;</a>
+					<a href="#">&nbsp;</a>
+					<a href="#">&nbsp;</a>
+					<a href="#">&nbsp;</a>
+					<a href="#">&nbsp;</a>
+				</div>
+				<div class="main_image">
+					<ul>
+						<foreach name="ad" item="v">
+							<li><a href="{$v.skip_url}"><img src="{$v.path}"></a></li>
+						</foreach>
+					</ul>
+					<!--<a href="javascript:;" id="btn_prev"></a>-->
+					<!--<a href="javascript:;" id="btn_next"></a>-->
+				</div>
+				<div class="shopinGroupBottom">kkkk</div>
+			</div>
+		</div>
+		<div class="shopinClassApp shopinClassAppBottomline">
+			<div id="shopinClassApp" class="shopClassApp_horizon">
+				<ul>
+					<foreach name="class" item="v">
+						<li>
+							<a href="{:U('AllianceShop/app_shop_class',array('id'=>$v['id']))}">
+								<img src="{$v.icon}">
+								<p>{$v.name}</p>
+							</a>
+						</li>
+					</foreach>
+				</ul>
+			</div>
+		</div>
+		<div class="shopinBar">
+			<ul>
+				<a href="{:U('AllianceShop/app_shop_index_hot')}"><li><p>热门商家</p></li></a>
+				<a href="{:U('AllianceShop/app_shop_index_new')}"><li class="shopinBar_Clicked"><p>最新商家</p></li></a>
+			</ul>
+		</div>
+		<div class="shopinIntro">
+			<ul></ul>
+		</div>
+	</div>
+</block>
+<block name="script">
+<script type="text/javascript">
+$(document).ready(function(){
+
+	$(".main_visual").hover(function(){
+		$("#btn_prev,#btn_next").fadeIn()
+	},function(){
+		$("#btn_prev,#btn_next").fadeOut()
+	});
+	
+	$dragBln = false;
+	
+	$(".main_image").touchSlider({
+		flexible : true,
+		speed : 200,
+		btn_prev : $("#btn_prev"),
+		btn_next : $("#btn_next"),
+		paging : $(".flicking_con a"),
+		counter : function (e){
+			$(".flicking_con a").removeClass("on").eq(e.current-1).addClass("on");
+		}
+	});
+	
+	$(".main_image").bind("mousedown", function() {
+		$dragBln = false;
+	});
+	
+	$(".main_image").bind("dragstart", function() {
+		$dragBln = true;
+	});
+	
+	$(".main_image a").click(function(){
+		if($dragBln) {
+			return false;
+		}
+	});
+	
+	timer = setInterval(function(){
+		$("#btn_next").click();
+	}, 5000);
+	
+	$(".main_visual").hover(function(){
+		clearInterval(timer);
+	},function(){
+		timer = setInterval(function(){
+			$("#btn_next").click();
+		},5000);
+	});
+	
+	$(".main_image").bind("touchstart",function(){
+		clearInterval(timer);
+	}).bind("touchend", function(){
+		timer = setInterval(function(){
+			$("#btn_next").click();
+		}, 5000);
+	});
+	
+});
+</script>
+<script type="text/javascript">
+$(function(){
+	var page = 1;
+	function loadMeinv(){
+		var count = 3;
+		if(({$goods_count}+count-1)/count >= page){
+			var search = $('#search').val();
+			$.ajax({
+				url: "{:U('AllianceShop/shop_new_more')}",
+				type: 'post',
+				data: {'page': page,'count':count,'search':search},
+				success: function (data) {
+					var html = "";
+					$.each(data, function (k, v) {
+						html += '<li><p class="myorderPic_01"><a href="{:U(\'AllianceShop/app_shop_intro\')}?id='+v.id+'"><img src="'+v.pic+'"></a></p><p class="shopinIntro_02">'+v.shop_name+'<span><a href="#"><img src="__IMG__/shop_address.png">'+v.distance+'km</a></span></p><p class="shopinIntro_03"><img src="'+v.discount_img+'"></p></li>';
+					})
+					$minUl = getMinUl();
+					$minUl.append(html);
+				}
+			});
+		}
+		page++;
+	}
+	loadMeinv();
+	$(window).on("scroll",function(){
+		$minUl = getMinUl();
+		if($minUl.height() <= $(window).scrollTop()+$(window).height()){
+			loadMeinv();
+		}
+	})
+	function getMinUl(){
+		var $arrUl = $(".shopinIntro ul");
+		var $minUl =$arrUl.eq(0);
+		$arrUl.each(function(index,elem){
+			if($(elem).height()<$minUl.height()){
+				$minUl = $(elem);
+			}
+		});
+		return $minUl;
+	}
+})
+</script>
+<script type="text/javascript">
+var phoneScroll;
+function liresize(){
+	var w = $(".cirmyTopUl").width();
+	// $(".cirmyTopUl li img").width(w);
+	phoneScroll.refresh();
+}
+
+$(function(){
+	phoneScroll = new iScroll("shopinClassApp",{
+			snap: true,
+			momentum: false,
+			vScroll:false,
+			hScroll:true,
+			hScrollbar:false,
+		});
+	$(window).load(function(e) {
+		liresize();
+    });
+	
+	$(window).resize(function(e) {
+        liresize();
+    });
+	
+});
+</script>
+</block>

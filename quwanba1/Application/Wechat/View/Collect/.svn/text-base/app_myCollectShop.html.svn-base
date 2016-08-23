@@ -1,0 +1,55 @@
+<extend name="Public/base2" />
+<block name="title">我的收藏</block>
+<block name="body">
+	<div id="top">
+		<!-- <p class="topBar">
+			<span class="top_left"><img src="__IMG__/top_left.png"><a href="">返回</a>&nbsp;&nbsp;<a href="">关闭</a></span>
+			我的收藏
+			<span class="top_right"><img src="__IMG__/top_dot.png"></span>
+		</p> -->
+	</div>
+	<div id="content">
+		<div class="friendsBar mycollectBar">
+			<ul>
+				<a href="{:U('Collect/app_my_collect_goods')}"><li>商城收藏</li></a>
+				<a href="{:U('Collect/app_my_collect_shop')}"><li class="friendsBar-clicked">联盟商家收藏</li></a>
+			</ul>
+		</div>
+		<div class="mycollectMain my_socole">
+			<ul>
+				<foreach name="collect" item="v">
+					<li>            
+						<p class="myorderPic_01"><a href="{:U('AllianceShop/app_shop_intro',array('id'=>$v['collect_id']))}"><img src="{$v.pic}"></a>
+							<i><a onclick="collectDelete('{$v.collect_id}')"><img src="__IMG__/mycollect_delete.png"></a></i>
+						</p>
+						<p class="shopinIntro_02"><a href="#">{$v.shop_name}</a></p>
+						<p class="shopinIntro_03"><img src="{$v.discount_img}"></p>
+					</li>
+				</foreach>
+			</ul>
+		</div>
+		<div class="mycollectHind">
+			<p>已到最后一页</p>
+		</div>
+	</div>
+</block>
+<block name="script">
+	<script>
+		function collectDelete(id){
+			if(confirm("确认删除该收藏吗？")){
+				$.ajax({
+					url     : "{:U('Collect/collect_del')}",
+					type    : 'post',
+					data    : {'id': id,'type':1},
+					success : function(data){
+						if(data == 3){
+							window.location.href = "{:U('Collect/app_my_collect_shop')}";
+						}else{
+							alert("删除失败,请重试");
+						}
+					}
+				});
+			}
+		}
+	</script>
+</block>

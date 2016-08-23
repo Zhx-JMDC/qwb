@@ -1,0 +1,110 @@
+<extend name="Public/base" />
+
+<block name="body">
+	<!-- 标题栏 -->
+	<div class="panel panel-default">
+		<div class="panel-heading main-title">
+			<h2>文章类型列表</h2>
+
+		</div><!--		panel-heading		-->
+		<div class="panel-body">
+			 <!-- 高级搜索 -->
+			<div class="search-form fr cf pull-right">
+				<div class="sleft form-inline">
+					<input type="text" name="id" class="search-input form-control"  placeholder="请输入文章类型ID">
+					<a class=" btn btn-primary" href="javascript:;" id="search" url="{:U('type_index')}"><i class="btn-search"></i>搜索</a>
+					<a class=" btn btn-primary" href="javascript:;" id="add" url="{:U('add_type_view')}"><i class="btn-search"></i>添加类型</a>
+				</div>
+			</div>
+		    <!-- 数据列表 -->
+		    <div class="data-table table-striped">
+			<table class="table">
+		    <thead>
+		        <tr>
+					<th>文章类型ID</th>
+					<th>文章类型名称</th>
+					<th>操作</th>
+				</tr>
+		    </thead>
+		    <tbody>
+				<notempty name="_list">
+				<volist name="_list" id="vo">
+				<tr>
+					<td>{$vo.id}</td>
+                    <td>{$vo.name}</td>
+					<td>
+						<a href="{:U('Admin/Article/edit_type_view',array('id'=>$vo['id'],'name'=>$vo['name']))}">编辑</a>
+						<a href="{:U('Admin/Article/delete_type?id='.$vo['id'])}">删除</a>
+					</td>
+				</tr>
+				</volist>
+				<else/>
+				<td colspan="10" class="text-center"> aOh! 暂时还没有内容! </td>
+				</notempty>
+			</tbody>
+		    </table>
+			</div>
+		    <div class="page">
+		        {$_page}
+		    </div>
+	    </div>
+    </div><!--		panel 		-->
+</block>
+
+<block name="script">
+	<script src="__JS__/thinkbox/jquery.thinkbox.js"></script>
+
+	<script type="text/javascript">
+        $('#type').click(function(){
+            var type = $('#select_type').val();
+            var id = $('#vo_id').html();
+            $.ajax({
+                url:"http://localhost/kaimai/index.php/Admin/Article/range",
+                data:{
+                    id:id,
+                    type:type
+                },
+                type:'post',
+                dataType:'json',
+                success:function(data) {
+                    if(data == 1){
+                        window.location.reload();//刷新当前页面
+                    }
+                }
+        })
+        });
+	//搜索功能
+	$("#search").click(function(){
+		var url = $(this).attr('url');
+		var query  = $('.search-form').find('input').serialize();
+		query = query.replace(/(&|^)(\w*?\d*?\-*?_*?)*?=?((?=&)|(?=$))/g,'');
+		query = query.replace(/^&/g,'');
+		if( url.indexOf('?')>0 ){
+			url += '&' + query;
+		}else{
+			url += '?' + query;
+		}
+		window.location.href = url;
+	});
+	$("#add").click(function(){
+		debugger
+		var url = $(this).attr('url');
+		var query  = $('.search-form').find('input').serialize();
+		query = query.replace(/(&|^)(\w*?\d*?\-*?_*?)*?=?((?=&)|(?=$))/g,'');
+		query = query.replace(/^&/g,'');
+		if( url.indexOf('?')>0 ){
+			url += '&' + query;
+		}else{
+			url += '?' + query;
+		}
+		window.location.href = url;
+	});
+	//回车搜索
+	$(".search-input").keyup(function(e){
+		if(e.keyCode === 13){
+			$("#search").click();
+			return false;
+		}
+	});
+	</script>
+</block>

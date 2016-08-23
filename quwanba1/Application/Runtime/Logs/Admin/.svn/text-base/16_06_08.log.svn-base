@@ -1,0 +1,1761 @@
+[ 2016-06-08T10:42:52+08:00 ] ::1 /common/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000105s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001182s ]
+
+[ 2016-06-08T10:42:52+08:00 ] ::1 /common/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000863s ]
+
+[ 2016-06-08T10:46:20+08:00 ] ::1 /common/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000992s ]
+
+[ 2016-06-08T10:46:20+08:00 ] ::1 /common/index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+
+[ 2016-06-08T10:46:20+08:00 ] ::1 /common/index.php/Admin/Public/images/favicon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000743s ]
+
+[ 2016-06-08T10:46:22+08:00 ] ::1 /common/index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+
+[ 2016-06-08T10:46:23+08:00 ] ::1 /common/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000858s ]
+
+[ 2016-06-08T10:46:23+08:00 ] ::1 /common/index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000819s ]
+
+[ 2016-06-08T10:46:53+08:00 ] ::1 /common/index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000798s ]
+
+[ 2016-06-08T10:46:53+08:00 ] ::1 /common/index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000192s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001328s ]
+
+[ 2016-06-08T10:46:55+08:00 ] ::1 /common/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001060s ]
+
+[ 2016-06-08T10:46:55+08:00 ] ::1 /common/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000887s ]
+
+[ 2016-06-08T11:00:24+08:00 ] ::1 /common/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000816s ]
+
+[ 2016-06-08T11:00:24+08:00 ] ::1 /common/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000745s ]
+
+[ 2016-06-08T11:00:28+08:00 ] ::1 /common/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000835s ]
+
+[ 2016-06-08T11:00:28+08:00 ] ::1 /common/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000764s ]
+
+[ 2016-06-08T11:00:32+08:00 ] ::1 /common/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000992s ]
+
+[ 2016-06-08T11:00:32+08:00 ] ::1 /common/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+
+[ 2016-06-08T11:00:36+08:00 ] ::1 /common/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000905s ]
+
+[ 2016-06-08T11:00:36+08:00 ] ::1 /common/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+
+[ 2016-06-08T11:00:44+08:00 ] ::1 /common/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000124s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001211s ]
+
+[ 2016-06-08T11:00:44+08:00 ] ::1 /common/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+
+[ 2016-06-08T11:01:28+08:00 ] ::1 /common/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+
+[ 2016-06-08T11:01:28+08:00 ] ::1 /common/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+
+[ 2016-06-08T11:01:30+08:00 ] ::1 /common/index.php/Admin/Public/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+
+[ 2016-06-08T11:01:39+08:00 ] ::1 /common/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000813s ]
+
+[ 2016-06-08T11:01:39+08:00 ] ::1 /common/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000852s ]
+
+[ 2016-06-08T11:13:09+08:00 ] ::1 /common/index.php/Admin/Public/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000845s ]
+
+[ 2016-06-08T11:13:11+08:00 ] ::1 /common/index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000756s ]
+
+[ 2016-06-08T11:13:11+08:00 ] ::1 /common/index.php/Admin/Public/images/favicon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+
+[ 2016-06-08T11:13:13+08:00 ] ::1 /common/index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+
+[ 2016-06-08T11:13:14+08:00 ] ::1 /common/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+
+[ 2016-06-08T11:13:14+08:00 ] ::1 /common/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000807s ]
+
+[ 2016-06-08T11:13:20+08:00 ] ::1 /common/index.php/Admin/Public/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000811s ]
+
+[ 2016-06-08T11:13:21+08:00 ] ::1 /common/index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+
+[ 2016-06-08T11:13:23+08:00 ] ::1 /common/index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+
+[ 2016-06-08T11:13:24+08:00 ] ::1 /common/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+
+[ 2016-06-08T11:13:24+08:00 ] ::1 /common/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+
+[ 2016-06-08T11:13:27+08:00 ] ::1 /common/index.php/Admin/Public/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000755s ]
+
+[ 2016-06-08T11:13:28+08:00 ] ::1 /common/index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+
+[ 2016-06-08T11:18:59+08:00 ] ::1 /common/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000815s ]
+
+[ 2016-06-08T11:18:59+08:00 ] ::1 /common/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000866s ]
+
+[ 2016-06-08T11:19:11+08:00 ] ::1 /common/index.php/Admin/Public/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000142s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001339s ]
+
+[ 2016-06-08T11:19:12+08:00 ] ::1 /common/index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000743s ]
+
+[ 2016-06-08T11:19:16+08:00 ] ::1 /common/index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+
+[ 2016-06-08T11:19:18+08:00 ] ::1 /common/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001056s ]
+
+[ 2016-06-08T11:19:18+08:00 ] ::1 /common/index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000876s ]
+
+[ 2016-06-08T11:19:21+08:00 ] ::1 /common/index.php/Admin/Public
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000789s ]
+ERR: 非法操作:index
+
+[ 2016-06-08T11:19:26+08:00 ] ::1 /common/index.php/Admin/Public
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+ERR: 非法操作:index
+
+[ 2016-06-08T11:19:31+08:00 ] ::1 /common/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+
+[ 2016-06-08T11:19:31+08:00 ] ::1 /common/index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000805s ]
+
+[ 2016-06-08T11:19:33+08:00 ] ::1 /common/index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000132s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001036s ]
+
+[ 2016-06-08T11:19:34+08:00 ] ::1 /common/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+
+[ 2016-06-08T11:19:34+08:00 ] ::1 /common/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001042s ]
+
+[ 2016-06-08T11:19:36+08:00 ] ::1 /common/index.php/Admin/Index/email.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000159s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001785s ]
+ERR: 非法操作:email
+
+[ 2016-06-08T11:19:41+08:00 ] ::1 /common/index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
+
+[ 2016-06-08T11:19:43+08:00 ] ::1 /common/index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001059s ]
+
+[ 2016-06-08T11:19:44+08:00 ] ::1 /common/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+
+[ 2016-06-08T11:19:45+08:00 ] ::1 /common/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+
+[ 2016-06-08T11:19:49+08:00 ] ::1 /common/index.php/Admin/Public/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000956s ]
+
+[ 2016-06-08T11:19:50+08:00 ] ::1 /common/index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+
+[ 2016-06-08T11:19:50+08:00 ] ::1 /common/index.php/Admin/Public/images/favicon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000824s ]
+
+[ 2016-06-08T11:19:52+08:00 ] ::1 /common/index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000823s ]
+
+[ 2016-06-08T11:19:53+08:00 ] ::1 /common/index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000774s ]
+
+[ 2016-06-08T11:19:54+08:00 ] ::1 /common/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001029s ]
+
+[ 2016-06-08T11:19:55+08:00 ] ::1 /common/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000782s ]
+
+[ 2016-06-08T11:20:19+08:00 ] ::1 /common/index.php/Admin/Public/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+
+[ 2016-06-08T11:20:20+08:00 ] ::1 /common/index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000770s ]
+
+[ 2016-06-08T11:20:20+08:00 ] ::1 /common/index.php/Admin/Public/images/favicon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000895s ]
+
+[ 2016-06-08T11:20:26+08:00 ] ::1 /common/index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000978s ]
+
+[ 2016-06-08T11:20:27+08:00 ] ::1 /common/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+
+[ 2016-06-08T11:20:27+08:00 ] ::1 /common/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000944s ]
+
+[ 2016-06-08T11:20:49+08:00 ] ::1 /common/index.php/Admin/Index/email.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000148s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001344s ]
+ERR: 非法操作:email
+
+[ 2016-06-08T11:20:52+08:00 ] ::1 /common/index.php/Admin/Index/horizontal-menu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001160s ]
+ERR: 非法操作:horizontal-menu
+
+[ 2016-06-08T11:20:56+08:00 ] ::1 /common/index.php/Admin/Index/maps.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+ERR: 非法操作:maps
+
+[ 2016-06-08T11:21:12+08:00 ] ::1 /common/index.php/Admin/Index/calendar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000799s ]
+ERR: 非法操作:calendar
+
+[ 2016-06-08T11:26:57+08:00 ] ::1 /common/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001030s ]
+
+[ 2016-06-08T11:26:58+08:00 ] ::1 /common/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000187s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001217s ]
+
+[ 2016-06-08T11:26:59+08:00 ] ::1 /common/index.php/Admin/Index/email.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+ERR: 非法操作:email
+
+[ 2016-06-08T11:27:06+08:00 ] ::1 /common/index.php/Admin/Index/tables.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000133s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000890s ]
+ERR: 非法操作:tables
+
+[ 2016-06-08T11:49:34+08:00 ] ::1 /common/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000777s ]
+
+[ 2016-06-08T11:49:34+08:00 ] ::1 /common/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000753s ]
+
+[ 2016-06-08T13:40:01+08:00 ] ::1 /common/index.php/Admin/Index/horizontal-menu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000899s ]
+ERR: 非法操作:horizontal-menu
+
+[ 2016-06-08T13:41:32+08:00 ] ::1 /common/index.php/Admin/Index/maps.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000694s ]
+ERR: 非法操作:maps
+
+[ 2016-06-08T13:41:36+08:00 ] ::1 /common/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+
+[ 2016-06-08T13:41:36+08:00 ] ::1 /common/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000742s ]
+
+[ 2016-06-08T13:41:39+08:00 ] ::1 /common/index.php/Admin/Index/horizontal-menu2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000823s ]
+ERR: 非法操作:horizontal-menu2
+
+[ 2016-06-08T13:41:51+08:00 ] ::1 /common/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000820s ]
+
+[ 2016-06-08T13:41:51+08:00 ] ::1 /common/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000856s ]
+
+[ 2016-06-08T13:42:00+08:00 ] ::1 /common/index.php/Admin/Index/tables.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+ERR: 非法操作:tables
+
+[ 2016-06-08T13:42:07+08:00 ] ::1 /common/index.php/Admin/Index/email.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000808s ]
+ERR: 非法操作:email
+
+[ 2016-06-08T13:42:11+08:00 ] ::1 /common/index.php/Admin/Index/horizontal-menu2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+ERR: 非法操作:horizontal-menu2
+
+[ 2016-06-08T13:47:09+08:00 ] ::1 /common/index.php/Admin/Index/email.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+ERR: 非法操作:email
+
+[ 2016-06-08T13:47:22+08:00 ] ::1 /common/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000705s ]
+
+[ 2016-06-08T13:47:22+08:00 ] ::1 /common/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000923s ]
+
+[ 2016-06-08T13:47:24+08:00 ] ::1 /common/index.php/Admin/Index/general-forms.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+ERR: 非法操作:general-forms
+
+[ 2016-06-08T13:47:28+08:00 ] ::1 /common/index.php/Admin/Index/tables.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000149s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001376s ]
+ERR: 非法操作:tables
+
+[ 2016-06-08T13:47:35+08:00 ] ::1 /common/index.php/Admin/Index/maps.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+ERR: 非法操作:maps
+
+[ 2016-06-08T13:47:41+08:00 ] ::1 /common/index.php/Admin/Index/tables.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+ERR: 非法操作:tables
+
+[ 2016-06-08T13:47:45+08:00 ] ::1 /common/index.php/Admin/Index/tables.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000139s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001187s ]
+ERR: 非法操作:tables
+
+[ 2016-06-08T13:47:59+08:00 ] ::1 /common/index.php/Admin/Index/tables.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+ERR: 非法操作:tables
+
+[ 2016-06-08T13:48:00+08:00 ] ::1 /common/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000797s ]
+
+[ 2016-06-08T13:48:00+08:00 ] ::1 /common/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000991s ]
+
+[ 2016-06-08T13:48:02+08:00 ] ::1 /common/index.php/Admin/Index/calendar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000705s ]
+ERR: 非法操作:calendar
+
+[ 2016-06-08T13:48:30+08:00 ] ::1 /common/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000793s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000940s ]
+
+[ 2016-06-08T13:48:30+08:00 ] ::1 /common/index.php/Admin/User/updatePassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+ERR: 无法加载控制器:User
+
+[ 2016-06-08T13:48:32+08:00 ] ::1 /common/index.php/Admin/Public/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000743s ]
+
+[ 2016-06-08T13:48:33+08:00 ] ::1 /common/index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+
+[ 2016-06-08T13:48:34+08:00 ] ::1 /common/index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000713s ]
+
+[ 2016-06-08T13:48:35+08:00 ] ::1 /common/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000834s ]
+
+[ 2016-06-08T13:48:35+08:00 ] ::1 /common/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+
+[ 2016-06-08T13:52:10+08:00 ] ::1 /common/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+
+[ 2016-06-08T13:52:10+08:00 ] ::1 /common/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000834s ]
+
+[ 2016-06-08T13:52:13+08:00 ] ::1 /common/index.php/Admin/Index/bug-tracker.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000910s ]
+ERR: 非法操作:bug-tracker
+
+[ 2016-06-08T13:52:43+08:00 ] ::1 /common/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000858s ]
+
+[ 2016-06-08T13:52:43+08:00 ] ::1 /common/index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+
+[ 2016-06-08T13:52:44+08:00 ] ::1 /common/index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+
+[ 2016-06-08T13:52:45+08:00 ] ::1 /common/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+
+[ 2016-06-08T13:52:45+08:00 ] ::1 /common/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+
+[ 2016-06-08T13:52:50+08:00 ] ::1 /common/index.php/Admin/Index/general-forms.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000721s ]
+ERR: 非法操作:general-forms
+
+[ 2016-06-08T13:52:56+08:00 ] ::1 /common/index.php/Admin/Index/alerts.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000835s ]
+ERR: 非法操作:alerts
+
+[ 2016-06-08T13:52:57+08:00 ] ::1 /common/index.php/Admin/Index/modals.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
+ERR: 非法操作:modals
+
+[ 2016-06-08T13:52:57+08:00 ] ::1 /common/index.php/Admin/Index/tabs-accordions.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+ERR: 非法操作:tabs-accordions
+
+[ 2016-06-08T13:54:04+08:00 ] ::1 /common/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000973s ]
+
+[ 2016-06-08T13:54:05+08:00 ] ::1 /common/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000872s ]
+
+[ 2016-06-08T13:54:07+08:00 ] ::1 /common/index.php/Admin/Index/general-forms.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+ERR: 非法操作:general-forms
+
+[ 2016-06-08T14:18:28+08:00 ] ::1 /common/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000768s ]
+
+[ 2016-06-08T14:18:28+08:00 ] ::1 /common/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+
+[ 2016-06-08T14:18:31+08:00 ] ::1 /common/index.php/Admin/Index/general-forms.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001057s ]
+ERR: 非法操作:general-forms
+
+[ 2016-06-08T14:19:19+08:00 ] ::1 /common/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+
+[ 2016-06-08T14:19:19+08:00 ] ::1 /common/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+
+[ 2016-06-08T14:19:44+08:00 ] ::1 /common/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000143s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001326s ]
+
+[ 2016-06-08T14:19:44+08:00 ] ::1 /common/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000854s ]
+
+[ 2016-06-08T14:19:47+08:00 ] ::1 /common/index.php/Admin/Index/general-forms.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+ERR: 非法操作:general-forms
+
+[ 2016-06-08T14:20:21+08:00 ] ::1 /common/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+
+[ 2016-06-08T14:20:21+08:00 ] ::1 /common/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000790s ]
+
+[ 2016-06-08T14:20:24+08:00 ] ::1 /common/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000128s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001196s ]
+
+[ 2016-06-08T14:20:24+08:00 ] ::1 /common/index.php/Admin/User/__STATIC__/jquery-2.0.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000138s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001214s ]
+ERR: 非法操作:__STATIC__
+
+[ 2016-06-08T14:20:24+08:00 ] ::1 /common/index.php/Admin/User/__STATIC__/jquery.cookies.2.2.0.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000791s ]
+ERR: 非法操作:__STATIC__
+
+[ 2016-06-08T14:20:24+08:00 ] ::1 /common/index.php/Admin/User/__STATIC__/thinkbox/jquery.thinkbox.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000140s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000815s ]
+ERR: 非法操作:__STATIC__
+
+[ 2016-06-08T14:20:24+08:00 ] ::1 /common/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000150s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000821s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000878s ]
+
+[ 2016-06-08T14:22:37+08:00 ] ::1 /common/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000912s ]
+
+[ 2016-06-08T14:22:37+08:00 ] ::1 /common/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000911s ]
+
+[ 2016-06-08T14:22:38+08:00 ] ::1 /common/index.php/Admin/Index/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-06-08T14:22:38+08:00 ] ::1 /common/index.php/Admin/Index/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-06-08T14:22:40+08:00 ] ::1 /common/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000120s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000862s ]
+
+[ 2016-06-08T14:22:40+08:00 ] ::1 /common/index.php/Admin/User/__STATIC__/jquery-2.0.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000737s ]
+ERR: 非法操作:__STATIC__
+
+[ 2016-06-08T14:22:40+08:00 ] ::1 /common/index.php/Admin/User/__STATIC__/jquery.cookies.2.2.0.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000760s ]
+ERR: 非法操作:__STATIC__
+
+[ 2016-06-08T14:22:40+08:00 ] ::1 /common/index.php/Admin/User/__STATIC__/thinkbox/jquery.thinkbox.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000779s ]
+ERR: 非法操作:__STATIC__
+
+[ 2016-06-08T14:22:40+08:00 ] ::1 /common/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000966s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000971s ]
+
+[ 2016-06-08T14:22:40+08:00 ] ::1 /common/index.php/Admin/Index/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000786s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-06-08T14:26:36+08:00 ] ::1 /common/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+
+[ 2016-06-08T14:26:36+08:00 ] ::1 /common/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000856s ]
+
+[ 2016-06-08T14:26:36+08:00 ] ::1 /common/index.php/Admin/Index/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000858s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-06-08T14:26:36+08:00 ] ::1 /common/index.php/Admin/Index/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000754s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-06-08T14:26:39+08:00 ] ::1 /common/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+
+[ 2016-06-08T14:26:39+08:00 ] ::1 /common/index.php/Admin/User/__STATIC__/jquery.cookies.2.2.0.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000743s ]
+ERR: 非法操作:__STATIC__
+
+[ 2016-06-08T14:26:39+08:00 ] ::1 /common/index.php/Admin/User/__STATIC__/thinkbox/jquery.thinkbox.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000745s ]
+ERR: 非法操作:__STATIC__
+
+[ 2016-06-08T14:26:39+08:00 ] ::1 /common/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000848s ]
+
+[ 2016-06-08T14:26:39+08:00 ] ::1 /common/index.php/Admin/Index/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000781s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-06-08T14:27:54+08:00 ] ::1 /common/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001041s ]
+
+[ 2016-06-08T14:27:54+08:00 ] ::1 /common/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000803s ]
+
+[ 2016-06-08T14:27:54+08:00 ] ::1 /common/index.php/Admin/Index/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-06-08T14:27:54+08:00 ] ::1 /common/index.php/Admin/Index/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000787s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-06-08T14:27:58+08:00 ] ::1 /common/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+
+[ 2016-06-08T14:27:58+08:00 ] ::1 /common/index.php/Admin/User/__STATIC__/jquery.cookies.2.2.0.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000745s ]
+ERR: 非法操作:__STATIC__
+
+[ 2016-06-08T14:27:58+08:00 ] ::1 /common/index.php/Admin/User/__STATIC__/thinkbox/jquery.thinkbox.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+ERR: 非法操作:__STATIC__
+
+[ 2016-06-08T14:27:58+08:00 ] ::1 /common/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+
+[ 2016-06-08T14:27:58+08:00 ] ::1 /common/index.php/Admin/Index/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001009s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-06-08T14:28:22+08:00 ] ::1 /common/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000836s ]
+
+[ 2016-06-08T14:28:22+08:00 ] ::1 /common/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000721s ]
+
+[ 2016-06-08T14:28:22+08:00 ] ::1 /common/index.php/Admin/Index/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000136s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001262s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-06-08T14:28:22+08:00 ] ::1 /common/index.php/Admin/Index/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-06-08T14:28:26+08:00 ] ::1 /common/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+
+[ 2016-06-08T14:28:26+08:00 ] ::1 /common/index.php/Admin/User/__STATIC__/thinkbox/jquery.thinkbox.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+ERR: 非法操作:__STATIC__
+
+[ 2016-06-08T14:28:26+08:00 ] ::1 /common/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000155s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001146s ]
+
+[ 2016-06-08T14:28:26+08:00 ] ::1 /common/index.php/Admin/Index/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-06-08T14:29:06+08:00 ] ::1 /common/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+
+[ 2016-06-08T14:29:06+08:00 ] ::1 /common/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000920s ]
+
+[ 2016-06-08T14:29:06+08:00 ] ::1 /common/index.php/Admin/Index/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-06-08T14:29:06+08:00 ] ::1 /common/index.php/Admin/Index/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000808s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-06-08T14:29:10+08:00 ] ::1 /common/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+
+[ 2016-06-08T14:29:10+08:00 ] ::1 /common/index.php/Admin/User/__STATIC__/thinkbox/jquery.thinkbox.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+ERR: 非法操作:__STATIC__
+
+[ 2016-06-08T14:29:10+08:00 ] ::1 /common/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000989s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000972s ]
+
+[ 2016-06-08T14:29:10+08:00 ] ::1 /common/index.php/Admin/Index/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-06-08T14:38:06+08:00 ] ::1 /common/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000124s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001125s ]
+
+[ 2016-06-08T14:38:06+08:00 ] ::1 /common/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000837s ]
+
+[ 2016-06-08T14:38:06+08:00 ] ::1 /common/index.php/Admin/Index/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000863s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-06-08T14:38:06+08:00 ] ::1 /common/index.php/Admin/Index/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001031s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-06-08T14:38:09+08:00 ] ::1 /common/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+
+[ 2016-06-08T14:38:09+08:00 ] ::1 /common/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000832s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001002s ]
+
+[ 2016-06-08T14:38:09+08:00 ] ::1 /common/index.php/Admin/Index/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000944s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-06-08T14:47:31+08:00 ] ::1 /common/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+
+[ 2016-06-08T14:47:31+08:00 ] ::1 /common/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000975s ]
+
+[ 2016-06-08T14:47:32+08:00 ] ::1 /common/index.php/Admin/Index/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000116s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000846s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-06-08T14:47:32+08:00 ] ::1 /common/index.php/Admin/Index/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000713s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-06-08T14:47:34+08:00 ] ::1 /common/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000753s ]
+
+[ 2016-06-08T14:47:34+08:00 ] ::1 /common/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000943s ]
+
+[ 2016-06-08T14:47:34+08:00 ] ::1 /common/index.php/Admin/Index/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-06-08T14:47:47+08:00 ] ::1 /common/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001038s ]
+
+[ 2016-06-08T14:47:47+08:00 ] ::1 /common/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000734s ]
+
+[ 2016-06-08T14:47:47+08:00 ] ::1 /common/index.php/Admin/Index/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000124s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000863s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-06-08T14:47:47+08:00 ] ::1 /common/index.php/Admin/Index/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-06-08T14:47:49+08:00 ] ::1 /common/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000137s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001031s ]
+
+[ 2016-06-08T14:47:49+08:00 ] ::1 /common/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000137s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001256s ]
+
+[ 2016-06-08T14:47:49+08:00 ] ::1 /common/index.php/Admin/Index/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-06-08T14:55:27+08:00 ] ::1 /common/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000131s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001104s ]
+
+[ 2016-06-08T14:55:27+08:00 ] ::1 /common/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000843s ]
+
+[ 2016-06-08T14:55:27+08:00 ] ::1 /common/index.php/Admin/Index/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000846s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-06-08T14:55:27+08:00 ] ::1 /common/index.php/Admin/Index/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-06-08T14:55:30+08:00 ] ::1 /common/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000878s ]
+
+[ 2016-06-08T14:55:30+08:00 ] ::1 /common/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+
+[ 2016-06-08T14:55:30+08:00 ] ::1 /common/index.php/Admin/Index/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-06-08T14:55:49+08:00 ] ::1 /common/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000852s ]
+
+[ 2016-06-08T14:55:50+08:00 ] ::1 /common/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000142s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001324s ]
+
+[ 2016-06-08T14:55:50+08:00 ] ::1 /common/index.php/Admin/Index/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000737s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-06-08T15:05:47+08:00 ] ::1 /common/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000867s ]
+
+[ 2016-06-08T15:05:47+08:00 ] ::1 /common/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001038s ]
+
+[ 2016-06-08T15:05:47+08:00 ] ::1 /common/index.php/Admin/Index/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000817s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-06-08T15:05:47+08:00 ] ::1 /common/index.php/Admin/Index/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000145s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001076s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-06-08T15:05:49+08:00 ] ::1 /common/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000713s ]
+
+[ 2016-06-08T15:05:49+08:00 ] ::1 /common/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001372s ]
+
+[ 2016-06-08T15:05:49+08:00 ] ::1 /common/index.php/Admin/Index/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000796s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-06-08T15:06:40+08:00 ] ::1 /common/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000827s ]
+
+[ 2016-06-08T15:06:40+08:00 ] ::1 /common/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000918s ]
+
+[ 2016-06-08T15:06:40+08:00 ] ::1 /common/index.php/Admin/Index/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-06-08T15:06:40+08:00 ] ::1 /common/index.php/Admin/Index/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-06-08T15:06:45+08:00 ] ::1 /common/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000116s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000764s ]
+
+[ 2016-06-08T15:06:45+08:00 ] ::1 /common/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001162s ]
+
+[ 2016-06-08T15:06:45+08:00 ] ::1 /common/index.php/Admin/Index/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000897s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-06-08T15:06:54+08:00 ] ::1 /common/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+
+[ 2016-06-08T15:06:54+08:00 ] ::1 /common/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000755s ]
+
+[ 2016-06-08T15:06:54+08:00 ] ::1 /common/index.php/Admin/Index/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-06-08T15:06:54+08:00 ] ::1 /common/index.php/Admin/Index/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000156s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001320s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-06-08T15:11:07+08:00 ] ::1 /common/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000877s ]
+
+[ 2016-06-08T15:11:07+08:00 ] ::1 /common/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000146s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001335s ]
+
+[ 2016-06-08T15:11:07+08:00 ] ::1 /common/index.php/Admin/Index/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000737s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-06-08T15:13:00+08:00 ] ::1 /common/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000882s ]
+
+[ 2016-06-08T15:13:00+08:00 ] ::1 /common/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000760s ]
+
+[ 2016-06-08T15:13:00+08:00 ] ::1 /common/index.php/Admin/Index/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-06-08T15:13:00+08:00 ] ::1 /common/index.php/Admin/Index/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000790s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-06-08T15:13:02+08:00 ] ::1 /common/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000807s ]
+
+[ 2016-06-08T15:13:02+08:00 ] ::1 /common/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001511s ]
+
+[ 2016-06-08T15:13:02+08:00 ] ::1 /common/index.php/Admin/Index/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000694s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-06-08T15:18:35+08:00 ] ::1 /common/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001117s ]
+
+[ 2016-06-08T15:18:36+08:00 ] ::1 /common/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000999s ]
+
+[ 2016-06-08T15:18:38+08:00 ] ::1 /common/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000735s ]
+
+[ 2016-06-08T15:18:47+08:00 ] ::1 /common/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000852s ]
+
+[ 2016-06-08T15:18:47+08:00 ] ::1 /common/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000119s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000940s ]
+
+[ 2016-06-08T15:18:51+08:00 ] ::1 /common/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+
+[ 2016-06-08T15:21:49+08:00 ] ::1 /common/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000106s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001008s ]
+
+[ 2016-06-08T15:21:49+08:00 ] ::1 /common/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000811s ]
+
+[ 2016-06-08T15:21:49+08:00 ] ::1 /common/index.php/Admin/Index/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000836s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-06-08T15:21:50+08:00 ] ::1 /common/index.php/Admin/Index/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000866s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-06-08T15:22:05+08:00 ] ::1 /common/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000954s ]
+
+[ 2016-06-08T15:22:05+08:00 ] ::1 /common/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+
+[ 2016-06-08T15:22:05+08:00 ] ::1 /common/index.php/Admin/Index/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-06-08T15:22:05+08:00 ] ::1 /common/index.php/Admin/Index/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000872s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-06-08T15:22:11+08:00 ] ::1 /common/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000821s ]
+
+[ 2016-06-08T15:22:11+08:00 ] ::1 /common/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000851s ]
+
+[ 2016-06-08T15:22:11+08:00 ] ::1 /common/index.php/Admin/Index/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000803s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-06-08T15:22:11+08:00 ] ::1 /common/index.php/Admin/Index/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-06-08T15:22:23+08:00 ] ::1 /common/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000782s ]
+
+[ 2016-06-08T15:23:22+08:00 ] ::1 /common/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000849s ]
+
+[ 2016-06-08T15:23:22+08:00 ] ::1 /common/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000750s ]
+
+[ 2016-06-08T15:23:25+08:00 ] ::1 /common/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000117s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001193s ]
+
+[ 2016-06-08T15:24:39+08:00 ] ::1 /common/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000828s ]
+
+[ 2016-06-08T15:24:39+08:00 ] ::1 /common/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000914s ]
+
+[ 2016-06-08T15:24:39+08:00 ] ::1 /common/index.php/Admin/Index/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-06-08T15:24:39+08:00 ] ::1 /common/index.php/Admin/Index/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000184s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000938s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-06-08T15:25:07+08:00 ] ::1 /common/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+
+[ 2016-06-08T15:25:07+08:00 ] ::1 /common/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001005s ]
+
+[ 2016-06-08T15:25:07+08:00 ] ::1 /common/index.php/Admin/Index/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001102s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-06-08T15:25:07+08:00 ] ::1 /common/index.php/Admin/Index/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000158s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001149s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-06-08T15:25:11+08:00 ] ::1 /common/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+
+[ 2016-06-08T15:25:11+08:00 ] ::1 /common/index.php/Admin/Index/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000879s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-06-08T15:25:27+08:00 ] ::1 /common/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+
+[ 2016-06-08T15:25:28+08:00 ] ::1 /common/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000790s ]
+
+[ 2016-06-08T15:25:28+08:00 ] ::1 /common/index.php/Admin/Index/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-06-08T15:25:28+08:00 ] ::1 /common/index.php/Admin/Index/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000734s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-06-08T15:26:27+08:00 ] ::1 /common/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+
+[ 2016-06-08T15:26:27+08:00 ] ::1 /common/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000131s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001047s ]
+
+[ 2016-06-08T15:26:27+08:00 ] ::1 /common/index.php/Admin/Index/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000816s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-06-08T15:26:27+08:00 ] ::1 /common/index.php/Admin/Index/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-06-08T15:26:32+08:00 ] ::1 /common/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000965s ]
+
+[ 2016-06-08T15:26:35+08:00 ] ::1 /common/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+
+[ 2016-06-08T15:26:35+08:00 ] ::1 /common/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000794s ]
+
+[ 2016-06-08T15:26:37+08:00 ] ::1 /common/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001021s ]
+
+[ 2016-06-08T15:27:23+08:00 ] ::1 /common/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000792s ]
+
+[ 2016-06-08T15:27:23+08:00 ] ::1 /common/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000858s ]
+
+[ 2016-06-08T15:27:25+08:00 ] ::1 /common/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000929s ]
+
+[ 2016-06-08T15:27:55+08:00 ] ::1 /common/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001031s ]
+
+[ 2016-06-08T15:27:58+08:00 ] ::1 /common/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+
+[ 2016-06-08T15:29:46+08:00 ] ::1 /common/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000844s ]
+
+[ 2016-06-08T15:29:46+08:00 ] ::1 /common/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000153s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000999s ]
+
+[ 2016-06-08T15:29:46+08:00 ] ::1 /common/index.php/Admin/Index/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-06-08T15:29:46+08:00 ] ::1 /common/index.php/Admin/Index/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-06-08T15:29:48+08:00 ] ::1 /common/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000819s ]
+
+[ 2016-06-08T15:29:48+08:00 ] ::1 /common/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000762s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001078s ]
+
+[ 2016-06-08T15:29:48+08:00 ] ::1 /common/index.php/Admin/Index/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000175s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001137s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-06-08T15:34:05+08:00 ] ::1 /common/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+
+[ 2016-06-08T15:34:06+08:00 ] ::1 /common/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001038s ]
+
+[ 2016-06-08T15:34:06+08:00 ] ::1 /common/index.php/Admin/Index/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-06-08T15:34:06+08:00 ] ::1 /common/index.php/Admin/Index/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000138s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001023s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-06-08T15:34:25+08:00 ] ::1 /common/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000713s ]
+
+[ 2016-06-08T15:34:25+08:00 ] ::1 /common/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+
+[ 2016-06-08T15:34:25+08:00 ] ::1 /common/index.php/Admin/Index/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000952s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-06-08T15:34:25+08:00 ] ::1 /common/index.php/Admin/Index/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001030s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-06-08T15:34:52+08:00 ] ::1 /common/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001092s ]
+
+[ 2016-06-08T15:34:52+08:00 ] ::1 /common/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000126s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001340s ]
+
+[ 2016-06-08T15:34:52+08:00 ] ::1 /common/index.php/Admin/Index/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-06-08T15:34:52+08:00 ] ::1 /common/index.php/Admin/Index/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000781s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-06-08T15:34:55+08:00 ] ::1 /common/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000782s ]
+
+[ 2016-06-08T15:34:55+08:00 ] ::1 /common/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000939s ]
+
+[ 2016-06-08T15:34:55+08:00 ] ::1 /common/index.php/Admin/Index/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-06-08T16:08:30+08:00 ] ::1 /common/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000817s ]
+
+[ 2016-06-08T16:08:31+08:00 ] ::1 /common/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000756s ]
+
+[ 2016-06-08T16:08:33+08:00 ] ::1 /common/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+
+[ 2016-06-08T16:08:33+08:00 ] ::1 /common/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000757s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000913s ]
+

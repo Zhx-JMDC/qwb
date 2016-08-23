@@ -1,0 +1,126 @@
+<extend name="Public/base" />
+
+<block name="body">
+	<!-- 标题栏 -->
+	<div class="panel panel-default">
+		<div class="panel-heading main-title">
+			<h2>商家列表</h2>
+
+		</div><!--		panel-heading		-->
+		<div class="panel-body">
+			<div class="well">
+				<div class="row">
+					<div class="col-sm-3">
+						<div class="form-group">
+							<label class="control-label" for="input-name">姓名</label>
+							<input type="text" name="name" value="{$name}" placeholder="姓名" id="input-name" class="form-control">
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="form-group">
+							<label class="control-label" for="input-contact">手机号</label>
+							<input type="text" name="contact" value="{$contact}" placeholder="手机号" id="input-contact" class="form-control">
+						</div>
+					</div>
+					<div class="col-sm-2">
+						<div class="form-group">
+							<label class="control-label">周游卡等级</label>
+							<select id="rank" name="rank" class="form-control">
+								<option value=""></option>
+								<option value="0">S级代理</option>
+								<option value="1">V级代理</option>
+								<option value="2">非旅行家</option>
+							</select>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<a><button class="btn btn-primary pull-right" style="margin-right: 10px;" onclick='window.location.href="{:U('User/user_export')}"'>导出</button></a>
+						<button type="submit" id="button-filter" class="btn btn-primary pull-right" style="margin-right: 10px;"><i class="fa fa-search"></i>筛选</button>
+					</div>
+				</div>
+			</div>
+			<!-- 数据列表 -->
+			<div class="data-table table-striped">
+				<table class="table">
+					<thead>
+					<tr>
+						<th>序号</th>
+						<th>姓名</th>
+						<th>手机号</th>
+						<th>周游卡等级</th>
+						<th>微信昵称</th>
+						<th>用户ID</th>
+						<th>消费金额</th>
+						<th>注册时间</th>
+						<th>最后登录时间</th>
+						<th>饭票余额</th>
+						<th>操作</th>
+					</tr>
+					</thead>
+					<tbody>
+					<notempty name="_list">
+						<volist name="_list" id="vo">
+							<tr>
+								<td id="user_id">{$vo.id} </td>
+								<td>{$vo.name}</td>
+								<td>{$vo.contact}</td>
+								<td>
+									<switch name="vo.rank">
+										<case value="0">S级代理</case>
+										<case value="1">V级代理</case>
+										<default />非旅行家
+									</switch>
+								</td>
+								<td>{$vo.nickname}</td>
+								<td>{$vo.openid}</td>
+								<td><empty name="vo.consume">0.00<else />{$vo.consume}</empty></td>
+								<td><?php echo date('Y/m/d',$vo['subscribe_time']);?></td>
+								<td>{$vo.login_time}</td>
+								<td><empty name="vo.income_surplus">0.00<else />{$vo.income_surplus}</empty></td>
+								<td>
+									<a href="{:U('User/get_user_detail',array('id'=>$vo['id']))}">查看</a>
+									<!--<a href="{:U('AllianceShop/shop_edit_page',array('id'=>$vo['id']))}">修改</a>-->
+								</td>
+							</tr>
+						</volist>
+						<else/>
+						<td colspan="10" class="text-center"> aOh! 暂时还没有内容! </td>
+					</notempty>
+					</tbody>
+				</table>
+			</div>
+			<div class="page">
+				{$_page}
+			</div>
+		</div>
+	</div><!--panel-->
+</block>
+
+<block name="script">
+	<script src="__JS__/thinkbox/jquery.thinkbox.js"></script>
+	<script>
+		$('#button-filter').on('click', function() {
+			var url = Think.APP+'/Admin/User/index?token=lalala';
+
+			var name = $('input[name=\'name\']').val();
+			if (name) {
+				url += '&name=' + encodeURIComponent(name);
+			}
+
+			var contact = $('input[name=\'contact\']').val();
+			if (contact) {
+				url += '&contact=' + encodeURIComponent(contact);
+			}
+
+			var rank = $('#rank option:selected') .val();
+			if (rank) {
+				url += '&rank=' + encodeURIComponent(rank);
+			}
+			location = url;
+		});
+
+		$("#rank  option[value='{$rank}']").attr("selected",true);
+	</script>
+</block>

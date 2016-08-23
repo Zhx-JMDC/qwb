@@ -1,0 +1,63 @@
+<extend name="Public/base2" />
+<block name="body">
+	<div id="content">
+		<div class="cardforTop">
+			<switch name="type" >
+				<case value="0"><p><img src="{$card}"></p></case>
+				<case value="1"><p><img src="{$card}"></p></case>
+				<default />
+			</switch>
+		</div>
+		<div class="buyticDetail">
+			<ul>
+				<li class="cardforMainBar_payway"><span>支付方式：</span>
+					<input type="radio" name="buyTicket_select" value="1" id="buyTicket_select_01" checked>
+					<label onclick="paySelect(1)" class="first-label cardforMainBar_payway_Clicked" for="buyTicket_select_01"><i></i><img src="__IMG__/pay_zhifubao.png"></label>
+					<input type="radio" name="buyTicket_select" value="2" id="buyTicket_select_02">
+					<label onclick="paySelect(2)" for="buyTicket_select_02"><i></i><img src="__IMG__/pay_weixin.png"></label>
+				</li>
+			</ul>
+		</div>
+		<div class="cardforMain">
+			<div class="cardforMain_buttom" style="padding-top:450px;">
+				<p style="color:#fff;" onclick="callpay()">确认并支付</p>
+			</div>
+		</div>
+	</div>
+</block>
+<block name="script">
+	<script>
+		$(".cardforMainBar_payway label").bind("click",function(){
+			$(".cardforMainBar_payway label").removeClass("cardforMainBar_payway_Clicked");
+			$(this).addClass("cardforMainBar_payway_Clicked");
+		});
+
+		var ua = navigator.userAgent;
+		var appInstall = {
+			isChrome: ua.match(/Chrome\/([\d.]+)/) || ua.match(/CriOS\/([\d.]+)/),
+			isAndroid: ua.match(/(Android);?[\s\/]+([\d.]+)?/),
+			isIphone: (ua.match(/iPad/i) != null || (navigator.userAgent.match(/iPhone/i) != null) || (navigator.userAgent.match(/iPod/i) != null)),
+			isWeixin: ua.match(/MicroMessenger/i) != null,
+			isUC: ua.match(/UCBrowser/i) != null,
+			isQQ: ua.match(/QQBrowser/i) != null
+		}
+
+		function callpay(){
+			var type = $("input[name='buyTicket_select']:checked").val();
+			var id   = '{$id}';
+			if(type == 1){
+				if (appInstall.isAndroid) {
+					androidPay.cardAndroidAliPay(id);
+				} else if (appInstall.isIphone){
+					callIOSCardPay(id);
+				}
+			}else{
+				if (appInstall.isAndroid) {
+					androidPay.cardAndroidWeiChatPay(id);
+				} else if (appInstall.isIphone){
+					callIOSWXCardPay(id);
+				}
+			}
+		}
+	</script>
+</block>

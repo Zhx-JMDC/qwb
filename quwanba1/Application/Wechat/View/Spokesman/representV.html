@@ -1,0 +1,40 @@
+<extend name="Public/base" />
+<block name="title">我是旅行家</block>
+<block name="body">
+	<div id="content">
+		<div class="buycardTop">
+			<p class="buycard_01"><img src="{$user.headimgurl}"></p>
+			<p class="buycard_02">{$user.nickname}</p>
+			<p class="buycard_03">ID：{$user.qwb_id}</p>
+			<p class="buycard_04 currentVip">
+				<if condition="$rank eq vip_letter">您还不是旅行家
+					<else />当前等级<img src="__IMG__/{$rank}.png">
+				</if>
+			</p>
+			<!--<p class="buycard_letter">-->
+				<!--<a href="{:U('Spokesman/message')}"><img src="__IMG__/message_top_right.png">-->
+					<!--<if condition="$message_count eq 0"><else /><span>{$message_count}</span></if>-->
+				<!--</a>-->
+			<!--</p>-->
+		</div>
+		<div class="representInc">
+			<ul>
+				<li>
+					<a href="{:U('Spokesman/my_income')}">
+						<p class="myincomeMain_01">我的收入</p>
+						<p class="myincomeMain_02">历史积累饭票</p>
+						<p class="myincomeMain_03">
+							<empty name="income">F0.00<else />F{$income}</empty>
+						</p>
+						<p class="representInc_p3"><img src="__IMG__/jiantou_right.png"></p>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="represent_center">
+			<p class="represent_center_01"><a href="{:U('Spokesman/app_download')}"><img src="__IMG__/represent_center_01.jpg"></a></p>
+			<p class="represent_center_02"><a href="{:U('Spokesman/play_community')}"><img src="__IMG__/represent_center_02.jpg"></a></p>
+			<p class="represent_center_03"><a href="{:U('Spokesman/buy_card')}"><img src="__IMG__/represent_center_03.jpg"></a></p>
+		</div>
+	</div>
+</block>

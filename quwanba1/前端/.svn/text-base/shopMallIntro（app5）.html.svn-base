@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html;charset=utf-8">
+	<title>趣玩商城</title>
+	<link rel="stylesheet" type="text/css" href="css/css.css">
+	<link rel="stylesheet" type="text/css" href="css/cssApp.css">
+	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="js/jquery.touchSlider.js"></script>
+	<script type="text/javascript" src="js/js.js"></script>
+</head>
+<body>
+	<div id="top">
+		<!-- <p class="topBar">
+			<span class="top_left"><img src="images/top_left.png"><a href="">返回</a>&nbsp;&nbsp;<a href="">关闭</a></span>
+			订单详情
+			<span class="top_right"><img src="images/top_dot.png"></span>
+		</p> -->
+	</div>
+	<div id="content">
+		<div class="shoptroTop">
+			<!-- <p class="shoptroTop_pic"><img src="images/order_temp.png">
+				<span class="shoptroTop_num"><a href="#">5</a></span>
+			</p> -->
+			<div class="shoptroTop_pic">
+				<div class="main_visual">
+					<div class="flicking_con">
+						<a href="#">&nbsp;</a>
+						<a href="#">&nbsp;</a>
+						<a href="#">&nbsp;</a>
+						<a href="#">&nbsp;</a>
+						<a href="#">&nbsp;</a>
+					</div>
+					<div class="main_image">
+						<ul>
+							<li><img src="images/shop_top_bc.png"></li>
+							<li><img src="images/shop_top_bc.png"></li>
+							<li><img src="images/s
+							hop_top_bc.png"></li>
+							<li><img src="images/shop_top_bc.png"></li>
+							<li><img src="images/shop_top_bc.png"></li>
+						</ul>
+						<a href="javascript:;" id="btn_prev"></a>
+						<a href="javascript:;" id="btn_next"></a>
+					</div>
+				</div>
+				<span class="shoptroTop_num"><a href="#">5</a></span>
+			</div>
+			<p class="shoplltro_title">【小王子主题公园】尝尽童年的你是王子我是公主的梦想， 各类场景大集合</p>
+			<p class="shoplltro_01">趣玩吧专享价</p>
+			<p class="shoplltro_01 shoplltro_03"><img src="images/shop_quick.png">限时抢购</p>
+			<p class="shoplltro_02"><s1>￥</s1>300 <span><s2>￥</s2>420</span></p>
+		</div>
+		<!-- 选择类型 -->
+		<!-- <div class="shoplltroSelect">
+			<label><input type="radio" name="shoplltroSelect-kind">成人票</label>
+			<label><input type="radio" name="shoplltroSelect-kind">三口之家套票</label>
+		</div> -->
+		<div class="shoplltroSelectApp">
+			<span>选择套餐</span>
+			<p><select>
+				<option value="11">三口之家套票</option>
+				<option value="121">成人票</option>
+				<option value="121">儿童票</option>
+			</select></p>
+		</div>
+		<div class="shoplltroHind">
+			<p><span> </span>此服务由小王子主题公园提供</p>
+		</div>
+		<div class="shoplltroWarn">
+			<h3>预定须知/相关事宜</h3>
+			<p><span>1:</span>要爱护花草树木，要保持园区环境卫生。</p>
+			<p><span>2:</span>要爱护公共设施，不在墙上乱涂乱画。</p>
+			<p><span>3:</span>要文明游览，不超越指定范围，不跨越栏杆。</p>
+			<p><span>4:</span>要文明游览，不超越指定范围，不跨越栏杆,要文明游览，不超越指定范围，不跨越栏杆。</p>
+			<p><span>5:</span>要爱护公共设施，不在墙上乱涂乱画。</p>
+		</div>
+		<!-- 地址与联系号码 -->
+		<div class="shoptroMore">
+			<ul>
+				<li>
+					<p class="shoptroMore_img"><img src="images/shop_address_red.png"></p>
+					<p class="shoptroMore_word">地址/Add:  瑞安市湖岭镇潮基社区贾岙村银杏路<span><img src="images/shop_address.png">42km</span></p>
+				</li>
+				<li>
+					<p class="shoptroMore_img"><img src="images/shop_phone_red.png"></p>
+					<p class="shoptroMore_word">联系号码/Tell:  0577-88888888</p>
+				</li>
+			</ul>
+		</div>
+		<!-- 图文介绍 -->
+		<div class="shoptroDelete">
+			<p class="shoptroDelete_title">小王子主题公园</p>
+			<p class="shoptroDelete_subtitle">详情介绍</p>
+
+			<p class="shoptroDelete_img"><img src="images/order_temp.png"></p>
+			<p class="shoptroDelete_intro">的说法你家附近方法对付恐惧啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦噶回复巨巨巨巨巨巨巨巨巨巨巨巨巨巨巨巨对方空间啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊瑞她她她她她她她她她她她她她她她她她她烦烦烦烦烦烦烦烦烦烦烦烦烦烦烦烦烦烦烦地方卡速度饭卡士大夫看见阿斯蒂芬卡速度饭卡上简单概括来说大概看了速度够快了山东高考路上发到空间了了了了了了了了了了了了了</p>
+
+			<p class="shoptroDelete_img"><img src="images/order_temp.png"></p>
+			<p class="shoptroDelete_intro">的说法你家附近方法对付恐惧啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦噶回复巨巨巨巨巨巨巨巨巨巨巨巨巨巨巨巨对方空间啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊瑞她她她她她她她她她她她她她她她她她她烦烦烦烦烦烦烦烦烦烦烦烦烦烦烦烦烦烦烦地方卡速度饭卡士大夫看见阿斯蒂芬卡速度饭卡上简单概括来说大概看了速度够快了山东高考路上发到空间了了了了了了了了了了了了了</p>
+		</div>
+	</div>
+	<div id="footer">
+		<ul>
+			<li><a href="#">
+				<p class="footer_botton_p1"><img src="images/bottom_01.png"></p>
+				<p class="footer_botton_p2">商城首页</p></a>
+			</li>
+			<li><a href="#">
+				<p class="footer_botton_p1"><img src="images/bottom_02.png"></p>
+				<p class="footer_botton_p2">联盟商家</p></a>
+			</li>
+			<li><a href="#">
+				<p class="footer_botton_p1"><img src="images/bottom_03.png"></p>
+				<p class="footer_botton_p2">我的收藏</p></a>
+			</li>
+			<li><a href="#">
+				<p class="footer_botton_p1"><img src="images/bottom_04.png"></p>
+				<p class="footer_botton_p2">我的订单</p></a>
+			</li>
+			<li><a href="#">
+				<p class="footer_botton_p1"><img src="images/bottom_05.png"></p>
+				<p class="footer_botton_p2">我是代言人</p></a>
+			</li>
+		</ul>
+	</div>
+</body>
+<script type="text/javascript">
+$(document).ready(function(){
+
+	$(".main_visual").hover(function(){
+		$("#btn_prev,#btn_next").fadeIn()
+	},function(){
+		$("#btn_prev,#btn_next").fadeOut()
+	});
+	
+	$dragBln = false;
+	
+	$(".main_image").touchSlider({
+		flexible : true,
+		speed : 200,
+		btn_prev : $("#btn_prev"),
+		btn_next : $("#btn_next"),
+		paging : $(".flicking_con a"),
+		counter : function (e){
+			$(".flicking_con a").removeClass("on").eq(e.current-1).addClass("on");
+		}
+	});
+	
+	$(".main_image").bind("mousedown", function() {
+		$dragBln = false;
+	});
+	
+	$(".main_image").bind("dragstart", function() {
+		$dragBln = true;
+	});
+	
+	$(".main_image a").click(function(){
+		if($dragBln) {
+			return false;
+		}
+	});
+	
+	timer = setInterval(function(){
+		$("#btn_next").click();
+	}, 5000);
+	
+	$(".main_visual").hover(function(){
+		clearInterval(timer);
+	},function(){
+		timer = setInterval(function(){
+			$("#btn_next").click();
+		},5000);
+	});
+	
+	$(".main_image").bind("touchstart",function(){
+		clearInterval(timer);
+	}).bind("touchend", function(){
+		timer = setInterval(function(){
+			$("#btn_next").click();
+		}, 5000);
+	});
+	
+});
+</script>
+</html>

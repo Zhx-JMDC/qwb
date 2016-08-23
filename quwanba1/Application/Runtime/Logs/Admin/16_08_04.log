@@ -1,0 +1,300 @@
+[ 2016-08-04T11:49:15+08:00 ] ::1 /quwanba1/index.php/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000964s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001293s ]
+
+[ 2016-08-04T11:49:15+08:00 ] ::1 /quwanba1/index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000891s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000279s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000727s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012799s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013181s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000859s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000635s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2016-08-04T11:49:15+08:00 ] ::1 /quwanba1/index.php/Admin/Public/images/favicon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000818s ]
+
+[ 2016-08-04T11:49:21+08:00 ] ::1 /quwanba1/index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000974s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `qwb_admin` WHERE `username` = 'admin' AND `password` = '965c5cdbb75c07057868cad603db4f5d' AND `data_status` = 0 LIMIT 1   [ RunTime:0.0095s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000258s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000636s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014994s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015457s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000776s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001180s ]
+
+[ 2016-08-04T11:49:23+08:00 ] ::1 /quwanba1/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000770s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001002s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0077s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000262s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000616s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038069s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038525s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000700s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001070s ]
+
+[ 2016-08-04T11:49:23+08:00 ] ::1 /quwanba1/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000773s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000957s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0138s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000234s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000684s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012598s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012962s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000823s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001229s ]
+
+[ 2016-08-04T11:49:25+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index/admin_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000978s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0097s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0092s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: province_id /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Admin/Controller/ShopController.class.php 第 28 行.
+NOTIC: [8] Undefined index: city_id /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Admin/Controller/ShopController.class.php 第 31 行.
+NOTIC: [8] Undefined index: district_id /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Admin/Controller/ShopController.class.php 第 34 行.
+NOTIC: [8] Undefined index: name /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Admin/Controller/ShopController.class.php 第 37 行.
+NOTIC: [8] Undefined index: shop_name /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Admin/Controller/ShopController.class.php 第 41 行.
+NOTIC: [8] Undefined index: price /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Admin/Controller/ShopController.class.php 第 45 行.
+NOTIC: [8] Undefined variable: order /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Admin/Controller/ShopController.class.php 第 56 行.
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0121s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qwb_goods` left join qwb_shop on qwb_goods.shop_id = qwb_shop.id left join qwb_goods_type on qwb_goods.type_id = qwb_goods_type.id  LIMIT 1   [ RunTime:0.0083s ]
+SQL: SELECT qwb_shop.shop_name,qwb_goods.id,qwb_goods.name,`province_id`,`city_id`,`district_id`,qwb_goods_type.name type_name,`original_price`,`selling_price`,qwb_goods.conditions,qwb_goods.order FROM `qwb_goods` left join qwb_shop on qwb_goods.shop_id = qwb_shop.id left join qwb_goods_type on qwb_goods.type_id = qwb_goods_type.id  LIMIT 0,2   [ RunTime:0.0259s ]
+SQL: SHOW COLUMNS FROM `qwb_goods_price` [ RunTime:0.0108s ]
+SQL: SELECT `id`,`original_value`,`selling_value`,`name`,`inventory` FROM `qwb_goods_price` WHERE ( 1=1 AND goods_id='3' )  [ RunTime:0.0091s ]
+SQL: SHOW COLUMNS FROM `qwb_province` [ RunTime:0.0115s ]
+SQL: SELECT `id`,`name` FROM `qwb_province`  [ RunTime:0.0100s ]
+SQL: SELECT `name` FROM `qwb_province` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0134s ]
+SQL: SHOW COLUMNS FROM `qwb_city` [ RunTime:0.0078s ]
+SQL: SELECT `name` FROM `qwb_city` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0125s ]
+SQL: SHOW COLUMNS FROM `qwb_district` [ RunTime:0.0099s ]
+SQL: SELECT `name` FROM `qwb_district` WHERE `id` = 680 LIMIT 1   [ RunTime:0.0126s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0187s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qwb_order` WHERE `goods_id` = 3 AND `status` = 1 AND `pay_status` <> 0 LIMIT 1   [ RunTime:0.0081s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qwb_order` WHERE `goods_id` = 3 AND `status` = 3 AND `pay_status` <> 0 LIMIT 1   [ RunTime:0.0079s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000269s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000649s ]
+NOTIC: [8] Undefined variable: shop_name /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Runtime/Cache/Admin/52fa67f14c08742f6c521ab8140bab06.php 第 43 行.
+NOTIC: [8] Undefined variable: name /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Runtime/Cache/Admin/52fa67f14c08742f6c521ab8140bab06.php 第 49 行.
+NOTIC: [8] Undefined variable: price /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Runtime/Cache/Admin/52fa67f14c08742f6c521ab8140bab06.php 第 279 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043952s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044376s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000811s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000900s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001346s ]
+
+[ 2016-08-04T11:49:26+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000753s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001012s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0095s ]
+
+[ 2016-08-04T11:49:28+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/goods_add_page.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001006s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0136s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0096s ]
+SQL: SHOW COLUMNS FROM `qwb_province` [ RunTime:0.0095s ]
+SQL: SELECT `id`,`name` FROM `qwb_province`  [ RunTime:0.0106s ]
+SQL: SHOW COLUMNS FROM `qwb_goods_type` [ RunTime:0.0118s ]
+SQL: SELECT `id`,`name` FROM `qwb_goods_type`  [ RunTime:0.0109s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000261s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000597s ]
+NOTIC: [8] Undefined variable: breadcrumbs /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Runtime/Cache/Admin/797635e2a5e8a2d406c1cbad4d786ef8.php 第 39 行.
+NOTIC: [2] Invalid argument supplied for foreach() /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Runtime/Cache/Admin/797635e2a5e8a2d406c1cbad4d786ef8.php 第 39 行.
+NOTIC: [8] Undefined variable: error_warning /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Runtime/Cache/Admin/797635e2a5e8a2d406c1cbad4d786ef8.php 第 46 行.
+NOTIC: [8] Undefined variable: text_form /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Runtime/Cache/Admin/797635e2a5e8a2d406c1cbad4d786ef8.php 第 53 行.
+NOTIC: [8] Undefined variable: discovery /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Runtime/Cache/Admin/797635e2a5e8a2d406c1cbad4d786ef8.php 第 74 行.
+NOTIC: [2] Invalid argument supplied for foreach() /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Runtime/Cache/Admin/797635e2a5e8a2d406c1cbad4d786ef8.php 第 74 行.
+NOTIC: [8] Undefined variable: button_image_add /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Runtime/Cache/Admin/797635e2a5e8a2d406c1cbad4d786ef8.php 第 86 行.
+NOTIC: [8] Undefined variable: discovery /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Runtime/Cache/Admin/797635e2a5e8a2d406c1cbad4d786ef8.php 第 110 行.
+NOTIC: [2] Invalid argument supplied for foreach() /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Runtime/Cache/Admin/797635e2a5e8a2d406c1cbad4d786ef8.php 第 110 行.
+NOTIC: [8] Undefined variable: button_image_add /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Runtime/Cache/Admin/797635e2a5e8a2d406c1cbad4d786ef8.php 第 122 行.
+NOTIC: [8] Undefined variable: goods /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Runtime/Cache/Admin/797635e2a5e8a2d406c1cbad4d786ef8.php 第 153 行.
+NOTIC: [8] Undefined variable: goods /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Runtime/Cache/Admin/797635e2a5e8a2d406c1cbad4d786ef8.php 第 154 行.
+NOTIC: [8] Undefined variable: goods /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Runtime/Cache/Admin/797635e2a5e8a2d406c1cbad4d786ef8.php 第 158 行.
+NOTIC: [8] Undefined variable: goods /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Runtime/Cache/Admin/797635e2a5e8a2d406c1cbad4d786ef8.php 第 159 行.
+NOTIC: [8] Undefined variable: goods /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Runtime/Cache/Admin/797635e2a5e8a2d406c1cbad4d786ef8.php 第 350 行.
+NOTIC: [8] Undefined variable: goods /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Runtime/Cache/Admin/797635e2a5e8a2d406c1cbad4d786ef8.php 第 351 行.
+NOTIC: [8] Undefined variable: goods /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Runtime/Cache/Admin/797635e2a5e8a2d406c1cbad4d786ef8.php 第 352 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041413s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041944s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000777s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000759s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001379s ]
+
+[ 2016-08-04T11:49:28+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000877s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0101s ]
+
+[ 2016-08-04T20:24:08+08:00 ] ::1 /quwanba1/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002247s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0079s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000351s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000789s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043154s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043606s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000924s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000997s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001550s ]
+
+[ 2016-08-04T20:24:08+08:00 ] ::1 /quwanba1/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000137s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001150s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000239s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000662s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009064s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009496s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000803s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000624s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000971s ]
+
+[ 2016-08-04T22:19:30+08:00 ] ::1 /quwanba1/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000757s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000992s ]
+
+[ 2016-08-04T22:19:30+08:00 ] ::1 /quwanba1/index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000787s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001142s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000244s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000831s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019343s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019706s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000957s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000802s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001319s ]
+
+[ 2016-08-04T22:19:30+08:00 ] ::1 /quwanba1/index.php/Admin/Public/images/favicon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000129s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001161s ]
+
+[ 2016-08-04T22:19:31+08:00 ] ::1 /quwanba1/index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001784s ]
+ERR: SQLSTATE[HY000] [2002] Connection refused
+
+[ 2016-08-04T22:30:51+08:00 ] ::1 /quwanba1/index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000973s ]
+ERR: SQLSTATE[HY000] [2002] Connection refused
+

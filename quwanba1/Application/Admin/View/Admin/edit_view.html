@@ -1,0 +1,49 @@
+<extend name="Public/base" />
+<block name="body">
+    <!-- 标题栏 -->
+    <div class="panel panel-default">
+        <div class="panel-heading main-title">
+            <h2>编辑管理员</h2>
+        </div><!--		panel-heading		-->
+        <div class="panel-body">
+            <form class="form-horizontal form-bordered" action="{:U('Admin/Admin/edit')}" method="post">
+                <div class="form-group">
+                    <label class="col-sm-3 control-label">ID</label>
+                    <div class="col-sm-6">
+                        <input type="text" name="id"  class="form-control" value="{$_admin.id}"  readonly="true"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-3 control-label">用户名</label>
+                    <div class="col-sm-6">
+                        <input type="text" name="username"  class="form-control" value="{$_admin.username}" readonly="true"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-3 control-label">姓名</label>
+                    <div class="col-sm-6">
+                        <input type="text" name="realname"  class="form-control" value="{$_admin.realname}"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-3 control-label">级别</label>
+                    <div class="col-sm-6">
+                        <select class="form-control mb15" name="level">
+                            <option value="{$_admin.level}">{$_admin.level_name}</option>
+                            <option value="1">超级管理员</option>
+                            <option value="2">管理员</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-3 control-label">状态</label>
+                    <div class="col-sm-6">
+                        <input type="text" name=""  class="form-control" value="{$_admin.status}"  readonly="true"/>
+                    </div>
+                </div>
+                <button  class="btn btn-success">保存</button>
+            </form>
+            <button  class="btn btn-primary" onclick="window.location.href = '{:U('Admin/Admin/index')}'">返回</button>
+        </div>
+    </div>
+</block>

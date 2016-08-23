@@ -1,0 +1,17 @@
+[ 2016-08-07T20:07:54+08:00 ] ::1 /quwanba1/index.php/Wechat/Wechatpay/notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001404s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0081s ]
+SQL: SHOW COLUMNS FROM `qwb_card_history` [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0138s ]
+NOTIC: [8] Undefined index: attach /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Controller/WechatpayController.class.php 第 74 行.
+SQL: SHOW COLUMNS FROM `qwb_card_history` [ RunTime:0.0079s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `status` FROM `qwb_card_history` WHERE ( id =  ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `status` FROM `qwb_card_history` WHERE ( id =  ) LIMIT 1  
+

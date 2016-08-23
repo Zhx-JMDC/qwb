@@ -1,0 +1,121 @@
+<extend name="Public/base" />
+<block name="title">我是旅行家</block>
+<block name="body">
+	<div id="content">
+		<div class="buycardTop">
+			<p class="buycard_01"><img src="{$user.headimgurl}"></p>
+			<p class="buycard_02">{$user.nickname}</p>
+			<p class="buycard_03">ID：{$user.qwb_id}</p>
+			<p class="buycard_04 currentVip">
+				<if condition="$rank eq vip_letter">您还不是旅行家
+					<else />当前等级<img src="__IMG__/{$rank}.png">
+				</if>
+			</p>
+			<p class="buycard_letter">
+				<a href="{:U('Spokesman/message')}"><img src="__IMG__/message_top_right.png">
+					<if condition="$message_count eq 0"><else /><span>{$message_count}</span></if>
+				</a>
+			</p>
+		</div>
+		<div class="representCode">
+			<a href="{:U('Spokesman/my_QRode')}"><p>我的二维码<span><img src="__IMG__/order_code_small.png"></span></p></a>
+		</div>
+		<div class="representInc">
+			<ul>
+				<li>
+					<a href="{:U('Spokesman/my_income')}">
+					<p class="myincomeMain_01">我的收入</p>
+					<p class="myincomeMain_02">历史积累饭票</p>
+					<p class="myincomeMain_03">
+						<empty name="income">F0.00<else />F{$income}</empty>
+					</p>
+					<p class="representInc_p3"><img src="__IMG__/jiantou_right.png"></p>
+					</a>
+				</li>
+				<li>
+					<a href="{:U('Spokesman/cash_get')}">
+						<p class="representInc_p1">可提取饭票</p>
+						<p class="representInc_p2"><empty name="withdraw_income">F0.00<else />F{$withdraw_income}</empty></p>
+						<p class="representInc_p3"><img src="__IMG__/jiantou_right.png"></p>
+					</a>
+				</li>
+				<li>
+					<a href="{:U('Spokesman/wait_cash')}">
+						<p class="representInc_p1">待提取饭票</p>
+						<p class="representInc_p2"><empty name="wait_income">F0.00<else />F{$wait_income}</empty></p>
+						<!--<div class="represent_rightblock">-->
+							<!--<p class="representInc_p1">在以下时间领取饭票，逾时将失去饭票</p>-->
+							<!--<p class="representInc_p4"><img src="__IMG__/clock_dark.png"><span id="myTime">23:15:24</span></p>-->
+						<!--</div>-->
+						<p class="representInc_p3"><img src="__IMG__/jiantou_right.png"></p>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="representAno">
+			<ul>
+				<li>
+					<a href="{:U('Spokesman/firends')}">
+						<p class="representAno_p1">我的饭友 <span>{$friend_count}</span></p>
+						<p class="representInc_p3"><img src="__IMG__/jiantou_right.png"></p>
+					</a>
+				</li>
+				<li>
+					<a href="{:U('Spokesman/circle')}">
+						<p class="representAno_p1">我的饭圈 <span>{$circle_count}</span></p>
+						<p class="representInc_p3"><img src="__IMG__/jiantou_right.png"></p>
+					</a>
+				</li>
+				<li>
+					<switch name="rank" >
+						<case value="vip_letter">
+							<a href="{:U('Spokesman/buy_card')}">
+								<div class="representInc_S">
+									<p class="representAno_p2">成为V级旅行家</p>
+									<!-- 点击升级成为V级代言人 -->
+									<p><img src="__IMG__/vip_letter_v_dark.png"></p>
+								</div>
+							</a></case>
+						<case value="vip_letter_v">
+							<a href="{:U('Spokesman/card_information',array('type'=>0))}">
+							<div class="representInc_S">
+								<!-- <p class="representAno_p2">成为S级旅行家</p>
+								<p><img src="__IMG__/vip_letter_s_dark.png"></p> -->
+								<img src="__IMG__/represent_VtoS.jpg" class="representInc_toS">
+							</div></a></case>
+						<default /><div style="height:140px;"></div>
+					</switch>
+				</li>
+			</ul>
+		</div>
+		<!-- <div class="myincomeMain">
+			<p class="myincomeMain_01">我的收入</p>
+			<p class="myincomeMain_02">历史积累饭票</p>
+			<p class="myincomeMain_03">F150.00</p>
+		</div> -->
+		<div class="myincomeHind"><p>您的推荐人是{$nickname}</p></div>
+	</div>
+</block>
+<block name="script">
+<script type="text/javascript">
+//	var hour = 12, min = 30, se=00,
+//        interval;
+//    window.onload = function() {
+//        var d = new Date("1111/1/1,"+ hour + ":" + min + ":" + se);
+//        interval = setInterval(function() {
+//            var h = d.getHours();
+//            var m = d.getMinutes();
+//            var s = d.getSeconds();
+//            h = h < 10 ? "0" + h : h;
+//            m = m < 10 ? "0" + m : m;
+//            s = s < 10 ? "0" + s : s;
+//            myTime.innerHTML = h + ":" + m + ":" + s;
+//            if (h==0 && m == 0 && s == 0) {
+//                clearInterval(interval);
+//                return;
+//            }
+//            d.setSeconds(s - 1);
+//        }, 1000);
+//    }
+</script>
+</block>

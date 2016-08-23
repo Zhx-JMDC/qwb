@@ -1,0 +1,833 @@
+[ 2016-07-31T00:02:37+08:00 ] ::1 /quwanba1/index.php/Wechat/Index/get_QRCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000925s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001082s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0086s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0082s ]
+ERR: 参数错误或者未定义:id
+
+[ 2016-07-31T00:02:46+08:00 ] ::1 /quwanba1/index.php/Wechat/Index/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000773s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001029s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0141s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0133s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `qwb_user` WHERE `openid` = 'oHM7is7NHoKl541Z3ECvq0HhIOn8' LIMIT 1   [ RunTime:0.0107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001267s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001951s ]
+
+[ 2016-07-31T00:03:06+08:00 ] ::1 /quwanba1/index.php/Wechat/Index/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000928s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001060s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0135s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0126s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `qwb_user` WHERE `openid` = 'oHM7is7NHoKl541Z3ECvq0HhIOn8' LIMIT 1   [ RunTime:0.0135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000819s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001246s ]
+
+[ 2016-07-31T00:03:06+08:00 ] ::1 /quwanba1/index.php/Wechat/Index/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000905s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001030s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0089s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0099s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `qwb_user` WHERE `openid` = 'oHM7is7NHoKl541Z3ECvq0HhIOn8' LIMIT 1   [ RunTime:0.0088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000699s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001087s ]
+
+[ 2016-07-31T00:03:28+08:00 ] ::1 /quwanba1/index.php/Wechat/Index/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000812s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000971s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0083s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0085s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `qwb_user` WHERE `openid` = 'oHM7is7NHoKl541Z3ECvq0HhIOn8' LIMIT 1   [ RunTime:0.0109s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000790s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001205s ]
+
+[ 2016-07-31T00:03:29+08:00 ] ::1 /quwanba1/index.php/Wechat/Index/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000945s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0093s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0084s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `qwb_user` WHERE `openid` = 'oHM7is7NHoKl541Z3ECvq0HhIOn8' LIMIT 1   [ RunTime:0.0082s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000738s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001295s ]
+
+[ 2016-07-31T00:03:39+08:00 ] ::1 /quwanba1/index.php/Wechat/Index/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001339s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0096s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0143s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `qwb_user` WHERE `openid` = 'oHM7is7NHoKl541Z3ECvq0HhIOn8' LIMIT 1   [ RunTime:0.0088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001861s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002697s ]
+
+[ 2016-07-31T00:03:40+08:00 ] ::1 /quwanba1/index.php/Wechat/Index/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000760s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001108s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0101s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `qwb_user` WHERE `openid` = 'oHM7is7NHoKl541Z3ECvq0HhIOn8' LIMIT 1   [ RunTime:0.0080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001009s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001548s ]
+
+[ 2016-07-31T00:03:52+08:00 ] ::1 /quwanba1/index.php/Wechat/Index/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000743s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001059s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0081s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0082s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `qwb_user` WHERE `openid` = 'oHM7is7NHoKl541Z3ECvq0HhIOn8' LIMIT 1   [ RunTime:0.0085s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001283s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002039s ]
+
+[ 2016-07-31T00:03:53+08:00 ] ::1 /quwanba1/index.php/Wechat/Index/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000759s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001115s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0105s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `qwb_user` WHERE `openid` = 'oHM7is7NHoKl541Z3ECvq0HhIOn8' LIMIT 1   [ RunTime:0.0088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000921s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001417s ]
+
+[ 2016-07-31T00:04:02+08:00 ] ::1 /quwanba1/index.php/Wechat/Index/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001339s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0098s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0089s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `qwb_user` WHERE `openid` = 'oHM7is7NHoKl541Z3ECvq0HhIOn8' LIMIT 1   [ RunTime:0.0089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001326s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001958s ]
+
+[ 2016-07-31T00:04:03+08:00 ] ::1 /quwanba1/index.php/Wechat/Index/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000133s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001017s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0081s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `qwb_user` WHERE `openid` = 'oHM7is7NHoKl541Z3ECvq0HhIOn8' LIMIT 1   [ RunTime:0.0399s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000840s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001409s ]
+
+[ 2016-07-31T00:04:04+08:00 ] ::1 /quwanba1/index.php/Wechat/Index/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000999s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001251s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0093s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0087s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `qwb_user` WHERE `openid` = 'oHM7is7NHoKl541Z3ECvq0HhIOn8' LIMIT 1   [ RunTime:0.0087s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001474s ]
+
+[ 2016-07-31T00:04:15+08:00 ] ::1 /quwanba1/index.php/Wechat/Index/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001356s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0091s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0084s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `qwb_user` WHERE `openid` = 'oHM7is7NHoKl541Z3ECvq0HhIOn8' LIMIT 1   [ RunTime:0.0093s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001006s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001532s ]
+
+[ 2016-07-31T00:04:15+08:00 ] ::1 /quwanba1/index.php/Wechat/Index/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000782s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001079s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0081s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `qwb_user` WHERE `openid` = 'oHM7is7NHoKl541Z3ECvq0HhIOn8' LIMIT 1   [ RunTime:0.0088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001552s ]
+
+[ 2016-07-31T00:04:53+08:00 ] ::1 /quwanba1/index.php/Wechat/Index/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000747s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001134s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0091s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `qwb_user` WHERE `openid` = 'oHM7is7NHoKl541Z3ECvq0HhIOn8' LIMIT 1   [ RunTime:0.0093s ]
+SQL: SELECT `fid`,`tier` FROM `qwb_user` WHERE `id` = 81 LIMIT 1   [ RunTime:0.0087s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001006s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001575s ]
+
+[ 2016-07-31T00:04:53+08:00 ] ::1 /quwanba1/index.php/Wechat/Index/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000757s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001153s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0088s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0093s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `qwb_user` WHERE `openid` = 'oHM7is7NHoKl541Z3ECvq0HhIOn8' LIMIT 1   [ RunTime:0.0083s ]
+SQL: SELECT `fid`,`tier` FROM `qwb_user` WHERE `id` = 81 LIMIT 1   [ RunTime:0.0079s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002169s ]
+
+[ 2016-07-31T00:04:54+08:00 ] ::1 /quwanba1/index.php/Wechat/Index/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000859s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001278s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0086s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0087s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `qwb_user` WHERE `openid` = 'oHM7is7NHoKl541Z3ECvq0HhIOn8' LIMIT 1   [ RunTime:0.0081s ]
+SQL: SELECT `fid`,`tier` FROM `qwb_user` WHERE `id` = 81 LIMIT 1   [ RunTime:0.0078s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001256s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002171s ]
+
+[ 2016-07-31T00:35:03+08:00 ] ::1 /quwanba1/index.php/Wechat/Index/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000760s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0094s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0088s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0099s ]
+SQL: SELECT `fid` FROM `qwb_user` WHERE `openid` = 'oHM7is7NHoKl541Z3ECvq0HhIOn8' LIMIT 1   [ RunTime:0.0102s ]
+SQL: SELECT `fid`,`tier` FROM `qwb_user` WHERE `id` = 81 LIMIT 1   [ RunTime:0.0078s ]
+SQL: UPDATE `qwb_user` SET `fid`='81',`gid`='80',`tier`='3' WHERE `openid` = 'oHM7is7NHoKl541Z3ECvq0HhIOn8' [ RunTime:0.0103s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001553s ]
+
+[ 2016-07-31T00:47:42+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000866s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001141s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0385s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0091s ]
+SQL: SHOW COLUMNS FROM `qwb_shop_class` [ RunTime:0.0091s ]
+ERR: 1054:Unknown column 'shop' in 'field list'
+ [ SQL语句 ] : SELECT `shop` FROM `qwb_shop_class` WHERE `id` = 1 LIMIT 1  
+ERR: 1054:Unknown column 'shop' in 'field list'
+ [ SQL语句 ] : SELECT `shop` FROM `qwb_shop_class` WHERE `id` = 1 LIMIT 1  
+
+[ 2016-07-31T00:51:05+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000933s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001059s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0084s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0112s ]
+SQL: SHOW COLUMNS FROM `qwb_shop_to_class` [ RunTime:0.0077s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Model/ShopModel.class.php on line 94 and defined /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT * FROM `qwb_shop_to_class`  [ RunTime:0.0076s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001296s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001965s ]
+
+[ 2016-07-31T00:51:06+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000915s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000997s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0082s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0084s ]
+SQL: SHOW COLUMNS FROM `qwb_shop_to_class` [ RunTime:0.0086s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Model/ShopModel.class.php on line 94 and defined /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT * FROM `qwb_shop_to_class`  [ RunTime:0.0088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000735s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001092s ]
+
+[ 2016-07-31T00:51:23+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000783s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001106s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0132s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `qwb_shop_to_class` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `qwb_shop_to_class` WHERE `shop_class_id` = 2  [ RunTime:0.0083s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000956s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001455s ]
+
+[ 2016-07-31T00:51:24+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000945s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0082s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0081s ]
+SQL: SHOW COLUMNS FROM `qwb_shop_to_class` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `qwb_shop_to_class` WHERE `shop_class_id` = 2  [ RunTime:0.0078s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000943s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001326s ]
+
+[ 2016-07-31T00:51:25+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001994s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0088s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0182s ]
+SQL: SHOW COLUMNS FROM `qwb_shop_to_class` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `qwb_shop_to_class` WHERE `shop_class_id` = 2  [ RunTime:0.0092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001017s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001565s ]
+
+[ 2016-07-31T00:52:17+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000824s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001060s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0086s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0082s ]
+SQL: SHOW COLUMNS FROM `qwb_shop_to_class` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `qwb_shop_to_class` left join qwb_shop on qwb_shop_to_class.shop_id = qwb_shop.id  WHERE `shop_class_id` = '2'  [ RunTime:0.0105s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001502s ]
+
+[ 2016-07-31T00:52:18+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000792s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0097s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0089s ]
+SQL: SHOW COLUMNS FROM `qwb_shop_to_class` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `qwb_shop_to_class` left join qwb_shop on qwb_shop_to_class.shop_id = qwb_shop.id  WHERE `shop_class_id` = '2'  [ RunTime:0.0085s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000958s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001448s ]
+
+[ 2016-07-31T00:52:25+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001316s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0097s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0104s ]
+SQL: SHOW COLUMNS FROM `qwb_shop_to_class` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `qwb_shop_to_class` Right join qwb_shop on qwb_shop_to_class.shop_id = qwb_shop.id  WHERE `shop_class_id` = '2'  [ RunTime:0.0093s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001622s ]
+
+[ 2016-07-31T00:52:39+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004205s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0083s ]
+SQL: SHOW COLUMNS FROM `qwb_shop_to_class` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `qwb_shop_to_class` left join qwb_shop on qwb_shop_to_class.shop_id = qwb_shop.id  WHERE `shop_class_id` = '2'  [ RunTime:0.0081s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000819s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001238s ]
+
+[ 2016-07-31T00:52:40+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000857s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001217s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0101s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0138s ]
+SQL: SHOW COLUMNS FROM `qwb_shop_to_class` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `qwb_shop_to_class` left join qwb_shop on qwb_shop_to_class.shop_id = qwb_shop.id  WHERE `shop_class_id` = '2'  [ RunTime:0.0084s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000929s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001401s ]
+
+[ 2016-07-31T00:52:40+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000824s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000959s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0087s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0095s ]
+SQL: SHOW COLUMNS FROM `qwb_shop_to_class` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `qwb_shop_to_class` left join qwb_shop on qwb_shop_to_class.shop_id = qwb_shop.id  WHERE `shop_class_id` = '2'  [ RunTime:0.0097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001215s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001904s ]
+
+[ 2016-07-31T00:52:41+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001025s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0099s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0085s ]
+SQL: SHOW COLUMNS FROM `qwb_shop_to_class` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `qwb_shop_to_class` left join qwb_shop on qwb_shop_to_class.shop_id = qwb_shop.id  WHERE `shop_class_id` = '2'  [ RunTime:0.0097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002281s ]
+
+[ 2016-07-31T00:52:41+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000822s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001064s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0091s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0084s ]
+SQL: SHOW COLUMNS FROM `qwb_shop_to_class` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `qwb_shop_to_class` left join qwb_shop on qwb_shop_to_class.shop_id = qwb_shop.id  WHERE `shop_class_id` = '2'  [ RunTime:0.0084s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001201s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001888s ]
+
+[ 2016-07-31T00:53:05+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001044s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0087s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `qwb_shop_to_class` [ RunTime:0.0073s ]
+ERR: 1052:Column 'id' in field list is ambiguous
+ [ SQL语句 ] : SELECT `id`,`longitude`,`latitude`,`discount_img`,`shop_name`,`pic` FROM `qwb_shop_to_class` left join qwb_shop on qwb_shop_to_class.shop_id = qwb_shop.id  WHERE `shop_class_id` = '2' 
+ERR: 1052:Column 'id' in field list is ambiguous
+ [ SQL语句 ] : SELECT `id`,`longitude`,`latitude`,`discount_img`,`shop_name`,`pic` FROM `qwb_shop_to_class` left join qwb_shop on qwb_shop_to_class.shop_id = qwb_shop.id  WHERE `shop_class_id` = '2' 
+
+[ 2016-07-31T00:53:06+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001147s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0088s ]
+SQL: SHOW COLUMNS FROM `qwb_shop_to_class` [ RunTime:0.0093s ]
+ERR: 1052:Column 'id' in field list is ambiguous
+ [ SQL语句 ] : SELECT `id`,`longitude`,`latitude`,`discount_img`,`shop_name`,`pic` FROM `qwb_shop_to_class` left join qwb_shop on qwb_shop_to_class.shop_id = qwb_shop.id  WHERE `shop_class_id` = '2' 
+ERR: 1052:Column 'id' in field list is ambiguous
+ [ SQL语句 ] : SELECT `id`,`longitude`,`latitude`,`discount_img`,`shop_name`,`pic` FROM `qwb_shop_to_class` left join qwb_shop on qwb_shop_to_class.shop_id = qwb_shop.id  WHERE `shop_class_id` = '2' 
+
+[ 2016-07-31T00:53:07+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000979s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0088s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0164s ]
+SQL: SHOW COLUMNS FROM `qwb_shop_to_class` [ RunTime:0.0239s ]
+ERR: 1052:Column 'id' in field list is ambiguous
+ [ SQL语句 ] : SELECT `id`,`longitude`,`latitude`,`discount_img`,`shop_name`,`pic` FROM `qwb_shop_to_class` left join qwb_shop on qwb_shop_to_class.shop_id = qwb_shop.id  WHERE `shop_class_id` = '2' 
+ERR: 1052:Column 'id' in field list is ambiguous
+ [ SQL语句 ] : SELECT `id`,`longitude`,`latitude`,`discount_img`,`shop_name`,`pic` FROM `qwb_shop_to_class` left join qwb_shop on qwb_shop_to_class.shop_id = qwb_shop.id  WHERE `shop_class_id` = '2' 
+
+[ 2016-07-31T00:53:25+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000755s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001073s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0085s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0095s ]
+SQL: SHOW COLUMNS FROM `qwb_shop_to_class` [ RunTime:0.0079s ]
+SQL: SELECT qwb_shop.id,`longitude`,`latitude`,`discount_img`,`shop_name`,`pic` FROM `qwb_shop_to_class` left join qwb_shop on qwb_shop_to_class.shop_id = qwb_shop.id  WHERE `shop_class_id` = '2'  [ RunTime:0.0080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001230s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001979s ]
+
+[ 2016-07-31T00:53:26+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0095s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0093s ]
+SQL: SHOW COLUMNS FROM `qwb_shop_to_class` [ RunTime:0.0083s ]
+SQL: SELECT qwb_shop.id,`longitude`,`latitude`,`discount_img`,`shop_name`,`pic` FROM `qwb_shop_to_class` left join qwb_shop on qwb_shop_to_class.shop_id = qwb_shop.id  WHERE `shop_class_id` = '2'  [ RunTime:0.0101s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002143s ]
+
+[ 2016-07-31T00:54:22+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000867s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001113s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0089s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0106s ]
+SQL: SHOW COLUMNS FROM `qwb_shop_to_class` [ RunTime:0.0095s ]
+SQL: SELECT qwb_shop.id,`longitude`,`latitude`,`discount_img`,`shop_name`,`pic` FROM `qwb_shop_to_class` left join qwb_shop on qwb_shop_to_class.shop_id = qwb_shop.id  WHERE `shop_class_id` = '2' AND `conditions` = '1'  [ RunTime:0.0086s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000753s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001124s ]
+
+[ 2016-07-31T00:54:23+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000757s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001129s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0139s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0086s ]
+SQL: SHOW COLUMNS FROM `qwb_shop_to_class` [ RunTime:0.0125s ]
+SQL: SELECT qwb_shop.id,`longitude`,`latitude`,`discount_img`,`shop_name`,`pic` FROM `qwb_shop_to_class` left join qwb_shop on qwb_shop_to_class.shop_id = qwb_shop.id  WHERE `shop_class_id` = '2' AND `conditions` = '1'  [ RunTime:0.0078s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001267s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001922s ]
+
+[ 2016-07-31T00:54:24+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000898s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001076s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0077s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0076s ]
+SQL: SHOW COLUMNS FROM `qwb_shop_to_class` [ RunTime:0.0081s ]
+SQL: SELECT qwb_shop.id,`longitude`,`latitude`,`discount_img`,`shop_name`,`pic` FROM `qwb_shop_to_class` left join qwb_shop on qwb_shop_to_class.shop_id = qwb_shop.id  WHERE `shop_class_id` = '2' AND `conditions` = '1'  [ RunTime:0.0077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000886s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001393s ]
+
+[ 2016-07-31T00:54:24+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000837s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001101s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0083s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0081s ]
+SQL: SHOW COLUMNS FROM `qwb_shop_to_class` [ RunTime:0.0076s ]
+SQL: SELECT qwb_shop.id,`longitude`,`latitude`,`discount_img`,`shop_name`,`pic` FROM `qwb_shop_to_class` left join qwb_shop on qwb_shop_to_class.shop_id = qwb_shop.id  WHERE `shop_class_id` = '2' AND `conditions` = '1'  [ RunTime:0.0081s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001203s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001780s ]
+
+[ 2016-07-31T00:54:51+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000851s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001047s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0081s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0082s ]
+SQL: SHOW COLUMNS FROM `qwb_shop_to_class` [ RunTime:0.0123s ]
+SQL: SELECT qwb_shop.id,`longitude`,`latitude`,`discount_img`,`shop_name`,`pic` FROM `qwb_shop_to_class` left join qwb_shop on qwb_shop_to_class.shop_id = qwb_shop.id  WHERE `shop_class_id` = '2' AND `conditions` = '1' ORDER BY shop_order desc LIMIT 0,10   [ RunTime:0.0087s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000844s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001273s ]
+
+[ 2016-07-31T00:54:52+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000955s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0091s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0082s ]
+SQL: SHOW COLUMNS FROM `qwb_shop_to_class` [ RunTime:0.0107s ]
+SQL: SELECT qwb_shop.id,`longitude`,`latitude`,`discount_img`,`shop_name`,`pic` FROM `qwb_shop_to_class` left join qwb_shop on qwb_shop_to_class.shop_id = qwb_shop.id  WHERE `shop_class_id` = '2' AND `conditions` = '1' ORDER BY shop_order desc LIMIT 0,10   [ RunTime:0.0151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000749s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001128s ]
+
+[ 2016-07-31T00:54:52+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000821s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001017s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0085s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0086s ]
+SQL: SHOW COLUMNS FROM `qwb_shop_to_class` [ RunTime:0.0096s ]
+SQL: SELECT qwb_shop.id,`longitude`,`latitude`,`discount_img`,`shop_name`,`pic` FROM `qwb_shop_to_class` left join qwb_shop on qwb_shop_to_class.shop_id = qwb_shop.id  WHERE `shop_class_id` = '2' AND `conditions` = '1' ORDER BY shop_order desc LIMIT 0,10   [ RunTime:0.0077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000818s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001269s ]
+
+[ 2016-07-31T00:54:53+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000734s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001041s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0079s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0077s ]
+SQL: SHOW COLUMNS FROM `qwb_shop_to_class` [ RunTime:0.0075s ]
+SQL: SELECT qwb_shop.id,`longitude`,`latitude`,`discount_img`,`shop_name`,`pic` FROM `qwb_shop_to_class` left join qwb_shop on qwb_shop_to_class.shop_id = qwb_shop.id  WHERE `shop_class_id` = '2' AND `conditions` = '1' ORDER BY shop_order desc LIMIT 0,10   [ RunTime:0.0074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000727s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001115s ]
+
+[ 2016-07-31T00:55:02+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000871s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001035s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0084s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0111s ]
+SQL: SHOW COLUMNS FROM `qwb_shop_to_class` [ RunTime:0.0087s ]
+SQL: SELECT qwb_shop.id,`longitude`,`latitude`,`discount_img`,`shop_name`,`pic` FROM `qwb_shop_to_class` left join qwb_shop on qwb_shop_to_class.shop_id = qwb_shop.id  WHERE `shop_class_id` = '2' AND `conditions` = '1' ORDER BY shop_order desc LIMIT 0,10   [ RunTime:0.0080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000727s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001120s ]
+
+[ 2016-07-31T00:55:03+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000148s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001122s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001301s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0097s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0092s ]
+SQL: SHOW COLUMNS FROM `qwb_shop_to_class` [ RunTime:0.0075s ]
+SQL: SELECT qwb_shop.id,`longitude`,`latitude`,`discount_img`,`shop_name`,`pic` FROM `qwb_shop_to_class` left join qwb_shop on qwb_shop_to_class.shop_id = qwb_shop.id  WHERE `shop_class_id` = '2' AND `conditions` = '1' ORDER BY shop_order desc LIMIT 0,10   [ RunTime:0.0076s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000798s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001210s ]
+
+[ 2016-07-31T00:55:03+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000763s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001054s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0089s ]
+SQL: SHOW COLUMNS FROM `qwb_shop_to_class` [ RunTime:0.0088s ]
+SQL: SELECT qwb_shop.id,`longitude`,`latitude`,`discount_img`,`shop_name`,`pic` FROM `qwb_shop_to_class` left join qwb_shop on qwb_shop_to_class.shop_id = qwb_shop.id  WHERE `shop_class_id` = '2' AND `conditions` = '1' ORDER BY shop_order desc LIMIT 0,10   [ RunTime:0.0088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000986s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001424s ]
+
+[ 2016-07-31T00:58:06+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/shop_class_more
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000960s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0084s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0083s ]
+SQL: SHOW COLUMNS FROM `qwb_shop_to_class` [ RunTime:0.0090s ]
+SQL: SELECT qwb_shop.id,`longitude`,`latitude`,`discount_img`,`shop_name`,`pic` FROM `qwb_shop_to_class` left join qwb_shop on qwb_shop_to_class.shop_id = qwb_shop.id  WHERE `shop_class_id` = '2' AND `conditions` = '1' ORDER BY shop_order desc LIMIT 0,10   [ RunTime:0.0085s ]
+
+[ 2016-07-31T00:59:17+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/shop_class_more
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001020s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0086s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0082s ]
+SQL: SHOW COLUMNS FROM `qwb_shop_to_class` [ RunTime:0.0085s ]
+SQL: SELECT qwb_shop.id,`longitude`,`latitude`,`discount_img`,`shop_name`,`pic` FROM `qwb_shop_to_class` left join qwb_shop on qwb_shop_to_class.shop_id = qwb_shop.id  WHERE `shop_class_id` = '2' AND `conditions` = '1' ORDER BY shop_order desc LIMIT 0,10   [ RunTime:0.0081s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Controller/AllianceShopController.class.php:252) /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+
+[ 2016-07-31T00:59:18+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/shop_class_more
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000915s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0101s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0087s ]
+SQL: SHOW COLUMNS FROM `qwb_shop_to_class` [ RunTime:0.0130s ]
+SQL: SELECT qwb_shop.id,`longitude`,`latitude`,`discount_img`,`shop_name`,`pic` FROM `qwb_shop_to_class` left join qwb_shop on qwb_shop_to_class.shop_id = qwb_shop.id  WHERE `shop_class_id` = '2' AND `conditions` = '1' ORDER BY shop_order desc LIMIT 0,10   [ RunTime:0.0086s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Controller/AllianceShopController.class.php:252) /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+
+[ 2016-07-31T20:43:58+08:00 ] ::1 /quwanba1/index.php/Wechat/Index/page_accredits
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001371s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0123s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0083s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0104s ]
+SQL: SELECT `id` FROM `qwb_user` WHERE `openid` = 'oHM7is7NHoKl541Z3ECvq0HhIOn8' LIMIT 1   [ RunTime:0.0083s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003487s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004233s ]
+
+[ 2016-07-31T20:44:40+08:00 ] ::1 /quwanba1/index.php/Wechat/Index/page_accredits
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001743s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001265s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0098s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0093s ]
+SQL: SELECT `id` FROM `qwb_user` WHERE `openid` = 'oHM7is7NHoKl541Z3ECvq0HhIOn8' LIMIT 1   [ RunTime:0.0076s ]
+SQL: SHOW COLUMNS FROM `qwb_system` [ RunTime:0.0086s ]
+SQL: SELECT `value` FROM `qwb_system` WHERE `past_time` >= 1469969080 AND `name` = 'access_token' LIMIT 1   [ RunTime:0.0073s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Common/function.php 第 51 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000850s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001250s ]
+
+[ 2016-07-31T20:44:42+08:00 ] ::1 /quwanba1/index.php/Wechat/Index/page_accredits
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001073s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0097s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0088s ]
+SQL: SELECT `id` FROM `qwb_user` WHERE `openid` = 'oHM7is7NHoKl541Z3ECvq0HhIOn8' LIMIT 1   [ RunTime:0.0117s ]
+SQL: SHOW COLUMNS FROM `qwb_system` [ RunTime:0.0087s ]
+SQL: SELECT `value` FROM `qwb_system` WHERE `past_time` >= 1469969082 AND `name` = 'access_token' LIMIT 1   [ RunTime:0.0082s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Common/function.php 第 51 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001014s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001581s ]
+

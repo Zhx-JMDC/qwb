@@ -1,0 +1,70 @@
+<extend name="Public/base" />
+
+<block name="body">
+	<!-- 标题栏 -->
+	<div class="panel panel-default">
+		<div class="panel-heading main-title">
+			<h2>商家分类列表</h2>
+
+		</div><!--		panel-heading		-->
+		<div class="panel-body">
+			 <!-- 高级搜索 -->
+			<div class="search-form fr cf pull-right">
+				<div class="sleft form-inline">
+					<a class=" btn btn-primary" href="{:U('ShopClass/add_shop_class')}"><i class="btn-search"></i>添加分类</a>
+				</div>
+			</div>
+		    <!-- 数据列表 -->
+		    <div class="data-table table-striped">
+			<table class="table">
+		    <thead>
+		        <tr>
+					<th>序号</th>
+					<th>名称</th>
+                    <th>图标</th>
+		        	<th>联盟商家数量</th>
+					<th>操作</th>
+				</tr>
+		    </thead>
+		    <tbody>
+				<notempty name="_list">
+				<volist name="_list" id="vo">
+				<tr>
+					<td id="user_id">{$vo.id} </td>
+					<td>{$vo.name}</td>
+					<td><img src="{$vo.icon}"></td>
+					<td>{$vo.count}</td>
+					<td>
+						<a href="{:U('ShopClass/shop_class_detail',array('id'=>$vo['id']))}">查看</a>
+						<a href="{:U('ShopClass/edit_shop_class_page',array('id'=>$vo['id']))}">修改</a>
+						<a onclick="classDel('{$vo.id}')">移除</a>
+					</td>
+				</tr>
+				</volist>
+				<else/>
+				<td colspan="10" class="text-center"> aOh! 暂时还没有内容! </td>
+				</notempty>
+			</tbody>
+		    </table>
+			</div>
+	    </div>
+    </div><!--		panel 		-->
+</block>
+
+<block name="script">
+	<script src="__JS__/thinkbox/jquery.thinkbox.js"></script>
+	<script>
+		function classDel(id){
+			if (confirm("你确定删除吗？")) {
+				$.ajax({
+					url: "{:U('ShopClass/shop_class_del')}",
+					type: 'post',
+					data: {'id': id},
+					success: function (data) {
+						window.location.href = "{:U('ShopClass/index')}";
+					}
+				});
+			}
+		}
+	</script>
+</block>

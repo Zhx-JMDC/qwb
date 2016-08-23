@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html;charset=utf-8">
+    <meta name="viewport" content="user-scalable=no,width=device-width, initial-scale=0.5"/>
+	<title>{$goods.name}</title>
+	<link rel="stylesheet" type="text/css" href="__CSS__/css.css">
+	<style>
+		.shoptroDelete img{
+			width: 100%!important;
+		}
+	</style>
+</head>
+<body style="background-color: #f5f5f5">
+	<div id="content">
+		<div class="shoptroTop">
+			<div class="shoptroTop_pic">
+				<div class="main_visual">
+					<!--<div class="flicking_con">-->
+						<!--<foreach name="goods.shop_play" item="v">-->
+							<!--<a href="#">&nbsp;</a>-->
+						<!--</foreach>-->
+					<!--</div>-->
+					<div class="main_image">
+						<ul>
+							<foreach name="goods.shop_play" item="v">
+						    	<li><img class="lazy" data-original="{$v.path}"></li>
+							</foreach>
+						</ul>
+						<a href="javascript:;" id="btn_prev"></a>
+						<a href="javascript:;" id="btn_next"></a>
+					</div>
+				</div>
+				<span class="shoptroTop_num">{$count}</span>
+
+			</div>
+			<p class="shoptroTop_title"><strong>{$goods.shop_name}</strong></p>
+		</div>
+		<div class="shoptroPrise" style="word-break:break-all;">
+			<p class="shoptroPrise_pic"><img class="lazy" data-original="{$goods.card_pic}"></p>
+			<div class="shoptroPrise_word" style="padding: 0 3%;">{$goods.detail}</div>
+		</div>
+		<div class="shoptroMore">
+			<ul>
+				<li>
+					<p class="shoptroMore_img"><img src="__IMG__/shop_address_red.png"></p>
+					<p class="shoptroMore_word" onclick="baidu_address()">地址/Add:  {$goods.address}<span><img src="__IMG__/shop_address.png">{$goods.distance}km</span></p>
+				</li>
+				<li>
+					<p class="shoptroMore_img"><img src="__IMG__/shop_phone_red.png"></p>
+					<p class="shoptroMore_word">联系号码/Tell:  {$goods.contact}</p>
+				</li>
+			</ul>
+		</div>
+		<div class="shoptroDelete">
+			<p class="shoptroDelete_title">{$goods.shop_name}</p>
+			<p class="shoptroDelete_subtitle">详情介绍</p>
+			<p class="shoptroDelete_img">{$goods.introduce}</p>
+		</div>
+	</div>
+	<div id="footer">
+		<ul>
+			<li><a href="{:U('AllianceShop/app_shop_index_hot')}">
+				<p class="footer_botton_p1"><img src="__IMG__/bottom_01.png"></p>
+				<p class="footer_botton_p2">主页</p></a>
+			</li>
+		</ul>
+		<div class="footerColect" onclick="collect('{$goods.id}')">
+			<p class="footer_botton_p1">
+				<if condition="$collect_flag eq 0 ">
+						<img src="__IMG__/bottom_collect.png">
+						<p class="footer_botton_p2 collect">收藏</p></a>
+					<else />
+						<img src="__IMG__/bottom_collect_bc.png">
+						<p class="footer_botton_p2 collect">已收藏</p></a>
+				</if>
+			</p>
+		</div>
+		<switch name="goods.can_buy" >
+			<case value="0"></case>
+			<default /><div class="footer_buy_count"><p class="footer_buy"><a href="{$goods.buy_url}"><img src="__IMG__/footer_che.png">立即购买</a></p>
+		</div>
+		</switch>
+	</div>
+</body>
+<script type="text/javascript" src="__JS__/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="__JS__/jquery.touchSlider.js"></script>
+<script type="text/javascript" src="__JS__/jquery.lazyload.js"></script>
+<script type="text/javascript" src="__JS__/js.js"></script>
+<script type="text/javascript">
+	function baidu_address(){
+		var name = "{$goods.shop_name}";
+		var addr = "{$goods.address}";
+		var lgt  = "{$goods.latitude}";
+		var long = "{$goods.longitude}";
+		var url  = 'http://apis.map.qq.com/tools/poimarker?type=0&marker=coord:'+lgt+','+long+';title:'+name+';addr:'+addr+'&key=EVFBZ-WXA6P-XPHDT-VTFJN-SM75H-KXBW3&referer=myapp';
+		window.location.href = url;
+	}
+
+	function collect(id){
+		var src = $(".footerColect .footer_botton_p1 img").attr("src");
+		if(src ==  "__IMG__/bottom_collect_bc.png"){
+			var url = "{:U('Collect/collect_del')}";  //取消收藏
+		}else{
+			var url = "{:U('Collect/collect')}";  //收藏
+		}
+		$.ajax({
+			url: url,
+			type: 'post',
+			data: {'id':id,'type':'1'},
+			success: function (data) {
+				if(data == 1){
+					$(".footerColect .footer_botton_p1 img").attr("src","__IMG__/bottom_collect_bc.png");
+					$(".collect").html('已收藏');
+				}else if(data == 3){
+					$(".footerColect .footer_botton_p1 img").attr("src","__IMG__/bottom_collect.png");
+					$(".collect").html('收藏');
+				}
+			}
+		});
+	}
+
+	$(document).ready(function(){
+
+		$(".main_visual").hover(function(){
+			$("#btn_prev,#btn_next").fadeIn()
+		},function(){
+			$("#btn_prev,#btn_next").fadeOut()
+		});
+
+		$dragBln = false;
+
+		$(".main_image").touchSlider({
+			flexible : true,
+			speed : 200,
+			btn_prev : $("#btn_prev"),
+			btn_next : $("#btn_next"),
+			paging : $(".flicking_con a"),
+			counter : function (e){
+				$(".flicking_con a").removeClass("on").eq(e.current-1).addClass("on");
+			}
+		});
+
+		$(".main_image").bind("mousedown", function() {
+			$dragBln = false;
+		});
+
+		$(".main_image").bind("dragstart", function() {
+			$dragBln = true;
+		});
+
+		$(".main_image a").click(function(){
+			if($dragBln) {
+				return false;
+			}
+		});
+
+		timer = setInterval(function(){
+			$("#btn_next").click();
+		}, 5000);
+
+		$(".main_visual").hover(function(){
+			clearInterval(timer);
+		},function(){
+			timer = setInterval(function(){
+				$("#btn_next").click();
+			},5000);
+		});
+
+		$(".main_image").bind("touchstart",function(){
+			clearInterval(timer);
+		}).bind("touchend", function(){
+			timer = setInterval(function(){
+				$("#btn_next").click();
+			}, 5000);
+		});
+
+	});
+</script>
+</html>

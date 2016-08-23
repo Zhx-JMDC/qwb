@@ -1,0 +1,231 @@
+<extend name="Public/base"/>
+
+<block name="body">
+    <div class="page-header">
+        <div class="container-fluid">
+            <div class="pull-right">
+                <button type="submit" form="form-product" target-form="target-form" data-toggle="tooltip" title="保存" class="btn btn-primary " ><i class="fa fa-save"></i></button>
+                <a href="#"  onclick="location.reload();" data-toggel="tooltip" title="刷新" class="btn btn-success"> <i class="fa fa-refresh"></i></a>
+                <a href="#" onclick="history.back(-1);return false;" data-toggle="tooltip" title="取消" class="btn btn-default"><i class="fa fa-reply"></i></a></div>
+            <h2>新增商家</h2>
+            <ul class="">
+                <?php foreach ($breadcrumbs as $breadcrumb) { ?>
+                <li><a href="<?php echo $breadcrumb['href']; ?>"><?php echo $breadcrumb['text']; ?></a></li>
+                <?php } ?>
+            </ul>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <?php if ($error_warning) { ?>
+        <div class="alert alert-danger"><i class="fa fa-exclamation-circle"></i> <?php echo $error_warning; ?>
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+        </div>
+        <?php } ?>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title"><i class="fa fa-pencil"></i> <?php echo $text_form; ?></h3>
+            </div>
+            <div class="panel-body">
+                <form action="{:U('AllianceShop/shop_add')}" method="post" enctype="multipart/form-data" id="form-product" class="target-form form-horizontal">
+                    <div class="tab-content">
+                        <!--常规-->
+                        <div class="tab-pane active" id="tab-general">
+                            <div class="tab-pane" id="language">
+                                <div class="form-group">
+                                    <label class="control-label" >滚动图片</label>
+                                    <div class="form-control">
+                                        <div class="table-responsive">
+                                            <table id="images" class="table table-striped table-bordered table-hover">
+                                                <thead>
+                                                <tr>
+                                                    <td class="text-left">图片</td>
+                                                    <td class="text-right">排序</td>
+                                                    <td></td>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <?php
+                                     $image_row = 0;
+                                     foreach($discovery['discovery_albums'] as $vo){
+                                    ?>
+                                                <tr id="image-row{$image_row}">
+                                                    <td class="text-left"><a href="#" id="thumb-image0" data-toggle="image" class="img-thumbnail"><img src="{$vo.thumb}" alt="" title="" data-placeholder="<?php echo $placeholder; ?>" class="img-max-200-200"/></a><input type="hidden" name="product_image[{$image_row}][image]" value="{$vo.origin}" id="input-image0" /></td>
+                                                    <td class="text-right"><input type="text" name="product_image[{$image_row}][sort_order]" value="{$vo.sort_order}" placeholder="<?php echo $entry_sort_order; ?>" class="form-control" /></td>
+                                                    <td class="text-left"><button type="button" onclick="$('#image-row{$image_row}').remove();" data-toggle="tooltip" title="移除" class="btn btn-danger"><i class="fa fa-minus-circle"></i></button></td>
+                                                </tr>
+                                                <?php
+                                     $image_row++;
+                                    } ?>
+                                                </tbody>
+                                                <tfoot>
+                                                <tr>
+                                                    <td colspan="2"></td>
+                                                    <td class="text-left"><button type="button" onclick="addImage();" data-toggle="tooltip" title="<?php echo $button_image_add; ?>" class="btn btn-primary"><i class="fa fa-plus-circle"></i></button></td>
+                                                </tr>
+                                                </tfoot>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label">海报</label>
+                                    <input type="file" name="pic" class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label">折扣海报</label>
+                                    <input type="file" name="card_pic" class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label">商家名称</label>
+                                    <input name="name" placeholder="商家名称"  class="form-control" value="" required/>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label">折扣信息</label>
+                                    <input name="discount" placeholder="折扣信息"  class="form-control" value="" required/>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label">折扣图片</label>
+                                    <input type="file" name="discount_img" class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label">地址</label>
+                                    <input name="address" placeholder="地址"  class="form-control" value="" required/>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label">权重</label>
+                                    <input name="shop_order" placeholder="权重"  class="form-control" value="" required/>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label">经纬度</label>
+                                    <input name="longitude" placeholder="经度"  class="form-control" value="" required/>
+                                    <input name="latitude" placeholder="纬度"  class="form-control" value="" required/>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label">电话</label>
+                                    <input name="contact" placeholder="电话"  class="form-control" value="" required/>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label" for="input-detail">服务详情</label>
+                                    <!--<textarea name="introduce" placeholder="详情" id="input-detailpage"></textarea>-->
+                                    <textarea name="detail" id="input-detail" style="width:1024px;height:500px;"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label" for="input-detailpage">详情</label>
+                                    <!--<textarea name="introduce" placeholder="详情" id="input-detailpage"></textarea>-->
+                                    <textarea name="introduce" id="input-detailpage" style="width:1024px;height:500px;"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label">审核情况:</label>&nbsp;&nbsp;&nbsp;
+                                    <label class="radio-inline">
+                                        <input type="radio" name="conditions" value="1" checked> 已审核
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="conditions" value="0"> 未审核
+                                    </label>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label">类&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;型:</label>&nbsp;&nbsp;&nbsp;
+                                    <label class="radio-inline">
+                                        <input type="radio" name="shop_type" value="0" checked> 热门商家
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="shop_type" value="1"> 最新商家
+                                    </label>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="control-label">省</label>
+                                    <select name="province_id" id="province" onchange="getCity()" required>
+                                        <option value=""></option>
+                                        <foreach name="_province" item="v">
+                                            <option value="{$v.id}">{$v.name}</option>
+                                        </foreach>
+                                    </select>
+                                    <label class="control-label">市</label>
+                                    <select name="city_id" id="city" onchange="getDistrict()" required>
+                                        <option value=""></option>
+                                    </select>
+                                    <label class="control-label">区</label>
+                                    <select name="district_id" id="district" required>
+                                        <option value=""></option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label">分类:</label>&nbsp;&nbsp;&nbsp;
+                                    <foreach name="_type" item="v">
+                                        <label class="radio-inline">
+                                            <input type="checkbox" name="type[]" value="{$v.id}"> {$v.name}
+                                        </label>
+                                    </foreach>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label">立即购买链接</label>
+                                    <input name="buy_url" placeholder="立即购买链接"  class="form-control" value=""/>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label">商家微信号绑定</label>
+                                    <input name="wechat_num" placeholder="商家微信号绑定"  class="form-control" value=""/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</block>
+<td>
+    <input name="repertory[0][price]" class=""/>
+</td>
+<td>
+    <input name="repertory[0][num]"/>
+</td>
+<block name="script">
+    <!--<link href="__JS__/summernote/summernote.css" rel="stylesheet" />-->
+    <!--<script type="text/javascript" src="__JS__/summernote/summernote.js"></script>-->
+    <script type="text/javascript" charset="utf-8" src="__PUBLIC__/ueditor/ueditor.config.js"></script>
+    <script type="text/javascript" charset="utf-8" src="__PUBLIC__/ueditor/ueditor.all.min.js"> </script>
+    <script>
+        window.UEDITOR_HOME_URL = "__PUBLIC__/ueditor/";
+        $(document).ready(function () {
+            UE.getEditor('input-detailpage', {});
+            UE.getEditor('input-detail', {});
+        });
+
+        $("input[type='radio'][name=conditions][value='{$shop.conditions}']").attr("checked",true);
+        $("input[type='radio'][name=shop_type][value='{$shop.shop_type}']").attr("checked",true);
+
+
+//        $('#input-detailpage').summernote({
+//            height: 300,
+//            onImageUpload: function(files, editor, welEditable) {
+//                debugger
+//                data = new FormData();
+//                data.append("file", files['0']);
+//                $.ajax({
+//                    url     : "{:U('Shop/edit_upload_img')}",
+//                    type    : 'post',
+//                    data    : data,
+//                    cache: false,
+//                    contentType: false,
+//                    processData: false,
+//                    success : function(url){
+//                        editor.insertImage(welEditable, url);
+//                    }
+//                });
+//            }
+//        });
+
+        var image_row = 0;
+        function addImage() {
+            html  = '<tr id="image-row' + image_row + '">';
+            html += '<td class="text-left"><input type="file" name="product_image'+image_row+'" value="" class="form-control" /></td>';
+            html += '<td class="text-right"><input type="text" value="" class="form-control" value="qweq"/></td>';
+            html += '<td class="text-left"><button type="button" onclick="$(\'#image-row' + image_row  + '\').remove();" data-toggle="tooltip" class="btn btn-danger"><i class="fa fa-minus-circle"></i></button></td>';
+            html += '</tr>';
+
+            image_row++;
+            $('#images tbody').append(html);
+        }
+    </script>
+</block>

@@ -1,0 +1,61 @@
+`<extend name="Public/base" />
+<block name="style">
+	<link href="__CSS__/Fancybox/jquery.fancybox-1.3.1.css" rel="stylesheet">
+	<style>
+		.upload-pre-item img{width:100px;height:100px;}
+	</style>
+</block>
+<block name="body">
+	<input type="hidden" name="id" value="{$Think.get.id}">
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h4>用户详情</h4>
+		</div>
+		<div class="panel-body table">
+			<form class="form-horizontal form-bordered" action="{:U('Admin/User/edit')}" method="post">
+				<table border=0 class="">
+					<notempty name="ad">
+						<tr>
+							<td align='right'>广告名称：</td>
+							<td>{$ad['discribe']}</td>
+						</tr>
+						<tr>
+							<td align='right'>图片</td>
+							<td><img style="width:150px;" src="{$ad['path']}">&nbsp;</td>
+						</tr>
+						<tr>
+							<td align='right'>链接：</td>
+							<td>{$ad['skip_url']}</td>
+						</tr>
+						<tr>
+							<td align='right'>展示位：</td>
+							<td><switch name="ad['position']">
+								<case value="1">商城首页顶部轮播</case>
+								<case value="2">周游卡广告位</case>
+								<case value="3">商城首页底部广告位</case>
+								<case value="4">联盟商城顶部广告位</case>
+								<default />其他
+							</switch>
+							</td>
+						</tr>
+						<tr>
+							<td align='right'>排序权重：</td>
+							<td>{$ad['order']}</td>
+						</tr>
+
+
+						<else />
+						<thead><tr><th colspan="14" style="text-align:center;">该用户不存在!</th></tr></thead>
+					</notempty>
+				</table>
+			</form>
+		</div>
+		<div class="panel-footer">
+			<button  class="btn btn-return" onclick="window.location.href = '{:U('Ad/index')}'">返回</button>
+		</div>
+	</div>
+</block>
+
+<block name="script">
+	<script src="__JS__/common.js"></script>
+</block>

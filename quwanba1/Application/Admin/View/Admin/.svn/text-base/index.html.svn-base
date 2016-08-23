@@ -1,0 +1,92 @@
+<extend name="Public/base" />
+
+<block name="body">
+	<!-- 标题栏 -->
+	<div class="panel panel-default">
+		<div class="panel-heading main-title">
+			<h2>管理员列表</h2>
+
+		</div><!--		panel-heading		-->
+		<div class="panel-body">
+			 <!-- 高级搜索 -->
+			<div class="search-form fr cf pull-right">
+				<div class="sleft form-inline">
+					<input type="text" name="user_id" class="search-input form-control"  placeholder="请输入管理员ID">
+					<a class=" btn btn-primary" href="javascript:;" id="search" url="{:U('index')}"><i class="btn-search"></i>搜索</a>
+					<a class=" btn btn-primary" href="javascript:;" id="add" url="{:U('add_view?admin_id='.$admin_id)}"><i class="btn-search"></i>添加管理员</a>
+				</div>
+			</div>
+		    <!-- 数据列表 -->
+		    <div class="data-table table-striped">
+			<table class="table">
+		    <thead>
+		        <tr>
+					<th>序号</th>
+					<th>登入帐号</th>
+		        	<th>姓名</th>
+					<th>职位等级</th>
+					<th>状态</th>
+					<th>操作</th>
+				</tr>
+		    </thead>
+		    <tbody>
+				<notempty name="_list">
+				<volist name="_list" id="vo">
+				<tr>
+					<td>{$vo.id} </td>
+					<td>{$vo.username}</td>
+					<td>{$vo.realname}</td>
+					<td>{$vo.level_name}</td>
+					<td><if condition = "$vo.data_status eq 1">禁用<else />正常</if></td>
+					<td>
+						<a href="{:U('edit_view',
+						array('id'=>$vo['id'],'username'=>$vo['username'],'realname'=>$vo['realname'],
+						'level'=>$vo['level'],'level_name'=>$vo['level_name'],'status'=>$vo['status']))}">编辑</a>
+						<a href="{:U('disable',array('id'=>$vo['id'],'data_status'=>$vo['data_status']))}">
+                            <if condition = "$vo.data_status eq 1">启用<else />禁用</if></a>
+					</td>
+				</tr>
+				</volist>
+				<else/>
+				<td colspan="10" class="text-center"> aOh! 暂时还没有内容! </td>
+				</notempty>
+			</tbody>
+		    </table>
+			</div>
+		    <div class="page">
+		        {$_page}
+		    </div>
+	    </div>
+    </div><!--		panel 		-->
+</block>
+
+<block name="script">
+	<script src="__JS__/thinkbox/jquery.thinkbox.js"></script>
+
+	<script type="text/javascript">
+	//搜索功能
+	$("#search").click(function(){
+		var url = $(this).attr('url');
+		var query  = $('.search-form').find('input').serialize();
+		query = query.replace(/(&|^)(\w*?\d*?\-*?_*?)*?=?((?=&)|(?=$))/g,'');
+		query = query.replace(/^&/g,'');
+		if( url.indexOf('?')>0 ){
+			url += '&' + query;
+		}else{
+			url += '?' + query;
+		}
+		window.location.href = url;
+	});
+	$("#add").click(function(){
+		var url = $(this).attr('url');
+		window.location.href = url;
+	});
+	//回车搜索
+	$(".search-input").keyup(function(e){
+		if(e.keyCode === 13){
+			$("#search").click();
+			return false;
+		}
+	});
+	</script>
+</block>

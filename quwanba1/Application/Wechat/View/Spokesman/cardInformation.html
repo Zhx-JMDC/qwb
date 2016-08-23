@@ -1,0 +1,47 @@
+<extend name="Public/base" />
+<block name="body">
+	<form action="{:U('WechatPay/buy_card_pay')}" method="post" id="buySubmit">
+	<input type="hidden" name="type" value="{$type}">
+	<div id="content">
+		<div class="cardforTop">
+			<switch name="type" >
+				<case value="0"><p><img src="__IMG__/buycard_S.png"></p></case>
+				<case value="1"><p><img src="__IMG__/buycard_V.png"></p></case>
+				<default />
+			</switch>
+		</div>
+		<div class="cardforMain">
+			<p class="cardforMainBar"><img src="__IMG__/card_pen.png">详细资料填写</p>
+			<ul>
+				<li><span>联系人：</span><input name="name" id="name" type="text" placeholder="填写您的姓名"></li>
+				<li><span>手机号：</span><input name="contact" id="contact" type="text" placeholder="用于商家联系您的方式"></li>
+				<li><span>邮编：</span><input name="postcode" id="postcode" type="text" placeholder="325000"></li>
+				<li><span>收货地址：</span><input name="address" id="address" type="text" placeholder="请填写您可以正常收货地址"></li>
+				<li><span>卖家留言：</span><input name="message" id="message" type="text" placeholder="如有特殊情况，可以在此留言"></li>
+			</ul>
+			<div class="cardforMain_buttom"><p><a onclick="buySubmit()">确认并支付</a></p></div>
+			<div class="cardforMainHind"><p>您的推荐人是{$nickname}</p></div>
+		</div>
+	</div>
+	</form>
+</block>
+<block name="script">
+	<script>
+		var flag = {$flag};
+		function buySubmit(){
+			var name     = $("#name").val();
+			var contact  = $("#contact").val();
+			var postcode = $("#postcode").val();
+			var address  = $("#address").val();
+			var message  = $("#message").val();
+			if(name !="" && contact!="" || postcode!="" || address!="" || message!=""){
+				if(flag == 1){
+					$("#buySubmit").submit();
+					flag = 0;
+				}
+			}else{
+				alert("请将资料填写完整");
+			}
+		}
+	</script>
+</block>

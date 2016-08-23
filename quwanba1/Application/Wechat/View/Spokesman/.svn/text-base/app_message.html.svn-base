@@ -1,0 +1,74 @@
+<extend name="Public/base2" />
+<block name="title">我的消息</block>
+<block name="body">
+		<div class="friendsBar">
+			<ul>
+				<a href="{:U('Spokesman/app_message')}"><li class="friendsBar-clicked">饭友圈</li></a>
+				<a href="{:U('Spokesman/app_message2')}"><li class="">饭票奖励</li></a>
+			</ul>
+		</div>
+		<!-- <div class="recordMain"> -->
+		<div class="firendsList">
+			<ul>
+				<foreach name="message" item="v">
+					<li>
+						<p class="firends_01">
+							<notempty name="v.headimgurl">
+								<img src="{$v.headimgurl}">
+							</notempty>
+						</p>
+						<p class="firends_02">{$v.message}</p>
+						<p class="firends_03">{$v.time}</p>
+					</li>
+				</foreach>
+			</ul>
+		</div>
+	</div>
+</block>
+<block name="script">
+<script type="text/javascript">
+$(function(){
+	var page = 2;
+	function loadMeinv(){
+		var count = 5;
+		if(({$_count}+count-1)/count >= page){
+			$.ajax({
+				url: "{:U('Spokesman/message_more')}",
+				type: 'post',
+				data: {'page': page,'count':count,'type':1},
+				success: function (data) {
+					var html = "";
+					$.each(data, function (k, v) {
+						html += '<li>'+
+								'<p class="firends_01"><img src="'+v.headimgurl+'"></p>'+
+								'<p class="firends_02">'+v.message+'</p>'+
+								'<p class="firends_03">'+v.time+'</p>'+
+								'</li>';
+					})
+					$minUl = getMinUl();
+					$minUl.append(html);
+				}
+			});
+		}
+		page++;
+	}
+	loadMeinv();
+	$(window).on("scroll",function(){
+		$minUl = getMinUl();
+		if($minUl.height() <= $(window).scrollTop()+$(window).height()){
+			loadMeinv();
+		}
+	})
+	function getMinUl(){
+		var $arrUl = $(".recordMain ul");
+		var $minUl =$arrUl.eq(0);
+		$arrUl.each(function(index,elem){
+			if($(elem).height()<$minUl.height()){
+				$minUl = $(elem);
+			}
+		});
+		return $minUl;
+	}
+})
+</script>
+</block>

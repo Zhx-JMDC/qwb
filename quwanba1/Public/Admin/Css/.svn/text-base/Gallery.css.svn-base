@@ -1,0 +1,74 @@
+.gallery{
+    margin-bottom: 18px;
+    width: 400px;
+    overflow: hidden;
+}
+
+.gallery .main-pic {
+    width: 400px;
+    height: 400px;
+    max-width: 400px;
+    max-height: 400px;
+}
+.gallery .main-pic a{
+    width: 400px;
+    height: 400px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.gallery .main-pic a img {
+    margin: 0;
+    height: 100%;
+    width: auto;
+}
+
+.gallery .tab-pic{
+    width: 360px;
+    height: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    overflow: hidden;
+    z-index: 2;
+    position: absolute;
+}
+.gallery .tab-pic ul{
+    height: 50px;
+    display: inline;
+    position: absolute;
+}
+.gallery ul li{
+    list-style: none;
+}
+
+.gallery .tab-pic a img{
+    max-width: 50px;
+    max-height: 50px;
+    vertical-align: middle;
+}
+
+.gallery .tag-left{
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+    background: #d3d3d3;
+    width: 20px;
+    height: 50px;
+    line-height: 50px;
+}
+.gallery .tag-left span{
+    line-height: 50%;
+}
+.gallery .tag-right{
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+    background: #d3d3d3;
+    width: 20px;
+    height: 50px;
+    line-height: 50px;
+}
+.pic-50-50{
+    width: 50px;
+    height: 50px;
+}

@@ -1,0 +1,261 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="__IMG__/favicon.png" type=  "image/png">
+    <link rel="stylesheet" type="text/css" href="__CSS__/style.default.css">
+    <title>趣玩吧后台管理系统</title>
+    <style type="text/css">
+        body{
+            background: #1d2939;
+        }
+    </style>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body >
+<!-- Preloader -->
+<div id="preloader">
+    <div id="status"><i class="fa fa-spinner fa-spin"></i></div>
+</div>
+<section>
+    <div class="leftpanel" id="leftpanel">
+        <div class="logopanel">
+            <h1><span>[</span>趣玩吧<span>]</span></h1>
+        </div><!-- logopanel -->
+
+        <div class="leftpanelinner">
+            <h5 class="sidebartitle">Navigation</h5>
+            <ul class="nav nav-pills nav-stacked nav-bracket">
+                <li class="nav-parent"><a href=""><i class="fa fa-user"></i> <span>管理员信息</span></a>
+                    <ul class="children">
+                        <li><a href="{:U('Admin/Admin/index',array('admin_id'=>$_SESSION['admin_id']))}"data-id="100" data-name="管理员管理"><i class="fa fa-caret-right"></i>管理员管理</a></li>
+                    </ul>
+                </li>
+                <li class="nav-parent"><a href=""><i class="fa fa-user"></i> <span>微信设置</span></a>
+                    <ul class="children">
+                        <li><a href="{:U('Admin/Response/index',array('admin_id'=>$_SESSION['admin_id']))}"data-id="101" data-name="自动回复"><i class="fa fa-caret-right"></i>自动回复</a></li>
+                    </ul>
+                </li>
+                <li class="nav-parent"><a href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    <span>趣玩商城</span></a>
+                    <ul class="children">
+                        <li><a href="{:U('Admin/Shop/index',array('admin_id'=>$_SESSION['admin_id']))}" data-id="1" data-name="趣玩商品"><i class="fa fa-caret-right"></i>趣玩商品</a></li>
+                        <li><a href="{:U('Admin/ShopRob/index',array('admin_id'=>$_SESSION['admin_id']))}" data-id="2" data-name="限时抢购"><i class="fa fa-caret-right"></i>限时抢购</a></li>
+                        <li><a href="{:U('Admin/ShopHot/index',array('admin_id'=>$_SESSION['admin_id']))}" data-id="3" data-name="当季热门"><i class="fa fa-caret-right"></i>当季热门</a></li>
+                        <li><a href="{:U('Admin/ShopHot/index',array('admin_id'=>$_SESSION['admin_id']))}" data-id="4" data-name="最新推荐"><i class="fa fa-caret-right"></i>最新推荐</a></li>
+                        <li><a href="{:U('Admin/ShopPlay/index',array('admin_id'=>$_SESSION['admin_id']))}" data-id="5" data-name="轮转页"><i class="fa fa-caret-right"></i>轮转页</a></li>
+                        <li><a href="{:U('Admin/Ad/index',array('admin_id'=>$_SESSION['admin_id']))}" data-id="6" data-name="广告位"><i class="fa fa-caret-right"></i>广告位</a></li>
+                        <li><a href="{:U('Admin/ShopPlay/activity_icon',array('admin_id'=>$_SESSION['admin_id']))}" data-id="6" data-name="活动Icon"><i class="fa fa-caret-right"></i>活动Icon</a></li>
+                    </ul>
+                </li>
+                <li class="nav-parent"><a href=""><i class="fa fa-home" aria-hidden="true"></i><span>联盟商家</span></a>
+                    <ul class="children">
+                        <li><a href="{:U('Admin/AllianceShop/index',array('admin_id'=>$_SESSION['admin_id']))}" data-id="7" data-name="联盟商家"><i class="fa fa-caret-right"></i>联盟商家</a></li>
+                        <li><a href="{:U('Admin/HotShop/index',array('admin_id'=>$_SESSION['admin_id']))}" data-id="9" data-name="热门商家"><i class="fa fa-caret-right"></i>热门商家</a></li>
+                        <li><a href="{:U('Admin/NewShop/index',array('admin_id'=>$_SESSION['admin_id']))}" data-id="10" data-name="最新商家"><i class="fa fa-caret-right"></i>最新商家</a></li>
+                        <li><a href="{:U('Admin/ShopClass/index',array('admin_id'=>$_SESSION['admin_id']))}" data-id="11" data-name="分类"><i class="fa fa-caret-right"></i>分类</a></li>
+                        <li><a href="{:U('Admin/AllianceShopPlay/index',array('admin_id'=>$_SESSION['admin_id']))}" data-id="8" data-name="轮转页"><i class="fa fa-caret-right"></i>轮转页</a></li>
+                    </ul>
+                </li>
+                <li class="nav-parent"><a href=""><i class="fa fa-credit-card" aria-hidden="true"></i>
+                    <span>周游卡</span></a>
+                    <ul class="children">
+                        <li><a href="{:U('Admin/Card/card_transaction',array('admin_id'=>$_SESSION['admin_id']))}"data-id="12" data-name="交易记录"><i class="fa fa-caret-right"></i>交易记录</a></li>
+                        <li><a href="{:U('Admin/Card/index',array('admin_id'=>$_SESSION['admin_id']))}" data-id="13" data-name="周游卡设置"><i class="fa fa-caret-right"></i>周游卡设置</a></li>
+                    </ul>
+                </li>
+                <li class="nav-parent"><a href=""><i class="fa fa-user" aria-hidden="true"></i><span>用户</span></a>
+                    <ul class="children">
+                        <li><a href="{:U('Admin/User/index',array('admin_id'=>$_SESSION['admin_id']))}" data-id="14" data-name="用户列表"><i class="fa fa-caret-right"></i>用户列表</a></li>
+                    </ul>
+                </li>
+                <li class="nav-parent"><a href=""><i class="fa fa-jpy" aria-hidden="true"></i><span>商城交易</span></a>
+                    <ul class="children">
+                        <li><a href="{:U('Admin/Transaction/index',array('admin_id'=>$_SESSION['admin_id']))}" data-id="15" data-name="交易统计"><i class="fa fa-caret-right"></i>交易统计</a></li>
+                        <li><a href="{:U('Admin/Qrcode/index',array('admin_id'=>$_SESSION['admin_id']))}" data-id="16" data-name="消费二维码"><i class="fa fa-caret-right"></i>消费二维码</a></li>
+                        <li><a href="{:U('Admin/Cash/card_index',array('admin_id'=>$_SESSION['admin_id']))}" data-id="17" data-name="购卡资金流水"><i class="fa fa-caret-right"></i>购卡资金流水</a></li>
+                        <li><a href="{:U('Admin/Cash/goods_index',array('admin_id'=>$_SESSION['admin_id']))}" data-id="18" data-name="商品资金流水"><i class="fa fa-caret-right"></i>商品资金流水</a></li>
+                        <li><a href="{:U('Admin/Cash/withdraw_index',array('admin_id'=>$_SESSION['admin_id']))}" data-id="19" data-name="提款资金流水"><i class="fa fa-caret-right"></i>提款资金流水</a></li>
+                    </ul>
+                </li>
+                <li class="nav-parent"><a href=""><i class="fa fa-users" aria-hidden="true"></i><span>饭圈管理</span></a>
+                    <ul class="children">
+                        <li><a href="{:U('Admin/Family/index',array('admin_id'=>$_SESSION['admin_id']))}" data-id="20" data-name="族谱"><i class="fa fa-caret-right"></i>族谱</a></li>
+                    </ul>
+                </li>
+                <li class="nav-parent"><a href=""><i class="fa fa-user"></i> <span>系统统计</span></a>
+                    <ul class="children">
+                        <li><a href="{:U('Admin/Count/index',array('admin_id'=>$_SESSION['admin_id']))}" data-id="21" data-name="系统统计"><i class="fa fa-caret-right"></i>系统统计</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div><!-- leftpanelinner -->
+    </div><!-- leftpanel -->
+    <div class="mainpanel">
+
+        <div class="headerbar" id="headerbar">
+
+            <a class="menutoggle"><i class="fa fa-bars"></i></a>
+
+
+            <div class="header-right">
+                <ul class="headermenu">
+
+                    <li>
+                    </li>
+                    <li>
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                                {:session('username')}
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-usermenu pull-right">
+                                <li><a href="{:U('Public/updatePassword')}" onclick="request('{:U("Public/updatePassword")}');return false;")><i class="glyphicon glyphicon-cog"></i>修改密码</a></li>
+                                <li><a href="{:U('Public/logout')}"><i class="glyphicon glyphicon-log-out"></i>退出</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div><!-- header-right -->
+        </div><!-- headerbar -->
+        <div class="contentpanel">
+            <div class="m-tab-list">
+                <ul><!--测试用
+                      <li class="f-r3 on" data-id="1003"><a>caonima</a><a class="close">×</a></li>
+                      <li class="f-r3 " data-id="1001"><a>caonima</a><a class="close">×</a></li>
+                      <li class="f-r3 " data-id="1002"><a>caonima</a><a class="close">×</a></li>-->
+                </ul>
+            </div>
+            <div id="top-alert" class="alert alert-danger" style="display: none;">
+                <button class="close fixed" style="margin-top: 4px;">&times;</button>
+                <div class="  alert-content">这是内容</div>
+            </div>
+            <div class="body">
+                <div id="indexCon" >
+                    <iframe id="desktop" scrolling="no" marginheight="0" marginwidth="0" frameborder="0" name="desktop"
+                            onreadystatechange="init.resize()" onload="init.iFrameHeight(this)" src="{:U('Index/main')}"
+                            style="width:100%"></iframe>
+                </div>
+            </div>
+        </div>
+    </div><!-- mainpanel -->
+
+
+</section>
+<script type="text/javascript">
+    function iFrameHeight() {
+        var ifm= document.getElementById("desktop");
+        var subWeb = document.frames ? document.frames["iframepage"].document : ifm.contentDocument;
+        if(ifm != null && subWeb != null) {
+            ifm.height = subWeb.body.scrollHeight;
+            ifm.width = subWeb.body.scrollWidth;
+        }
+    }
+</script>
+<script src='//kefu.easemob.com/webim/easemob.js?tenantId=23289&hide=false&sat=false' async='async'></script>
+<script type="text/javascript" src="__JS__/jquery2.1.1.min.js"></script>
+<script src="__JS__/bootstrap.min.js"></script>
+<script src="__JS__/jquery.sparkline.min.js"></script>
+<script src="__JS__/jquery-migrate-1.2.1.min.js"></script>     <!-- 导航 -->
+<script src="__JS__/toggles.min.js"></script>
+<script src="__JS__/jquery.cookies.js"></script>
+<script src="__JS__/custom.js"></script>
+<script src="__JS__/sidebar/sidebar.js"></script>
+<script type="text/javascript">
+
+    /* 全局变量 */
+    function request(url){
+        $.ajax({
+            url: '{:U("Index/check_login")}',
+            success:function(data){
+                if(data.status==1){
+                    document.getElementById('desktop').src = url;
+                }else {
+                    //window.location.href="{:U('Public/login')}";
+                }
+            }
+        })
+    }
+    var oTime = null;
+    var init= {
+        //设置框架宽度和高度
+
+        iFrameHeight: function (that) {
+
+            //var ifm = document.getElementById("desktop");
+            var ifm = that;
+            //var subWeb = document.frames ? document.frames["desktop"].document :ifm.contentDocument;
+            var subWeb = ifm.contentDocument;
+            if (ifm != null && subWeb != null) {
+
+                ifm.height = subWeb.body.scrollHeight;
+
+            }
+        }
+    }
+    //window.parent.XXX()来调用父页面js
+    function doResizeIFrame(){
+        init.iFrameHeight();
+    }
+
+    $(function(){
+        //左侧菜单按钮触发事件
+        $("ul.children li a").on('click',function(){
+            console.log("heheda");
+            var id = $(this).attr("data-id");
+            var url = $(this).attr("href");
+            var name = $(this).attr("data-name");
+            if($(".m-tab-list li[data-id=\'"+id+"\']").size() == 0 ){
+                var html = '<li class="f-r3 on" data-id="'+ id +'"><a>'+name+'</a><a class="close">×</a></li>';
+                $(".m-tab-list ul").append(html);
+                var html = '<div id="'+id+'Con" style="display: none"> <iframe id="iframe" name="iframe" onload="this.height=14000" scrolling="no" class="m-frameCon" scrolling="no" marginheight="0" marginwidth="0" frameborder="0" src="'+url+'"></iframe></div>';
+                $(".body").append(html);
+            }
+            setTimeout(function(){
+                $(".m-tab-list li[data-id=\'"+id+"\']").click();
+            },100)
+            return false;
+        })
+
+        $(".m-tab-list").delegate(".f-r3","click",function(){
+            console.log("test");
+            $('.body > div').hide();
+            var id = $(this).attr("data-id")+'Con';
+            $('.body > #'+id).show();
+            $('.m-tab-list li').removeClass("on");
+            $(this).addClass("on");
+        })
+        $(".m-tab-list").delegate(".f-r3","click",function(){
+            console.log("test");
+            $('.body > div').hide();
+            var id = $(this).attr("data-id")+'Con';
+            $('.body > #'+id).show();
+            $('.m-tab-list li').removeClass("on");
+            $(this).addClass("on");
+        })
+        $(".m-tab-list").delegate(".close","click",function(event){
+            console.log("close");
+            var parent = $(this).parent();
+            var prev = $(parent).prev();
+            var id = $(parent).attr("data-id")+'Con';
+            $(this).parent().remove();
+            $(".body > #"+id).remove();
+            $(prev).click();
+            event.stopPropagation();
+        })
+    })
+</script>
+
+<block name="script">
+
+</block>
+</body>
+</html>

@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-type" content="text/html;charset=utf-8">
+    <title>APP下载</title>
+    <link rel="stylesheet" type="text/css" href="__CSS__/css.css">
+</head>
+<body>
+<div id="content" style="padding-bottom:0">
+    <div class="downloadMain"><img src="__IMG__/downLoad_bc.jpg"></div>
+</div>
+</body>
+</html>

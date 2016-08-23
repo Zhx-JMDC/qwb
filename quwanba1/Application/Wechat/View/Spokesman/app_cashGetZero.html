@@ -1,0 +1,61 @@
+<extend name="Public/base2" />
+<block name="body">
+	<div id="content">
+		<div class="cashgetMain">
+			<p class="cashgetMain_p1"><img src="__IMG__/cash_get_logo.png"></p>
+			<p class="cashgetMain_p2">暂无饭票可提取</p>
+			<p class="cashgetMain_p3"><span style="border:0">F0.00</span></p>
+		</div>
+		<div class="cashgetdeTail">
+			<ul>
+				<li>提现历史<img src="__IMG__/jiantou_xia.png"></li>
+				<foreach name="history" item="v">
+					<li><p>{$v.time}<span>+F{$v.value}</span></p></li>
+				</foreach>
+			</ul>
+		</div>
+	</div>
+</block>
+<block name="script">
+<script type="text/javascript">
+$(function(){
+	var page = 2;
+	function loadMeinv(){
+		var count = 3;
+		if(({$_count}+count-1)/count >= page){
+			$.ajax({
+				url: "{:U('Spokesman/withdraw_history_more')}",
+				type: 'post',
+				data: {'page': page,'count':count},
+				success: function (data) {
+					var html = "";
+					$.each(data, function (k, v) {
+						html += '<li><p>'+v.time+'<span>+F'+v.value+'</span></p></li>';
+					})
+					$minUl = getMinUl();
+					$minUl.append(html);
+				}
+			});
+		}
+		page++;
+	}
+	loadMeinv();
+	$(window).on("scroll",function(){
+		$minUl = getMinUl();
+		if($minUl.height() <= $(window).scrollTop()+$(window).height()){
+			loadMeinv();
+		}
+	})
+	function getMinUl(){
+		var $arrUl = $(".cashgetdeTail ul");
+		var $minUl =$arrUl.eq(0);
+		$arrUl.each(function(index,elem){
+			if($(elem).height()<$minUl.height()){
+				$minUl = $(elem);
+			}
+		});
+		return $minUl;
+	}
+})
+</script>
+</block>

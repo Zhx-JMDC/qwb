@@ -1,0 +1,75 @@
+<extend name="Public/base" />
+
+<block name="body">
+	<!-- 标题栏 -->
+	<div class="panel panel-default">
+		<div class="panel-heading main-title">
+			<h2>商家轮转列表</h2>
+
+		</div><!--		panel-heading		-->
+		<div class="panel-body">
+		    <!-- 数据列表 -->
+		    <div class="data-table table-striped">
+			<table class="table">
+		    <thead>
+		        <tr>
+					<th>序号</th>
+					<th>名称</th>
+		        	<th>跳转链接</br><small>(商品序号,跳转商品详情)</small></th>
+					<th>查看</th>
+					<th>位置</th>
+					<th>修改</th>
+				</tr>
+		    </thead>
+		    <tbody>
+				<notempty name="_list">
+				<volist name="_list" id="vo">
+				<tr>
+					<form action="{:U('AllianceShopPlay/ad_edit')}" method="post" enctype="multipart/form-data">
+						<input type="hidden" name="id" value="{$vo.id}">
+						<td id="user_id">{$vo.id} </td>
+						<td><input type="text" name="discribe" value="{$vo.discribe}" placeholder="名称" class="form-control"></td>
+						<td><input type="text" name="skip_url" value="{$vo.skip_url}" placeholder="跳转链接" class="form-control"></td>
+						<td><a href="{$vo.path}" target="_Blank">查看</a></td>
+						<td>
+							<input type="text" name="order" value="{$vo.order}" placeholder="权重" class="form-control" style="width:100px;">
+						</td>
+						<td>
+							<input type="file" name="file" class="form-control">
+						</td>
+						<td>
+							<button type="submit" class="btn btn-primary pull-right">修改</button>
+						</td>
+					</form>
+				</tr>
+				</volist>
+				<else/>
+				<td colspan="10" class="text-center"> aOh! 暂时还没有内容! </td>
+				</notempty>
+			</tbody>
+		    </table>
+			</div>
+		    <div class="page">
+		        {$_page}
+		    </div>
+	    </div>
+    </div><!--panel-->
+</block>
+
+<block name="script">
+	<script src="__JS__/thinkbox/jquery.thinkbox.js"></script>
+	<script>
+		function adDel(id){
+			if (confirm("你确定删除吗？")) {
+				$.ajax({
+					url: "{:U('AllianceShopPlay/ad_del')}",
+					type: 'post',
+					data: {'id': id},
+					success: function (data) {
+						window.location.href = "{:U('AllianceShopPlay/index')}";
+					}
+				});
+			}
+		}
+	</script>
+</block>

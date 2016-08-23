@@ -1,0 +1,17 @@
+@CHARSET "UTF-8";
+.people-item{
+	padding: 5% 10%;
+}
+.banner{
+	max-width: 90%;
+	margin-bottom: 5%;
+}
+.photo-item{
+	min-height: 500px;
+}
+.photo-item img{
+	 max-width: 30%;
+}
+.photo-item .media-body{
+	padding:10%;
+}

@@ -1,0 +1,241 @@
+<extend name="Public/base" />
+<block name="title">联盟商家</block>
+<block name="body">
+    <div id="content">
+        <div class="shopinSelect">
+            <p><img src="__IMG__/shop_select.png"><input type="text" id="search" placeholder="输入关键字搜索" value="{$search}"></p>
+            <select id="address" onchange="citySelect()"></select>
+        </div>
+        <div class="shopinGroup">
+            <div class="main_visual">
+                <div class="shopinGroupTop"></div>
+                <div class="flicking_con">
+                    <a href="#">&nbsp;</a>
+                    <a href="#">&nbsp;</a>
+                    <a href="#">&nbsp;</a>
+                    <a href="#">&nbsp;</a>
+                    <a href="#">&nbsp;</a>
+                </div>
+                <div class="main_image">
+                    <ul>
+                        <foreach name="ad" item="v">
+                            <li><a href="{$v.skip_url}"><img src="{$v.path}"></a></li>
+                        </foreach>
+                    </ul>
+                    <!--<a href="javascript:;" id="btn_prev"></a>-->
+                    <!--<a href="javascript:;" id="btn_next"></a>-->
+                </div>
+                <div class="shopinGroupBottom">kkkk</div>
+            </div>
+        </div>
+        <div class="shopinClass">
+            <ul>
+                <!-- 加了a标签，会刷新，效果看不到，点文字外面可以看到效果								 -->
+                <foreach name="class" item="v">
+                    <li class="shopinClass_Clicked">
+                        <p class="shopinClass_p">
+                            <a href="{:U('AllianceShop/shop_class',array('id'=>$v['id']))}">
+                                <img class="shopinClass_img01" src="{$v.icon}">
+                                <img class="shopinClass_img02" src="{$v.icon}">{$v.name}
+                            </a>
+                        </p>
+                        <!--<p class="shopinClass_img"><img src="__IMG__/shop_letter_jia.png"></p>-->
+                    </li>
+                </foreach>
+            </ul>
+        </div>
+        <div class="shopinBar">
+            <ul>
+                <a href="{:U('AllianceShop/shop_index_hot')}"><li class="shopinBar_Clicked"><p>热门商家</p></li></a>
+                <a href="{:U('AllianceShop/shop_index_new')}"><li><p>最新商家</p></li></a>
+            </ul>
+        </div>
+        <div class="shopinIntro">
+            <ul></ul>
+        </div>
+    </div>
+</block>
+<block name="script">
+    <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=o3icfVSFoj4EdWaACMXGLll8TiA02UYB"></script>
+    <script>
+        //搜索
+        $('#search').focusout(function(){
+            var search = $('#search').val();
+            window.location.href = "{:U('AllianceShop/shop_index_hot')}?search="+search;
+        });
+
+        function citySelect(){
+            var city_name = $('#address option:selected').text();
+            window.location.href = "{:U('AllianceShop/shop_index_hot')}?city="+city_name;
+        }
+        wx.config({
+            debug:     false,
+            appId:     '{$signPackage.appId}',
+            timestamp: '{$signPackage.timestamp}',
+            nonceStr:  '{$signPackage.nonceStr}',
+            signature: '{$signPackage.signature}',
+            jsApiList: [
+                // 所有要调用的 API 都要加到这个列表中
+                'checkJsApi',
+                'openLocation',
+                'getLocation'
+            ]
+        });
+        wx.ready(function () {
+            // 在这里调用 API
+            wx.checkJsApi({
+                jsApiList: [
+                    'getLocation'
+                ],
+                success: function (res) {
+                    if (res.checkResult.getLocation == false) {
+                        alert('你的微信版本太低，不支持微信JS接口，请升级到最新的微信版本！');
+                        return;
+                    }
+                }
+            });
+            wx.getLocation({
+                success: function (res) {
+                    var latitude  = res.latitude;  // 纬度，浮点数，范围为90 ~ -90
+                    var longitude = res.longitude; // 经度，浮点数，范围为180 ~ -180。
+
+                    var myGeo=new BMap.Geocoder();
+                    myGeo.getLocation(new BMap.Point(longitude,latitude),function(result){
+                        var city = result.addressComponents.city;
+                        $.ajax({
+                            url: "{:U('AllianceShop/get_city')}",
+                            type: 'post',
+                            data: {
+                                'province': result.addressComponents.province,
+                                'city': city,
+                                'latitude':latitude,
+                                'longitude':longitude
+                            },
+                            success: function (data) {
+                                if('{$flag}' == 1){
+                                    var html = '<option id="position">'+city+'</option>';
+                                }else{
+                                    var html = '<option id="position">{$city}</option>';
+                                }
+                                $.each(data, function (k, v) {
+                                    html += '<option value="'+v.id+'">'+v.name+'</option>';
+                                });
+                                $('#address').html(html);
+                                loadMeinv($('#position').text());
+                            }
+                        });
+                    });
+                },
+                cancel: function (res) {
+                    alert('用户拒绝授权获取地理位置');
+                    var html = '<option>温州市</option>';
+                    $('#address').html(html);
+                }
+            });
+        });
+
+        var page = 1;
+        function loadMeinv(city){
+            if(city == undefined){
+                city = '';
+            }
+            var count = 3;
+            if(({$goods_count}+count-1)/count >= page){
+                var search = $('#search').val();
+                $.ajax({
+                    url: "{:U('AllianceShop/shop_hot_more')}",
+                    type: 'post',
+                    data: {'page': page,'count':count,'city':city,'search':search},
+                    success: function (data) {
+                        var html = "";
+                        $.each(data, function (k, v) {
+                            html += '<li>'+
+                                        '<p class="myorderPic_01"><a href="{:U(\'AllianceShop/shop_intro\')}?id='+v.id+'"><img src="'+v.pic+'"></a></p>'+
+                                        '<p class="shopinIntro_02">'+v.shop_name+'<span><a href="#"><img src="__IMG__/shop_address.png">'+v.distance+'km</a></span></p>'+
+                                        '<p class="shopinIntro_03"><img src="'+v.discount_img+'"></p>'+
+                                    '</li>';
+                        });
+                        $minUl = getMinUl();
+                        $minUl.append(html);
+                    }
+                });
+            }
+            page++;
+        }
+        $(window).on("scroll",function(){
+            $minUl = getMinUl();
+            if($minUl.height() <= $(window).scrollTop()+$(window).height()){
+                loadMeinv();
+            }
+        })
+        function getMinUl(){
+            var $arrUl = $(".shopinIntro ul");
+            var $minUl =$arrUl.eq(0);
+            $arrUl.each(function(index,elem){
+                if($(elem).height()<$minUl.height()){
+                    $minUl = $(elem);
+                }
+            });
+            return $minUl;
+        }
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+
+            $(".main_visual").hover(function(){
+                $("#btn_prev,#btn_next").fadeIn()
+            },function(){
+                $("#btn_prev,#btn_next").fadeOut()
+            });
+
+            $dragBln = false;
+
+            $(".main_image").touchSlider({
+                flexible : true,
+                speed : 200,
+                btn_prev : $("#btn_prev"),
+                btn_next : $("#btn_next"),
+                paging   : $(".flicking_con a"),
+                counter : function (e){
+                    $(".flicking_con a").removeClass("on").eq(e.current-1).addClass("on");
+                }
+            });
+
+            $(".main_image").bind("mousedown", function() {
+                $dragBln = false;
+            });
+
+            $(".main_image").bind("dragstart", function() {
+                $dragBln = true;
+            });
+
+            $(".main_image a").click(function(){
+                if($dragBln) {
+                    return false;
+                }
+            });
+
+            timer = setInterval(function(){
+                $("#btn_next").click();
+            }, 5000);
+
+            $(".main_visual").hover(function(){
+                clearInterval(timer);
+            },function(){
+                timer = setInterval(function(){
+                    $("#btn_next").click();
+                },5000);
+            });
+
+            $(".main_image").bind("touchstart",function(){
+                clearInterval(timer);
+            }).bind("touchend", function(){
+                timer = setInterval(function(){
+                    $("#btn_next").click();
+                }, 5000);
+            });
+
+        });
+    </script>
+</block>

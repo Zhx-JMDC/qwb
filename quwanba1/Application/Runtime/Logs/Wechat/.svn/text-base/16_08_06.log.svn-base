@@ -1,0 +1,139 @@
+[ 2016-08-06T13:50:31+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/shop_index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000107s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001208s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0087s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0080s ]
+ERR: 非法操作:shop_index
+
+[ 2016-08-06T17:49:27+08:00 ] ::1 /quwanba1/index.php/Wechat/WechatPay/notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000872s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001205s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0087s ]
+SQL: SHOW COLUMNS FROM `qwb_card_history` [ RunTime:0.0076s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `qwb_card_history` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `qwb_card_history` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0076s ]
+SQL: SHOW COLUMNS FROM `qwb_card` [ RunTime:0.0083s ]
+SQL: SELECT `value`,`type` FROM `qwb_card` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0072s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0075s ]
+SQL: SELECT `gid`,`fid`,`income`,`headimgurl`,`nickname`,`qwb_id`,`rank` FROM `qwb_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0073s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002226s ]
+
+[ 2016-08-06T17:49:58+08:00 ] ::1 /quwanba1/index.php/Wechat/WechatPay/notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000187s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001286s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `qwb_card_history` [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0077s ]
+SQL: SHOW COLUMNS FROM `qwb_card_history` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `qwb_card_history` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0084s ]
+SQL: SHOW COLUMNS FROM `qwb_card` [ RunTime:0.0085s ]
+SQL: SELECT `value`,`type` FROM `qwb_card` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0081s ]
+SQL: SELECT `gid`,`fid`,`income`,`headimgurl`,`nickname`,`qwb_id`,`rank` FROM `qwb_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0086s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002006s ]
+
+[ 2016-08-06T17:50:40+08:00 ] ::1 /quwanba1/index.php/Wechat/WechatPay/buy_card_pay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001193s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `qwb_card_history` [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0083s ]
+NOTIC: [8] Undefined index: type /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Controller/WechatPayController.class.php 第 160 行.
+NOTIC: [8] Undefined index: name /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Controller/WechatPayController.class.php 第 161 行.
+NOTIC: [8] Undefined index: contact /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Controller/WechatPayController.class.php 第 162 行.
+NOTIC: [8] Undefined index: postcode /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Controller/WechatPayController.class.php 第 163 行.
+NOTIC: [8] Undefined index: address /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Controller/WechatPayController.class.php 第 164 行.
+NOTIC: [8] Undefined index: message /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Controller/WechatPayController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `qwb_card` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`value` FROM `qwb_card` WHERE `type` = null LIMIT 1   [ RunTime:0.0076s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000277s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000739s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016771s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017286s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000701s ]
+
+[ 2016-08-06T17:51:05+08:00 ] ::1 /quwanba1/index.php/Wechat/Common/buy_card_pay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000953s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0081s ]
+ERR: 非法操作:buy_card_pay
+
+[ 2016-08-06T17:51:15+08:00 ] ::1 /quwanba1/index.php/Wechat/Common/notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000862s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001031s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0080s ]
+ERR: 非法操作:notify
+
+[ 2016-08-06T17:51:23+08:00 ] ::1 /quwanba1/index.php/Wechat/Wechatpay/notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001649s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0095s ]
+SQL: SHOW COLUMNS FROM `qwb_card_history` [ RunTime:0.0093s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0074s ]
+SQL: SHOW COLUMNS FROM `qwb_card_history` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `qwb_card_history` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0072s ]
+SQL: SHOW COLUMNS FROM `qwb_card` [ RunTime:0.0073s ]
+SQL: SELECT `value`,`type` FROM `qwb_card` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0079s ]
+SQL: SELECT `gid`,`fid`,`income`,`headimgurl`,`nickname`,`qwb_id`,`rank` FROM `qwb_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0072s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001298s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001877s ]
+
+[ 2016-08-06T17:51:26+08:00 ] ::1 /quwanba1/index.php/Wechat/Wechatpay/notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000895s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001338s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0091s ]
+SQL: SHOW COLUMNS FROM `qwb_card_history` [ RunTime:0.0074s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0081s ]
+SQL: SHOW COLUMNS FROM `qwb_card_history` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `qwb_card_history` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `qwb_card` [ RunTime:0.0066s ]
+SQL: SELECT `value`,`type` FROM `qwb_card` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0064s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0072s ]
+SQL: SELECT `gid`,`fid`,`income`,`headimgurl`,`nickname`,`qwb_id`,`rank` FROM `qwb_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000990s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001494s ]
+

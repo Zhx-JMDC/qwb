@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html;charset=utf-8">
+	<title>我是代言人</title>
+	<link rel="stylesheet" type="text/css" href="css/css.css">
+	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="js/js.js"></script>
+</head>
+<body>
+	<div id="top">
+		<!-- <p class="topBar">
+			<span class="top_left"><img src="images/top_left.png"><a href="">返回</a>&nbsp;&nbsp;<a href="">关闭</a></span>
+			订单详情
+			<span class="top_right"><img src="images/top_dot.png"></span>
+		</p> -->
+	</div>
+	<div id="content">
+		<div class="cashgetMain">
+			<p class="cashgetMain_p1"><img src="images/cash_get_logo.png"></p>
+			<p class="cashgetMain_p2">成为S级旅行家可提取饭票</p>
+			<p class="cashgetMain_p3"><span>F50.00</span></p>
+			<div class="representInc_S">
+				<p class="representAno_p2">成为V级代言人</p>
+				<p><a href="#"><img src="images/vip_letter_s_dark.png"></a></p>
+			</div>
+		</div>
+		<div class="cashgetdeTail">
+			<ul>
+				<li>提现历史<img src="images/jiantou_xia.png"></li>
+				<li><p>2016/05/05-12:12 <span>+F50</span></p></li>
+				<li><p>2016/05/05-12:12 <span>+F50</span></p></li>
+				<li><p>2016/05/05-12:12 <span>+F50</span></p></li>
+			</ul>
+		</div>
+	</div>
+	<div id="footer">
+		<ul>
+			<li><a href="#">
+				<p class="footer_botton_p1"><img src="images/bottom_01.png"></p>
+				<p class="footer_botton_p2">商城首页</p></a>
+			</li>
+			<li><a href="#">
+				<p class="footer_botton_p1"><img src="images/bottom_02.png"></p>
+				<p class="footer_botton_p2">联盟商家</p></a>
+			</li>
+			<li><a href="#">
+				<p class="footer_botton_p1"><img src="images/bottom_03.png"></p>
+				<p class="footer_botton_p2">我的收藏</p></a>
+			</li>
+			<li><a href="#">
+				<p class="footer_botton_p1"><img src="images/bottom_04.png"></p>
+				<p class="footer_botton_p2">我的订单</p></a>
+			</li>
+			<li><a href="#">
+				<p class="footer_botton_p1"><img src="images/bottom_05.png"></p>
+				<p class="footer_botton_p2">我是代言人</p></a>
+			</li>
+		</ul>
+	</div>
+</body>
+<script type="text/javascript">
+	$(function(){
+	function loadMeinv(){
+		var data = 0;
+		for(var i=0;i<2;i++){
+			var html = "";
+			html = '<li><p>2016/05/05-12:12 <span>+F50</span></p></li>';
+			$minUl = getMinUl();
+			$minUl.append(html);
+		}
+	}
+	loadMeinv();
+	$(window).on("scroll",function(){
+		$minUl = getMinUl();
+		if($minUl.height() <= $(window).scrollTop()+$(window).height()){
+			loadMeinv();
+		}
+	})
+	function getMinUl(){
+		var $arrUl = $(".cashgetdeTail ul");
+		var $minUl =$arrUl.eq(0);
+		$arrUl.each(function(index,elem){
+			if($(elem).height()<$minUl.height()){
+				$minUl = $(elem);
+			}
+		});
+		return $minUl;
+	}
+})
+</script>
+</html>

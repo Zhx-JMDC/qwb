@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html;charset=utf-8">
+	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=0.5"/>
+	<title>马上购买</title>
+	<link rel="stylesheet" type="text/css" href="__CSS__/css.css">
+	<script type="text/javascript" src="__JS__/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="__JS__/jquery.lazyload.js" ></script>
+	<script type="text/javascript" src="__JS__/iscroll.js" ></script>
+	<script type="text/javascript" src="__JS__/finall.js" ></script>
+	<script type="text/javascript" src="__JS__/js.js"></script>
+<script type="text/javascript">
+$(function(){
+	var img = "__JS__/";
+	// $('#yearMonth').date();
+	// $('#selectDay').date({theme:"day"});
+});
+$(document).ready(function(){
+	// $(".lie")
+	$(".buyticTime input").bind("focus",function(){
+		var idM = $(this).attr("id");
+		// console.log(idM);
+		if(idM=="yearMonth"){
+			$(this).date();
+		}else{
+			// $(this).date({theme:"day"});
+		}
+	});
+});
+
+	function sss(id){
+		$('#selectDay').val(id);
+	}
+</script>
+</head>
+<body>
+    <form action="{:U('Order/order_add')}" method="post" id="order">
+		<!--<input type='hidden' name="day" id="selectDay">-->
+	<div id="content">
+		<div class="buyticTime">
+			<p class="cardforMainBar"><img src="__IMG__/card_date.png">选择使用日期</p>
+			<div class="buyticTimeSelect">
+				<p class="buyticTime_01">
+					<input type="text" name="year" id="yearMonth"/>
+				</p>
+				<div class="buyticTime_02">
+					<input type="text" name="day" value="" id="selectDay"/>
+
+				</div>
+
+				<div class="buyticTimeDate">
+					<div id="datescroll_datetime">
+						<div id="daywrapper">
+							<ul id="daywrapper_ul">
+
+							</ul>
+						</div>
+					</div>
+					<div class="buyticTimeDateWeek">
+						<ul>
+							<li>日</li>
+							<li>一</li>
+							<li>二</li>
+							<li>三</li>
+							<li>四</li>
+							<li>五</li>
+							<li>六</li>
+						</ul>
+					</div>
+				</div>
+
+<div class="buyticTimeHind"><p>上下滑动选择更多日期</p></div>
+			</div>
+
+			
+		</div>
+
+<div id="dateshadow"></div>
+<div id="datePage" class="page"><section>
+	<div id="datetitle"><h1>请选择年月</h1></div>
+		<div id="datemark">
+			<a id="markyear"></a>
+			<a id="markmonth"></a>
+		</div>
+	<div id="datescroll">
+		<div id="yearwrapper">
+			<ul>
+			
+			</ul>
+		</div>
+		<div id="monthwrapper">
+			<ul>
+			
+			</ul>
+		</div>
+	</div>
+	</section>
+	
+	<footer id="dateFooter">
+		<div id="setcancle">
+			<ul>
+				<li id="dateconfirm">确定</li>
+				<li id="datecancle">取消</li>
+			</ul>
+		</div>
+	</footer>
+</div>
+
+
+
+		<div class="buyticDetail">
+			<p class="cardforMainBar"><img src="__IMG__/card_pen.png">详细资料填写</p>
+			<ul>
+				<li style="height:auto;">
+					<div class="shoplltroSelect">
+						<foreach name="goods.goods_price" item="v">
+							<label style="padding-left:0"><input type="radio" value="{$v.selling_value}" name="shoplltroSelect-kind" onclick="choose()">{$v.name}</label>
+						</foreach>
+					</div>
+				</li>
+				<li>
+					<span>购买套餐数量</span>
+					<div class="buyticDetail_num">
+						<i class="buyticDetail_num_up" onclick="minusCount()">-</i>
+						<input class="buyticDetail_num_change" type="text" value="1" id="count" name="count">
+						<i class="buyticDetail_num_down" onclick="addCount()">+</i>
+					</div>
+				</li>
+				<li><span>联系人：</span><p class="carforMain_input"><input type="text" id="name" name="name" placeholder="填写您的姓名"></p></li>
+				<li><span>手机号：</span><p class="carforMain_input"><input type="text" id="mobile" name="mobile" placeholder="用于商家联系您的方式"></p></li>
+				<li><span>买家留言：</span><p class="carforMain_input"><input type="text" name="message" placeholder="有特殊需要，可以在此留言"></p></li>
+			</ul>
+		</div>
+		<div class="buyticHind">
+			<p>※请认真填写资料并仔细检查，以免出错导致不必要的麻烦</p>
+		</div>
+	</div>
+	<div id="footer">
+		<ul>
+			<li><a href="{:U('Shop/shop_mall')}">
+				<p class="footer_botton_p1"><img src="__IMG__/bottom_01.png"></p>
+				<p class="footer_botton_p2">主页</p></a>
+			</li>
+		</ul>
+		<div class="footer_buy_count">
+			<input type="hidden" value="{$choose_value}" name="choose_value" id="choose_value">
+			<input type="hidden" value="{$goods.id}" name="goods_id">
+			<p class="footer_buy"><span id="price">¥{$choose_value}</span><a onclick="chooseSubmit()"><img src="__IMG__/footer_che.png">立即购买</a></p>
+		</div>
+	</div>
+	</form>
+</body>
+<script type="text/javascript">
+	$("input[value='{$choose_value}']").attr("checked",true);
+	function choose(){
+		var price = $('input[name="shoplltroSelect-kind"]:checked').val();
+		var count = $('#count').val();
+		$('#price').html('¥'+parseInt(price)*parseInt(count));
+		$('#choose_value').val(parseInt(price)*parseInt(count));
+	}
+
+	function addCount(){
+		var price = $('input[name="shoplltroSelect-kind"]:checked').val();
+		var count = parseInt($('#count').val())+1;
+		$('#price').html('¥'+parseInt(price)*parseInt(count));
+		$('#choose_value').val(parseInt(price)*parseInt(count));
+	}
+
+	function minusCount(){
+		var price = $('input[name="shoplltroSelect-kind"]:checked').val();
+		var count = parseInt($('#count').val());
+		if(count != 1){
+			count -= 1;
+			$('#price').html('¥'+parseInt(price)*parseInt(count));
+			$('#choose_value').val(parseInt(price)*parseInt(count));
+		}
+	}
+
+	function chooseSubmit(){
+		var count     = $('#count').val();
+		var mobile 	  = $('#mobile').val();
+		var name      = $('#name').val();
+		var yearMonth = $('#yearMonth').val();
+		var selectDay = $('#selectDay').val();
+		if(name != "" && mobile != "" && count != "" && yearMonth != "" && selectDay != ""){
+			$('#order').submit();
+		}else{
+			alert("资料填写不完整");
+		}
+	}
+
+	var theScroll;
+	function scroll() {
+    	theScroll = new iScroll('datescroll_datetime',{ snap: "li", vScrollbar: false,hScrollbar:false});
+	}
+	document.addEventListener('DOMContentLoaded', scroll, false);
+</script>
+<script type="text/javascript">
+	var myDate = new Date();
+	var year = myDate.getFullYear();
+	var month = myDate.getMonth()+1;
+	var day = myDate.getDate();   
+	document.getElementById("yearMonth").value = year+"/"+month+"月";
+//	document.getElementById("selectDay").value = day;
+	var endDay = 31;
+	change();
+</script>
+</html>

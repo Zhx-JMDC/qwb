@@ -1,0 +1,85 @@
+<extend name="Public/base" />
+<block name="title">订单详情</block>
+<block name="css">
+	<style>
+		#footer{
+			display:none;
+		}
+	</style>
+</block>
+<block name="scriptTop">
+	<script type="text/javascript">
+		//调用微信JS api 支付
+		function jsApiCall()
+		{
+			WeixinJSBridge.invoke(
+					'getBrandWCPayRequest',
+					{$jsApiParameters},
+					function(res){
+						WeixinJSBridge.log(res.err_msg);
+						switch (res.err_msg){
+							case 'get_brand_wcpay_request:cancel':break;
+							case 'get_brand_wcpay_request:fail':break;
+							case 'get_brand_wcpay_request:ok':location.href="{:U('Order/my_order')}";break;
+						}
+					}
+			);
+		}
+
+		function callpay()
+		{
+			if (typeof WeixinJSBridge == "undefined"){
+				if( document.addEventListener ){
+					document.addEventListener('WeixinJSBridgeReady', jsApiCall, false);
+				}else if (document.attachEvent){
+					document.attachEvent('WeixinJSBridgeReady', jsApiCall);
+					document.attachEvent('onWeixinJSBridgeReady', jsApiCall);
+				}
+			}else{
+				jsApiCall();
+			}
+		}
+	</script>
+</block>
+<block name="body">
+<div id="content">
+	<div class="orderPic">
+		<p class="orderPic_01"><img src="{$order.pic}"></p>
+		<!--<div onclick="code()" class="orderPic_02"><img src="__IMG__/order_code_small.png">-->
+			<!--<div id="code" class="myorder_code_big orderPic_code_big">-->
+				<!--<img src="{$order.qr_code}">-->
+				<!--<p>扫描二维码确定订单消费</p>-->
+			<!--</div>-->
+		<!--</div>-->
+
+	</div>
+	<div class="orderDescribe">
+		<ul>
+			<li><p>{$order.name}</p></li>
+			<li><p><span>订单号：       </span>{$order.order_num}</p></li>
+			<li><p><span>订单金额：     </span>{$order.price}</p></li>
+			<li><p><span>购买数量       </span>{$order.count}</p></li>
+			<li><p><span>预定用户：     </span>{$order.buyer}</p></li>
+			<li><p><span>用户手机号：   </span>{$order.mobile}</p></li>
+			<li><p><span>购买日期：     </span>{$order.buy_time}</p></li>
+			<li><p><span>体验日期：     </span><?php echo date('Y/m/d',strtotime($order['experience_time']));?></p></li>
+			<li><p><span>您的留言备注： </span>{$order.message}</p></li>
+		</ul>
+	</div>
+</div>
+<div><p class="footerSureBuy" onclick="callpay()">点击确认支付</p></div>
+</block>
+<block name="script">
+	<script>
+		var flag = 1;
+		function code(){
+			if(flag == 1){
+				$('#code').css('display','block');
+				flag = 0;
+			}else{
+				$('#code').css('display','none');
+				flag = 1;
+			}
+		};
+	</script>
+</block>

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/quwanba/!svn/ver/1318/ThinkPHP/Library/Org/Util/PHPExcel/Shared/JAMA
+END
+LUDecomposition.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/quwanba/!svn/ver/1318/ThinkPHP/Library/Org/Util/PHPExcel/Shared/JAMA/LUDecomposition.php
+END
+CholeskyDecomposition.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/quwanba/!svn/ver/1318/ThinkPHP/Library/Org/Util/PHPExcel/Shared/JAMA/CholeskyDecomposition.php
+END
+SingularValueDecomposition.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/quwanba/!svn/ver/1318/ThinkPHP/Library/Org/Util/PHPExcel/Shared/JAMA/SingularValueDecomposition.php
+END
+CHANGELOG.TXT
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/quwanba/!svn/ver/1318/ThinkPHP/Library/Org/Util/PHPExcel/Shared/JAMA/CHANGELOG.TXT
+END
+QRDecomposition.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/quwanba/!svn/ver/1318/ThinkPHP/Library/Org/Util/PHPExcel/Shared/JAMA/QRDecomposition.php
+END
+EigenvalueDecomposition.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/quwanba/!svn/ver/1318/ThinkPHP/Library/Org/Util/PHPExcel/Shared/JAMA/EigenvalueDecomposition.php
+END
+Matrix.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/quwanba/!svn/ver/1318/ThinkPHP/Library/Org/Util/PHPExcel/Shared/JAMA/Matrix.php
+END

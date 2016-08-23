@@ -1,0 +1,146 @@
+<extend name="Public/base2" />
+<block name="body">
+	<div id="content">
+		<div class="shopinClassApp">
+			<div id="shopinClassApp" class="shopClassApp_horizon">
+				<ul>
+					<foreach name="class" item="v">
+						<a href="{:U('AllianceShop/app_shop_class',array('id'=>$v['id']))}">
+							<li><img src="{$v.icon}">
+								<p>{$v.name}</p></li>
+						</a>
+					</foreach>
+				</ul>
+			</div>
+		</div>
+		<div class="shopinIntro">
+			<ul></ul>
+		</div>
+	</div>
+</block>
+<block name="script">
+<script type="text/javascript">
+$(document).ready(function(){
+
+	$(".main_visual").hover(function(){
+		$("#btn_prev,#btn_next").fadeIn()
+	},function(){
+		$("#btn_prev,#btn_next").fadeOut()
+	});
+	
+	$dragBln = false;
+	
+	$(".main_image").touchSlider({
+		flexible : true,
+		speed : 200,
+		btn_prev : $("#btn_prev"),
+		btn_next : $("#btn_next"),
+		paging : $(".flicking_con a"),
+		counter : function (e){
+			$(".flicking_con a").removeClass("on").eq(e.current-1).addClass("on");
+		}
+	});
+	
+	$(".main_image").bind("mousedown", function() {
+		$dragBln = false;
+	});
+	
+	$(".main_image").bind("dragstart", function() {
+		$dragBln = true;
+	});
+	
+	$(".main_image a").click(function(){
+		if($dragBln) {
+			return false;
+		}
+	});
+	
+	timer = setInterval(function(){
+		$("#btn_next").click();
+	}, 5000);
+	
+	$(".main_visual").hover(function(){
+		clearInterval(timer);
+	},function(){
+		timer = setInterval(function(){
+			$("#btn_next").click();
+		},5000);
+	});
+	
+	$(".main_image").bind("touchstart",function(){
+		clearInterval(timer);
+	}).bind("touchend", function(){
+		timer = setInterval(function(){
+			$("#btn_next").click();
+		}, 5000);
+	});
+	
+});
+</script>
+<script type="text/javascript">
+	var page = 1;
+	function loadMeinv(){
+		var count = 3;
+		if(({$goods_count}+count-1)/count >= page){
+			var id = '{$id}';
+			$.ajax({
+				url: "{:U('AllianceShop/shop_class_more')}",
+				type: 'post',
+				data: {'id': id,'page': page,'count':count},
+				success: function (data) {
+					var html = "";
+					$.each(data, function (k, v) {
+						html += '<li><p class="myorderPic_01"><a href="{:U(\'AllianceShop/app_shop_intro\')}?id='+v.id+'"><img src="'+v.pic+'"></a></p><p class="shopinIntro_02">'+v.shop_name+'<span><a href="#"><img src="__IMG__/shop_address.png">'+v.distance+'km</a></span></p><p class="shopinIntro_03"><img src="'+v.discount_img+'"></p></li>';
+					})
+					$minUl = getMinUl();
+					$minUl.append(html);
+				}
+			});
+		}
+		page++;
+	}
+	loadMeinv();
+	$(window).on("scroll",function(){
+		$minUl = getMinUl();
+		if($minUl.height() <= $(window).scrollTop()+$(window).height()){
+			loadMeinv();
+		}
+	})
+	function getMinUl(){
+		var $arrUl = $(".shopinIntro ul");
+		var $minUl =$arrUl.eq(0);
+		$arrUl.each(function(index,elem){
+			if($(elem).height()<$minUl.height()){
+				$minUl = $(elem);
+			}
+		});
+		return $minUl;
+	}
+</script>
+<script type="text/javascript">
+var phoneScroll;
+function liresize(){
+	var w = $(".cirmyTopUl").width();
+	// $(".cirmyTopUl li img").width(w);
+	phoneScroll.refresh();
+}
+
+$(function(){
+	phoneScroll = new iScroll("shopinClassApp",{
+			snap: true,
+			momentum: false,
+			vScroll:false,
+			hScroll:true,
+			hScrollbar:false,
+		});
+	$(window).load(function(e) {
+		liresize();
+    });
+	
+	$(window).resize(function(e) {
+        liresize();
+    });
+	
+});
+</script>
+</block>

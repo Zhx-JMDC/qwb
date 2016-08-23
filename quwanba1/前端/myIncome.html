@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html;charset=utf-8">
+	<title>我是代言人</title>
+	<link rel="stylesheet" type="text/css" href="css/css.css">
+	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="js/js.js"></script>
+</head>
+<body>
+	<div id="top">
+		<!-- <p class="topBar">
+			<span class="top_left"><img src="images/top_left.png"><a href="">返回</a>&nbsp;&nbsp;<a href="">关闭</a></span>
+			订单详情
+			<span class="top_right"><img src="images/top_dot.png"></span>
+		</p> -->
+	</div>
+	<div id="content">
+		<div class="buycardTop">
+			<p class="buycard_01"><img src="images/buycard_temp.png"></p>
+			<p class="buycard_02">趣玩吧旅行</p>
+			<p class="buycard_03">ID：43853434</p>
+			<p class="buycard_04">您还不是代言人</p>
+			<p class="buycard_04 currentVip">当前等级<img src="images/vip_letter_v.png"></p>
+			<p class="buycard_04">当前等级<img src="images/vip_letter_s.png"></p>
+		</div>
+		<div class="myincomeMain">
+			<p class="myincomeMain_01">我的收入</p>
+			<p class="myincomeMain_02">历史积累饭票</p>
+			<p class="myincomeMain_03">F150.00</p>
+		</div>
+		<div class="myincomeIntro">
+			<table>
+				<tr>
+					<th>时间</th>
+					<th>会员</th>
+					<th>饭票</th>
+				</tr>
+				<tr>
+					<td>2016/05/05-14:50</td>
+					<td><img src="images/friends_head.png">这是一个昵称</td>
+					<td>+F50</td>
+				</tr>
+				<tr>
+					<td>2016/05/05-14:50</td>
+					<td><img src="images/friends_head.png">这是一个昵称</td>
+					<td>+F50</td>
+				</tr>
+			</table>
+		</div>
+		<div class="myincomeHind"><p>您的推荐人是温州趣玩吧旅游</p></div>
+	</div>
+	<div id="footer">
+		<ul>
+			<li><a href="#">
+				<p class="footer_botton_p1"><img src="images/bottom_01.png"></p>
+				<p class="footer_botton_p2">商城首页</p></a>
+			</li>
+			<li><a href="#">
+				<p class="footer_botton_p1"><img src="images/bottom_02.png"></p>
+				<p class="footer_botton_p2">联盟商家</p></a>
+			</li>
+			<li><a href="#">
+				<p class="footer_botton_p1"><img src="images/bottom_03.png"></p>
+				<p class="footer_botton_p2">我的收藏</p></a>
+			</li>
+			<li><a href="#">
+				<p class="footer_botton_p1"><img src="images/bottom_04.png"></p>
+				<p class="footer_botton_p2">我的订单</p></a>
+			</li>
+			<li><a href="#">
+				<p class="footer_botton_p1"><img src="images/bottom_05.png"></p>
+				<p class="footer_botton_p2">我是代言人</p></a>
+			</li>
+		</ul>
+	</div>
+</body>
+<script type="text/javascript">
+	$(function(){
+	function loadMeinv(){
+		var data = 0;
+		for(var i=0;i<2;i++){
+			var html = "";
+			html = '<tr><td>2016/05/05-14:50</td><td><img src="images/friends_head.png">这是一个昵称</td><td>+F50</td></tr>';
+			$minUl = getMinUl();
+			$minUl.append(html);
+		}
+	}
+	loadMeinv();
+	$(window).on("scroll",function(){
+		$minUl = getMinUl();
+		if($minUl.height() <= $(window).scrollTop()+$(window).height()){
+			loadMeinv();
+		}
+	})
+	function getMinUl(){
+		var $arrUl = $(".myincomeIntro table");
+		var $minUl =$arrUl.eq(0);
+		$arrUl.each(function(index,elem){
+			if($(elem).height()<$minUl.height()){
+				$minUl = $(elem);
+			}
+		});
+		return $minUl;
+	}
+})
+</script>
+</html>

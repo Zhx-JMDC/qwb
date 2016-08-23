@@ -1,0 +1,22 @@
+[ 2016-08-01T12:07:26+08:00 ] ::1 /quwanba1/index.php/Wechat/Index/get_QRCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001671s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0135s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0311s ]
+ERR: 参数错误或者未定义:id
+
+[ 2016-08-01T16:12:13+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/shop_index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000895s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001002s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0114s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0112s ]
+ERR: 非法操作:shop_index
+

@@ -1,0 +1,49 @@
+<extend name="Public/base" />
+<block name="body">
+	<div id="top">
+	</div>
+	<div id="content">
+		<div class="buycardTop">
+			<p class="buycard_01"><img src="{$user.headimgurl}"></p>
+			<p class="buycard_02">{$user.nickname}</p>
+			<p class="buycard_03">ID：{$user.qwb_id}</p>
+			<p class="buycard_04 currentVip">
+				<if condition="$rank eq vip_letter">您还不是旅行家
+					<else />当前等级<img src="__IMG__/{$rank}.png">
+				</if>
+			</p>
+			<!--<p class="buycard_letter">-->
+				<!--<a href="{:U('Spokesman/message')}"><img src="__IMG__/message_top_right.png">-->
+					<!--<if condition="$message_count eq 0"><else /><span>{$message_count}</span></if>-->
+				<!--</a>-->
+			<!--</p>-->
+		</div>
+		<switch name="rank">
+			<case value="vip_letter">
+				<div class="buycardKind">
+					<ul>
+						<li>
+							<p class="buycardKing_li1"><a href="{:U('Spokesman/card_information',array('type'=>1))}"><img src="{$v_card}"></a></p>
+							<!-- <p class="buycardKing_li2"><a href="#"><img src="images/buycard_shopcar.png"></a></p> -->
+							<!-- <p class="buycardKing_buy"><a href="{:U('Spokesman/card_information',array('type'=>1))}">点击直接购买</p> -->
+						</li>
+					</ul>
+				</div>
+				<p class="buycardKind_p">可直接点击购买周游卡</p>
+			</case>
+			<case value="vip_letter_v">
+				<div class="buycardKind">
+					<ul>
+						<li>
+							<p class="buycardKing_li1"><a href="{:U('Spokesman/app_download')}"><img src="__IMG__/buycard_S.png"></a></p>
+							<!-- <p class="buycardKing_li2 buycardKind_ok"><a href="#"><img src="images/buycard_shopcar.png"></a></p> -->
+							<!-- <p class="buycardKing_buy"><a href="{:U('Spokesman/card_information',array('type'=>0))}">点击直接购买</a></p> -->
+						</li>
+					</ul>
+				</div>
+				<p class="buycardKind_p">可直接点击购买周游卡</p>
+			</case>
+			<default />
+		</switch>
+	</div>
+</block>

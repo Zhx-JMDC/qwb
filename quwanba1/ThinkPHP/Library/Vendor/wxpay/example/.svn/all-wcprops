@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/quwanba/!svn/ver/1840/ThinkPHP/Library/Vendor/wxpay/example
+END
+WxPay.MicroPay.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/quwanba/!svn/ver/704/ThinkPHP/Library/Vendor/wxpay/example/WxPay.MicroPay.php
+END
+WxPay.AppPay.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/quwanba/!svn/ver/1840/ThinkPHP/Library/Vendor/wxpay/example/WxPay.AppPay.php
+END
+orderquery.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/quwanba/!svn/ver/704/ThinkPHP/Library/Vendor/wxpay/example/orderquery.php
+END
+jsapi.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/quwanba/!svn/ver/1171/ThinkPHP/Library/Vendor/wxpay/example/jsapi.php
+END
+WxPay.NativePay.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/quwanba/!svn/ver/704/ThinkPHP/Library/Vendor/wxpay/example/WxPay.NativePay.php
+END
+download.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/quwanba/!svn/ver/704/ThinkPHP/Library/Vendor/wxpay/example/download.php
+END
+notify.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/quwanba/!svn/ver/704/ThinkPHP/Library/Vendor/wxpay/example/notify.php
+END
+refundquery.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/quwanba/!svn/ver/704/ThinkPHP/Library/Vendor/wxpay/example/refundquery.php
+END
+qrcode.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/quwanba/!svn/ver/704/ThinkPHP/Library/Vendor/wxpay/example/qrcode.php
+END
+native_notify.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/quwanba/!svn/ver/704/ThinkPHP/Library/Vendor/wxpay/example/native_notify.php
+END
+log.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/quwanba/!svn/ver/704/ThinkPHP/Library/Vendor/wxpay/example/log.php
+END
+micropay.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/quwanba/!svn/ver/704/ThinkPHP/Library/Vendor/wxpay/example/micropay.php
+END
+refund.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/quwanba/!svn/ver/704/ThinkPHP/Library/Vendor/wxpay/example/refund.php
+END
+native.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/quwanba/!svn/ver/704/ThinkPHP/Library/Vendor/wxpay/example/native.php
+END
+WxPay.JsApiPay.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/quwanba/!svn/ver/886/ThinkPHP/Library/Vendor/wxpay/example/WxPay.JsApiPay.php
+END
+WxPay.MchPay.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/quwanba/!svn/ver/1773/ThinkPHP/Library/Vendor/wxpay/example/WxPay.MchPay.php
+END

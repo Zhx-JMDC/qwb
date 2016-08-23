@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html;charset=utf-8">
+	<title>联盟商家</title>
+	<link rel="stylesheet" type="text/css" href="css/css.css">
+	<link rel="stylesheet" type="text/css" href="css/cssApp.css">
+	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="js/jquery.touchSlider.js"></script>
+	<script type="text/javascript" src="js/iscroll.js"></script>
+	<script type="text/javascript" src="js/js.js"></script>
+</head>
+<body>
+	<div id="top">
+		<!-- <p class="topBar"> 
+			<span class="top_left"><img src="images/top_left.png"><a href="">返回</a>&nbsp;&nbsp;<a href="">关闭</a></span>
+			订单详情 
+			<span class="top_right"><img src="images/top_dot.png"></span>
+		</p> -->
+	</div>
+	<div id="content">
+		<div class="shopinClassApp">
+			<div id="shopinClassApp" class="shopClassApp_horizon">
+				<ul>
+					<li><img src="images/shop_list_logo_bc.png">
+						<p>农家乐</p></li>
+					<li><img src="images/shop_list_logo_bc.png">
+						<p>农家乐</p></li>
+					<li><img src="images/shop_list_logo_bc.png">
+						<p>农家乐</p></li>
+					<li><img src="images/shop_list_logo_bc.png">
+						<p>农家乐</p></li>
+					<li><img src="images/shop_list_logo_bc.png">
+						<p>农家乐</p></li>
+					<li><img src="images/shop_list_logo_bc.png">
+						<p>农家乐</p></li>
+				</ul>
+			</div>
+		</div>
+		<div class="shopinIntro">
+			<ul>
+				<li>
+					<p class="myorderPic_01"><img src="images/order_temp.png"></p>
+					<p class="shopinIntro_02"><a href="#">大罗山盘云谷别墅套房</a><span><a href="#"><img src="images/shop_address.png">42km</a></span></p>
+					<p class="shopinIntro_03"><img src="images/shop_sale.png"><!-- <span>5</span>折 --></p>
+				</li>
+
+			</ul>
+		</div>
+	</div>
+	<div id="footer">
+		<ul>
+			<li><a href="#">
+				<p class="footer_botton_p1"><img src="images/bottom_01.png"></p>
+				<p class="footer_botton_p2">商城首页</p></a>
+			</li>
+			<li><a href="#">
+				<p class="footer_botton_p1"><img src="images/bottom_02.png"></p>
+				<p class="footer_botton_p2">联盟商家</p></a>
+			</li>
+			<li><a href="#">
+				<p class="footer_botton_p1"><img src="images/bottom_03.png"></p>
+				<p class="footer_botton_p2">我的收藏</p></a>
+			</li>
+			<li><a href="#">
+				<p class="footer_botton_p1"><img src="images/bottom_04.png"></p>
+				<p class="footer_botton_p2">我的订单</p></a>
+			</li>
+			<li><a href="#">
+				<p class="footer_botton_p1"><img src="images/bottom_05.png"></p>
+				<p class="footer_botton_p2">我是代言人</p></a>
+			</li>
+		</ul>
+	</div>
+</body>
+<script type="text/javascript">
+$(document).ready(function(){
+
+	$(".main_visual").hover(function(){
+		$("#btn_prev,#btn_next").fadeIn()
+	},function(){
+		$("#btn_prev,#btn_next").fadeOut()
+	});
+	
+	$dragBln = false;
+	
+	$(".main_image").touchSlider({
+		flexible : true,
+		speed : 200,
+		btn_prev : $("#btn_prev"),
+		btn_next : $("#btn_next"),
+		paging : $(".flicking_con a"),
+		counter : function (e){
+			$(".flicking_con a").removeClass("on").eq(e.current-1).addClass("on");
+		}
+	});
+	
+	$(".main_image").bind("mousedown", function() {
+		$dragBln = false;
+	});
+	
+	$(".main_image").bind("dragstart", function() {
+		$dragBln = true;
+	});
+	
+	$(".main_image a").click(function(){
+		if($dragBln) {
+			return false;
+		}
+	});
+	
+	timer = setInterval(function(){
+		$("#btn_next").click();
+	}, 5000);
+	
+	$(".main_visual").hover(function(){
+		clearInterval(timer);
+	},function(){
+		timer = setInterval(function(){
+			$("#btn_next").click();
+		},5000);
+	});
+	
+	$(".main_image").bind("touchstart",function(){
+		clearInterval(timer);
+	}).bind("touchend", function(){
+		timer = setInterval(function(){
+			$("#btn_next").click();
+		}, 5000);
+	});
+	
+});
+</script>
+<script type="text/javascript">
+	$(function(){
+	function loadMeinv(){
+		var data = 0;
+		for(var i=0;i<2;i++){
+			var html = "";
+			html = '<li><p class="myorderPic_01"><img src="images/order_temp.png"></p><p class="shopinIntro_02"><a href="#">大罗山盘云谷别墅套房</a><span><a href="#"><img src="images/shop_address.png">42km</a></span></p><p class="shopinIntro_03"><img src="images/shop_sale.png"></p></li>';
+			$minUl = getMinUl();
+			$minUl.append(html);
+		}
+	}
+	loadMeinv();
+	$(window).on("scroll",function(){
+		$minUl = getMinUl();
+		if($minUl.height() <= $(window).scrollTop()+$(window).height()){
+			loadMeinv();
+		}
+	})
+	function getMinUl(){
+		var $arrUl = $(".shopinIntro ul");
+		var $minUl =$arrUl.eq(0);
+		$arrUl.each(function(index,elem){
+			if($(elem).height()<$minUl.height()){
+				$minUl = $(elem);
+			}
+		});
+		return $minUl;
+	}
+})
+</script>
+<script type="text/javascript">
+var phoneScroll;
+function liresize(){
+	var w = $(".cirmyTopUl").width();
+	// $(".cirmyTopUl li img").width(w);
+	phoneScroll.refresh();
+}
+
+$(function(){
+	phoneScroll = new iScroll("shopinClassApp",{
+			snap: true,
+			momentum: false,
+			vScroll:false,
+			hScroll:true,
+			hScrollbar:false,
+		});
+	$(window).load(function(e) {
+		liresize();
+    });
+	
+	$(window).resize(function(e) {
+        liresize();
+    });
+	
+});
+</script>
+</html>

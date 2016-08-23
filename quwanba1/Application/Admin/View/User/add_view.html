@@ -1,0 +1,70 @@
+<extend name="Public/base" />
+<block name="style">
+<link href="__CSS__/Fancybox/jquery.fancybox-1.3.1.css" rel="stylesheet">
+<style>
+.upload-pre-item img{width:100px;height:100px;}
+</style>
+</block>
+<block name="body">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4>添加用户</h4>
+        </div>
+        <div class="panel-body table">
+			<form class="form-horizontal form-bordered" action="{:U('Admin/User/add')}" method="post" enctype="multipart/form-data">
+			<table border=0 class="">
+			    	<tr><td align='right'>昵称：</td><td><input type="text"
+															 name="nickname" class="form-control"/></td></tr>
+			    	<tr><td align='right'>头像：</td><td><input type="file"
+															 name="name" class="form-control"/></tr>
+			  		<tr><td align='right'>性别：</td><td>
+						<select class="form-control mb15" name="sex">
+							<option value="2">保密</option>
+							<option value="0">女</option>
+							<option value="1">男</option>
+						</select>
+					</td></tr>
+			  		<tr><td align='right'>手机号：</td><td><input type="text"
+															  name="mobile" class="form-control"/></td></tr>
+			  		<tr><td align='right'>密码：</td><td><input type="text"
+															 name="password" class="form-control"/></td></tr>
+					<tr><td align='right'>工作：</td><td><input type="text"
+															 name="job" class="form-control"/></td></tr>
+					<tr><td align='right'>工作地点：</td><td><input type="text"
+															   name="work_address" class="form-control"/></td></tr>
+					<tr><td align='right'>职称：</td><td><input type="text"
+															 name="positional_title" class="form-control"/></td></tr>
+					<tr><td align='right'>年龄段：</td><td><input type="text"
+															  name="age" class="form-control" /></td></tr>
+					<tr><td align='right'>闲暇时间：</td><td>
+						<select class="form-control mb15" name="free_time">
+							<option value="0">下班时间</option>
+							<option value="1">仅双休</option>
+							<option value="2">全天候闲暇</option>
+							<option value="3">基本无闲暇</option>
+						</select>
+					</td></tr>
+					<tr><td align='right'>工作年限：</td><td><input type="text"
+															   name="work_life" class="form-control" /></td></tr>
+					<tr><td align='right'>学历：</td><td><input type="text"
+															 name="education" class="form-control" /></td></tr>
+					<tr><td align='right'>个性签名：</td><td><textarea class="form-control" name="sig" rows="5" ></textarea></td></tr>
+					<tr><td align='right'>所在城市：</td><td><input type="text"
+															   name="city" class="form-control" /></td></tr>
+					<tr><td align='right'>出生：</td><td><input type="text"
+															 name="birth" class="form-control" /></td></tr>
+					<tr><td align='right'>毕业学校：</td><td><input type="text"
+															   name="graduate" class="form-control" /></td></tr>
+		    </table>
+				<button  class="btn btn-success">保存</button>
+				</form>
+        </div>
+        <div class="panel-footer">
+			<button  class="btn btn-return" onclick="window.location.href = '{:U('Admin/User/index')}'">返回</button>
+        </div>
+    </div>
+</block>
+
+<block name="script">
+	<script src="__JS__/common.js"></script>
+</block>

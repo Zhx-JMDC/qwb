@@ -1,0 +1,81 @@
+<extend name="Public/base" />
+
+<block name="body">
+	<!-- 标题栏 -->
+	<div class="panel panel-default">
+		<div class="panel-heading main-title">
+			<h2>广告列表</h2>
+
+		</div><!--		panel-heading		-->
+		<div class="panel-body">
+			 <!-- 高级搜索 -->
+			<div class="search-form fr cf pull-right">
+				<div class="sleft form-inline">
+					<a class=" btn btn-primary" href="{:U('Ad/ad_add_page')}"><i class="btn-search"></i>添加广告</a>
+				</div>
+			</div>
+		    <!-- 数据列表 -->
+		    <div class="data-table table-striped">
+			<table class="table">
+		    <thead>
+		        <tr>
+					<th>序号</th>
+					<th>名称</th>
+                    <th>位置</th>
+		        	<th>权重</th>
+					<th>操作</th>
+				</tr>
+		    </thead>
+		    <tbody>
+				<notempty name="_list">
+				<volist name="_list" id="vo">
+				<tr>
+					<td id="user_id">{$vo.id} </td>
+					<td>{$vo.discribe}</td>
+					<td>
+						<switch name="vo.position">
+							<case value="1">商城首页顶部轮播</case>
+							<case value="2">周游卡广告位</case>
+							<case value="3">商城首页底部广告位</case>
+							<case value="4">联盟商城顶部广告位</case>
+							<default />其他
+						</switch>
+					</td>
+					<td>{$vo.order}</td>
+					<td>
+						<a href="{:U('Ad/ad_detail',array('id'=>$vo['id']))}">查看</a>
+						<a href="{:U('Ad/ad_edit_page',array('id'=>$vo['id']))}">修改</a>
+						<a onclick="classDel('{$vo.id}')">移除</a>
+					</td>
+				</tr>
+				</volist>
+				<else/>
+				<td colspan="10" class="text-center"> aOh! 暂时还没有内容! </td>
+				</notempty>
+			</tbody>
+		    </table>
+			</div>
+			<div class="page">
+				{$_page}
+			</div>
+	    </div>
+    </div><!--		panel 		-->
+</block>
+
+<block name="script">
+	<script src="__JS__/thinkbox/jquery.thinkbox.js"></script>
+	<script>
+		function classDel(id){
+			if (confirm("你确定删除吗？")) {
+				$.ajax({
+					url: "{:U('Ad/ad_del')}",
+					type: 'post',
+					data: {'id': id},
+					success: function (data) {
+						window.location.href = "{:U('Ad/index')}";
+					}
+				});
+			}
+		}
+	</script>
+</block>

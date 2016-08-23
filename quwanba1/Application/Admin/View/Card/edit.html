@@ -1,0 +1,80 @@
+<extend name="Public/base" />
+<block name="style">
+    <link href="__CSS__/Fancybox/jquery.fancybox-1.3.1.css" rel="stylesheet">
+    <style>
+        .upload-pre-item img{width:100px;height:100px;}
+    </style>
+</block>
+<block name="body">
+    <input type="hidden" name="id" value="{$Think.get.id}">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4>周游卡设置</h4>
+        </div>
+        <div class="panel-body table">
+            <table border=0 class="">
+                <notempty name="card">
+                    <tr>
+                        <td align='right'>卡种等级：</td>
+                        <td>V级</td>
+                        <td>级</td>
+                    </tr>
+                    <tr>
+                        <td align='right'>平台留存率：</td>
+                        <td>
+                            50%
+                            <!--<input name="" placeholder="V平台留存率"  class="form-control" value="{$card['1']['keep_ratio']}"/>-->
+                        </td>
+                        <td>
+                            50%
+                            <!--<input name="" placeholder="S平台留存率"  class="form-control" value="{$card['0']['keep_ratio']}"/>-->
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align='right'>梯度价格：</td>
+                        <td>
+                            {$card['1']['value']}
+                            <!--<input name="" placeholder="V价格" class="form-control" value="{$card['1']['value']}"/>-->
+                        </td>
+                        <td>
+                            {$card['0']['value']}
+                            <!--<input name="" placeholder="S价格" class="form-control" value="{$card['0']['value']}"/>-->
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align='right'>商品返佣比例：</td>
+                        <td>
+                            50
+                            <!--<input name="" placeholder="V级返佣比例"  class="form-control" value="{$card['1']['rebate']}"/>-->
+                        </td>
+                        <td>
+                            100
+                            <!--<input name="" placeholder="S级返佣比例"  class="form-control" value="{$card['0']['rebate']}"/>-->
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align='right'>饭票兑换红包比例：</td>
+                        <td colspan="2">
+                            1 F : 1 RMB
+                            <!--<input name="" placeholder="饭票兑换红包比例"  class="form-control" value=""/>-->
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align='right'>饭票消费比例：</td>
+                        <td colspan="2">
+                            待开放
+                            <!--<input name="" placeholder="饭票消费比例"  class="form-control" value=""/>-->
+                        </td>
+                    </tr>
+                    <else />
+                    <thead><tr><th colspan="14" style="text-align:center;">该用户不存在!</th></tr></thead>
+                </notempty>
+            </table>
+            <!--<button>修改</button>-->
+        </div>
+    </div>
+</block>
+
+<block name="script">
+    <script src="__JS__/common.js"></script>
+</block>

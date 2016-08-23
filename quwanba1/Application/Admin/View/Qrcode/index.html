@@ -1,0 +1,101 @@
+<extend name="Public/base" />
+
+<block name="body">
+	<!-- 标题栏 -->
+	<div class="panel panel-default">
+		<div class="panel-heading main-title">
+			<h2>消费二维码</h2>
+
+		</div><!--		panel-heading		-->
+		<div class="panel-body">
+			<div class="well">
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="form-group">
+							<label class="control-label" for="input-buyer">用户名</label>
+							<input type="text" name="buyer" value="{$buyer}" placeholder="用户名" id="input-buyer" class="form-control">
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="form-group">
+							<label class="control-label" for="input-mobile">用户手机号</label>
+							<input type="text" name="mobile" value="{$mobile}" placeholder="用户手机号" id="input-mobile" class="form-control">
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="form-group">
+							<label class="control-label" for="input-shop-name">商家名称</label>
+							<input type="text" name="shop_name" value="{$shop_name}" placeholder="商家名称" id="input-shop-name" class="form-control">
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<a><button class="btn btn-primary pull-right" style="margin-right: 10px;" onclick='window.location.href="{:U('Qrcode/qrcode_export')}"'>导出</button></a>
+						<button type="submit" id="button-filter" class="btn btn-primary pull-right" style="margin-right: 10px;"><i class="fa fa-search"></i>筛选</button>
+					</div>
+				</div>
+			</div>
+			<!-- 数据列表 -->
+			<div class="data-table table-striped">
+				<table class="table">
+					<thead>
+					<tr>
+						<th>序号</th>
+						<th>用户名</th>
+						<th>用户手机号</th>
+						<th>消费时间</th>
+						<th>消费商家</th>
+					</tr>
+					</thead>
+					<tbody>
+					<notempty name="_list">
+						<volist name="_list" id="vo">
+							<tr>
+								<td id="user_id">{$vo.id}</td>
+								<td>{$vo.buyer}</td>
+								<td>{$vo.mobile}</td>
+								<td>{$vo.experience_time}</td>
+								<td>{$vo.shop_name}</td>
+							</tr>
+						</volist>
+						<else/>
+						<td colspan="10" class="text-center"> aOh! 暂时还没有内容! </td>
+					</notempty>
+					</tbody>
+				</table>
+			</div>
+			<div class="page">
+				{$_page}
+			</div>
+		</div>
+	</div><!--panel-->
+</block>
+
+<block name="script">
+	<script src="__JS__/thinkbox/jquery.thinkbox.js"></script>
+	<script>
+		$('#button-filter').on('click', function() {
+			var url = Think.APP+'/Admin/Qrcode/index?token=lalala';
+
+			var shop_name = $('input[name=\'shop_name\']').val();
+			if (shop_name) {
+				url += '&shop_name=' + encodeURIComponent(shop_name);
+			}
+
+			var mobile = $('input[name=\'mobile\']').val();
+			if (mobile) {
+				url += '&mobile=' + encodeURIComponent(mobile);
+			}
+
+			var buyer = $('input[name=\'buyer\']').val();
+			if (buyer) {
+				url += '&buyer=' + encodeURIComponent(buyer);
+			}
+
+			location = url;
+		});
+
+		$("#rank  option[value='{$rank}']").attr("selected",true);
+	</script>
+</block>

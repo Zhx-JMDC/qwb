@@ -1,0 +1,3002 @@
+[ 2016-07-12T09:57:13+08:00 ] ::1 /quwanba1/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000105s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000958s ]
+
+[ 2016-07-12T09:57:13+08:00 ] ::1 /quwanba1/index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+
+[ 2016-07-12T09:57:13+08:00 ] ::1 /quwanba1/index.php/Admin/Public/images/favicon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001007s ]
+
+[ 2016-07-12T09:57:15+08:00 ] ::1 /quwanba1/index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000735s ]
+
+[ 2016-07-12T09:57:16+08:00 ] ::1 /quwanba1/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000147s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001444s ]
+
+[ 2016-07-12T09:57:16+08:00 ] ::1 /quwanba1/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000943s ]
+
+[ 2016-07-12T09:57:19+08:00 ] ::1 /quwanba1/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000803s ]
+
+[ 2016-07-12T09:57:19+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000904s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001147s ]
+
+[ 2016-07-12T11:22:49+08:00 ] ::1 /quwanba1/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000837s ]
+
+[ 2016-07-12T11:22:49+08:00 ] ::1 /quwanba1/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000779s ]
+
+[ 2016-07-12T11:22:58+08:00 ] ::1 /quwanba1/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000770s ]
+
+[ 2016-07-12T11:22:58+08:00 ] ::1 /quwanba1/index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000117s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000770s ]
+
+[ 2016-07-12T11:22:58+08:00 ] ::1 /quwanba1/index.php/Admin/Public/images/favicon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+
+[ 2016-07-12T11:23:03+08:00 ] ::1 /quwanba1/index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000787s ]
+
+[ 2016-07-12T11:23:05+08:00 ] ::1 /quwanba1/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+
+[ 2016-07-12T11:23:05+08:00 ] ::1 /quwanba1/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000760s ]
+
+[ 2016-07-12T11:27:20+08:00 ] ::1 /quwanba1/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000917s ]
+
+[ 2016-07-12T11:27:21+08:00 ] ::1 /quwanba1/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+
+[ 2016-07-12T11:34:29+08:00 ] ::1 /quwanba1/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000142s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001146s ]
+
+[ 2016-07-12T11:34:29+08:00 ] ::1 /quwanba1/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+
+[ 2016-07-12T11:34:54+08:00 ] ::1 /quwanba1/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001054s ]
+
+[ 2016-07-12T11:34:54+08:00 ] ::1 /quwanba1/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000781s ]
+
+[ 2016-07-12T11:34:57+08:00 ] ::1 /quwanba1/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+
+[ 2016-07-12T11:34:57+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000958s ]
+
+[ 2016-07-12T11:45:39+08:00 ] ::1 /quwanba1/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001281s ]
+
+[ 2016-07-12T11:45:39+08:00 ] ::1 /quwanba1/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+
+[ 2016-07-12T11:45:41+08:00 ] ::1 /quwanba1/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+
+[ 2016-07-12T11:45:41+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000786s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000926s ]
+
+[ 2016-07-12T11:45:47+08:00 ] ::1 /quwanba1/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000832s ]
+
+[ 2016-07-12T11:45:47+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000864s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000938s ]
+
+[ 2016-07-12T11:45:58+08:00 ] ::1 /quwanba1/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000883s ]
+
+[ 2016-07-12T11:45:58+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000107s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000845s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001044s ]
+
+[ 2016-07-12T11:46:01+08:00 ] ::1 /quwanba1/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000888s ]
+
+[ 2016-07-12T11:46:01+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000927s ]
+
+[ 2016-07-12T11:46:15+08:00 ] ::1 /quwanba1/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000890s ]
+
+[ 2016-07-12T11:46:16+08:00 ] ::1 /quwanba1/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000907s ]
+
+[ 2016-07-12T11:46:18+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/shop_page.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000825s ]
+ERR: 无法加载控制器:Shop
+
+[ 2016-07-12T11:46:34+08:00 ] ::1 /quwanba1/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000914s ]
+
+[ 2016-07-12T11:46:34+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001203s ]
+
+[ 2016-07-12T11:46:36+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/shop_page.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+ERR: 无法加载控制器:Shop
+
+[ 2016-07-12T11:59:24+08:00 ] ::1 /quwanba1/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000899s ]
+
+[ 2016-07-12T11:59:55+08:00 ] ::1 /quwanba1/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2016-07-12T11:59:57+08:00 ] ::1 /quwanba1/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000773s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2016-07-12T11:59:58+08:00 ] ::1 /quwanba1/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000822s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2016-07-12T12:00:53+08:00 ] ::1 /quwanba1/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+ERR: 1146:Table 'quwanba.qwb_admin' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `qwb_admin`
+
+[ 2016-07-12T12:04:00+08:00 ] ::1 /quwanba1/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000882s ]
+
+[ 2016-07-12T12:04:00+08:00 ] ::1 /quwanba1/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001048s ]
+
+[ 2016-07-12T12:04:06+08:00 ] ::1 /quwanba1/index.php/Admin/Public/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000979s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-07-12T12:05:14+08:00 ] ::1 /quwanba1/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+
+[ 2016-07-12T12:05:14+08:00 ] ::1 /quwanba1/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+
+[ 2016-07-12T12:51:59+08:00 ] ::1 /quwanba1/index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001018s ]
+
+[ 2016-07-12T12:52:00+08:00 ] ::1 /quwanba1/index.php/Admin/Task/get_task_type_second.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000835s ]
+ERR: 无法加载控制器:Task
+
+[ 2016-07-12T12:52:01+08:00 ] ::1 /quwanba1/index.php/Admin/Task/get_task_type_third.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+ERR: 无法加载控制器:Task
+
+[ 2016-07-12T12:52:02+08:00 ] ::1 /quwanba1/index.php/Admin/Label/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000878s ]
+ERR: 无法加载控制器:Label
+
+[ 2016-07-12T12:52:14+08:00 ] ::1 /quwanba1/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000780s ]
+
+[ 2016-07-12T12:52:15+08:00 ] ::1 /quwanba1/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+
+[ 2016-07-12T12:52:25+08:00 ] ::1 /quwanba1/index.php/Admin/Article/index/type/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+ERR: 无法加载控制器:Article
+
+[ 2016-07-12T12:52:26+08:00 ] ::1 /quwanba1/index.php/Admin/Article/index/type/1%2C2%2C3%2C4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000788s ]
+ERR: 无法加载控制器:Article
+
+[ 2016-07-12T12:52:30+08:00 ] ::1 /quwanba1/index.php/Admin/Report/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+ERR: 无法加载控制器:Report
+
+[ 2016-07-12T12:52:30+08:00 ] ::1 /quwanba1/index.php/Admin/Feedback/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000856s ]
+ERR: 无法加载控制器:Feedback
+
+[ 2016-07-12T13:39:51+08:00 ] ::1 /quwanba1/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000756s ]
+
+[ 2016-07-12T13:39:52+08:00 ] ::1 /quwanba1/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+
+[ 2016-07-12T13:43:06+08:00 ] ::1 /quwanba1/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000731s ]
+
+[ 2016-07-12T13:43:06+08:00 ] ::1 /quwanba1/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000106s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000909s ]
+
+[ 2016-07-12T13:43:08+08:00 ] ::1 /quwanba1/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000840s ]
+ERR: 无法加载控制器:User
+
+[ 2016-07-12T13:43:09+08:00 ] ::1 /quwanba1/index.php/Admin/Balance/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000840s ]
+ERR: 无法加载控制器:Balance
+
+[ 2016-07-12T13:43:09+08:00 ] ::1 /quwanba1/index.php/Admin/Integral/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000783s ]
+ERR: 无法加载控制器:Integral
+
+[ 2016-07-12T13:43:16+08:00 ] ::1 /quwanba1/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000138s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000971s ]
+ERR: 无法加载控制器:User
+
+[ 2016-07-12T13:43:19+08:00 ] ::1 /quwanba1/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+ERR: 无法加载控制器:User
+
+[ 2016-07-12T13:47:49+08:00 ] ::1 /quwanba1/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000947s ]
+
+[ 2016-07-12T13:47:49+08:00 ] ::1 /quwanba1/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000764s ]
+
+[ 2016-07-12T13:47:51+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000122s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001102s ]
+
+[ 2016-07-12T13:47:51+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000817s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001213s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0082s ]
+
+[ 2016-07-12T14:17:07+08:00 ] ::1 /quwanba1/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000835s ]
+
+[ 2016-07-12T14:17:07+08:00 ] ::1 /quwanba1/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000781s ]
+
+[ 2016-07-12T14:17:10+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000119s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001120s ]
+
+[ 2016-07-12T14:17:11+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000766s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000918s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0117s ]
+
+[ 2016-07-12T15:02:44+08:00 ] ::1 /quwanba1/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000826s ]
+
+[ 2016-07-12T15:02:44+08:00 ] ::1 /quwanba1/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000788s ]
+
+[ 2016-07-12T15:02:46+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000821s ]
+
+[ 2016-07-12T15:02:47+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000735s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0118s ]
+
+[ 2016-07-12T15:29:26+08:00 ] ::1 /quwanba1/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000117s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001110s ]
+
+[ 2016-07-12T15:29:26+08:00 ] ::1 /quwanba1/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+
+[ 2016-07-12T15:29:30+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000922s ]
+ERR: Think\Model:get_goods方法不存在！
+
+[ 2016-07-12T15:31:37+08:00 ] ::1 /quwanba1/index.php/Admin/Balance/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+ERR: 无法加载控制器:Balance
+
+[ 2016-07-12T15:31:39+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000115s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000861s ]
+
+[ 2016-07-12T15:31:57+08:00 ] ::1 /quwanba1/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000760s ]
+
+[ 2016-07-12T15:31:57+08:00 ] ::1 /quwanba1/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+
+[ 2016-07-12T15:32:00+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000143s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001321s ]
+
+[ 2016-07-12T15:32:53+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000115s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001042s ]
+
+[ 2016-07-12T15:32:56+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000116s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001051s ]
+
+[ 2016-07-12T15:32:56+08:00 ] ::1 /quwanba1/index.php/Admin/Balance/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+ERR: 无法加载控制器:Balance
+
+[ 2016-07-12T15:32:59+08:00 ] ::1 /quwanba1/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000819s ]
+
+[ 2016-07-12T15:32:59+08:00 ] ::1 /quwanba1/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000132s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000910s ]
+
+[ 2016-07-12T15:33:27+08:00 ] ::1 /quwanba1/index.php/Admin/Goods/get_goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000770s ]
+ERR: 无法加载控制器:Goods
+
+[ 2016-07-12T15:33:36+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/get_goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000826s ]
+ERR: 非法操作:get_goods
+
+[ 2016-07-12T15:33:45+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+
+[ 2016-07-12T15:34:19+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000856s ]
+
+[ 2016-07-12T15:37:48+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+
+[ 2016-07-12T15:37:48+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+
+[ 2016-07-12T15:38:02+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+
+[ 2016-07-12T15:38:03+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000803s ]
+
+[ 2016-07-12T15:38:04+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+
+[ 2016-07-12T15:38:10+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000972s ]
+
+[ 2016-07-12T15:38:11+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000793s ]
+
+[ 2016-07-12T15:38:13+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000985s ]
+
+[ 2016-07-12T15:39:06+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000115s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001141s ]
+
+[ 2016-07-12T15:39:16+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+ERR: SQLSTATE[HY000] [2006] MySQL server has gone away
+
+[ 2016-07-12T15:39:18+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+
+[ 2016-07-12T15:39:19+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000935s ]
+
+[ 2016-07-12T15:39:21+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001121s ]
+
+[ 2016-07-12T15:39:35+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+
+[ 2016-07-12T15:40:01+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000142s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000960s ]
+
+[ 2016-07-12T15:42:20+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000867s ]
+
+[ 2016-07-12T15:42:22+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+
+[ 2016-07-12T15:42:23+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000912s ]
+
+[ 2016-07-12T15:42:27+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000149s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001074s ]
+
+[ 2016-07-12T15:43:03+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000811s ]
+
+[ 2016-07-12T15:43:05+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000825s ]
+
+[ 2016-07-12T15:43:29+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000117s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001009s ]
+
+[ 2016-07-12T15:43:31+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+
+[ 2016-07-12T15:44:10+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000924s ]
+
+[ 2016-07-12T15:44:11+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+
+[ 2016-07-12T15:44:12+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000838s ]
+
+[ 2016-07-12T15:44:13+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000818s ]
+
+[ 2016-07-12T15:44:14+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000684s ]
+
+[ 2016-07-12T15:44:28+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000816s ]
+
+[ 2016-07-12T15:44:29+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001018s ]
+
+[ 2016-07-12T15:44:34+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+
+[ 2016-07-12T15:44:35+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000107s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000883s ]
+
+[ 2016-07-12T15:45:40+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000821s ]
+
+[ 2016-07-12T15:45:41+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000900s ]
+
+[ 2016-07-12T15:45:50+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000866s ]
+
+[ 2016-07-12T15:45:51+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000118s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001075s ]
+
+[ 2016-07-12T15:45:53+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000756s ]
+
+[ 2016-07-12T15:46:06+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000705s ]
+
+[ 2016-07-12T15:46:07+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000810s ]
+
+[ 2016-07-12T15:46:08+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+
+[ 2016-07-12T15:46:25+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000804s ]
+
+[ 2016-07-12T15:46:26+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000771s ]
+
+[ 2016-07-12T15:46:30+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+
+[ 2016-07-12T15:46:52+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000879s ]
+
+[ 2016-07-12T15:46:53+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000794s ]
+
+[ 2016-07-12T15:46:55+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000791s ]
+
+[ 2016-07-12T15:46:56+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000771s ]
+
+[ 2016-07-12T15:47:51+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000921s ]
+ERR: Think\Model:relation方法不存在！
+
+[ 2016-07-12T15:48:20+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000939s ]
+ERR: Think\Model:relation方法不存在！
+
+[ 2016-07-12T15:48:34+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+ERR: Think\Model:relation方法不存在！
+
+[ 2016-07-12T15:48:43+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000941s ]
+
+[ 2016-07-12T15:48:48+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000842s ]
+
+[ 2016-07-12T15:55:36+08:00 ] ::1 /quwanba1/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000294s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001980s ]
+
+[ 2016-07-12T15:55:36+08:00 ] ::1 /quwanba1/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000845s ]
+
+[ 2016-07-12T15:55:55+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001119s ]
+
+[ 2016-07-12T15:56:26+08:00 ] ::1 /quwanba1/index.php/Admin/shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000814s ]
+
+[ 2016-07-12T15:56:29+08:00 ] ::1 /quwanba1/index.php/Admin/shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+
+[ 2016-07-12T16:04:26+08:00 ] ::1 /quwanba1/index.php/Admin/shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001162s ]
+
+[ 2016-07-12T16:04:29+08:00 ] ::1 /quwanba1/index.php/Admin/shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000124s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001170s ]
+
+[ 2016-07-12T16:11:14+08:00 ] ::1 /quwanba1/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000834s ]
+
+[ 2016-07-12T16:11:14+08:00 ] ::1 /quwanba1/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000964s ]
+
+[ 2016-07-12T16:11:17+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000757s ]
+
+[ 2016-07-12T16:11:17+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001277s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0074s ]
+
+[ 2016-07-12T16:12:07+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000743s ]
+
+[ 2016-07-12T16:12:10+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+
+[ 2016-07-12T16:13:47+08:00 ] ::1 /quwanba1/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000115s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001055s ]
+
+[ 2016-07-12T16:13:47+08:00 ] ::1 /quwanba1/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+
+[ 2016-07-12T16:13:49+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000748s ]
+
+[ 2016-07-12T16:13:49+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001178s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0104s ]
+
+[ 2016-07-12T16:16:17+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000838s ]
+
+[ 2016-07-12T16:16:19+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+
+[ 2016-07-12T16:16:50+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+
+[ 2016-07-12T16:16:52+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000172s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001122s ]
+
+[ 2016-07-12T16:18:48+08:00 ] ::1 /quwanba1/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
+
+[ 2016-07-12T16:18:49+08:00 ] ::1 /quwanba1/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000750s ]
+
+[ 2016-07-12T16:18:51+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000731s ]
+
+[ 2016-07-12T16:18:51+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000864s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000999s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0114s ]
+
+[ 2016-07-12T16:20:37+08:00 ] ::1 /quwanba1/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+
+[ 2016-07-12T16:20:37+08:00 ] ::1 /quwanba1/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+
+[ 2016-07-12T16:20:39+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001120s ]
+
+[ 2016-07-12T16:20:39+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000755s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000995s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0157s ]
+
+[ 2016-07-12T16:21:07+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001031s ]
+
+[ 2016-07-12T16:21:07+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000760s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001303s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0092s ]
+
+[ 2016-07-12T16:21:09+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000926s ]
+
+[ 2016-07-12T16:21:10+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000177s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0129s ]
+
+[ 2016-07-12T16:21:11+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+
+[ 2016-07-12T16:21:12+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000117s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001015s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0069s ]
+
+[ 2016-07-12T16:21:13+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000148s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001317s ]
+
+[ 2016-07-12T16:21:13+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000818s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000874s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0070s ]
+
+[ 2016-07-12T16:21:16+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+
+[ 2016-07-12T16:21:16+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000776s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000968s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0140s ]
+
+[ 2016-07-12T16:22:09+08:00 ] ::1 /quwanba1/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000146s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001015s ]
+
+[ 2016-07-12T16:22:09+08:00 ] ::1 /quwanba1/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000796s ]
+
+[ 2016-07-12T16:22:11+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+
+[ 2016-07-12T16:22:12+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000772s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0122s ]
+
+[ 2016-07-12T16:22:15+08:00 ] ::1 /quwanba1/index.php/Admin/Balance/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000777s ]
+ERR: 无法加载控制器:Balance
+
+[ 2016-07-12T16:22:24+08:00 ] ::1 /quwanba1/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000771s ]
+
+[ 2016-07-12T16:22:24+08:00 ] ::1 /quwanba1/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000713s ]
+
+[ 2016-07-12T16:22:27+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+
+[ 2016-07-12T16:22:27+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001056s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0081s ]
+
+[ 2016-07-12T16:27:01+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000815s ]
+
+[ 2016-07-12T16:27:01+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001432s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0105s ]
+
+[ 2016-07-12T16:27:44+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000743s ]
+
+[ 2016-07-12T16:27:44+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000772s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0111s ]
+
+[ 2016-07-12T16:28:31+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+
+[ 2016-07-12T16:28:31+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000217s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000909s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0105s ]
+
+[ 2016-07-12T16:31:16+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+
+[ 2016-07-12T16:31:16+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000165s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001074s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0115s ]
+
+[ 2016-07-12T16:31:17+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/goods_detail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000887s ]
+ERR: 非法操作:goods_detail
+
+[ 2016-07-12T16:31:24+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000806s ]
+
+[ 2016-07-12T16:31:24+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000960s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0322s ]
+
+[ 2016-07-12T16:31:27+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/goods_detail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000818s ]
+ERR: 非法操作:goods_detail
+
+[ 2016-07-12T16:34:32+08:00 ] ::1 /quwanba1/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000119s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000966s ]
+
+[ 2016-07-12T16:34:32+08:00 ] ::1 /quwanba1/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000119s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000984s ]
+
+[ 2016-07-12T16:34:34+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000131s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001165s ]
+
+[ 2016-07-12T16:34:35+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000129s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001016s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0088s ]
+
+[ 2016-07-12T16:34:39+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/goods_detail/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000873s ]
+ERR: 非法操作:goods_detail
+
+[ 2016-07-12T16:35:05+08:00 ] ::1 /quwanba1/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000119s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000992s ]
+
+[ 2016-07-12T16:35:06+08:00 ] ::1 /quwanba1/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000201s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001596s ]
+
+[ 2016-07-12T16:35:08+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000107s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001173s ]
+
+[ 2016-07-12T16:35:08+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000908s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001084s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0120s ]
+
+[ 2016-07-12T16:35:10+08:00 ] ::1 /quwanba1/index.php/Admin/Goods/goods_detail/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000116s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000929s ]
+ERR: 无法加载控制器:Goods
+
+[ 2016-07-12T16:36:21+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000912s ]
+
+[ 2016-07-12T16:36:22+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000928s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001162s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0083s ]
+
+[ 2016-07-12T16:36:23+08:00 ] ::1 /quwanba1/index.php/Admin/Goods/goods_detail/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000941s ]
+ERR: 无法加载控制器:Goods
+
+[ 2016-07-12T16:36:37+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000929s ]
+
+[ 2016-07-12T16:36:37+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001006s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001234s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0346s ]
+
+[ 2016-07-12T16:36:57+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/goods_detail/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000125s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001103s ]
+
+[ 2016-07-12T16:37:12+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000982s ]
+
+[ 2016-07-12T16:37:12+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000864s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001052s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0107s ]
+
+[ 2016-07-12T16:45:55+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/goods_detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000810s ]
+
+[ 2016-07-12T16:46:11+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/goods_detail/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+
+[ 2016-07-12T16:46:31+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/goods_detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000799s ]
+
+[ 2016-07-12T16:49:37+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/goods_detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000929s ]
+
+[ 2016-07-12T16:49:45+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/goods_detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+
+[ 2016-07-12T16:54:05+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+
+[ 2016-07-12T16:54:05+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000847s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0122s ]
+
+[ 2016-07-12T16:55:10+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/goods_detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000145s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000922s ]
+
+[ 2016-07-12T21:18:46+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/goods_detail/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000149s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001310s ]
+
+[ 2016-07-12T21:20:04+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/goods_detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+
+[ 2016-07-12T21:20:06+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/goods_detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000780s ]
+
+[ 2016-07-12T21:20:48+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/goods_detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000771s ]
+
+[ 2016-07-12T21:20:50+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/goods_detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+
+[ 2016-07-12T21:22:40+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/goods_detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+
+[ 2016-07-12T21:23:06+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/goods_detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000899s ]
+ERR: 1054:Unknown column 'wechat_num' in 'field list'
+ [ SQL语句 ] : SELECT `address`,`contact`,`introduce`,`content`,`wechat_num` FROM `qwb_goods_detail` WHERE ( 1=1 AND id='1' ) LIMIT 1  
+
+[ 2016-07-12T21:23:28+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/goods_detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+
+[ 2016-07-12T21:27:43+08:00 ] ::1 /quwanba1/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001024s ]
+
+[ 2016-07-12T21:27:43+08:00 ] ::1 /quwanba1/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+
+[ 2016-07-12T21:27:46+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000819s ]
+
+[ 2016-07-12T21:27:46+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000205s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000984s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0341s ]
+
+[ 2016-07-12T21:27:47+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/goods_detail/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000115s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001036s ]
+
+[ 2016-07-12T21:27:47+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000755s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001356s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0073s ]
+
+[ 2016-07-12T21:40:14+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/goods_detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000886s ]
+
+[ 2016-07-12T21:40:17+08:00 ] ::1 /quwanba1/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000805s ]
+
+[ 2016-07-12T21:40:17+08:00 ] ::1 /quwanba1/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000808s ]
+
+[ 2016-07-12T21:40:21+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000120s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001383s ]
+
+[ 2016-07-12T21:40:21+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000782s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001076s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0066s ]
+
+[ 2016-07-12T21:40:22+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/goods_detail/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000817s ]
+
+[ 2016-07-12T21:40:22+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002108s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0081s ]
+
+[ 2016-07-12T21:43:05+08:00 ] ::1 /quwanba1/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000756s ]
+
+[ 2016-07-12T21:43:05+08:00 ] ::1 /quwanba1/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
+
+[ 2016-07-12T21:43:08+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+
+[ 2016-07-12T21:43:08+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000144s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000943s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0076s ]
+
+[ 2016-07-12T21:43:10+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/goods_detail/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000763s ]
+
+[ 2016-07-12T21:43:10+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000794s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000894s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0085s ]
+
+[ 2016-07-12T21:43:42+08:00 ] ::1 /quwanba1/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+
+[ 2016-07-12T21:43:42+08:00 ] ::1 /quwanba1/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000936s ]
+
+[ 2016-07-12T21:43:46+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000721s ]
+
+[ 2016-07-12T21:43:46+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001254s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0065s ]
+
+[ 2016-07-12T21:43:48+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/goods_detail/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000840s ]
+
+[ 2016-07-12T21:43:48+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001020s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0064s ]
+
+[ 2016-07-12T21:45:45+08:00 ] ::1 /quwanba1/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000789s ]
+ERR: 无法加载控制器:User
+
+[ 2016-07-12T21:45:50+08:00 ] ::1 /quwanba1/index.php/Admin/Balance/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000105s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000941s ]
+ERR: 无法加载控制器:Balance
+
+[ 2016-07-12T21:45:54+08:00 ] ::1 /quwanba1/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+
+[ 2016-07-12T21:45:54+08:00 ] ::1 /quwanba1/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+
+[ 2016-07-12T21:45:56+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000128s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001034s ]
+
+[ 2016-07-12T21:45:56+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000840s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001060s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0065s ]
+
+[ 2016-07-12T21:46:01+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/goods_detail/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000177s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000952s ]
+
+[ 2016-07-12T21:46:01+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000877s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0075s ]
+
+[ 2016-07-12T21:46:08+08:00 ] ::1 /quwanba1/index.php/Admin/Balance/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000922s ]
+ERR: 无法加载控制器:Balance
+
+[ 2016-07-12T21:46:16+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+
+[ 2016-07-12T21:46:16+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001121s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0061s ]
+
+[ 2016-07-12T21:47:22+08:00 ] ::1 /quwanba1/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000829s ]
+
+[ 2016-07-12T21:47:22+08:00 ] ::1 /quwanba1/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000828s ]
+
+[ 2016-07-12T21:47:24+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000835s ]
+
+[ 2016-07-12T21:47:24+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000750s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000967s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0072s ]
+
+[ 2016-07-12T21:47:27+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/goods_detail/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001027s ]
+
+[ 2016-07-12T21:47:27+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001016s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0071s ]
+
+[ 2016-07-12T21:47:39+08:00 ] ::1 /quwanba1/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000744s ]
+
+[ 2016-07-12T21:47:39+08:00 ] ::1 /quwanba1/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000748s ]
+
+[ 2016-07-12T21:47:42+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000118s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000997s ]
+
+[ 2016-07-12T21:47:43+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000147s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000934s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0084s ]
+
+[ 2016-07-12T21:47:45+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/goods_detail/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+
+[ 2016-07-12T21:47:45+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000737s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000919s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0084s ]
+
+[ 2016-07-12T21:48:27+08:00 ] ::1 /quwanba1/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000779s ]
+
+[ 2016-07-12T21:48:27+08:00 ] ::1 /quwanba1/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
+
+[ 2016-07-12T21:48:30+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+
+[ 2016-07-12T21:48:30+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000762s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0067s ]
+
+[ 2016-07-12T21:48:33+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/goods_detail/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+
+[ 2016-07-12T21:48:33+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001517s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0120s ]
+
+[ 2016-07-12T21:48:38+08:00 ] ::1 /quwanba1/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+
+[ 2016-07-12T21:48:38+08:00 ] ::1 /quwanba1/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000768s ]
+
+[ 2016-07-12T21:48:40+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000834s ]
+
+[ 2016-07-12T21:48:40+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001048s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0063s ]
+
+[ 2016-07-12T21:48:43+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/goods_detail/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000116s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001045s ]
+
+[ 2016-07-12T21:48:43+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000996s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0093s ]
+
+[ 2016-07-12T21:48:54+08:00 ] ::1 /quwanba1/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001063s ]
+
+[ 2016-07-12T21:48:54+08:00 ] ::1 /quwanba1/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000810s ]
+
+[ 2016-07-12T21:48:57+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001137s ]
+
+[ 2016-07-12T21:48:57+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000842s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000988s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0075s ]
+
+[ 2016-07-12T21:48:59+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/goods_detail/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000821s ]
+
+[ 2016-07-12T21:48:59+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000898s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001109s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0067s ]
+
+[ 2016-07-12T21:50:00+08:00 ] ::1 /quwanba1/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000793s ]
+
+[ 2016-07-12T21:50:00+08:00 ] ::1 /quwanba1/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000911s ]
+
+[ 2016-07-12T21:50:02+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001097s ]
+
+[ 2016-07-12T21:50:02+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001046s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0075s ]
+
+[ 2016-07-12T21:50:05+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/goods_detail/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000804s ]
+
+[ 2016-07-12T21:50:05+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001347s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0064s ]
+
+[ 2016-07-12T21:50:44+08:00 ] ::1 /quwanba1/index.php/Admin/Integral/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+ERR: 无法加载控制器:Integral
+
+[ 2016-07-12T21:50:45+08:00 ] ::1 /quwanba1/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+
+[ 2016-07-12T21:50:45+08:00 ] ::1 /quwanba1/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000865s ]
+
+[ 2016-07-12T21:50:48+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001044s ]
+
+[ 2016-07-12T21:50:48+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001440s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0069s ]
+
+[ 2016-07-12T21:50:50+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/goods_detail/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+
+[ 2016-07-12T21:50:50+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000762s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001006s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0087s ]
+
+[ 2016-07-12T21:51:19+08:00 ] ::1 /quwanba1/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+
+[ 2016-07-12T21:51:19+08:00 ] ::1 /quwanba1/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+
+[ 2016-07-12T21:51:21+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000107s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000949s ]
+
+[ 2016-07-12T21:51:21+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000806s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001607s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0091s ]
+
+[ 2016-07-12T21:51:23+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/goods_detail/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001105s ]
+
+[ 2016-07-12T21:51:23+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000747s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001371s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0080s ]
+
+[ 2016-07-12T21:51:38+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000764s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001005s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0071s ]
+
+[ 2016-07-12T21:51:40+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/goods_detail/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+
+[ 2016-07-12T21:51:40+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000805s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000887s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0067s ]
+
+[ 2016-07-12T21:53:04+08:00 ] ::1 /quwanba1/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000795s ]
+
+[ 2016-07-12T21:53:04+08:00 ] ::1 /quwanba1/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000894s ]
+
+[ 2016-07-12T21:53:06+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000914s ]
+
+[ 2016-07-12T21:53:06+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001106s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0074s ]
+
+[ 2016-07-12T21:53:08+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/goods_detail/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+
+[ 2016-07-12T21:53:08+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000145s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001131s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0081s ]
+
+[ 2016-07-12T21:54:42+08:00 ] ::1 /quwanba1/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000134s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001375s ]
+
+[ 2016-07-12T21:54:42+08:00 ] ::1 /quwanba1/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000899s ]
+
+[ 2016-07-12T21:54:44+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000759s ]
+
+[ 2016-07-12T21:54:45+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000734s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000892s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0061s ]
+
+[ 2016-07-12T21:54:46+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/goods_detail/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000120s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001091s ]
+
+[ 2016-07-12T21:54:46+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000146s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001009s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0159s ]
+
+[ 2016-07-12T21:56:13+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000875s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0071s ]
+
+[ 2016-07-12T21:56:15+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/goods_detail/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+
+[ 2016-07-12T21:56:15+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000151s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001014s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001085s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0076s ]
+
+[ 2016-07-12T21:58:40+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000823s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001072s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0068s ]
+
+[ 2016-07-12T21:58:41+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/goods_detail/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000145s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001033s ]
+
+[ 2016-07-12T21:58:41+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000123s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000922s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000990s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0076s ]
+
+[ 2016-07-12T21:58:47+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002011s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0093s ]
+
+[ 2016-07-12T21:58:56+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000794s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001089s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0064s ]
+
+[ 2016-07-12T21:58:59+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/goods_detail/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000847s ]
+
+[ 2016-07-12T21:59:00+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000755s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001096s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0109s ]
+
+[ 2016-07-12T21:59:14+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000881s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0063s ]
+
+[ 2016-07-12T21:59:16+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/goods_detail/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000833s ]
+
+[ 2016-07-12T21:59:16+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001168s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0072s ]
+
+[ 2016-07-12T21:59:34+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000913s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0074s ]
+
+[ 2016-07-12T21:59:35+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/goods_detail/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+
+[ 2016-07-12T21:59:36+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000137s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000978s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001401s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0063s ]
+
+[ 2016-07-12T22:01:18+08:00 ] ::1 /quwanba1/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+
+[ 2016-07-12T22:01:18+08:00 ] ::1 /quwanba1/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000892s ]
+
+[ 2016-07-12T22:01:21+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+
+[ 2016-07-12T22:01:21+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000122s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000825s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001506s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0070s ]
+
+[ 2016-07-12T22:01:22+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/goods_detail/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000743s ]
+
+[ 2016-07-12T22:01:23+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000153s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000918s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0061s ]
+
+[ 2016-07-12T22:01:48+08:00 ] ::1 /quwanba1/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000835s ]
+
+[ 2016-07-12T22:01:48+08:00 ] ::1 /quwanba1/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000852s ]
+
+[ 2016-07-12T22:01:52+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+
+[ 2016-07-12T22:01:52+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000208s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001017s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001026s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0070s ]
+
+[ 2016-07-12T22:01:54+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/goods_detail/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+
+[ 2016-07-12T22:01:54+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000888s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001104s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0080s ]
+
+[ 2016-07-12T22:03:24+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000815s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001231s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0081s ]
+
+[ 2016-07-12T22:03:27+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/goods_detail/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000930s ]
+
+[ 2016-07-12T22:03:28+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000936s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0109s ]
+
+[ 2016-07-12T22:13:34+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/shop_mall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000116s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001053s ]
+ERR: 非法操作:shop_mall
+
+[ 2016-07-12T22:13:37+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/shop_mall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+ERR: 非法操作:shop_mall
+
+[ 2016-07-12T22:20:03+08:00 ] ::1 /quwanba1/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000864s ]
+
+[ 2016-07-12T22:20:04+08:00 ] ::1 /quwanba1/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+
+[ 2016-07-12T22:20:06+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000105s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000999s ]
+
+[ 2016-07-12T22:20:06+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000779s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001124s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0277s ]
+
+[ 2016-07-12T22:20:09+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/goods_detail/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000794s ]
+
+[ 2016-07-12T22:20:10+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000837s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001321s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0109s ]
+
+[ 2016-07-12T22:20:20+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001058s ]
+
+[ 2016-07-12T22:20:20+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001038s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0062s ]
+
+[ 2016-07-12T22:20:23+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000950s ]
+
+[ 2016-07-12T22:20:23+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000141s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001121s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0066s ]
+
+[ 2016-07-12T22:20:27+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/goods_detail/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+
+[ 2016-07-12T22:20:27+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000756s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002180s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0080s ]
+
+[ 2016-07-12T22:20:37+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000128s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001043s ]
+
+[ 2016-07-12T22:20:37+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000137s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000914s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0069s ]
+
+[ 2016-07-12T22:20:43+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000130s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001447s ]
+
+[ 2016-07-12T22:20:43+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000147s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001035s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0076s ]
+
+[ 2016-07-12T22:24:16+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000816s ]
+
+[ 2016-07-12T22:24:16+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000871s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0076s ]
+
+[ 2016-07-12T22:24:24+08:00 ] ::1 /quwanba1/index.php/Admin/Balance/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000913s ]
+ERR: 无法加载控制器:Balance
+
+[ 2016-07-12T22:27:01+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/add_view.html?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000942s ]
+ERR: 模板不存在:./Application/Admin/View/Shop/add_view.html
+
+[ 2016-07-12T22:27:02+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000937s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000860s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0077s ]
+
+[ 2016-07-12T23:20:16+08:00 ] ::1 /quwanba1/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000757s ]
+
+[ 2016-07-12T23:20:16+08:00 ] ::1 /quwanba1/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000779s ]
+
+[ 2016-07-12T23:20:20+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+
+[ 2016-07-12T23:20:20+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000856s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001038s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0064s ]
+
+[ 2016-07-12T23:26:38+08:00 ] ::1 /quwanba1/index.php/Admin/AllianceShop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+
+[ 2016-07-12T23:26:44+08:00 ] ::1 /quwanba1/index.php/Admin/AllianceShop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000759s ]
+
+[ 2016-07-12T23:27:00+08:00 ] ::1 /quwanba1/index.php/Admin/AllianceShop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+
+[ 2016-07-12T23:27:00+08:00 ] ::1 /quwanba1/index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000163s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000923s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-07-12T23:27:05+08:00 ] ::1 /quwanba1/index.php/Admin/AllianceShop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000759s ]
+
+[ 2016-07-12T23:27:05+08:00 ] ::1 /quwanba1/index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000106s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001216s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-07-12T23:27:08+08:00 ] ::1 /quwanba1/index.php/Admin/AllianceShop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000867s ]
+
+[ 2016-07-12T23:27:08+08:00 ] ::1 /quwanba1/index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-07-12T23:27:22+08:00 ] ::1 /quwanba1/index.php/Admin/AllianceShop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+
+[ 2016-07-12T23:27:31+08:00 ] ::1 /quwanba1/index.php/Admin/AllianceShop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000797s ]
+
+[ 2016-07-12T23:27:31+08:00 ] ::1 /quwanba1/index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000858s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-07-12T23:27:40+08:00 ] ::1 /quwanba1/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000844s ]
+
+[ 2016-07-12T23:27:40+08:00 ] ::1 /quwanba1/index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-07-12T23:27:54+08:00 ] ::1 /quwanba1/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000815s ]
+
+[ 2016-07-12T23:27:54+08:00 ] ::1 /quwanba1/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+
+[ 2016-07-12T23:27:59+08:00 ] ::1 /quwanba1/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000856s ]
+
+[ 2016-07-12T23:27:59+08:00 ] ::1 /quwanba1/index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-07-12T23:28:50+08:00 ] ::1 /quwanba1/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000840s ]
+
+[ 2016-07-12T23:28:50+08:00 ] ::1 /quwanba1/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001011s ]
+
+[ 2016-07-12T23:29:09+08:00 ] ::1 /quwanba1/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001305s ]
+
+[ 2016-07-12T23:29:09+08:00 ] ::1 /quwanba1/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000863s ]
+
+[ 2016-07-12T23:29:20+08:00 ] ::1 /quwanba1/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001074s ]
+
+[ 2016-07-12T23:29:20+08:00 ] ::1 /quwanba1/index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-07-12T23:30:52+08:00 ] ::1 /quwanba1/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000802s ]
+
+[ 2016-07-12T23:30:52+08:00 ] ::1 /quwanba1/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000130s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001411s ]
+
+[ 2016-07-12T23:30:56+08:00 ] ::1 /quwanba1/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000213s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001173s ]
+
+[ 2016-07-12T23:30:57+08:00 ] ::1 /quwanba1/index.php/Admin/images/favicon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000857s ]
+
+[ 2016-07-12T23:30:57+08:00 ] ::1 /quwanba1/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+
+[ 2016-07-12T23:31:00+08:00 ] ::1 /quwanba1/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
+
+[ 2016-07-12T23:31:00+08:00 ] ::1 /quwanba1/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000777s ]
+
+[ 2016-07-12T23:31:22+08:00 ] ::1 /quwanba1/index.php/Admin/Public/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-07-12T23:33:01+08:00 ] ::1 /quwanba1/index.php/Admin/Public/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001038s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-07-12T23:33:02+08:00 ] ::1 /quwanba1/index.php/Admin/Public/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000764s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-07-12T23:33:03+08:00 ] ::1 /quwanba1/index.php/Admin/Public/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000804s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-07-12T23:33:03+08:00 ] ::1 /quwanba1/index.php/Admin/Public/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000787s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-07-12T23:33:08+08:00 ] ::1 /quwanba1/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000143s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001318s ]
+
+[ 2016-07-12T23:33:08+08:00 ] ::1 /quwanba1/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+
+[ 2016-07-12T23:33:12+08:00 ] ::1 /quwanba1/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+
+[ 2016-07-12T23:33:12+08:00 ] ::1 /quwanba1/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000801s ]
+
+[ 2016-07-12T23:33:14+08:00 ] ::1 /quwanba1/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+
+[ 2016-07-12T23:33:14+08:00 ] ::1 /quwanba1/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000788s ]
+
+[ 2016-07-12T23:33:31+08:00 ] ::1 /quwanba1/index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000855s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-07-12T23:34:28+08:00 ] ::1 /quwanba1/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000980s ]
+
+[ 2016-07-12T23:34:28+08:00 ] ::1 /quwanba1/index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000797s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-07-12T23:34:30+08:00 ] ::1 /quwanba1/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+
+[ 2016-07-12T23:34:30+08:00 ] ::1 /quwanba1/index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-07-12T23:34:31+08:00 ] ::1 /quwanba1/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+
+[ 2016-07-12T23:34:31+08:00 ] ::1 /quwanba1/index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-07-12T23:34:31+08:00 ] ::1 /quwanba1/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+
+[ 2016-07-12T23:34:31+08:00 ] ::1 /quwanba1/index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000796s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-07-12T23:34:31+08:00 ] ::1 /quwanba1/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000829s ]
+
+[ 2016-07-12T23:34:31+08:00 ] ::1 /quwanba1/index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000750s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-07-12T23:34:32+08:00 ] ::1 /quwanba1/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+
+[ 2016-07-12T23:34:32+08:00 ] ::1 /quwanba1/index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000962s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-07-12T23:34:32+08:00 ] ::1 /quwanba1/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000839s ]
+
+[ 2016-07-12T23:34:32+08:00 ] ::1 /quwanba1/index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000788s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-07-12T23:34:35+08:00 ] ::1 /quwanba1/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+
+[ 2016-07-12T23:34:35+08:00 ] ::1 /quwanba1/index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-07-12T23:35:27+08:00 ] ::1 /quwanba1/index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000813s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-07-12T23:35:28+08:00 ] ::1 /quwanba1/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+
+[ 2016-07-12T23:35:31+08:00 ] ::1 /quwanba1/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000116s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
+
+[ 2016-07-12T23:35:31+08:00 ] ::1 /quwanba1/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000106s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001186s ]
+
+[ 2016-07-12T23:35:40+08:00 ] ::1 /quwanba1/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001080s ]
+
+[ 2016-07-12T23:35:40+08:00 ] ::1 /quwanba1/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000737s ]
+
+[ 2016-07-12T23:35:46+08:00 ] ::1 /quwanba1/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000856s ]
+
+[ 2016-07-12T23:35:46+08:00 ] ::1 /quwanba1/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000782s ]
+
+[ 2016-07-12T23:35:48+08:00 ] ::1 /quwanba1/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000771s ]
+
+[ 2016-07-12T23:35:48+08:00 ] ::1 /quwanba1/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000799s ]
+
+[ 2016-07-12T23:35:56+08:00 ] ::1 /quwanba1/index.php/Admin/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+
+[ 2016-07-12T23:35:56+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001039s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0086s ]
+
+[ 2016-07-12T23:35:56+08:00 ] ::1 /quwanba1/index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-07-12T23:36:44+08:00 ] ::1 /quwanba1/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000876s ]
+
+[ 2016-07-12T23:36:44+08:00 ] ::1 /quwanba1/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000824s ]
+
+[ 2016-07-12T23:36:46+08:00 ] ::1 /quwanba1/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+
+[ 2016-07-12T23:36:46+08:00 ] ::1 /quwanba1/index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000143s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001425s ]
+
+[ 2016-07-12T23:36:46+08:00 ] ::1 /quwanba1/index.php/Admin/Public/images/favicon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+
+[ 2016-07-12T23:36:48+08:00 ] ::1 /quwanba1/index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+
+[ 2016-07-12T23:36:51+08:00 ] ::1 /quwanba1/index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+
+[ 2016-07-12T23:36:57+08:00 ] ::1 /quwanba1/index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000929s ]
+
+[ 2016-07-12T23:36:59+08:00 ] ::1 /quwanba1/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000125s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
+
+[ 2016-07-12T23:36:59+08:00 ] ::1 /quwanba1/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000888s ]
+
+[ 2016-07-12T23:37:14+08:00 ] ::1 /quwanba1/index.php/Admin/AllianceShop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000822s ]
+
+[ 2016-07-12T23:40:13+08:00 ] ::1 /quwanba1/index.php/Admin/AllianceShop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001075s ]
+
+[ 2016-07-12T23:40:14+08:00 ] ::1 /quwanba1/index.php/Admin/AllianceShop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000821s ]
+
+[ 2016-07-12T23:40:38+08:00 ] ::1 /quwanba1/index.php/Admin/AllianceShop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000754s ]
+
+[ 2016-07-12T23:41:04+08:00 ] ::1 /quwanba1/index.php/Admin/AllianceShop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+
+[ 2016-07-12T23:41:15+08:00 ] ::1 /quwanba1/index.php/Admin/AllianceShop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001038s ]
+
+[ 2016-07-12T23:47:18+08:00 ] ::1 /quwanba1/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000107s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000923s ]
+
+[ 2016-07-12T23:47:18+08:00 ] ::1 /quwanba1/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000817s ]
+
+[ 2016-07-12T23:47:21+08:00 ] ::1 /quwanba1/index.php/Admin/AllianceShop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000858s ]
+
+[ 2016-07-12T23:47:21+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000192s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000894s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0085s ]
+
+[ 2016-07-12T23:47:55+08:00 ] ::1 /quwanba1/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+
+[ 2016-07-12T23:47:56+08:00 ] ::1 /quwanba1/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000118s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000948s ]
+
+[ 2016-07-12T23:47:57+08:00 ] ::1 /quwanba1/index.php/Admin/AllianceShop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001064s ]
+
+[ 2016-07-12T23:47:58+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000815s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000885s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0076s ]
+
+[ 2016-07-12T23:48:01+08:00 ] ::1 /quwanba1/index.php/Admin/AllianceShop/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000747s ]
+
+[ 2016-07-12T23:48:01+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000106s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000837s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001032s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0083s ]
+
+[ 2016-07-12T23:48:03+08:00 ] ::1 /quwanba1/index.php/Admin/AllianceShop/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001201s ]
+
+[ 2016-07-12T23:48:03+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000813s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000945s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0066s ]
+
+[ 2016-07-12T23:48:43+08:00 ] ::1 /quwanba1/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001077s ]
+
+[ 2016-07-12T23:48:43+08:00 ] ::1 /quwanba1/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000754s ]
+
+[ 2016-07-12T23:48:45+08:00 ] ::1 /quwanba1/index.php/Admin/AllianceShop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+
+[ 2016-07-12T23:48:46+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000757s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0072s ]
+
+[ 2016-07-12T23:49:14+08:00 ] ::1 /quwanba1/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
+
+[ 2016-07-12T23:49:14+08:00 ] ::1 /quwanba1/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000742s ]
+
+[ 2016-07-12T23:49:16+08:00 ] ::1 /quwanba1/index.php/Admin/AllianceShop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000832s ]
+
+[ 2016-07-12T23:49:16+08:00 ] ::1 /quwanba1/index.php/Admin/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000983s ]
+SQL: SHOW COLUMNS FROM `qwb_admin` [ RunTime:0.0093s ]
+

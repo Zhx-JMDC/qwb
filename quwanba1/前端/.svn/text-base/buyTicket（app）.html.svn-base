@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html;charset=utf-8">
+	<title>马上购买</title>
+	<link rel="stylesheet" type="text/css" href="css/css.css">
+	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="js/iscroll.js" ></script>
+	<script type="text/javascript" src="js/finall.js" ></script>
+	<script type="text/javascript" src="js/js.js"></script>
+<script type="text/javascript">
+$(function(){
+
+	// $('#yearMonth').date();
+	// $('#selectDay').date({theme:"day"});
+});
+$(document).ready(function(){
+	// $(".lie")
+	$(".buyticTime input").bind("focus",function(){
+		var idM = $(this).attr("id");
+		// console.log(idM);
+		if(idM=="yearMonth"){
+			$(this).date();
+		}else{
+			// $(this).date({theme:"day"});
+		}
+	});
+});
+</script>
+</head>
+<body>
+	<div id="top">
+		<!-- <p class="topBar">
+			<span class="top_left"><img src="images/top_left.png"><a href="">返回</a>&nbsp;&nbsp;<a href="">关闭</a></span>
+			订单详情
+			<span class="top_right"><img src="images/top_dot.png"></span>
+		</p> -->
+	</div>
+	<div id="content">
+		<div class="buyticTime">
+			<p class="cardforMainBar"><img src="images/card_pen.png">选择使用日期</p>
+			<div class="buyticTimeSelect">
+				<p class="buyticTime_01">
+					<input type="text" id="yearMonth"/>
+				</p>
+				<div class="buyticTime_02">
+					<input type="text" id="selectDay"/>
+				</div>
+
+				<div class="buyticTimeDate">
+					<div id="datescroll_datetime">
+						<div id="daywrapper">
+							<ul id="daywrapper_ul">
+
+							</ul>
+						</div>
+					</div>
+					<div class="buyticTimeDateWeek">
+						<ul>
+							<li>日</li>
+							<li>一</li>
+							<li>二</li>
+							<li>三</li>
+							<li>四</li>
+							<li>五</li>
+							<li>六</li>
+						</ul>
+					</div>
+				</div>
+
+<div class="buyticTimeHind"><p>上下滑动选择更多日期</p></div>
+			</div>
+
+			
+		</div>
+
+<div id="dateshadow"></div>
+<div id="datePage" class="page"><section>
+	<div id="datetitle"><h1>请选择年月</h1></div>
+		<div id="datemark">
+			<a id="markyear"></a>
+			<a id="markmonth"></a>
+		</div>
+		<!-- <div id="timemark">
+			<a id="markday"></a>
+		</div> -->
+	<div id="datescroll">
+		<div id="yearwrapper">
+			<ul>
+			
+			</ul>
+		</div>
+		<div id="monthwrapper">
+			<ul>
+			
+			</ul>
+		</div>
+	</div>
+	<!-- <div id="datescroll_datetime">
+		<div id="daywrapper">
+			<ul>
+				
+			</ul>
+		</div>
+	</div> -->
+	</section>
+	
+	<footer id="dateFooter">
+		<div id="setcancle">
+			<ul>
+				<li id="dateconfirm">确定</li>
+				<li id="datecancle">取消</li>
+			</ul>
+		</div>
+	</footer>
+</div>
+
+
+
+		<div class="buyticDetail">
+			<p class="cardforMainBar"><img src="images/card_pen.png">详细资料填写</p>
+			<ul>
+				<li>
+					<div class="shoplltroSelect">
+						<!-- <label style="padding-left:0"><input type="radio" name="shoplltroSelect-kind" >成人票</label>
+						<label><input type="radio" name="shoplltroSelect-kind">三口之家套票</label> -->
+						<span>选择套餐</span>
+						<p class="shoplltroSelect_p1">
+						<select>
+							<option value="h">hhh</option>
+							<option value="hh">hhh</option>
+							<option value="hhh">hhh</option>
+						</select></p>
+					</div>
+				</li>
+				<li>
+					<span>购买套餐数量</span>
+					<div class="buyticDetail_num">
+						<i class="buyticDetail_num_up">-</i>
+						<input class="buyticDetail_num_change" type="text" value="3">
+						<i class="buyticDetail_num_down">+</i>
+					</div>
+				</li>
+				<li><span>联系人：</span><input type="text" placeholder="填写您的姓名"></li>
+				<li><span>手机号：</span><input type="text" placeholder="用于商家联系您的方式"></li>
+				<li><span>买家留言：</span><input type="text" placeholder="有特殊需要，可以在此留言"></li>
+				<li class="cardforMainBar_payway"><span>支付方式：</span>
+					<!-- <div class="cardforMainBar_payway_01"> -->
+					<input type="radio" name="buyTicket_select" id="buyTicket_select_01">
+					<label class="cardforMainBar_payway_Clicked" for="buyTicket_select_01"><i></i><img src="images/vip_letter_s.png"></label>
+					<!-- </div> -->
+
+					<!-- <div class="cardforMainBar_payway_02"> -->
+					<input type="radio" name="buyTicket_select" id="buyTicket_select_02">
+					<label for="buyTicket_select_02"><i></i><img src="images/vip_letter_s.png"></label>
+					<!-- </div> -->
+				</li>
+			</ul>
+		</div>
+		<div class="buyticHind">
+			<p>※请认真填写资料并仔细检查，以免出错导致不必要的麻烦</p>
+		</div>
+	</div>
+	<div id="footer">
+		<ul>
+			<li><a href="#">
+				<p class="footer_botton_p1"><img src="images/bottom_01.png"></p>
+				<p class="footer_botton_p2">主页</p></a>
+			</li>
+		</ul>
+		<!-- <div class="footerColect">
+			<p class="footer_botton_p1"><img src="images/bottom_01.png"></p>
+			<p class="footer_botton_p2">收藏</p></a>
+		</div> -->
+		<div class="footer_buy_count">
+			<p class="footer_buy"><span>￥160</span><a href="#"><img src="images/footer_che.png">立即购买</a></p>
+		</div>
+	</div>
+</body>
+<script type="text/javascript">
+	var theScroll;
+	function scroll() {
+    	theScroll = new iScroll('datescroll_datetime',{ snap: "li", vScrollbar: false,hScrollbar:false});
+	}
+	document.addEventListener('DOMContentLoaded', scroll, false);
+</script>
+<script type="text/javascript">
+	var myDate = new Date();
+	var year = myDate.getFullYear();
+	var month = myDate.getMonth()+1;
+	var day = myDate.getDate();   
+	document.getElementById("yearMonth").value = year+"/"+month+"月";
+	document.getElementById("selectDay").value = day;
+	var endDay = 31;
+	change();
+</script>
+</html>

@@ -1,0 +1,1179 @@
+[ 2016-07-11T00:19:54+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/order_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000115s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001092s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0076s ]
+
+[ 2016-07-11T00:20:13+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/order_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000962s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0072s ]
+
+[ 2016-07-11T00:20:26+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/order_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000116s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001328s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0071s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000765s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001134s ]
+
+[ 2016-07-11T00:35:41+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/order_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000962s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001369s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0061s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000885s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001271s ]
+
+[ 2016-07-11T02:20:59+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000917s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0126s ]
+NOTIC: [8] Undefined offset: 0 /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/Db/Driver.class.php 第 803 行.
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`order_num`,`name`) VALUES ('123','fff')
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`order_num`,`name`) VALUES ('123','fff')
+
+[ 2016-07-11T02:22:16+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000818s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000973s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0069s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0059s ]
+NOTIC: [8] Undefined offset: 0 /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/Db/Driver.class.php 第 803 行.
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`order_num`,`name`) VALUES ('123','fff')
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`order_num`,`name`) VALUES ('123','fff')
+
+[ 2016-07-11T02:22:16+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000106s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000987s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001062s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0066s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0063s ]
+NOTIC: [8] Undefined offset: 0 /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/Db/Driver.class.php 第 803 行.
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`order_num`,`name`) VALUES ('123','fff')
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`order_num`,`name`) VALUES ('123','fff')
+
+[ 2016-07-11T02:22:17+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000762s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000982s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0067s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0069s ]
+NOTIC: [8] Undefined offset: 0 /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/Db/Driver.class.php 第 803 行.
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`order_num`,`name`) VALUES ('123','fff')
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`order_num`,`name`) VALUES ('123','fff')
+
+[ 2016-07-11T02:22:18+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000845s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001091s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0064s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0062s ]
+NOTIC: [8] Undefined offset: 0 /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/Db/Driver.class.php 第 803 行.
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`order_num`,`name`) VALUES ('123','fff')
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`order_num`,`name`) VALUES ('123','fff')
+
+[ 2016-07-11T02:22:18+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000772s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000942s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0072s ]
+NOTIC: [8] Undefined offset: 0 /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/Db/Driver.class.php 第 803 行.
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`order_num`,`name`) VALUES ('123','fff')
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`order_num`,`name`) VALUES ('123','fff')
+
+[ 2016-07-11T02:22:25+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000115s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001062s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0083s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0092s ]
+NOTIC: [8] Undefined offset: 0 /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/Db/Driver.class.php 第 803 行.
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`order_num`,`name`) VALUES ('123','fff')
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`order_num`,`name`) VALUES ('123','fff')
+
+[ 2016-07-11T02:22:26+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000943s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0067s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0064s ]
+NOTIC: [8] Undefined offset: 0 /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/Db/Driver.class.php 第 803 行.
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`order_num`,`name`) VALUES ('123','fff')
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`order_num`,`name`) VALUES ('123','fff')
+
+[ 2016-07-11T02:22:26+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000269s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001195s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0099s ]
+NOTIC: [8] Undefined offset: 0 /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/Db/Driver.class.php 第 803 行.
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`order_num`,`name`) VALUES ('123','fff')
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`order_num`,`name`) VALUES ('123','fff')
+
+[ 2016-07-11T02:22:26+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000856s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0066s ]
+NOTIC: [8] Undefined offset: 0 /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/Db/Driver.class.php 第 803 行.
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`order_num`,`name`) VALUES ('123','fff')
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`order_num`,`name`) VALUES ('123','fff')
+
+[ 2016-07-11T02:22:27+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000846s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0068s ]
+NOTIC: [8] Undefined offset: 0 /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/Db/Driver.class.php 第 803 行.
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`order_num`,`name`) VALUES ('123','fff')
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`order_num`,`name`) VALUES ('123','fff')
+
+[ 2016-07-11T02:22:51+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0088s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0069s ]
+NOTIC: [8] Undefined offset: 0 /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/Db/Driver.class.php 第 803 行.
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`order_num`,`name`) VALUES ('123','fff')
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`order_num`,`name`) VALUES ('123','fff')
+
+[ 2016-07-11T02:22:52+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000826s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000963s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0061s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0058s ]
+NOTIC: [8] Undefined offset: 0 /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/Db/Driver.class.php 第 803 行.
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`order_num`,`name`) VALUES ('123','fff')
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`order_num`,`name`) VALUES ('123','fff')
+
+[ 2016-07-11T02:22:52+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000737s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001133s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0072s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0074s ]
+NOTIC: [8] Undefined offset: 0 /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/Db/Driver.class.php 第 803 行.
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`order_num`,`name`) VALUES ('123','fff')
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`order_num`,`name`) VALUES ('123','fff')
+
+[ 2016-07-11T02:22:52+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000836s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000906s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined offset: 0 /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/Db/Driver.class.php 第 803 行.
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`order_num`,`name`) VALUES ('123','fff')
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`order_num`,`name`) VALUES ('123','fff')
+
+[ 2016-07-11T02:22:53+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001039s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0092s ]
+NOTIC: [8] Undefined offset: 0 /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/Db/Driver.class.php 第 803 行.
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`order_num`,`name`) VALUES ('123','fff')
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`order_num`,`name`) VALUES ('123','fff')
+
+[ 2016-07-11T02:23:11+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000946s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0143s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0073s ]
+NOTIC: [8] Undefined offset: 0 /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/Db/Driver.class.php 第 803 行.
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`order_num`,`price`) VALUES ('123','30')
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`order_num`,`price`) VALUES ('123','30')
+
+[ 2016-07-11T02:23:12+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000942s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001122s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0076s ]
+NOTIC: [8] Undefined offset: 0 /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/Db/Driver.class.php 第 803 行.
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`order_num`,`price`) VALUES ('123','30')
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`order_num`,`price`) VALUES ('123','30')
+
+[ 2016-07-11T02:23:13+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000169s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000955s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000962s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined offset: 0 /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/Db/Driver.class.php 第 803 行.
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`order_num`,`price`) VALUES ('123','30')
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`order_num`,`price`) VALUES ('123','30')
+
+[ 2016-07-11T02:23:13+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000779s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0066s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0065s ]
+NOTIC: [8] Undefined offset: 0 /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/Db/Driver.class.php 第 803 行.
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`order_num`,`price`) VALUES ('123','30')
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`order_num`,`price`) VALUES ('123','30')
+
+[ 2016-07-11T02:23:14+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001098s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0081s ]
+NOTIC: [8] Undefined offset: 0 /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/Db/Driver.class.php 第 803 行.
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`order_num`,`price`) VALUES ('123','30')
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`order_num`,`price`) VALUES ('123','30')
+
+[ 2016-07-11T02:23:14+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000936s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0067s ]
+NOTIC: [8] Undefined offset: 0 /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/Db/Driver.class.php 第 803 行.
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`order_num`,`price`) VALUES ('123','30')
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`order_num`,`price`) VALUES ('123','30')
+
+[ 2016-07-11T02:23:14+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001354s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0064s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0062s ]
+NOTIC: [8] Undefined offset: 0 /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/Db/Driver.class.php 第 803 行.
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`order_num`,`price`) VALUES ('123','30')
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`order_num`,`price`) VALUES ('123','30')
+
+[ 2016-07-11T02:23:14+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000899s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0066s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0064s ]
+NOTIC: [8] Undefined offset: 0 /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/Db/Driver.class.php 第 803 行.
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`order_num`,`price`) VALUES ('123','30')
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`order_num`,`price`) VALUES ('123','30')
+
+[ 2016-07-11T02:23:15+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000903s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0066s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined offset: 0 /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/Db/Driver.class.php 第 803 行.
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`order_num`,`price`) VALUES ('123','30')
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`order_num`,`price`) VALUES ('123','30')
+
+[ 2016-07-11T02:23:15+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000963s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0067s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0099s ]
+NOTIC: [8] Undefined offset: 0 /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/Db/Driver.class.php 第 803 行.
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`order_num`,`price`) VALUES ('123','30')
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`order_num`,`price`) VALUES ('123','30')
+
+[ 2016-07-11T02:23:16+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000900s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000927s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0063s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0057s ]
+NOTIC: [8] Undefined offset: 0 /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/Db/Driver.class.php 第 803 行.
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`order_num`,`price`) VALUES ('123','30')
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`order_num`,`price`) VALUES ('123','30')
+
+[ 2016-07-11T02:23:34+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000951s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0081s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0064s ]
+NOTIC: [8] Undefined offset: 0 /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/Db/Driver.class.php 第 803 行.
+SQL: INSERT INTO `qwb_order` (`price`,`name`) VALUES ('123','fff') [ RunTime:0.0064s ]
+SQL: SHOW COLUMNS FROM `qwb_order_detail` [ RunTime:0.0063s ]
+SQL: INSERT INTO `qwb_order_detail` (`order_id`) VALUES ('6') [ RunTime:0.0079s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001242s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001899s ]
+
+[ 2016-07-11T02:23:35+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000153s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000922s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001049s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0067s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0064s ]
+NOTIC: [8] Undefined offset: 0 /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/Db/Driver.class.php 第 803 行.
+SQL: INSERT INTO `qwb_order` (`price`,`name`) VALUES ('123','fff') [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `qwb_order_detail` [ RunTime:0.0160s ]
+SQL: INSERT INTO `qwb_order_detail` (`order_id`) VALUES ('7') [ RunTime:0.0075s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001965s ]
+
+[ 2016-07-11T02:23:36+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000810s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000909s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0341s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0071s ]
+NOTIC: [8] Undefined offset: 0 /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/Db/Driver.class.php 第 803 行.
+SQL: INSERT INTO `qwb_order` (`price`,`name`) VALUES ('123','fff') [ RunTime:0.0085s ]
+SQL: SHOW COLUMNS FROM `qwb_order_detail` [ RunTime:0.0068s ]
+SQL: INSERT INTO `qwb_order_detail` (`order_id`) VALUES ('8') [ RunTime:0.0066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001007s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001515s ]
+
+[ 2016-07-11T02:23:36+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000946s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0087s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0068s ]
+NOTIC: [8] Undefined offset: 0 /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/Db/Driver.class.php 第 803 行.
+SQL: INSERT INTO `qwb_order` (`price`,`name`) VALUES ('123','fff') [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `qwb_order_detail` [ RunTime:0.0068s ]
+SQL: INSERT INTO `qwb_order_detail` (`order_id`) VALUES ('9') [ RunTime:0.0072s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001125s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001645s ]
+
+[ 2016-07-11T02:24:44+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000694s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000940s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0066s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0085s ]
+NOTIC: [8] Undefined offset: 0 /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/Db/Driver.class.php 第 803 行.
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`price`,`name`,`order_num`) VALUES ('123','fff','123')
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`price`,`name`,`order_num`) VALUES ('123','fff','123')
+
+[ 2016-07-11T02:24:46+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000994s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001247s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0088s ]
+NOTIC: [8] Undefined offset: 0 /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/Db/Driver.class.php 第 803 行.
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`price`,`name`,`order_num`) VALUES ('123','fff','123')
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`price`,`name`,`order_num`) VALUES ('123','fff','123')
+
+[ 2016-07-11T02:25:09+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000705s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001230s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0108s ]
+NOTIC: [8] Undefined offset: 0 /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/Db/Driver.class.php 第 803 行.
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`price`,`name`,`order_num`) VALUES ('123','fff','123')
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`price`,`name`,`order_num`) VALUES ('123','fff','123')
+
+[ 2016-07-11T02:25:20+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000925s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0062s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined offset: 0 /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/Db/Driver.class.php 第 803 行.
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`price`,`name`,`order_num`) VALUES ('123','fff','123')
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`price`,`name`,`order_num`) VALUES ('123','fff','123')
+
+[ 2016-07-11T02:25:21+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000911s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001113s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0063s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0054s ]
+NOTIC: [8] Undefined offset: 0 /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/Db/Driver.class.php 第 803 行.
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`price`,`name`,`order_num`) VALUES ('123','fff','123')
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`price`,`name`,`order_num`) VALUES ('123','fff','123')
+
+[ 2016-07-11T02:27:15+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000115s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001197s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0076s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined offset: 0 /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/Db/Driver.class.php 第 803 行.
+SQL: INSERT INTO `qwb_order` (`price`,`name`) VALUES ('123','fff') [ RunTime:0.0086s ]
+SQL: SHOW COLUMNS FROM `qwb_order_detail` [ RunTime:0.0067s ]
+SQL: INSERT INTO `qwb_order_detail` (`order_id`) VALUES ('10') [ RunTime:0.0093s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001262s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001922s ]
+
+[ 2016-07-11T02:28:00+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000813s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001173s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0066s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0083s ]
+NOTIC: [8] Undefined offset: 0 /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/Db/Driver.class.php 第 803 行.
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`price`,`name`,`order_num`) VALUES ('123','fff','123')
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`price`,`name`,`order_num`) VALUES ('123','fff','123')
+
+[ 2016-07-11T02:29:24+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000753s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001096s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0062s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0061s ]
+NOTIC: [8] Undefined offset: 0 /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/Db/Driver.class.php 第 803 行.
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`price`,`name`,`order_num`) VALUES ('123','fff','123')
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`price`,`name`,`order_num`) VALUES ('123','fff','123')
+
+[ 2016-07-11T02:29:25+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001130s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0064s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0057s ]
+NOTIC: [8] Undefined offset: 0 /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/Db/Driver.class.php 第 803 行.
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`price`,`name`,`order_num`) VALUES ('123','fff','123')
+ERR: 1054:Unknown column 'order_num' in 'field list'
+ [ SQL语句 ] : INSERT INTO `qwb_order` (`price`,`name`,`order_num`) VALUES ('123','fff','123')
+
+[ 2016-07-11T02:30:51+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000130s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001198s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0063s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined offset: 0 /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/Db/Driver.class.php 第 803 行.
+SQL: INSERT INTO `qwb_order` (`price`,`name`) VALUES ('123','fff') [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `qwb_order_detail` [ RunTime:0.0062s ]
+SQL: INSERT INTO `qwb_order_detail` (`order_id`,`order_num`) VALUES ('11','qweqwe') [ RunTime:0.0063s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001532s ]
+
+[ 2016-07-11T02:31:37+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/aa.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000918s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0068s ]
+NOTIC: [8] Undefined offset: 0 /Users/zhangxiang/PhpstormProjects/quwanba1/ThinkPHP/Library/Think/Db/Driver.class.php 第 803 行.
+SQL: INSERT INTO `qwb_order` () VALUES () [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `qwb_order_detail` [ RunTime:0.0073s ]
+SQL: INSERT INTO `qwb_order_detail` (`order_id`,`order_num`) VALUES ('12','') [ RunTime:0.0067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001524s ]
+
+[ 2016-07-11T11:46:50+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/shop_index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000828s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000981s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0098s ]
+ERR: 非法操作:shop_index
+
+[ 2016-07-11T11:46:57+08:00 ] ::1 /quwanba1/index.php/Wechat/Collect/collect_del.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000992s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001062s ]
+SQL: SHOW COLUMNS FROM `qwb_collect` [ RunTime:0.0097s ]
+SQL: SHOW COLUMNS FROM `qwb_collect` [ RunTime:0.0112s ]
+SQL: UPDATE `qwb_collect` SET `status`='1' WHERE `uid` = 41 AND `collect_id` = 1 AND `type` = 0 [ RunTime:0.0106s ]
+
+[ 2016-07-11T11:47:15+08:00 ] ::1 /quwanba1/index.php/Wechat/Collect/collect_del.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000937s ]
+SQL: SHOW COLUMNS FROM `qwb_collect` [ RunTime:0.0096s ]
+SQL: SHOW COLUMNS FROM `qwb_collect` [ RunTime:0.0079s ]
+SQL: UPDATE `qwb_collect` SET `status`='0' WHERE `uid` = 41 AND `collect_id` = 1 AND `type` = 0 [ RunTime:0.0077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001565s ]
+
+[ 2016-07-11T13:59:08+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/shop_index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0123s ]
+ERR: 非法操作:shop_index
+
+[ 2016-07-11T13:59:38+08:00 ] ::1 /quwanba1/index.php/Wechat/Index/page_accredit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001285s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0097s ]
+NOTIC: [8] Undefined index: code /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Controller/IndexController.class.php 第 125 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Common/function.php 第 51 行.
+NOTIC: [8] Undefined index: openid /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Wechat/Controller/IndexController.class.php 第 132 行.
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `qwb_user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0098s ]
+
+[ 2016-07-11T13:59:38+08:00 ] ::1 /quwanba1/index.php/Wechat/Shop/shop_mall.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000734s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000909s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `qwb_goods_type` [ RunTime:0.0086s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0108s ]
+SQL: SHOW COLUMNS FROM `qwb_goods_type` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `qwb_goods_type`  [ RunTime:0.0088s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0096s ]
+SQL: SELECT `id`,`rebate`,`pic`,`name`,`original_price`,`selling_price`,`status`,`order` FROM `qwb_goods` WHERE ( 1=1 AND type_id='1' )  [ RunTime:0.0101s ]
+SQL: SELECT `id`,`rebate`,`pic`,`name`,`original_price`,`selling_price`,`status`,`order` FROM `qwb_goods` WHERE ( 1=1 AND type_id='2' )  [ RunTime:0.0105s ]
+SQL: SELECT `id`,`rebate`,`pic`,`name`,`original_price`,`selling_price`,`status`,`order` FROM `qwb_goods` WHERE ( 1=1 AND type_id='3' )  [ RunTime:0.0094s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0096s ]
+SQL: SELECT `id`,`original_price`,`selling_price`,`name`,`pic`,`rebate` FROM `qwb_goods`  [ RunTime:0.0103s ]
+SQL: SHOW COLUMNS FROM `qwb_advertisement` [ RunTime:0.0095s ]
+SQL: SELECT `path`,`skip_id` FROM `qwb_advertisement` WHERE ( position = 1 )  [ RunTime:0.0082s ]
+SQL: SELECT `path` FROM `qwb_advertisement` WHERE `position` = 3 LIMIT 1   [ RunTime:0.0081s ]
+SQL: SELECT `path` FROM `qwb_advertisement` WHERE `position` = 2 LIMIT 1   [ RunTime:0.0086s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000303s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000667s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040218s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040607s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000685s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000840s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001219s ]
+
+[ 2016-07-11T14:15:56+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/shop_index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000771s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000987s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0104s ]
+ERR: 非法操作:shop_index
+
+[ 2016-07-11T14:16:08+08:00 ] ::1 /quwanba1/index.php/Wechat/Shop/shop_mall.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000824s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000993s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0077s ]
+SQL: SHOW COLUMNS FROM `qwb_goods_type` [ RunTime:0.0077s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0081s ]
+SQL: SHOW COLUMNS FROM `qwb_goods_type` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `qwb_goods_type`  [ RunTime:0.0086s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0081s ]
+SQL: SELECT `id`,`rebate`,`pic`,`name`,`original_price`,`selling_price`,`status`,`order` FROM `qwb_goods` WHERE ( 1=1 AND type_id='1' )  [ RunTime:0.0076s ]
+SQL: SELECT `id`,`rebate`,`pic`,`name`,`original_price`,`selling_price`,`status`,`order` FROM `qwb_goods` WHERE ( 1=1 AND type_id='2' )  [ RunTime:0.0079s ]
+SQL: SELECT `id`,`rebate`,`pic`,`name`,`original_price`,`selling_price`,`status`,`order` FROM `qwb_goods` WHERE ( 1=1 AND type_id='3' )  [ RunTime:0.0079s ]
+SQL: SHOW COLUMNS FROM `qwb_goods` [ RunTime:0.0076s ]
+SQL: SELECT `id`,`original_price`,`selling_price`,`name`,`pic`,`rebate` FROM `qwb_goods`  [ RunTime:0.0076s ]
+SQL: SHOW COLUMNS FROM `qwb_advertisement` [ RunTime:0.0074s ]
+SQL: SELECT `path`,`skip_id` FROM `qwb_advertisement` WHERE ( position = 1 )  [ RunTime:0.0078s ]
+SQL: SELECT `path` FROM `qwb_advertisement` WHERE `position` = 3 LIMIT 1   [ RunTime:0.0085s ]
+SQL: SELECT `path` FROM `qwb_advertisement` WHERE `position` = 2 LIMIT 1   [ RunTime:0.0085s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000417s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000896s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046015s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046445s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000711s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001192s ]
+
+[ 2016-07-11T14:16:11+08:00 ] ::1 /quwanba1/index.php/Wechat/Shop/images/bottom_04.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000802s ]
+
+[ 2016-07-11T14:16:11+08:00 ] ::1 /quwanba1/index.php/Wechat/Shop/images/bottom_01.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000133s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001130s ]
+
+[ 2016-07-11T14:16:11+08:00 ] ::1 /quwanba1/index.php/Wechat/Shop/images/bottom_03.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000894s ]
+
+[ 2016-07-11T14:16:11+08:00 ] ::1 /quwanba1/index.php/Wechat/Shop/images/bottom_05.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000133s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001170s ]
+
+[ 2016-07-11T14:16:11+08:00 ] ::1 /quwanba1/index.php/Wechat/Shop/images/bottom_102_bc.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001051s ]
+
+[ 2016-07-11T14:16:12+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/shop_index_hot.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000855s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000997s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0093s ]
+SQL: SHOW COLUMNS FROM `qwb_shop_class` [ RunTime:0.0076s ]
+SQL: SELECT `id`,`name`,`icon` FROM `qwb_shop_class`  [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0078s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qwb_shop` WHERE `shop_type` = 0 LIMIT 1   [ RunTime:0.0089s ]
+SQL: SHOW COLUMNS FROM `qwb_system` [ RunTime:0.0087s ]
+SQL: SELECT `value` FROM `qwb_system` WHERE `past_time` >= 1468217772 AND `name` = 'jsapi_ticket' LIMIT 1   [ RunTime:0.0086s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000320s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000687s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032929s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033471s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001195s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000720s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001100s ]
+
+[ 2016-07-11T14:16:12+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/shop_hot_more.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000868s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000846s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0095s ]
+SQL: SHOW COLUMNS FROM `qwb_city` [ RunTime:0.0084s ]
+SQL: SELECT `id` FROM `qwb_city` WHERE `name` = '温州市' LIMIT 1   [ RunTime:0.0084s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0078s ]
+SQL: SELECT `id`,`discount`,`name`,`pic`,`longitude`,`latitude` FROM `qwb_shop` WHERE `shop_type` = 0 AND `city_id` = 61 LIMIT 0,3   [ RunTime:0.0077s ]
+
+[ 2016-07-11T14:16:13+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/images/bottom_02.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000115s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001128s ]
+
+[ 2016-07-11T14:16:13+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/images/bottom_04.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000140s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001189s ]
+
+[ 2016-07-11T14:16:13+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/images/bottom_01.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000137s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001201s ]
+
+[ 2016-07-11T14:16:13+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/images/bottom_05.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000139s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001173s ]
+
+[ 2016-07-11T14:16:13+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/images/bottom_103_bc.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000142s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001265s ]
+
+[ 2016-07-11T14:16:13+08:00 ] ::1 /quwanba1/index.php/Wechat/Collect/my_collect_goods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000183s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001194s ]
+SQL: SHOW COLUMNS FROM `qwb_collect` [ RunTime:0.0092s ]
+SQL: SHOW COLUMNS FROM `qwb_collect` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `qwb_collect` WHERE `type` = 0 AND `uid` = null  [ RunTime:0.0073s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000249s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000632s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025030s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025553s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000960s ]
+
+[ 2016-07-11T14:16:15+08:00 ] ::1 /quwanba1/index.php/Wechat/Collect/images/bottom_01.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000153s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001604s ]
+
+[ 2016-07-11T14:16:15+08:00 ] ::1 /quwanba1/index.php/Wechat/Collect/images/bottom_04.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000147s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001454s ]
+
+[ 2016-07-11T14:16:15+08:00 ] ::1 /quwanba1/index.php/Wechat/Collect/images/bottom_05.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000178s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001115s ]
+
+[ 2016-07-11T14:16:15+08:00 ] ::1 /quwanba1/index.php/Wechat/Collect/images/bottom_03.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000756s ]
+
+[ 2016-07-11T14:16:15+08:00 ] ::1 /quwanba1/index.php/Wechat/Collect/images/bottom_102_bc.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000164s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001088s ]
+
+[ 2016-07-11T14:16:15+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/shop_index_hot.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001011s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001173s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0093s ]
+SQL: SHOW COLUMNS FROM `qwb_shop_class` [ RunTime:0.0078s ]
+SQL: SELECT `id`,`name`,`icon` FROM `qwb_shop_class`  [ RunTime:0.0085s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0106s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qwb_shop` WHERE `shop_type` = 0 LIMIT 1   [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `qwb_system` [ RunTime:0.0080s ]
+SQL: SELECT `value` FROM `qwb_system` WHERE `past_time` >= 1468217775 AND `name` = 'jsapi_ticket' LIMIT 1   [ RunTime:0.0073s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000273s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000659s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031617s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032049s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000757s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001151s ]
+
+[ 2016-07-11T14:16:24+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/images/bottom_01.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001263s ]
+
+[ 2016-07-11T14:16:24+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/images/bottom_05.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000158s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001416s ]
+
+[ 2016-07-11T14:16:24+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/images/bottom_02.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000157s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001515s ]
+
+[ 2016-07-11T14:16:24+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/images/bottom_03.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000140s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001242s ]
+
+[ 2016-07-11T14:16:24+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/images/bottom_104_bc.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001169s ]
+
+[ 2016-07-11T14:16:24+08:00 ] ::1 /quwanba1/index.php/Wechat/Order/my_order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000135s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001366s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0094s ]
+SQL: SHOW COLUMNS FROM `qwb_order` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `qwb_order` WHERE `uid` = null  [ RunTime:0.0071s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000236s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000572s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011608s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012037s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000602s ]
+
+[ 2016-07-11T14:16:27+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/images/bottom_04.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000758s ]
+
+[ 2016-07-11T14:16:27+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/images/bottom_02.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000756s ]
+
+[ 2016-07-11T14:16:27+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/images/bottom_03.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000142s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001219s ]
+
+[ 2016-07-11T14:16:27+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/images/bottom_105_bc.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000135s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001189s ]
+
+[ 2016-07-11T14:16:27+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/images/bottom_01.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000141s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001180s ]
+
+[ 2016-07-11T14:16:27+08:00 ] ::1 /quwanba1/index.php/Wechat/Spokesman/represent_v.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001194s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0118s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0116s ]
+SQL: SELECT `income`,`headimgurl`,`nickname`,`qwb_id`,`rank` FROM `qwb_user` WHERE `id` = null LIMIT 1   [ RunTime:0.0102s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qwb_user` WHERE `fid` = null LIMIT 1   [ RunTime:0.0098s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qwb_user` WHERE `gid` = null LIMIT 1   [ RunTime:0.0076s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000319s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000744s ]
+NOTIC: [8] Use of undefined constant vip_letter - assumed 'vip_letter' /Users/zhangxiang/PhpstormProjects/quwanba1/Application/Runtime/Cache/Wechat/fcf8f768fccf2371680585a5660ca318.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030923s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031434s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000806s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000665s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001026s ]
+
+[ 2016-07-11T14:16:31+08:00 ] ::1 /quwanba1/index.php/Wechat/Spokesman/cash_get.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000743s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000962s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0095s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000276s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000689s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016444s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016955s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000655s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001014s ]
+
+[ 2016-07-11T14:16:35+08:00 ] ::1 /quwanba1/index.php/Wechat/Spokesman/my_QRode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000919s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001144s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0104s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0096s ]
+SQL: SELECT `id`,`qr_code`,`headimgurl`,`nickname` FROM `qwb_user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0086s ]
+SQL: SHOW COLUMNS FROM `qwb_system` [ RunTime:0.0089s ]
+SQL: SELECT `value` FROM `qwb_system` WHERE `past_time` >= 1468217795 AND `name` = 'access_token' LIMIT 1   [ RunTime:0.0077s ]
+SQL: UPDATE `qwb_user` SET `qr_code`='/Uploads/2016-07-11/d41d8cd98f00b204e9800998ecf8427e.jpg' WHERE `id` = null [ RunTime:0.0073s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000219s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000610s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011462s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011948s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000926s ]
+
+[ 2016-07-11T14:16:36+08:00 ] ::1 /quwanba1/index.php/Wechat/Spokesman/www.quwanba.2015tt.net/Uploads/2016-07-11/d41d8cd98f00b204e9800998ecf8427e.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000161s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001170s ]
+
+[ 2016-07-11T14:17:17+08:00 ] ::1 /quwanba1/index.php/Wechat/Spokesman/my_QRode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0086s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0115s ]
+SQL: SELECT `id`,`qr_code`,`headimgurl`,`nickname` FROM `qwb_user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0133s ]
+SQL: SHOW COLUMNS FROM `qwb_system` [ RunTime:0.0109s ]
+SQL: SELECT `value` FROM `qwb_system` WHERE `past_time` >= 1468217837 AND `name` = 'access_token' LIMIT 1   [ RunTime:0.0095s ]
+SQL: UPDATE `qwb_user` SET `qr_code`='/Uploads/2016-07-11/d41d8cd98f00b204e9800998ecf8427e.jpg' WHERE `id` = null [ RunTime:0.0135s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000254s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000633s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010919s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011324s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000671s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001034s ]
+
+[ 2016-07-11T14:17:17+08:00 ] ::1 /quwanba1/index.php/Wechat/Spokesman/www.quwanba.2015tt.net/Uploads/2016-07-11/d41d8cd98f00b204e9800998ecf8427e.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000144s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001306s ]
+
+[ 2016-07-11T15:54:21+08:00 ] ::1 /quwanba1/index.php/Wechat/AllianceShop/shop_index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000122s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001288s ]
+SQL: SHOW COLUMNS FROM `qwb_shop` [ RunTime:0.0075s ]
+ERR: 非法操作:shop_index
+

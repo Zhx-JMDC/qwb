@@ -1,0 +1,24 @@
+[ 2016-07-20T23:55:29+08:00 ] ::1 /quwanba1/index.php/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000141s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000857s ]
+ERR: 无法加载模块:Index.js
+
+[ 2016-07-20T23:55:29+08:00 ] ::1 /quwanba1/index.php/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001016s ]
+ERR: 无法加载模块:Index.js
+
+[ 2016-07-20T23:55:29+08:00 ] ::1 /quwanba1/index.php/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000919s ]
+ERR: 无法加载模块:Index.js
+
+[ 2016-07-20T23:55:30+08:00 ] ::1 /quwanba1/index.php/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000845s ]
+ERR: 无法加载模块:Index.js
+

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html;charset=utf-8">
+	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=0.5"/>
+	<title>{$goods.name}</title>
+	<link rel="stylesheet" type="text/css" href="__CSS__/css.css">
+	<link rel="stylesheet" type="text/css" href="__CSS__/cssApp.css">
+	<style>
+		.shoptroDelete img{
+			width:100%!important;
+		}
+		.shoplltroWarn img{
+			width:100%!important;
+		}
+	</style>
+</head>
+<body style="background-color: #f5f5f5">
+<div id="content">
+	<div class="shoptroTop">
+		<!-- <p class="shoptroTop_pic"><img src="__IMG__/order_temp.png">
+            <span class="shoptroTop_num"><a href="#">5</a></span>
+        </p> -->
+		<div class="shoptroTop_pic">
+			<div class="main_visual">
+				<div class="flicking_con">
+				</div>
+				<div class="main_image">
+					<ul>
+						<foreach name="goods.goods_play" item="v">
+							<li><img src="{$v.path}"></li>
+						</foreach>
+					</ul>
+					<a href="javascript:;" id="btn_prev"></a>
+					<a href="javascript:;" id="btn_next"></a>
+				</div>
+			</div>
+			<span class="shoptroTop_num">{$count}</span>
+		</div>
+		<p class="shoplltro_title">{$goods.name}</p>
+		<p class="shoplltro_01">趣玩吧专享价</p>
+		<empty name="goods.hint">
+			<else /><p class="shoplltro_01 shoplltro_03"><img src="__IMG__/shop_quick.png">限时抢购</p>
+		</empty>
+		<p class="shoplltro_02"><s1>￥</s1><span id="selling_price">{$goods.selling_price}</span><span id="original_price"><s2>￥</s2><span id="original">{$goods.original_price}</span></span></p>
+	</div>
+	<form method="post" action="{:U('Shop/app_buy_ticket')}" id="choosePrice">
+		<input type="hidden" name="id" value="{$goods.id}">
+		<div class="shoplltroSelectApp">
+			<span>选择套餐</span>
+			<p>
+				<select name="shoplltroSelect-kind" id="selectVal" onchange="choose()">
+					<foreach name="goods.goods_price" item="v">
+						<option value="{$v.id}" price{$v.id}="{$v.selling_value}" original{$v.id}="{$v.original_value}">{$v.name}</option>
+					</foreach>
+				</select>
+			</p>
+		</div>
+	</form>
+
+	<div class="shoplltroHind">
+		<p><span> </span>此服务由{$goods.shop_name}提供</p>
+	</div>
+	<div class="shoplltroWarns"><p>{$goods.content}</p></div>
+	<!-- 地址与联系号码 -->
+	<div class="shoptroMore">
+		<ul>
+			<li>
+				<p class="shoptroMore_img"><img src="__IMG__/shop_address_red.png"></p>
+				<p class="shoptroMore_word" onclick="baidu_address();">地址/Add:  {$goods.address}<span><img src="__IMG__/shop_address.png">{$goods.distance}km</span></p>
+			</li>
+			<li>
+				<p class="shoptroMore_img"><img src="__IMG__/shop_phone_red.png"></p>
+				<p class="shoptroMore_word">联系号码/Tell:  {$goods.contact}</p>
+			</li>
+		</ul>
+	</div>
+	<!-- 图文介绍 -->
+	<div class="shoptroDelete">
+		<p class="shoptroDelete_title">{$goods.name}</p>
+		<!-- <p class="shoptroDelete_subtitle">详情介绍</p> -->
+		<p>{$goods.introduce}</p>
+	</div>
+</div>
+<div id="footer">
+	<ul>
+		<li><a href="{:U('Shop/app_shop_mall')}">
+			<p class="footer_botton_p1"><img src="__IMG__/bottom_01.png"></p>
+			<p class="footer_botton_p2">主页</p></a>
+		</li>
+	</ul>
+	<div class="footerColect" onclick="collect('{$goods.id}')">
+		<if condition="$collect eq 1">
+			<p class="footer_botton_p1"><img src="__IMG__/bottom_collect_bc.png"></p>
+			<p class="footer_botton_p2 collect">已收藏</p>
+			<else />
+			<p class="footer_botton_p1"><img src="__IMG__/bottom_collect.png"></p>
+			<p class="footer_botton_p2 collect">收藏</p>
+		</if>
+	</div>
+	<div class="footer_buy_count"><p class="footer_buy"><span id="price">¥<?php echo (int)$goods['goods_price'][0]['selling_value'];?></span><a onclick="chooseSubmit()"><img src="__IMG__/footer_che.png">立即购买</a></p></div>
+</div>
+</body>
+<script type="text/javascript" src="__JS__/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="__JS__/jquery.touchSlider.js"></script>
+<script type="text/javascript" src="__JS__/jquery.lazyload.js"></script>
+<script type="text/javascript" src="__JS__/js.js"></script>
+<script>
+	function baidu_address(){
+		var name = "{$goods.name}";
+		var addr = "{$goods.address}";
+		var lgt  = "{$goods.latitude}";
+		var long = "{$goods.longitude}";
+		var url  = 'http://apis.map.qq.com/tools/poimarker?type=0&marker=coord:'+lgt+','+long+';title:'+name+';addr:'+addr+'&key=EVFBZ-WXA6P-XPHDT-VTFJN-SM75H-KXBW3&referer=myapp';
+		window.location.href = url;
+	}
+
+	function chooseSubmit(){
+		$('#choosePrice').submit();
+	}
+
+	function choose(){
+		var id       = $("#selectVal").val();
+		var price    = $("#selectVal").find("option:selected").attr('price'+id);
+		var original = $("#selectVal").find("option:selected").attr('original'+id);
+		$('#price').html('¥'+parseInt(price));
+		$('#selling_price').html(price);
+		$('#original').html(original);
+	}
+	function collect(id){
+		var src = $(".footerColect .footer_botton_p1 img").attr("src");
+		if(src ==  "__IMG__/bottom_collect_bc.png"){
+			var url = "{:U('Collect/collect_del')}";  //取消收藏
+		}else{
+			var url = "{:U('Collect/collect')}";  //收藏
+		}
+		$.ajax({
+			url: url,
+			type: 'post',
+			data: {'id':id,'type':'0'},
+			success: function (data) {
+				if(data == 1){
+					$(".footerColect .footer_botton_p1 img").attr("src","__IMG__/bottom_collect_bc.png");
+					$(".collect").html('已收藏');
+				}else if(data == 3){
+					$(".footerColect .footer_botton_p1 img").attr("src","__IMG__/bottom_collect.png");
+					$(".collect").html('收藏');
+				}
+			}
+		});
+	}
+
+	$(document).ready(function(){
+
+		$(".main_visual").hover(function(){
+			$("#btn_prev,#btn_next").fadeIn()
+		},function(){
+			$("#btn_prev,#btn_next").fadeOut()
+		});
+
+		$dragBln = false;
+
+		$(".main_image").touchSlider({
+			flexible : true,
+			speed : 200,
+			btn_prev : $("#btn_prev"),
+			btn_next : $("#btn_next"),
+			paging : $(".flicking_con a"),
+			counter : function (e){
+				$(".flicking_con a").removeClass("on").eq(e.current-1).addClass("on");
+			}
+		});
+
+		$(".main_image").bind("mousedown", function() {
+			$dragBln = false;
+		});
+
+		$(".main_image").bind("dragstart", function() {
+			$dragBln = true;
+		});
+
+		$(".main_image a").click(function(){
+			if($dragBln) {
+				return false;
+			}
+		});
+
+		timer = setInterval(function(){
+			$("#btn_next").click();
+		}, 5000);
+
+		$(".main_visual").hover(function(){
+			clearInterval(timer);
+		},function(){
+			timer = setInterval(function(){
+				$("#btn_next").click();
+			},5000);
+		});
+
+		$(".main_image").bind("touchstart",function(){
+			clearInterval(timer);
+		}).bind("touchend", function(){
+			timer = setInterval(function(){
+				$("#btn_next").click();
+			}, 5000);
+		});
+
+	});
+</script>
+</html>

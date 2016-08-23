@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html;charset=utf-8">
+	<title>订单详情</title>
+	<link rel="stylesheet" type="text/css" href="css/css.css">
+	<link rel="stylesheet" type="text/css" href="css/cssApp.css">
+	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="js/js.js"></script>
+</head>
+<body>
+	<div id="top">
+		<!-- <p class="topBar">
+			<span class="top_left"><img src="images/top_left.png"><a href="">返回</a>&nbsp;&nbsp;<a href="">关闭</a></span>
+			订单详情
+			<span class="top_right"><img src="images/top_dot.png"></span>
+		</p> -->
+	</div>
+	<div id="content">
+		<div class="orderPic">
+			<p class="orderPic_01"><img src="images/order_temp.png"></p>
+			<div class="orderPic_02"><img src="images/order_code_small.png">
+				<div class="myorder_code_big orderPic_code_big">
+					<img src="images/order_code_big.png">
+					<p>扫描二维码确定订单消费</p>
+				</div>
+			</div>
+			
+		</div>
+		<div class="orderDescribe orderDescribeApp">
+			<ul>
+				<li><p>大罗山盘云谷别墅套房</p></li>
+				<li><p><span>订单号：       </span>fasd112425425</p></li>
+				<li><p><span>订单金额：     </span>150.00</p></li>
+				<li><p><span>购买数量       </span>1</p></li>
+				<li><p><span>预定用户：     </span>趣玩吧小胖</p></li>
+				<li><p><span>用户手机号：   </span>138-5555-5555</p></li>
+				<li><p><span>购买日期：     </span>2016/01/01-08:08:08</p></li>
+				<li><p><span>体验日期：     </span>2016/01/04</p></li>
+				<li><p><span>您的留言备注： </span>希望到店的时候，发货的空间发哈空间发贺卡收到回复可见哈，发货及时发卡是jfk鲁大师。</p></li>
+			</ul>
+		</div>
+		<!-- 以下，两种情况 -->
+		<div class="orderRefuse orderRefuseApp"><p><a href="#">退</a></p></div>
+		<!-- <div class="orderRefuse orderRefuseApp"><p class="orderRefuse_delete"><a href="#"><img src="images/mycollect_delete.png"></a></p></div> -->
+	</div>
+	<div id="footer">
+		<ul>
+			<li><a href="#">
+				<p class="footer_botton_p1"><img src="images/bottom_01.png"></p>
+				<p class="footer_botton_p2">商城首页</p></a>
+			</li>
+			<li><a href="#">
+				<p class="footer_botton_p1"><img src="images/bottom_02.png"></p>
+				<p class="footer_botton_p2">联盟商家</p></a>
+			</li>
+			<li><a href="#">
+				<p class="footer_botton_p1"><img src="images/bottom_03.png"></p>
+				<p class="footer_botton_p2">我的收藏</p></a>
+			</li>
+			<li><a href="#">
+				<p class="footer_botton_p1"><img src="images/bottom_04.png"></p>
+				<p class="footer_botton_p2">我的订单</p></a>
+			</li>
+			<li><a href="#">
+				<p class="footer_botton_p1"><img src="images/bottom_05.png"></p>
+				<p class="footer_botton_p2">我是代言人</p></a>
+			</li>
+		</ul>
+	</div>
+</body>
+</html>

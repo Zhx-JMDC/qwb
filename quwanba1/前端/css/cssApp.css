@@ -1,0 +1,196 @@
+.shopinClassApp{
+	width:100%;
+	height:150px;
+	background-color:#fff;
+	overflow: hidden;
+	position: relative;
+}
+.shopinClassAppBottomline{
+	border-bottom:1px solid #7d7d7d;
+}
+.shopClassApp_horizon{
+	position:absolute;
+	width:100%;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	text-align: center;
+}
+.shopClassApp_horizon ul{
+	position:absolute;
+	overflow:visible;
+	white-space:nowrap;
+}
+.shopClassApp_horizon li{
+	display: inline-block;
+	white-space:nowrap;
+	padding:0 30px;
+	padding-top:18px;
+}
+.shopClassApp_horizon img{
+	width:80px;
+	height:80px;
+	border-radius:50%;
+}
+.shopClassApp_horizon p{
+	line-height: 50px;
+	font-size:28px;
+}
+.shopinHistoryApp{
+	width:94%;
+	padding: 0 3%;
+	overflow: hidden;
+	background-color: #fff;
+	border-top:1px solid #7d7d7d;
+	border-bottom:1px solid #7d7d7d;
+}
+.shopinHistoryApp_01{
+	line-height: 72px;
+	color:#999;
+}
+.shopinHistoryApp ul{
+	overflow: hidden;
+
+}
+.shopinHistoryApp li{
+	float:left;
+	line-height: 50px;
+	background-color:#333;
+	padding:0 10px;
+	margin:0 10px 20px 10px;
+	font-size:24px;
+}
+.shopinHistoryApp li a{
+	color:#fff;
+}
+.shopinHistoryApp_02{
+	line-height: 50px;
+	padding-bottom: 20px;
+	overflow: hidden;
+}
+.shopinHistoryApp_02 a{
+	display: inline-block;
+	float:right;
+	line-height: 50px;
+	color:#fff;
+	background-color:#e53333;
+	padding:0 10px;
+}
+.shopinHindApp{
+	width:94%;
+	padding:0 3%;
+	background-color:#fff;
+	padding-bottom:150px;
+	font-size:20px;
+}
+.shopinHindApp p{
+	padding:17px 0;
+	color:#999;
+}
+
+/*商家详情页*/
+.shoplltroSelectApp{
+	width:94%;
+	padding:0 3%;
+	background-color: #fff;
+	line-height: 80px;
+}
+.shoplltroSelectApp span{
+	display: inline-block;
+	position: absolute;
+	left:3%;
+	line-height: 80px;
+	width:150px;
+	border-right:1px solid #7d7d7d;
+}
+.shoplltroSelectApp p{
+	margin-left:150px;
+	padding-right:0;
+}
+.shoplltroSelectApp select{
+	font-size:24px;
+	width: 100%;
+	border:0;
+	outline: 0;
+}
+.shoplltroSelectApp option{
+	font-size:24px;
+}
+.buycardKind_pApp{
+	height: 50px;
+	line-height: 50px;
+	font-size: 20px;
+	margin:0 4%;
+	padding-left:15px;
+	background-color:#000;
+	color:#f1f1f1;
+}
+
+
+/*订单详情*/
+.orderDescribeApp ul li:last-child{
+	border-bottom:0;
+}
+.orderRefuseApp{
+	background-color:#fff;
+}
+
+/*登录界面*/
+.loginMain{
+	width:100%;
+	position:fixed;
+	top:0;
+	bottom:0;
+	left:0;
+	bottom:0;
+	background:url(../images/login_bc.jpg) no-repeat 0 0;
+	background-size: 100% 100%;
+}
+.loginMain_01{
+	width:150px;
+	height:150px;
+	position:fixed;
+	left:0;
+	right:0;
+	bottom:15vh;
+	background-color:rgba(1,128,255,0.6);
+	text-align: center;
+	margin:0 auto;
+	border-radius:50%;
+	line-height: 150px;
+}
+.loginMain_01 img{
+	height:60px;
+	vertical-align:middle;
+}
+.loginMain_02{
+	position: fixed;
+	bottom:15px;
+	text-align: center;
+	width: 100%;
+	bottom:8vh;
+	color:#fff;
+	z-index: 9;
+}
+
+/*商品详情*/
+.mycollectMainApp{
+	border-bottom:1px solid #7d7d7d;
+}
+.mycollectMainApp li{
+	border-bottom:1px solid #7d7d7d;
+}
+.orderPicApp{
+	border-bottom:1px solid #7d7d7d;
+}
+.orderPicApp .orderPic_01{
+	padding-top: 17px;
+	margin-top: 0px;
+}
+.shopinIntroApp{
+	border-bottom:1px solid #7d7d7d;
+}
+.shopinIntroApp li:last-child{
+	border-bottom:0;
+}

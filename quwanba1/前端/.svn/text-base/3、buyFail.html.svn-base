@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html;charset=utf-8">
+	<title>体现实名认证</title>
+	<link rel="stylesheet" type="text/css" href="css/css.css">
+</head>
+<body style="background-color:#fff">
+	<div id="content">
+		<div class="buyfailMain">
+			<img src="images/buy_fail.png">
+		</div>
+	</div>
+</body>
+</html>

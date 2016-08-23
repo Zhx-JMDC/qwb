@@ -1,0 +1,15 @@
+[ 2016-06-12T09:53:00+08:00 ] ::1 /common/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000894s ]
+
+[ 2016-06-12T09:53:00+08:00 ] ::1 /common/index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+
+[ 2016-06-12T09:53:00+08:00 ] ::1 /common/index.php/Admin/Public/images/favicon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000899s ]
+

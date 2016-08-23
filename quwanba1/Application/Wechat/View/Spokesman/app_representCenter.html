@@ -1,0 +1,81 @@
+<extend name="Public/base2" />
+<block name="title">我是旅行家</block>
+<block name="body">
+	<div id="content">
+		<div class="buycardTop">
+			<p class="buycard_01"><img src="{$user.headimgurl}"></p>
+			<p class="buycard_02">{$user.nickname}</p>
+			<p class="buycard_03">ID：{$user.qwb_id}</p>
+			<p class="buycard_04 currentVip">
+				<if condition="$rank eq vip_letter">您还不是旅行家
+					<else />当前等级<img src="__IMG__/{$rank}.png">
+				</if>
+			</p>
+			<p class="buycard_letter">
+				<a href="{:U('Spokesman/app_message')}"><img src="__IMG__/message_top_right.png">
+					<if condition="$message_count eq 0"><else /><span>{$message_count}</span></if>
+				</a>
+			</p>
+		</div>
+		<div class="representCode">
+			<a href="{:U('Spokesman/my_QRode')}"><p>我的二维码<span><img src="__IMG__/order_code_small.png"></span></p></a>
+		</div>
+		
+		<div class="representAnoApp">
+			<ul>
+				<li>
+					<a href="{:U('Order/app_my_order')}"><p class="representAno_p1">我的订单 <span> </span></p></a>
+				</li>
+				<li>
+					<a href="{:U('Collect/app_my_collect_goods')}"><p class="representAno_p1">我的收藏 <span> </span></p></a>
+				</li>
+				<li>
+					<p class="representAno_p1" onclick="setting()">设置<span> </span></p>
+				</li>
+				<switch name="rank" >
+					<case value="vip_letter">
+						<li style='background-image: url("__IMG__/bg_v.jpg")'>
+							<a href="{:U('Spokesman/app_buy_card')}">
+								<div class="representInc_S">
+									<p class="representAno_p2">成为V级旅行家</p>
+									<!-- 点击升级成为V级代言人 -->
+									<p><img src="__IMG__/vip_letter_v_dark.png"></p>
+								</div>
+							</a></case>
+					</li>
+					<case value="vip_letter_v">
+						<li>
+							<a href="{:U('Spokesman/app_buy_card')}">
+								<div class="representInc_S">
+									<!-- <p class="representAno_p2">成为S级旅行家</p>
+									<p><img src="__IMG__/vip_letter_s_dark.png"></p> -->
+									<img src="__IMG__/represent_VtoS.jpg" class="representInc_toS">
+								</div></a></case>
+					</li>
+					<default /><div style="height:140px;"></div>
+				</switch>
+			</ul>
+		</div>
+	</div>
+</block>
+<block name="script">
+	<script>
+		var ua = navigator.userAgent;
+		var appInstall = {
+			isChrome: ua.match(/Chrome\/([\d.]+)/) || ua.match(/CriOS\/([\d.]+)/),
+			isAndroid: ua.match(/(Android);?[\s\/]+([\d.]+)?/),
+			isIphone: (ua.match(/iPad/i) != null || (navigator.userAgent.match(/iPhone/i) != null) || (navigator.userAgent.match(/iPod/i) != null)),
+			isWeixin: ua.match(/MicroMessenger/i) != null,
+			isUC: ua.match(/UCBrowser/i) != null,
+			isQQ: ua.match(/QQBrowser/i) != null
+		}
+
+		function setting(){
+			if (appInstall.isAndroid) {
+				androidPay.androidCache();
+			}else if(appInstall.isIphone){
+				jumpToSetting();
+			}
+		}
+	</script>
+</block>

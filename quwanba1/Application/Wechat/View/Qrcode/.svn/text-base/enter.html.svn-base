@@ -1,0 +1,29 @@
+<extend name="Public/base" />
+<block name="title">消费确认</block>
+<block name="css">
+	<style>
+		#footer{
+			display:none;
+		}
+	</style>
+</block>
+<block name="body">
+	<div id="content">
+		<div class="orderPic">
+			<p class="orderPic_01"><img src="{$order.pic}"></p>
+		</div>
+		<div class="orderDescribe">
+			<ul>
+				<li><p>{$order.name}</p></li>
+				<li><p><span>订单金额：     </span>{$order.price}</p></li>
+				<li><p><span>购买数量       </span>{$order.count}</p></li>
+				<li><p><span>预定用户：     </span>{$order.buyer}</p></li>
+				<li><p><span>用户手机号：   </span>{$order.mobile}</p></li>
+				<li><p><span>购买日期：     </span>{$order.buy_time}</p></li>
+				<li><p><span>体验日期：     </span><?php echo date('Y-m-d',strtotime($order['experience_time']));?></p></li>
+				<li><p><span>支付方式：     </span>微信支付</p></li>
+				<li><p><span>您的留言备注： </span>{$order.message}</p></li>
+			</ul>
+		</div>
+	</div>
+</block>

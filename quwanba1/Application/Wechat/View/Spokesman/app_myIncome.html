@@ -1,0 +1,83 @@
+<extend name="Public/base2" />
+<block name="title">我是旅行家</block>
+<block name="body">
+	<div id="content">
+		<div class="buycardTop">
+			<p class="buycard_01"><img src="{$user.headimgurl}"></p>
+			<p class="buycard_02">{$user.nickname}</p>
+			<p class="buycard_03">ID：{$user.qwb_id}</p>
+			<p class="buycard_04 currentVip">
+				<if condition="$rank eq vip_letter">您还不是旅行家
+					<else />当前等级<img src="__IMG__/{$rank}.png">
+				</if>
+			</p>
+		</div>
+		<div class="myincomeMain">
+			<p class="myincomeMain_01">我的收入</p>
+			<p class="myincomeMain_02">历史积累饭票</p>
+			<p class="myincomeMain_03"><empty name="total_income">F0.00<else />F{$total_income}</empty></p>
+		</div>
+		<div class="myincomeIntro">
+			<table>
+				<tr>
+					<th>时间</th>
+					<th>会员</th>
+					<th>饭票</th>
+				</tr>
+				<foreach name="income" item="v">
+					<tr>
+						<td>{$v.time}</td>
+						<td><img src="{$v.headimgurl}">{$v.nickname}</td>
+						<td>+F{$v.income}</td>
+					</tr>
+				</foreach>
+			</table>
+		</div>
+		<div class="myincomeHind"><p>您的推荐人是{$nickname}</p></div>
+	</div>
+</block>
+<block name="script">
+<script type="text/javascript">
+$(function(){
+	var page = 2;
+	function loadMeinv(){
+		var count = 3;
+		if(({$_count}+count-1)/count >= page){
+			debugger
+			$.ajax({
+				url: "{:U('Spokesman/my_income_more')}",
+				type: 'post',
+				data: {'page': page,'count':count},
+				success: function (data) {
+					debugger
+					var html = "";
+					$.each(data, function (k, v) {
+						html += '<tr><td>'+v.time+'</td><td><img src="'+v.headimgurl+'">'+v.nickname+'</td><td>+F'+v.income+'</td></tr>';
+					})
+					$minUl = getMinUl();
+					$minUl.append(html);
+				}
+			});
+		}
+		page++;
+	}
+	loadMeinv();
+	$(window).on("scroll",function(){
+		$minUl = getMinUl();
+		if($minUl.height() <= $(window).scrollTop()+$(window).height()){
+			loadMeinv();
+		}
+	})
+	function getMinUl(){
+		var $arrUl = $(".myincomeIntro table");
+		var $minUl =$arrUl.eq(0);
+		$arrUl.each(function(index,elem){
+			if($(elem).height()<$minUl.height()){
+				$minUl = $(elem);
+			}
+		});
+		return $minUl;
+	}
+})
+</script>
+</block>

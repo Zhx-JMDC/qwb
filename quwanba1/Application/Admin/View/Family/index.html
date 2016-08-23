@@ -1,0 +1,101 @@
+<extend name="Public/base" />
+
+<block name="body">
+	<!-- 标题栏 -->
+	<div class="panel panel-default">
+		<div class="panel-heading main-title">
+			<h2>族谱</h2>
+
+		</div><!--		panel-heading		-->
+		<div class="panel-body">
+			<div class="well">
+				<div class="row">
+					<div class="col-sm-3">
+						<div class="form-group">
+							<label class="control-label" for="input-nickname">用户昵称</label>
+							<input type="text" name="nickname" value="{$nickname}" placeholder="用户昵称" id="input-nickname" class="form-control">
+						</div>
+					</div>
+					<div class="col-sm-2">
+						<div class="form-group">
+							<label class="control-label">类型</label>
+							<select id="type" name="type" class="form-control">
+								<option value="1">普通用户</option>
+								<option value="2">浮动用户</option>
+							</select>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<button type="submit" id="button-filter" class="btn btn-primary pull-right" style="margin-right: 10px;"><i class="fa fa-search"></i>筛选</button>
+					</div>
+				</div>
+			</div>
+		    <!-- 数据列表 -->
+		    <div class="data-table table-striped">
+			<table class="table">
+		    <thead>
+		        <tr>
+					<th>序号</th>
+					<th>用户名</th>
+                    <th>用户手机号</th>
+		        	<th>等级</th>
+		        	<th>所在层数</th>
+					<th>操作</th>
+				</tr>
+		    </thead>
+		    <tbody>
+				<notempty name="_list">
+				<volist name="_list" id="vo">
+				<tr>
+					<td id="user_id">{$vo.id} </td>
+					<td>{$vo.nickname}</td>
+					<td>{$vo.contact}</td>
+					<td>
+						<switch name="vo.rank">
+							<case value="0">S级</case>
+							<case value="1">V级</case>
+							<default />非代言人
+						</switch>
+					</td>
+					<td>{$vo.tier}</td>
+					<td>
+						<a href="{:U('Family/get_family_detail',array('id'=>$vo['id']))}">{$shop_type}查看</a>
+					</td>
+				</tr>
+				</volist>
+				<else/>
+				<td colspan="10" class="text-center"> aOh! 暂时还没有内容! </td>
+				</notempty>
+			</tbody>
+		    </table>
+			</div>
+		    <div class="page">
+		        {$_page}
+		    </div>
+	    </div>
+    </div><!--panel-->
+</block>
+
+<block name="script">
+	<script src="__JS__/thinkbox/jquery.thinkbox.js"></script>
+	<script>
+		$('#button-filter').on('click', function() {
+			var url = Think.APP+'/Admin/Family/index?token=lalala';
+
+			var shop_name = $('input[name=\'shop_name\']').val();
+			if (shop_name) {
+				url += '&shop_name=' + encodeURIComponent(shop_name);
+			}
+
+			var type = $('#type option:selected') .val();
+			if (type) {
+				url += '&type=' + encodeURIComponent(type);
+			}
+			location = url;
+		});
+
+		$("#type  option[value='{$type}']").attr("selected",true);
+	</script>
+</block>

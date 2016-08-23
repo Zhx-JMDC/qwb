@@ -1,0 +1,44 @@
+[ 2016-08-03T23:46:17+08:00 ] ::1 /quwanba1/index.php/Wechat/WechatPay/wechat_pay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000107s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001267s ]
+SQL: SHOW COLUMNS FROM `qwb_card_history` [ RunTime:0.0077s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0074s ]
+ERR: 参数错误或者未定义:id
+
+[ 2016-08-03T23:46:35+08:00 ] ::1 /quwanba1/index.php/Wechat/WechatPay/wechat_pay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001122s ]
+SQL: SHOW COLUMNS FROM `qwb_card_history` [ RunTime:0.0089s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0123s ]
+ERR: 参数错误
+
+[ 2016-08-03T23:46:41+08:00 ] ::1 /quwanba1/index.php/Wechat/WechatPay/wechat_pay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000117s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001122s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001341s ]
+SQL: SHOW COLUMNS FROM `qwb_card_history` [ RunTime:0.0147s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:1.1552s ]
+ERR: 参数错误
+
+[ 2016-08-03T23:51:47+08:00 ] ::1 /quwanba1/index.php/Wechat/WechatPay/wechat_pay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000918s ]
+SQL: SHOW COLUMNS FROM `qwb_card_history` [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `qwb_user` [ RunTime:0.0082s ]
+ERR: 参数错误
+

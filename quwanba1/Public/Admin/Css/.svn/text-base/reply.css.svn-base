@@ -1,0 +1,68 @@
+body{
+	font:12px/1.3 'Arial','Microsoft Yahei';
+}
+#plc_main{
+}
+#plc_main_c{
+	padding:0;
+	margin:0;
+}
+ #plc_main .ul .ol{
+	list-style:none;
+}
+#plc_main a{
+	color:eb7350;
+}
+#plc_main ul >li,
+ol >li{
+
+	float:left;
+}
+.WB_row_line{
+	border-top-width:1px;
+	border-top-style:solid;
+}
+.clearfix{
+	display:block;
+}
+.WB_row_line a{
+	text-align:center;
+	white-space:nowrap; 
+}
+.WB_row_line  .line{
+	display:block;
+	height:22px;
+	margin:7px 10px;
+	line-height:22px;
+	border:1px;
+	width:50px;
+}
+.S_txt1{
+	color:#333;
+	text-decoration:none;
+}
+.S_txt2,
+.W_input,
+.W_btn_b_disable,
+.W_btn_b_disable:hover{
+	color: #808080;
+	text-decoration:none;
+}
+.W_fr{
+	float:right;
+}
+.S_line1{
+	border-color:#d9d9d9;
+}
+.S_line2{
+	border-color:#f2f2f5;
+}
+.list_li{
+	margin:0 0 -1px;
+	padding:5px 0 7px;
+	border-bottom-width:1px;
+	border-bottom-style:solid;
+}
+:focus{
+	outline-color:#eb7350;
+}

@@ -1,0 +1,208 @@
+<extend name="Public/base" />
+
+<block name="body">
+	<!-- 标题栏 -->
+	<div class="panel panel-default">
+		<div class="panel-heading main-title">
+			<h2>交易统计</h2>
+
+		</div><!--		panel-heading		-->
+		<div class="panel-body">
+			<div class="well">
+				<div class="row">
+					<div class="col-sm-3">
+						<div class="form-group">
+							<label class="control-label" for="input-start-time">添加日期</label>
+							<div class="input-group date">
+								<input type="text" name="filter_start_time" value="{$filter_start_time}" placeholder="" data-date-format="YYYY-MM-DD" id="input-start-time" class="form-control">
+								<span class="input-group-btn">
+									<button type="button" class="btn btn-default"><i class="fa fa-calendar"></i></button>
+								</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="form-group">
+							<label class="control-label" for="input-end-time">添加日期</label>
+							<div class="input-group date">
+								<input type="text" name="filter_end_time" value="{$filter_end_time}" placeholder="" data-date-format="YYYY-MM-DD" id="input-end-time" class="form-control">
+								<span class="input-group-btn">
+									<button type="button" class="btn btn-default"><i class="fa fa-calendar"></i></button>
+								</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="form-group">
+							<label class="control-label" for="input-out_trade_no">订单号</label>
+							<input type="text" name="out_trade_no" value="{$out_trade_no}" placeholder="订单号" id="input-out_trade_no" class="form-control">
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="form-group">
+							<label class="control-label">订单状态</label>
+							<select id="statuss" name="statuss" class="form-control">
+								<option value=""></option>
+								<option value="0">已预订</option>
+								<option value="1">已完成</option>
+								<option value="2">等待退款</option>
+								<option value="3">已退定</option>
+							</select>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-3">
+						<div class="form-group">
+							<label class="control-label" for="input-mobile">买家手机号</label>
+							<input type="text" name="mobile" value="{$mobile}" placeholder="买家手机号" id="input-mobile" class="form-control">
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="form-group">
+							<label class="control-label" for="input-shop_name">卖家</label>
+							<input type="text" name="shop_name" value="{$shop_name}" placeholder="卖家" id="input-shop_name" class="form-control">
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="form-group">
+							<label class="control-label" for="input-name">商品名</label>
+							<input type="text" name="name" value="{$name}" placeholder="商品名" id="input-name" class="form-control">
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<a><button class="btn btn-primary pull-right" style="margin-right: 10px;" onclick='window.location.href="{:U('Transaction/goods_transaction_export')}"'>导出</button></a>
+						<button type="submit" id="button-filter" class="btn btn-primary pull-right" style="margin-right: 10px;"><i class="fa fa-search"></i>筛选</button>
+					</div>
+				</div>
+			</div>
+			<!-- 数据列表 -->
+			<div class="data-table table-striped">
+				<table class="table">
+					<thead>
+					<tr>
+						<th>序号</th>
+						<th>时间</th>
+						<th>订单号</th>
+						<th>买家</th>
+						<th>买家手机号</th>
+						<th>卖家</th>
+						<th>商品名</th>
+						<th>订单数量</th>
+						<th>总价/单价</th>
+						<th>订单二维码</th>
+						<th>状态</th>
+						<th>用户支付平台</th>
+						<th>退款状态</th>
+						<th>操作</th>
+					</tr>
+					</thead>
+					<tbody>
+					<notempty name="_list">
+						<volist name="_list" id="vo">
+							<tr>
+								<td id="user_id">{$vo.id} </td>
+								<td>{$vo.buy_time}</td>
+								<td>{$vo.out_trade_no}</td>
+								<td>{$vo.buyer}</td>
+								<td>{$vo.mobile}</td>
+								<td>{$vo.shop_name}</td>
+								<td>{$vo.name}</td>
+								<td>{$vo.count}</td>
+								<td>{$vo.price}</td>
+								<td><img style="width:100px;" src="{$vo.qr_code}"></td>
+								<td>
+									<switch name="vo.status">
+										<case value="0">已预订</case>
+										<case value="1">已完成</case>
+										<case value="2">等待退订</case>
+										<default />已退订
+									</switch>
+								</td>
+								<td>
+									<switch name="vo.pay_way">
+										<case value="1">公众号微信</case>
+										<case value="2">App微信</case>
+										<default />支付宝
+									</switch>
+								</td>
+								<td>
+									<switch name="vo.pay_status">
+										<case value="0">未支付</case>
+										<case value="1">已支付</case>
+										<default />已退款
+									</switch>
+								</td>
+								<td>
+									<a href="{:U('Transaction/refund',array('id'=>$vo['id']))}">退款</a>
+								</td>
+							</tr>
+						</volist>
+						<else/>
+						<td colspan="10" class="text-center"> aOh! 暂时还没有内容! </td>
+					</notempty>
+					</tbody>
+				</table>
+			</div>
+			<div class="page">
+				{$_page}
+			</div>
+		</div>
+	</div><!--panel-->
+</block>
+
+<block name="script">
+	<script src="__JS__/thinkbox/jquery.thinkbox.js"></script>
+	<script type="text/javascript" src="__JS__/datetimepicker/moment.js"></script>
+	<script type="text/javascript" src="__JS__/common.js"></script>
+	<script type="text/javascript" src="__JS__/datetimepicker/bootstrap-datetimepicker.min.js"></script>
+	<script>
+		$("#statuss option[value='{$status}']").attr("selected",true);
+
+		$('#button-filter').on('click', function() {
+			var url = Think.APP+'/Admin/Transaction/index?token=lalala';
+
+			var filter_start_time = $('input[name=\'filter_start_time\']').val();
+			if (filter_start_time) {
+				url += '&filter_start_time=' + encodeURIComponent(filter_start_time);
+			}
+
+			var filter_end_time = $('input[name=\'filter_end_time\']').val();
+			if (filter_end_time) {
+				url += '&filter_end_time=' + encodeURIComponent(filter_end_time);
+			}
+
+			var buyer = $('input[name=\'buyer\']').val();
+			if (buyer) {
+				url += '&buyer=' + encodeURIComponent(buyer);
+			}
+
+			var mobile = $('input[name=\'mobile\']').val();
+			if (mobile) {
+				url += '&mobile=' + encodeURIComponent(mobile);
+			}
+
+			var shop_name = $('input[name=\'shop_name\']').val();
+			if (shop_name) {
+				url += '&shop_name=' + encodeURIComponent(shop_name);
+			}
+
+			var out_trade_no = $('input[name=\'out_trade_no\']').val();
+			if (out_trade_no) {
+				url += '&out_trade_no=' + encodeURIComponent(out_trade_no);
+			}
+
+			var statuss = $('#statuss option:selected') .val();
+			if (statuss) {
+				url += '&status=' + encodeURIComponent(statuss);
+			}
+			location = url;
+		});
+
+		$('.date').datetimepicker({
+			pickTime: false
+		});
+	</script>
+</block>

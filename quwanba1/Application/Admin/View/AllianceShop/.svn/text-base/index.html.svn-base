@@ -1,0 +1,161 @@
+<extend name="Public/base" />
+
+<block name="body">
+	<!-- 标题栏 -->
+	<div class="panel panel-default">
+		<div class="panel-heading main-title">
+			<h2>商家列表</h2>
+
+		</div><!--		panel-heading		-->
+		<div class="panel-body">
+			<div class="well">
+				<div class="row">
+					<div class="col-sm-3">
+						<div class="form-group">
+							<label class="control-label" for="input-shopnames">商户名</label>
+							<input type="text" name="shop_names" value="{$shop_names}" placeholder="商户名" id="input-shopnames" class="form-control">
+						</div>
+					</div>
+					<div class="col-sm-2">
+						<div class="form-group">
+							<label class="control-label">类型</label>
+							<select id="shop_type" name="shop_type" class="form-control">
+								<option value=""></option>
+								<option value="1">最新商家</option>
+								<option value="0">热门商家</option>
+							</select>
+						</div>
+					</div>
+					<div class="col-sm-2">
+						<div class="form-group">
+							<label class="control-label">省</label>
+							<select name="province_id" class="form-control" id="province" onchange="getCity()">
+								<option value=""></option>
+								<foreach name="_province" item="v">
+									<option value="{$v.id}">{$v.name}</option>
+								</foreach>
+							</select>
+						</div>
+					</div>
+					<div class="col-sm-2">
+						<div class="form-group">
+							<label class="control-label">市</label>
+							<select name="city_id" class="form-control" id="city" onchange="getDistrict()">
+								<option value=""></option>
+							</select>
+						</div>
+					</div>
+					<div class="col-sm-2">
+						<div class="form-group">
+							<label class="control-label">区</label>
+							<select name="district_id" id="district" class="form-control">
+								<option value=""></option>
+							</select>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<a href="{:U('AllianceShop/shop_add_page')}"><button class="btn btn-primary pull-right">新增</button></a>
+						<a><button class="btn btn-primary pull-right" style="margin-right: 10px;" onclick='window.location.href="{:U('AllianceShop/shop_export')}"'>导出</button></a>
+						<button type="submit" id="button-filter" class="btn btn-primary pull-right" style="margin-right: 10px;"><i class="fa fa-search"></i>筛选</button>
+					</div>
+				</div>
+			</div>
+		    <!-- 数据列表 -->
+		    <div class="data-table table-striped">
+			<table class="table">
+		    <thead>
+		        <tr>
+					<th>序号</th>
+					<th>商户名</th>
+                    <th>区域</th>
+		        	<th>类型</th>
+		        	<th>商品名称</th>
+					<th>操作</th>
+					<th>位置</th>
+				</tr>
+		    </thead>
+		    <tbody>
+				<notempty name="_list">
+				<volist name="_list" id="vo">
+				<tr>
+					<td id="user_id">{$vo.id} </td>
+					<td>{$vo.shop_name}</td>
+                    <td>{$vo.province}&nbsp;{$vo.city}&nbsp;{$vo.district}</td>
+					<td><if condition="$vo.shop_type eq 1">最新商家<else/> 热门商家</if></td>
+					<td>
+						<volist name="vo.goods" id="v">
+							{$v.goods_name}</br>
+						</volist>
+					</td>
+					<td>
+						<a href="{:U('AllianceShop/shop_detail',array('id'=>$vo['id']))}">查看</a>
+						<a href="{:U('AllianceShop/shop_edit_page',array('id'=>$vo['id']))}">修改</a>
+						<a onclick="shopDel('{$vo.id}')">移除</a>
+					</td>
+					<td>{$vo.shop_order}</td>
+				</tr>
+				</volist>
+				<else/>
+				<td colspan="10" class="text-center"> aOh! 暂时还没有内容! </td>
+				</notempty>
+			</tbody>
+		    </table>
+			</div>
+		    <div class="page">
+		        {$_page}
+		    </div>
+	    </div>
+    </div><!--panel-->
+</block>
+
+<block name="script">
+	<script src="__JS__/thinkbox/jquery.thinkbox.js"></script>
+	<script>
+		$('#button-filter').on('click', function() {
+			var url = Think.APP+'/Admin/AllianceShop/index?token=lalala';
+
+			var shop_names = $('input[name=\'shop_names\']').val();
+			if (shop_names) {
+				url += '&shop_names=' + encodeURIComponent(shop_names);
+			}
+
+			var shop_type = $('#shop_type option:selected') .val();
+			if (shop_type) {
+				url += '&shop_type=' + encodeURIComponent(shop_type);
+			}
+
+			var province_id = $('#province option:selected') .val();
+			if (province_id) {
+				url += '&province_id=' + encodeURIComponent(province_id);
+			}
+
+			var city_id = $('#city option:selected') .val();
+			if (city_id) {
+				url += '&city_id=' + encodeURIComponent(city_id);
+			}
+
+			var district_id = $('#district option:selected') .val();
+			if (district_id) {
+				url += '&district_id=' + encodeURIComponent(district_id);
+			}
+			location = url;
+		});
+
+		$("#shop_type  option[value='{$shop_type}']").attr("selected",true);
+
+		function shopDel(id){
+			if (confirm("你确定删除吗？")) {
+				$.ajax({
+					url: "{:U('AllianceShop/shop_del')}",
+					type: 'post',
+					data: {'id': id},
+					success: function (data) {
+						window.location.href = "{:U('AllianceShop/index')}";
+					}
+				});
+			}
+		}
+	</script>
+</block>
